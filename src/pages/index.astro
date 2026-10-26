@@ -8,7 +8,7 @@ import { armarPagina } from '../lib/pagina';
 import data from '../content/pages/contenedores-maritimos.json';
 
 const seo = seoDe('index');
-const pagina = armarPagina(data.blocks);
+const pagina = armarPagina(data.blocks, { servicios: true });
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base

@@ -1,0 +1,258 @@
+{
+ "slug": "instalacion-electrica-contenedores-maritimos",
+ "title": "Instalación eléctrica en contenedores marítimos | Contenedores Marítimos",
+ "url": "https://contenedoresmaritimos.net/instalacion-electrica-contenedores-maritimos/",
+ "meta_description": "Instalación eléctrica en contenedores marítimos: cuadro, protecciones, iluminación y tomas de tierra. Pide presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "servicio": true,
+ "faq": [
+  {
+   "pregunta": "¿Se puede conectar un contenedor marítimo a la red eléctrica?",
+   "respuesta": "Sí, siempre que la instalación cumpla la normativa y se tramite la conexión con la compañía suministradora."
+  },
+  {
+   "pregunta": "¿Es obligatoria la toma de tierra en un contenedor?",
+   "respuesta": "Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas."
+  },
+  {
+   "pregunta": "¿Se puede instalar electricidad en un contenedor de segunda mano?",
+   "respuesta": "Sí. Antes se revisa el estado de la chapa y del suelo para asegurar que la instalación quede bien fijada."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Instalación eléctrica en contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "La instalación eléctrica en contenedores marítimos convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.",
+   "html": "<p>La instalación eléctrica en contenedores marítimos convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Qué es la instalación eléctrica en contenedores marítimos?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos.svg",
+   "alt": "Instalación eléctrica",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Una instalación eléctrica en un contenedor marítimo es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.",
+   "html": "<p>Una instalación eléctrica en un contenedor marítimo es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué incluye una instalación eléctrica en un contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
+   "alt": "construcciones-con-contenedores",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Cuadro eléctrico y protecciones"
+  },
+  {
+   "type": "text",
+   "text": "El cuadro reúne las protecciones (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga.",
+   "html": "<p>El cuadro reúne las protecciones (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Cableado y canalizaciones"
+  },
+  {
+   "type": "text",
+   "text": "Los cables se llevan por canalizaciones fijadas a la estructura, protegidos del roce con la chapa y de la humedad.",
+   "html": "<p>Los cables se llevan por canalizaciones fijadas a la estructura, protegidos del roce con la chapa y de la humedad.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Iluminación"
+  },
+  {
+   "type": "text",
+   "text": "Puntos de luz, normalmente LED, repartidos según el tamaño del contenedor y la actividad que se haga dentro.",
+   "html": "<p>Puntos de luz, normalmente LED, repartidos según el tamaño del contenedor y la actividad que se haga dentro.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Tomas de corriente y puntos de red"
+  },
+  {
+   "type": "text",
+   "text": "Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, puntos de datos.",
+   "html": "<p>Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, puntos de datos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Puesta a tierra"
+  },
+  {
+   "type": "text",
+   "text": "Al ser una estructura metálica, la toma de tierra es esencial para la seguridad de las personas que lo usan.",
+   "html": "<p>Al ser una estructura metálica, la toma de tierra es esencial para la seguridad de las personas que lo usan.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Para qué usos se instala electricidad en un contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+   "alt": "Contenedores-marítimos-segunda-mano",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Es habitual en contenedores oficina, locales comerciales, almacenes, módulos sanitarios y casas con contenedores. Cada uso necesita una potencia y unos puntos de conexión distintos.",
+   "html": "<p>Es habitual en <a href=\"/oficinas/\">contenedores oficina</a>, <a href=\"/locales-comerciales/\">locales comerciales</a>, <a href=\"/almacenamiento/\">almacenes</a>, <a href=\"/sanitarios/\">módulos sanitarios</a> y <a href=\"/casas/\">casas con contenedores</a>. Cada uso necesita una potencia y unos puntos de conexión distintos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué tener en cuenta antes de instalar electricidad en un contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
+   "alt": "Contenedores-marítimos-venta",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Conexión a la red"
+  },
+  {
+   "type": "text",
+   "text": "Para alimentar el contenedor hace falta una acometida o un punto de conexión autorizado, según la normativa de tu país.",
+   "html": "<p>Para alimentar el contenedor hace falta una acometida o un punto de conexión autorizado, según la normativa de tu país.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Humedad y condensación"
+  },
+  {
+   "type": "text",
+   "text": "El interior de un contenedor sin aislar puede condensar. Conviene elegir materiales adecuados y valorar el aislamiento.",
+   "html": "<p>El interior de un contenedor sin aislar puede condensar. Conviene elegir materiales adecuados y valorar el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Instalador y documentación"
+  },
+  {
+   "type": "text",
+   "text": "La instalación debe hacerla personal cualificado y quedar documentada según exige la normativa vigente.",
+   "html": "<p>La instalación debe hacerla personal cualificado y quedar documentada según exige la normativa vigente.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre instalación eléctrica en contenedores marítimos"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
+   "alt": "transporte-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Se puede conectar un contenedor marítimo a la red eléctrica?"
+  },
+  {
+   "type": "text",
+   "text": "Sí, siempre que la instalación cumpla la normativa y se tramite la conexión con la compañía suministradora.",
+   "html": "<p>Sí, siempre que la instalación cumpla la normativa y se tramite la conexión con la compañía suministradora.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Es obligatoria la toma de tierra en un contenedor?"
+  },
+  {
+   "type": "text",
+   "text": "Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas.",
+   "html": "<p>Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Se puede instalar electricidad en un contenedor de segunda mano?"
+  },
+  {
+   "type": "text",
+   "text": "Sí. Antes se revisa el estado de la chapa y del suelo para asegurar que la instalación quede bien fijada.",
+   "html": "<p>Sí. Antes se revisa el estado de la chapa y del suelo para asegurar que la instalación quede bien fijada.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de instalación eléctrica en contenedores marítimos"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
+   "alt": "alquiler-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Todos los servicios",
+   "href": "https://contenedoresmaritimos.net/servicios-contenedores-maritimos/"
+  },
+  {
+   "type": "text",
+   "text": "Otros servicios: Pintura · Aislamiento térmico y acústico · Ventanas y puertas · Climatización · Fontanería y saneamiento · Soldadura y reparación · Cortes y aberturas",
+   "html": "<p><strong>Otros servicios:</strong> <a href=\"/pintura-contenedores-maritimos/\">Pintura</a> · <a href=\"/aislamiento-contenedores-maritimos/\">Aislamiento térmico y acústico</a> · <a href=\"/ventanas-puertas-contenedores-maritimos/\">Ventanas y puertas</a> · <a href=\"/climatizacion-contenedores-maritimos/\">Climatización</a> · <a href=\"/fontaneria-contenedores-maritimos/\">Fontanería y saneamiento</a> · <a href=\"/soldadura-reparacion-contenedores-maritimos/\">Soldadura y reparación</a> · <a href=\"/cortes-aberturas-contenedores-maritimos/\">Cortes y aberturas</a></p>",
+   "nuevo": true
+  }
+ ]
+}

@@ -6,6 +6,8 @@
 //  - las parejas "titular h3 + foto enlazada" (tipos de contenedor) forman una rejilla.
 import { conFotosDeSeccion } from './fotos';
 import { agrupar, type Bloque, type Trozo } from './agrupar';
+import serviciosDatos from '../data/servicios-paginas.json';
+import fotos from '../data/fotos-seccion.json';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
 export type Consulta = { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
@@ -15,7 +17,26 @@ export type Pagina = { hero: { imagen?: Bloque; texto?: Bloque }; elementos: Ele
 const esH2 = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h2';
 const longitud = (t = '') => t.replace(/<[^>]+>/g, '').length;
 
-export function armarPagina(bloques: Bloque[]): Pagina {
+// Sección «Servicios para tus contenedores marítimos»: tarjetas hacia las páginas
+// de servicios. Sale en la portada y en el resto de páginas de contenido.
+function seccionServicios(): Seccion {
+  const tarjetas = serviciosDatos.servicios.map((s) => ({
+    titular: { type: 'heading', tag: 'h3', text: s.nombre, href: `/${s.slug}/` },
+    imagen: { type: 'image', src: `/img/servicios/${s.slug}.svg`, alt: s.nombre, href: `/${s.slug}/` },
+  }));
+  return {
+    tipo: 'seccion',
+    titular: { type: 'heading', tag: 'h2', text: 'Servicios para tus contenedores marítimos' },
+    imagen: { type: 'image', src: fotos.construcc.src, alt: fotos.construcc.alt, nuevo: true },
+    cuerpo: [
+      { tipo: 'bloque', bloque: { type: 'text', html: '<p>Además de vender, alquilar y transportar contenedores, los acondicionamos para el uso que necesites. Elige un servicio para ver qué incluye.</p>', nuevo: true } },
+      { tipo: 'rejilla', tarjetas },
+      { tipo: 'bloque', bloque: { type: 'button', text: 'Ver todos los servicios', href: '/servicios-contenedores-maritimos/' } },
+    ],
+  };
+}
+
+export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean } = {}): Pagina {
   const sinH1 = bloques.filter((b) => !(b.type === 'heading' && b.tag === 'h1'));
   const iH2 = sinH1.findIndex(esH2);
   const antes = iH2 < 0 ? [...sinH1] : sinH1.slice(0, iH2);
@@ -65,6 +86,10 @@ export function armarPagina(bloques: Bloque[]): Pagina {
     elementos.push({ tipo: 'consulta', titular: g.cuerpo[k], texto: g.cuerpo[k + 1], formulario: g.cuerpo[k + 2] });
     const resto = g.cuerpo.slice(k + 3);
     if (resto.length) elementos.push({ tipo: 'seccion', cuerpo: agrupar(resto) });
+  }
+  if (opciones.servicios && elementos.some((e) => e.tipo === 'seccion' && e.titular)) {
+    const iTipos = elementos.findIndex((e) => e.tipo === 'seccion' && /tipos/i.test(e.titular?.text || ''));
+    elementos.splice(iTipos >= 0 ? iTipos + 1 : elementos.length, 0, seccionServicios());
   }
   return { hero, elementos, conLateral: elementos.some((e) => e.tipo === 'consulta') };
 }

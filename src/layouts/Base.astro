@@ -16,8 +16,9 @@ interface Props {
   imagen?: string; // imagen para compartir en redes (ruta absoluta del sitio)
   ogTitulo?: string;
   ogDescripcion?: string;
+  jsonld?: string; // datos estructurados (JSON-LD) ya serializados
 }
-const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion } = Astro.props as Props;
+const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, jsonld } = Astro.props as Props;
 const dominio = site.dominio ? `https://${site.dominio}` : '';
 const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio}${imagen}`) : '';
 ---
@@ -39,6 +40,7 @@ const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio
     {(ogDescripcion || description) && <meta property="og:description" content={ogDescripcion || description} />}
     <meta property="og:url" content={canonical} />
     {imagenAbsoluta && <meta property="og:image" content={imagenAbsoluta} />}
+    {jsonld && <script type="application/ld+json" set:html={jsonld} />}
     <meta name="twitter:card" content={imagenAbsoluta ? 'summary_large_image' : 'summary'} />
     <!-- noindex provisional: se quita en la Fase 7, el día del cambio de DNS -->
   </head>

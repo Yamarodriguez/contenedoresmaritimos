@@ -1,0 +1,253 @@
+{
+  "_nota": "BORRADOR redactado por Claude con permiso de Yama. Texto informativo y general (sin precios, plazos, garantías ni normativa concreta de un país). Yama debe revisar y borrar los servicios que no ofrezca. Cada servicio genera una página con H1 = palabra clave, H2 de contenido, H3 de detalle y FAQ con datos estructurados.",
+  "servicios": [
+    {
+      "slug": "instalacion-electrica-contenedores-maritimos",
+      "nombre": "Instalación eléctrica",
+      "clave": "instalación eléctrica en contenedores marítimos",
+      "titulo": "Instalación eléctrica en contenedores marítimos | Contenedores Marítimos",
+      "descripcion": "Instalación eléctrica en contenedores marítimos: cuadro, protecciones, iluminación y tomas de tierra. Pide presupuesto sin compromiso.",
+      "resumen": "Cuadro eléctrico, protecciones, iluminación y tomas de corriente adaptados al uso del contenedor.",
+      "intro": "La instalación eléctrica en contenedores marítimos convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.",
+      "que_es": "Una instalación eléctrica en un contenedor marítimo es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.",
+      "incluye_h2": "Qué incluye una instalación eléctrica en un contenedor marítimo",
+      "incluye": [
+        ["Cuadro eléctrico y protecciones", "El cuadro reúne las protecciones (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga."],
+        ["Cableado y canalizaciones", "Los cables se llevan por canalizaciones fijadas a la estructura, protegidos del roce con la chapa y de la humedad."],
+        ["Iluminación", "Puntos de luz, normalmente LED, repartidos según el tamaño del contenedor y la actividad que se haga dentro."],
+        ["Tomas de corriente y puntos de red", "Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, puntos de datos."],
+        ["Puesta a tierra", "Al ser una estructura metálica, la toma de tierra es esencial para la seguridad de las personas que lo usan."]
+      ],
+      "usos_h2": "Para qué usos se instala electricidad en un contenedor",
+      "usos": "Es habitual en <a href=\"/oficinas/\">contenedores oficina</a>, <a href=\"/locales-comerciales/\">locales comerciales</a>, <a href=\"/almacenamiento/\">almacenes</a>, <a href=\"/sanitarios/\">módulos sanitarios</a> y <a href=\"/casas/\">casas con contenedores</a>. Cada uso necesita una potencia y unos puntos de conexión distintos.",
+      "consideraciones_h2": "Qué tener en cuenta antes de instalar electricidad en un contenedor",
+      "consideraciones": [
+        ["Conexión a la red", "Para alimentar el contenedor hace falta una acometida o un punto de conexión autorizado, según la normativa de tu país."],
+        ["Humedad y condensación", "El interior de un contenedor sin aislar puede condensar. Conviene elegir materiales adecuados y valorar el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a>."],
+        ["Instalador y documentación", "La instalación debe hacerla personal cualificado y quedar documentada según exige la normativa vigente."]
+      ],
+      "faq": [
+        ["¿Se puede conectar un contenedor marítimo a la red eléctrica?", "Sí, siempre que la instalación cumpla la normativa y se tramite la conexión con la compañía suministradora."],
+        ["¿Es obligatoria la toma de tierra en un contenedor?", "Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas."],
+        ["¿Se puede instalar electricidad en un contenedor de segunda mano?", "Sí. Antes se revisa el estado de la chapa y del suelo para asegurar que la instalación quede bien fijada."]
+      ]
+    },
+    {
+      "slug": "pintura-contenedores-maritimos",
+      "nombre": "Pintura",
+      "clave": "pintura de contenedores marítimos",
+      "titulo": "Pintura de contenedores marítimos | Contenedores Marítimos",
+      "descripcion": "Pintura de contenedores marítimos: preparación, imprimación antioxidante y acabado en el color que elijas. Pide presupuesto sin compromiso.",
+      "resumen": "Preparación de la superficie, imprimación antioxidante y acabado en el color que elijas.",
+      "intro": "La pintura de contenedores marítimos protege el acero de la corrosión y deja el contenedor del color que necesites. Te contamos qué pasos incluye, qué influye en el resultado y cómo pedir presupuesto.",
+      "que_es": "Pintar un contenedor marítimo es mucho más que dar color: el acero está expuesto a la lluvia, al salitre y al sol, y una buena preparación y unas capas adecuadas alargan su vida útil, sobre todo en contenedores de segunda mano.",
+      "incluye_h2": "Qué incluye la pintura de un contenedor marítimo",
+      "incluye": [
+        ["Limpieza y preparación de la superficie", "Se limpia el contenedor y se elimina la pintura suelta, la suciedad y el óxido para que la nueva capa agarre bien."],
+        ["Tratamiento del óxido", "Las zonas con corrosión se tratan antes de pintar para que no vuelva a aparecer bajo la pintura."],
+        ["Imprimación antioxidante", "Una capa de imprimación protege el acero y mejora la adherencia del acabado."],
+        ["Pintura de acabado", "Capas de esmalte o pintura para exteriores en el color elegido, con un acabado resistente a la intemperie."],
+        ["Rotulación y logotipos", "Si lo necesitas, se pueden añadir o tapar rótulos y logotipos para personalizar el contenedor."]
+      ],
+      "usos_h2": "Cuándo conviene pintar un contenedor marítimo",
+      "usos": "Pintar un contenedor tiene sentido al comprar un <a href=\"/segunda-mano/\">contenedor de segunda mano</a>, al convertirlo en <a href=\"/oficinas/\">oficina</a> o <a href=\"/locales-comerciales/\">local</a>, o cuando quieres cambiar su aspecto y protegerlo.",
+      "consideraciones_h2": "Qué tener en cuenta al pintar un contenedor marítimo",
+      "consideraciones": [
+        ["El color", "Los colores claros reflejan más el sol y calientan menos el interior; los oscuros absorben más calor."],
+        ["El estado de la chapa", "Si hay golpes o zonas dañadas, conviene <a href=\"/soldadura-reparacion-contenedores-maritimos/\">repararlas</a> antes de pintar."],
+        ["El clima", "En zonas costeras o muy húmedas la protección es más importante y la revisión debe ser más frecuente."]
+      ],
+      "faq": [
+        ["¿Puedo elegir el color del contenedor?", "Sí. Puedes elegir el color que prefieras; te asesoramos según el uso y el clima."],
+        ["¿Hace falta pintar un contenedor de segunda mano?", "Es muy recomendable: protege la chapa de la corrosión y deja el contenedor listo para su nuevo uso."],
+        ["¿Cada cuánto hay que repintar un contenedor?", "Depende del clima y del uso. En zonas costeras conviene revisarlo con más frecuencia."]
+      ]
+    },
+    {
+      "slug": "aislamiento-contenedores-maritimos",
+      "nombre": "Aislamiento térmico y acústico",
+      "clave": "aislamiento de contenedores marítimos",
+      "titulo": "Aislamiento de contenedores marítimos | Térmico y acústico",
+      "descripcion": "Aislamiento térmico y acústico de contenedores marítimos: tipos de aislante, condensación y revestimientos. Pide presupuesto sin compromiso.",
+      "resumen": "Aislamiento térmico y acústico para que el contenedor sea más confortable por dentro.",
+      "intro": "El aislamiento de contenedores marítimos es clave si vas a usarlos como oficina, local o vivienda: el acero conduce muy bien el calor y el frío. Aquí tienes los tipos de aislamiento, qué incluye el trabajo y cómo pedir presupuesto.",
+      "que_es": "Aislar un contenedor marítimo consiste en añadir capas de material aislante en paredes, techo y suelo para reducir las pérdidas de calor, evitar la condensación y mejorar el confort acústico del interior.",
+      "incluye_h2": "Tipos de aislamiento para contenedores marítimos",
+      "incluye": [
+        ["Aislamiento térmico", "Materiales como lana mineral, paneles rígidos o espuma de poliuretano proyectada reducen el paso del calor y del frío."],
+        ["Barrera contra la condensación", "Una capa que controla el vapor de agua evita que el interior se moje por condensación en las paredes de acero."],
+        ["Aislamiento acústico", "Materiales que reducen el ruido exterior y el eco del interior, útiles en oficinas y viviendas."],
+        ["Revestimiento interior", "Paneles, madera o placas que cubren el aislante y dan el acabado final a paredes y techo."],
+        ["Suelo", "Aislamiento y acabado del suelo para que el interior sea cómodo y esté protegido de la humedad."]
+      ],
+      "usos_h2": "Cuándo es necesario aislar un contenedor marítimo",
+      "usos": "Es recomendable en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/casas/\">casas</a>, <a href=\"/locales-comerciales/\">locales</a> y cualquier uso en el que haya personas dentro. Para almacenar material puede no ser necesario, salvo que haya que evitar la condensación.",
+      "consideraciones_h2": "Qué tener en cuenta al aislar un contenedor marítimo",
+      "consideraciones": [
+        ["Espacio interior", "El aislante y el revestimiento reducen algo el espacio útil: se calcula según el grosor elegido."],
+        ["Ventilación", "Un contenedor bien aislado necesita ventilación para renovar el aire y evitar la humedad. Mira la <a href=\"/climatizacion-contenedores-maritimos/\">climatización</a>."],
+        ["Puentes térmicos", "El propio acero puede transmitir calor o frío en esquinas y marcos: se cuida en el diseño del aislamiento."]
+      ],
+      "faq": [
+        ["¿Qué aislante es mejor para un contenedor marítimo?", "Depende del uso, del clima y del espacio disponible. Te asesoramos según tu caso."],
+        ["¿Se puede aislar un contenedor por fuera?", "Sí, según el proyecto. Aislar por fuera conserva el espacio interior, aunque cambia el aspecto exterior."],
+        ["¿Un contenedor aislado se sigue calentando?", "Mucho menos. El aislamiento reduce el calor y el frío, y se complementa con ventilación y climatización."]
+      ]
+    },
+    {
+      "slug": "ventanas-puertas-contenedores-maritimos",
+      "nombre": "Ventanas y puertas",
+      "clave": "ventanas y puertas para contenedores marítimos",
+      "titulo": "Ventanas y puertas para contenedores marítimos",
+      "descripcion": "Ventanas y puertas para contenedores marítimos: apertura de huecos con refuerzo, carpintería y sellado. Pide presupuesto sin compromiso.",
+      "resumen": "Apertura de huecos, refuerzo del marco e instalación de ventanas y puertas.",
+      "intro": "Las ventanas y puertas para contenedores marítimos dan luz, ventilación y acceso al interior. Te explicamos cómo se abre un hueco sin debilitar la estructura, qué opciones hay y cómo pedir presupuesto.",
+      "que_es": "Instalar una ventana o una puerta en un contenedor implica cortar la chapa y reforzar el hueco con un marco de acero, porque las paredes del contenedor forman parte de su estructura. Después se coloca la carpintería y se sella para que sea estanca.",
+      "incluye_h2": "Qué incluye instalar ventanas y puertas en un contenedor marítimo",
+      "incluye": [
+        ["Apertura y refuerzo del hueco", "Se corta la chapa y se refuerza el perímetro con un marco de acero para mantener la rigidez del contenedor."],
+        ["Ventanas", "Ventanas de aluminio o PVC en el tamaño y la posición que necesites, abatibles o correderas."],
+        ["Puertas de acceso", "Puertas peatonales, correderas o acristaladas, según el uso: oficina, local, vivienda o almacén."],
+        ["Sellado y estanqueidad", "Un buen sellado evita la entrada de agua y de aire y protege los bordes del corte contra la corrosión."],
+        ["Seguridad", "Rejas, persianas o cierres de seguridad para proteger las nuevas aperturas."]
+      ],
+      "usos_h2": "Dónde se instalan ventanas y puertas en un contenedor",
+      "usos": "Son imprescindibles en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/locales-comerciales/\">locales comerciales</a>, <a href=\"/casas/\">casas</a> y <a href=\"/sanitarios/\">módulos sanitarios</a>. También se añaden puertas de acceso en almacenes para entrar sin abrir las puertas grandes.",
+      "consideraciones_h2": "Qué tener en cuenta al abrir huecos en un contenedor",
+      "consideraciones": [
+        ["Refuerzo estructural", "Cortar una pared sin reforzarla debilita el contenedor. Cada hueco lleva su marco. Consulta los <a href=\"/cortes-aberturas-contenedores-maritimos/\">cortes y aberturas</a>."],
+        ["Orientación y luz", "La posición de las ventanas condiciona la luz natural, el calor y la ventilación del interior."],
+        ["Protección de los bordes", "Los bordes cortados se tratan para que no se oxiden. Después se <a href=\"/pintura-contenedores-maritimos/\">pintan</a>."]
+      ],
+      "faq": [
+        ["¿Se pueden poner ventanas en un contenedor marítimo?", "Sí. Se abre el hueco, se refuerza con un marco y se instala la ventana con su sellado."],
+        ["¿Pierde resistencia el contenedor al abrir huecos?", "Si el hueco se refuerza correctamente, la estructura mantiene su rigidez."],
+        ["¿Qué tipo de puerta se puede instalar?", "Puertas peatonales, correderas o acristaladas, según el uso del contenedor."]
+      ]
+    },
+    {
+      "slug": "climatizacion-contenedores-maritimos",
+      "nombre": "Climatización",
+      "clave": "climatización de contenedores marítimos",
+      "titulo": "Climatización de contenedores marítimos | Aire acondicionado",
+      "descripcion": "Climatización de contenedores marítimos: aire acondicionado, calefacción y ventilación para oficinas y locales. Pide presupuesto sin compromiso.",
+      "resumen": "Aire acondicionado, calefacción y ventilación para oficinas, locales y otros usos.",
+      "intro": "La climatización de contenedores marítimos es necesaria cuando se usan como oficina, local o vivienda. Te contamos las opciones de frío, calor y ventilación y cómo dimensionar la instalación.",
+      "que_es": "Climatizar un contenedor marítimo es instalar los equipos que mantienen una temperatura confortable y renuevan el aire del interior. En un espacio de acero, el resultado depende mucho del aislamiento y del dimensionado del equipo.",
+      "incluye_h2": "Opciones de climatización para contenedores marítimos",
+      "incluye": [
+        ["Aire acondicionado", "Equipos split o bomba de calor que enfrían en verano y calientan en invierno con un consumo contenido."],
+        ["Calefacción eléctrica", "Radiadores o paneles eléctricos para aportar calor en contenedores pequeños o de uso ocasional."],
+        ["Ventilación y extracción", "Rejillas, extractores o sistemas de renovación de aire para evitar la humedad y los olores."],
+        ["Dimensionado del equipo", "La potencia se calcula según el volumen del contenedor, su aislamiento y el uso."],
+        ["Instalación de las unidades", "Colocación de la unidad interior y exterior, conexión eléctrica y evacuación de condensados."]
+      ],
+      "usos_h2": "Dónde se climatiza un contenedor marítimo",
+      "usos": "Se climatizan sobre todo <a href=\"/oficinas/\">oficinas</a>, <a href=\"/locales-comerciales/\">locales</a> y <a href=\"/casas/\">viviendas</a> hechas con contenedores, y también almacenes que guardan productos sensibles al calor o a la humedad.",
+      "consideraciones_h2": "Qué tener en cuenta al climatizar un contenedor",
+      "consideraciones": [
+        ["Aislar antes de climatizar", "Sin <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a>, el equipo trabaja mucho más y el consumo se dispara."],
+        ["Potencia eléctrica", "Los equipos necesitan una <a href=\"/instalacion-electrica-contenedores-maritimos/\">instalación eléctrica</a> preparada para su consumo."],
+        ["Ubicación de las unidades", "La unidad exterior necesita espacio y ventilación, y los condensados deben evacuarse correctamente."]
+      ],
+      "faq": [
+        ["¿Se puede poner aire acondicionado en un contenedor marítimo?", "Sí. Es habitual en oficinas y locales; conviene aislar antes el contenedor."],
+        ["¿Qué potencia necesito para climatizar un contenedor?", "Depende del tamaño, del aislamiento y del uso. Lo calculamos según tu caso."],
+        ["¿Hace falta ventilación si hay aire acondicionado?", "Sí. El aire acondicionado no renueva el aire por sí solo, así que conviene ventilar el interior."]
+      ]
+    },
+    {
+      "slug": "fontaneria-contenedores-maritimos",
+      "nombre": "Fontanería y saneamiento",
+      "clave": "fontanería en contenedores marítimos",
+      "titulo": "Fontanería en contenedores marítimos | Agua y saneamiento",
+      "descripcion": "Fontanería en contenedores marítimos: agua, desagües y saneamiento para baños, cocinas y vestuarios. Pide presupuesto sin compromiso.",
+      "resumen": "Instalación de agua y saneamiento para baños, cocinas y otros usos.",
+      "intro": "La fontanería en contenedores marítimos permite convertirlos en baños, cocinas, vestuarios o viviendas. Aquí te explicamos qué incluye la instalación de agua y saneamiento y qué debes tener en cuenta.",
+      "que_es": "La instalación de fontanería de un contenedor lleva agua fría y caliente a los puntos de consumo y evacúa las aguas usadas hacia la red de saneamiento o un sistema autorizado. Se diseña a la vez que el resto de instalaciones del contenedor.",
+      "incluye_h2": "Qué incluye la fontanería en un contenedor marítimo",
+      "incluye": [
+        ["Acometida de agua", "Conexión del contenedor a la red de agua o a un depósito, con su llave de corte."],
+        ["Puntos de consumo", "Lavabos, duchas, inodoros, fregaderos u otros puntos según el uso del contenedor."],
+        ["Agua caliente", "Termo eléctrico u otro sistema de producción de agua caliente."],
+        ["Desagües y saneamiento", "Tuberías con la pendiente adecuada y conexión a la red de saneamiento o a la solución autorizada."],
+        ["Ventilación del baño", "Extracción o rejillas para renovar el aire y evitar la humedad."]
+      ],
+      "usos_h2": "Para qué usos se instala fontanería en un contenedor",
+      "usos": "Es la base de los <a href=\"/sanitarios/\">contenedores sanitarios</a>, de las cocinas y vestuarios de obra y de las <a href=\"/casas/\">casas con contenedores</a>. También en <a href=\"/locales-comerciales/\">locales</a> que necesitan aseo o fregadero.",
+      "consideraciones_h2": "Qué tener en cuenta al instalar fontanería en un contenedor",
+      "consideraciones": [
+        ["Conexión a servicios", "Hay que prever de dónde viene el agua y adónde van los desagües según la normativa local."],
+        ["Frío y heladas", "En zonas frías conviene proteger las tuberías con <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a> para que no se congelen."],
+        ["Humedad", "Los puntos de agua deben sellarse bien para proteger la chapa y los revestimientos."]
+      ],
+      "faq": [
+        ["¿Se puede hacer un baño en un contenedor marítimo?", "Sí. Se instalan agua, desagüe y ventilación. Mira también nuestros contenedores sanitarios."],
+        ["¿Hace falta conectar el contenedor al alcantarillado?", "Hay que prever una salida de aguas usadas conforme a la normativa local: red de saneamiento u otra solución autorizada."],
+        ["¿Se puede tener agua caliente en un contenedor?", "Sí, con un termo eléctrico u otro sistema, según el uso."]
+      ]
+    },
+    {
+      "slug": "soldadura-reparacion-contenedores-maritimos",
+      "nombre": "Soldadura y reparación",
+      "clave": "soldadura y reparación de contenedores marítimos",
+      "titulo": "Soldadura y reparación de contenedores marítimos",
+      "descripcion": "Soldadura y reparación de contenedores marítimos: chapa, esquinas, puertas y refuerzos estructurales. Pide presupuesto sin compromiso.",
+      "resumen": "Reparación y refuerzo de la estructura, también en contenedores de segunda mano.",
+      "intro": "La soldadura y reparación de contenedores marítimos recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.",
+      "que_es": "Reparar un contenedor marítimo consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La soldadura es la técnica habitual, seguida del tratamiento anticorrosión.",
+      "incluye_h2": "Qué se repara en un contenedor marítimo",
+      "incluye": [
+        ["Chapa y paneles dañados", "Se enderezan los golpes o se sustituyen las zonas deterioradas por chapa nueva soldada."],
+        ["Esquinas y marcos", "Revisión y refuerzo de las piezas de esquina y los largueros, que dan rigidez a todo el contenedor."],
+        ["Puertas, cierres y juntas", "Reparación de bisagras, barras de cierre y juntas para que la puerta cierre bien y sea estanca."],
+        ["Suelo", "Revisión del suelo y reparación o sustitución de los tableros dañados."],
+        ["Tratamiento anticorrosión", "Tras soldar se protege la zona reparada para que no vuelva a oxidarse."]
+      ],
+      "usos_h2": "Cuándo hay que reparar un contenedor marítimo",
+      "usos": "La reparación es frecuente al comprar un <a href=\"/segunda-mano/\">contenedor de segunda mano</a>, antes de pintarlo o transformarlo, y después de golpes durante el <a href=\"/transporte/\">transporte</a> o el uso.",
+      "consideraciones_h2": "Qué revisar antes de reparar o comprar un contenedor usado",
+      "consideraciones": [
+        ["Inspección previa", "Conviene revisar suelo, esquinas, techo y puertas antes de decidir qué reparar."],
+        ["Elementos estructurales", "Las esquinas y los largueros no se cortan sin refuerzo, porque sostienen todo el contenedor."],
+        ["Pintura posterior", "Después de reparar, la <a href=\"/pintura-contenedores-maritimos/\">pintura</a> protege la zona y unifica el aspecto."]
+      ],
+      "faq": [
+        ["¿Se puede reparar un contenedor marítimo golpeado?", "Sí. Se endereza o se sustituye la chapa dañada y se protege la zona reparada."],
+        ["¿Es seguro soldar un contenedor?", "Sí, si lo hace personal cualificado y se respeta la estructura del contenedor."],
+        ["¿Merece la pena reparar un contenedor de segunda mano?", "En muchos casos sí: es una forma de aprovechar un contenedor usado. Lo valoramos tras revisar su estado."]
+      ]
+    },
+    {
+      "slug": "cortes-aberturas-contenedores-maritimos",
+      "nombre": "Cortes y aberturas",
+      "clave": "cortes y aberturas en contenedores marítimos",
+      "titulo": "Cortes y aberturas en contenedores marítimos",
+      "descripcion": "Cortes y aberturas en contenedores marítimos: puertas, ventanas y unión de contenedores con refuerzo estructural. Pide presupuesto.",
+      "resumen": "Cortes en la chapa para abrir puertas y ventanas o unir varios contenedores.",
+      "intro": "Los cortes y aberturas en contenedores marítimos permiten abrir puertas y ventanas, ampliar el espacio uniendo varios contenedores o dejar pasos para instalaciones. Aquí te explicamos cómo se hace sin perder resistencia.",
+      "que_es": "Cortar un contenedor marítimo es abrir huecos en la chapa de paredes o techo. Como las paredes forman parte de la estructura, cada corte se planifica y se refuerza con perfiles de acero para que el contenedor mantenga su rigidez.",
+      "incluye_h2": "Qué incluyen los cortes y aberturas en un contenedor marítimo",
+      "incluye": [
+        ["Aberturas para puertas y ventanas", "Huecos del tamaño exacto para instalar <a href=\"/ventanas-puertas-contenedores-maritimos/\">puertas y ventanas</a>."],
+        ["Unión de contenedores", "Retirada de paredes entre contenedores colocados juntos o apilados para crear espacios más grandes."],
+        ["Pasos para instalaciones", "Pequeñas aberturas para cables, tuberías, extractores o equipos de climatización."],
+        ["Refuerzo del perímetro", "Marcos y perfiles de acero alrededor del hueco para recuperar la resistencia de la chapa."],
+        ["Protección de los bordes", "Tratamiento de los bordes cortados contra la corrosión y acabado limpio."]
+      ],
+      "usos_h2": "Cuándo se hacen cortes en un contenedor marítimo",
+      "usos": "Se hacen al transformar contenedores en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/locales-comerciales/\">locales</a> o <a href=\"/casas/\">casas</a>, y en nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a> formadas por varios módulos.",
+      "consideraciones_h2": "Qué tener en cuenta al cortar un contenedor marítimo",
+      "consideraciones": [
+        ["Planificación del corte", "Antes de cortar se decide qué huecos hacen falta y dónde, para no debilitar zonas clave."],
+        ["Refuerzo obligatorio", "Todo hueco importante lleva su marco de refuerzo. Mira también la <a href=\"/soldadura-reparacion-contenedores-maritimos/\">soldadura y reparación</a>."],
+        ["Apilado y unión", "Al unir o apilar contenedores se cuida la unión entre ellos y la estanqueidad."]
+      ],
+      "faq": [
+        ["¿Se pueden unir dos contenedores marítimos?", "Sí. Se colocan juntos o apilados, se retira la pared que los separa y se refuerza la unión."],
+        ["¿Se puede cortar el techo de un contenedor?", "Sí, para claraboyas o salidas, siempre con el refuerzo adecuado."],
+        ["¿Hay que reforzar el contenedor después de cortar?", "Sí. El hueco se refuerza con un marco de acero para mantener la resistencia de la estructura."]
+      ]
+    }
+  ]
+}

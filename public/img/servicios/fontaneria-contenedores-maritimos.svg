@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Fontanería y saneamiento">
+  <rect width="400" height="300" fill="#eaf1f8"/>
+  <circle cx="200" cy="150" r="118" fill="#fff" stroke="#d8e2ec" stroke-width="4"/>
+  <path d="M200 70 C 200 70, 140 140, 140 180 a60 60 0 0 0 120 0 C 260 140, 200 70, 200 70 Z" fill="#bfe0ff" stroke="#0b2a4a" stroke-width="6" stroke-linejoin="round"/><path d="M170 185 a32 32 0 0 0 28 30" fill="none" stroke="#f2c200" stroke-width="7" stroke-linecap="round"/>
+</svg>

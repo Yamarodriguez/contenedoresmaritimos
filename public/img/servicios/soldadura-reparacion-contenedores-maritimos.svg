@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Soldadura y reparación">
+  <rect width="400" height="300" fill="#eaf1f8"/>
+  <circle cx="200" cy="150" r="118" fill="#fff" stroke="#d8e2ec" stroke-width="4"/>
+  <g fill="#f2c200" stroke="#0b2a4a" stroke-width="5" stroke-linejoin="round"><polygon points="200,70 214,128 270,115 226,152 262,200 205,178 190,235 178,176 122,190 160,148 118,108 176,124"/></g><circle cx="200" cy="150" r="14" fill="#fff" stroke="#0b2a4a" stroke-width="4"/>
+</svg>

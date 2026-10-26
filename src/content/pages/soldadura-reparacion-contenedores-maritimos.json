@@ -1,0 +1,258 @@
+{
+ "slug": "soldadura-reparacion-contenedores-maritimos",
+ "title": "Soldadura y reparación de contenedores marítimos",
+ "url": "https://contenedoresmaritimos.net/soldadura-reparacion-contenedores-maritimos/",
+ "meta_description": "Soldadura y reparación de contenedores marítimos: chapa, esquinas, puertas y refuerzos estructurales. Pide presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "servicio": true,
+ "faq": [
+  {
+   "pregunta": "¿Se puede reparar un contenedor marítimo golpeado?",
+   "respuesta": "Sí. Se endereza o se sustituye la chapa dañada y se protege la zona reparada."
+  },
+  {
+   "pregunta": "¿Es seguro soldar un contenedor?",
+   "respuesta": "Sí, si lo hace personal cualificado y se respeta la estructura del contenedor."
+  },
+  {
+   "pregunta": "¿Merece la pena reparar un contenedor de segunda mano?",
+   "respuesta": "En muchos casos sí: es una forma de aprovechar un contenedor usado. Lo valoramos tras revisar su estado."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Soldadura y reparación de contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "La soldadura y reparación de contenedores marítimos recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.",
+   "html": "<p>La soldadura y reparación de contenedores marítimos recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Qué es la soldadura y reparación de contenedores marítimos?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos.svg",
+   "alt": "Soldadura y reparación",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Reparar un contenedor marítimo consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La soldadura es la técnica habitual, seguida del tratamiento anticorrosión.",
+   "html": "<p>Reparar un contenedor marítimo consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La soldadura es la técnica habitual, seguida del tratamiento anticorrosión.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué se repara en un contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
+   "alt": "construcciones-con-contenedores",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Chapa y paneles dañados"
+  },
+  {
+   "type": "text",
+   "text": "Se enderezan los golpes o se sustituyen las zonas deterioradas por chapa nueva soldada.",
+   "html": "<p>Se enderezan los golpes o se sustituyen las zonas deterioradas por chapa nueva soldada.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Esquinas y marcos"
+  },
+  {
+   "type": "text",
+   "text": "Revisión y refuerzo de las piezas de esquina y los largueros, que dan rigidez a todo el contenedor.",
+   "html": "<p>Revisión y refuerzo de las piezas de esquina y los largueros, que dan rigidez a todo el contenedor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Puertas, cierres y juntas"
+  },
+  {
+   "type": "text",
+   "text": "Reparación de bisagras, barras de cierre y juntas para que la puerta cierre bien y sea estanca.",
+   "html": "<p>Reparación de bisagras, barras de cierre y juntas para que la puerta cierre bien y sea estanca.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Suelo"
+  },
+  {
+   "type": "text",
+   "text": "Revisión del suelo y reparación o sustitución de los tableros dañados.",
+   "html": "<p>Revisión del suelo y reparación o sustitución de los tableros dañados.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Tratamiento anticorrosión"
+  },
+  {
+   "type": "text",
+   "text": "Tras soldar se protege la zona reparada para que no vuelva a oxidarse.",
+   "html": "<p>Tras soldar se protege la zona reparada para que no vuelva a oxidarse.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Cuándo hay que reparar un contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+   "alt": "Contenedores-marítimos-segunda-mano",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "La reparación es frecuente al comprar un contenedor de segunda mano, antes de pintarlo o transformarlo, y después de golpes durante el transporte o el uso.",
+   "html": "<p>La reparación es frecuente al comprar un <a href=\"/segunda-mano/\">contenedor de segunda mano</a>, antes de pintarlo o transformarlo, y después de golpes durante el <a href=\"/transporte/\">transporte</a> o el uso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué revisar antes de reparar o comprar un contenedor usado"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
+   "alt": "Contenedores-marítimos-venta",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Inspección previa"
+  },
+  {
+   "type": "text",
+   "text": "Conviene revisar suelo, esquinas, techo y puertas antes de decidir qué reparar.",
+   "html": "<p>Conviene revisar suelo, esquinas, techo y puertas antes de decidir qué reparar.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Elementos estructurales"
+  },
+  {
+   "type": "text",
+   "text": "Las esquinas y los largueros no se cortan sin refuerzo, porque sostienen todo el contenedor.",
+   "html": "<p>Las esquinas y los largueros no se cortan sin refuerzo, porque sostienen todo el contenedor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Pintura posterior"
+  },
+  {
+   "type": "text",
+   "text": "Después de reparar, la pintura protege la zona y unifica el aspecto.",
+   "html": "<p>Después de reparar, la <a href=\"/pintura-contenedores-maritimos/\">pintura</a> protege la zona y unifica el aspecto.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre soldadura y reparación de contenedores marítimos"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
+   "alt": "transporte-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Se puede reparar un contenedor marítimo golpeado?"
+  },
+  {
+   "type": "text",
+   "text": "Sí. Se endereza o se sustituye la chapa dañada y se protege la zona reparada.",
+   "html": "<p>Sí. Se endereza o se sustituye la chapa dañada y se protege la zona reparada.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Es seguro soldar un contenedor?"
+  },
+  {
+   "type": "text",
+   "text": "Sí, si lo hace personal cualificado y se respeta la estructura del contenedor.",
+   "html": "<p>Sí, si lo hace personal cualificado y se respeta la estructura del contenedor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Merece la pena reparar un contenedor de segunda mano?"
+  },
+  {
+   "type": "text",
+   "text": "En muchos casos sí: es una forma de aprovechar un contenedor usado. Lo valoramos tras revisar su estado.",
+   "html": "<p>En muchos casos sí: es una forma de aprovechar un contenedor usado. Lo valoramos tras revisar su estado.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de soldadura y reparación de contenedores marítimos"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
+   "alt": "alquiler-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Todos los servicios",
+   "href": "https://contenedoresmaritimos.net/servicios-contenedores-maritimos/"
+  },
+  {
+   "type": "text",
+   "text": "Otros servicios: Instalación eléctrica · Pintura · Aislamiento térmico y acústico · Ventanas y puertas · Climatización · Fontanería y saneamiento · Cortes y aberturas",
+   "html": "<p><strong>Otros servicios:</strong> <a href=\"/instalacion-electrica-contenedores-maritimos/\">Instalación eléctrica</a> · <a href=\"/pintura-contenedores-maritimos/\">Pintura</a> · <a href=\"/aislamiento-contenedores-maritimos/\">Aislamiento térmico y acústico</a> · <a href=\"/ventanas-puertas-contenedores-maritimos/\">Ventanas y puertas</a> · <a href=\"/climatizacion-contenedores-maritimos/\">Climatización</a> · <a href=\"/fontaneria-contenedores-maritimos/\">Fontanería y saneamiento</a> · <a href=\"/cortes-aberturas-contenedores-maritimos/\">Cortes y aberturas</a></p>",
+   "nuevo": true
+  }
+ ]
+}
