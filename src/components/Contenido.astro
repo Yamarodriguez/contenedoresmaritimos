@@ -11,7 +11,12 @@ const { blocks } = Astro.props as Props;
 const trozos = agrupar(conFotosDeSeccion(blocks.filter((b: any) => !(b.type === 'heading' && b.tag === 'h1'))));
 ---
 {trozos.map((t) => (
-  t.tipo === 'banda' ? (
+  t.tipo === 'consulta' ? (
+    <section class="consulta">
+      <div class="consulta-texto"><Bloque block={t.titular} /><Bloque block={t.texto} /></div>
+      <div class="consulta-form"><Bloque block={t.formulario} /></div>
+    </section>
+  ) : t.tipo === 'banda' ? (
     <section class="banda">
       <div class="banda-titulo"><Bloque block={t.titular} /></div>
       <div class="banda-foto"><Bloque block={t.imagen} sizes="(max-width: 700px) 90vw, 520px" /></div>

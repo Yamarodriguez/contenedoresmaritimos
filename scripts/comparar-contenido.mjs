@@ -57,7 +57,9 @@ const mapasDe = (html) => [...zona(html).matchAll(/<iframe\b[^>]*>/gi)].map((m) 
 // Menú principal: mismas entradas, mismo texto y mismo orden.
 const menuDe = (html) => {
   const n = html.match(/<nav[^>]*id="(?:site-navigation|menu-principal)"[\s\S]*?<\/nav>/)?.[0] || '';
-  return [...n.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)]
+  // El botón «Pide presupuesto» de dentro del menú móvil se añadió a propósito.
+  const sinCta = n.replace(/<li class="solo-movil">[\s\S]*?<\/li>/g, '');
+  return [...sinCta.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)]
     .map((m) => rel(m[1]) + ' | ' + norm(m[2]));
 };
 const rel = (u) => u.replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/i, '');

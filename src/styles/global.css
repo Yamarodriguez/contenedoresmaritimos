@@ -355,3 +355,72 @@ h1, h2, h3, h4 {
 }
 
 picture { display: contents; }
+
+/* --- Maqueta de página (revisión de diseño) ---
+   La columna de lectura va centrada (780 px) y lo "ancho" (bandas, tarjetas,
+   consulta, mapa) ocupa toda la caja. Así no queda media pantalla vacía. */
+.bloque-in {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 780px) minmax(0, 1fr);
+}
+.bloque-in > * { grid-column: 2; min-width: 0; }
+.bloque-in > .banda,
+.bloque-in > .rejilla,
+.bloque-in > .consulta,
+.bloque-in > .mapa { grid-column: 1 / -1; }
+.bloque-in > .boton { justify-self: start; }
+.texto { max-width: none; font-size: 1.05rem; line-height: 1.7; }
+.bloque { padding: 44px 20px 28px; }
+
+/* --- Marca de la cabecera --- */
+.cabecera-logo { display: flex; align-items: center; gap: 12px; }
+.cabecera-logo img { height: 56px; width: 56px; flex: none; }
+.marca { display: block; line-height: 1; }
+.marca b { display: block; font-family: var(--titular); font-weight: 700; font-size: 1.3rem; letter-spacing: -0.01em; color: var(--ink); }
+.marca i {
+  display: block;
+  margin-top: 5px;
+  padding-top: 4px;
+  border-top: 3px solid var(--accion);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.74rem;
+  letter-spacing: 0.34em;
+  text-transform: uppercase;
+  color: var(--enlace);
+}
+@media (max-width: 1100px) { .cabecera-logo img { height: 48px; width: 48px; } }
+@media (max-width: 480px) { .marca b { font-size: 1.05rem; } .marca i { font-size: 0.62rem; letter-spacing: 0.28em; } .cabecera-logo img { height: 40px; width: 40px; } .cabecera-logo { gap: 8px; } }
+
+/* --- Consulta: texto a un lado, formulario al otro --- */
+.consulta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 36px;
+  align-items: start;
+  margin: 36px 0;
+  padding: 32px;
+  background: var(--papel);
+  border-radius: 22px;
+  border-left: 6px solid var(--accion);
+  box-shadow: var(--sombra);
+}
+.consulta-texto > p:first-child {
+  font-family: var(--titular);
+  font-weight: 700;
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  line-height: 1.2;
+  color: var(--ink);
+  margin: 0 0 0.6em;
+}
+.consulta .formulario { box-shadow: none; max-width: none; padding: 0; background: transparent; }
+.consulta .formulario label:first-child { margin-top: 0; }
+@media (max-width: 800px) { .consulta { grid-template-columns: 1fr; padding: 22px; gap: 20px; } }
+
+.solo-movil { display: none; }
+@media (max-width: 480px) {
+  .cabecera-fila > .boton-cabecera { display: none; }
+  .solo-movil { display: block; padding: 12px 8px 8px; }
+  .solo-movil .boton-cabecera { display: inline-block; margin: 0; }
+  .menu-principal > li.solo-movil > a { border-bottom: 0; padding: 10px 16px; }
+}

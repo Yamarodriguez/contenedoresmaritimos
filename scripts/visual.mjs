@@ -93,7 +93,11 @@ try {
         if (c.tipo === 'foto') informe.fotosAMano.push(`${nombre} (${vista}): ${c.el} «${c.texto}»`);
         else informe.contraste.push(`${nombre} (${vista}): ${c.ratio}:1 (mín. ${c.minimo}) ${c.el} «${c.texto}»`);
       }
+      // La cabecera no puede crecer sin control (un logo sin tope la dejó de 500 px).
+      const altoCab = await pagina.evaluate(() => Math.round(document.querySelector('.cabecera')?.getBoundingClientRect().height || 0));
+      if (altoCab > (vista === '390' ? 130 : 170)) informe.desborde.push(`${nombre} (${vista}): la cabecera mide ${altoCab} px`);
       if (vista === '390' && await pagina.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1)) informe.desborde.push(`${nombre}: la página se sale de la pantalla a 390 px`);
+      await pagina.addStyleTag({ content: '.cabecera { position: relative !important; }' }); // la cabecera fija sale mal en capturas de página entera
       await pagina.screenshot({ path: `capturas/visual/${nombre}-${vista}.png`, fullPage: true });
       await pagina.close();
     }
