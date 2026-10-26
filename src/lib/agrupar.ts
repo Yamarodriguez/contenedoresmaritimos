@@ -1,12 +1,10 @@
-// Agrupa los bloques de una página para pintarla: las parejas seguidas de
-// "titular h3 + foto enlazada" (las tarjetas de tipos de contenedor) pasan a una
-// rejilla; el resto sigue en su orden. El orden del HTML no cambia.
+// Agrupa bloques seguidos para pintarlos: las parejas "titular h3 + foto enlazada"
+// (las tarjetas de tipos de contenedor) pasan a una rejilla; el resto sigue en su
+// orden. El orden del HTML no cambia.
 export type Bloque = Record<string, any>;
 export type Trozo =
   | { tipo: 'bloque'; bloque: Bloque }
-  | { tipo: 'rejilla'; tarjetas: { titular: Bloque; imagen: Bloque }[] }
-  | { tipo: 'banda'; titular: Bloque; imagen: Bloque }
-  | { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
+  | { tipo: 'rejilla'; tarjetas: { titular: Bloque; imagen: Bloque }[] };
 
 const esTitularTarjeta = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h3' && b.href;
 const esFotoTarjeta = (b?: Bloque) => b?.type === 'image' && b.href;
@@ -21,13 +19,7 @@ export function agrupar(bloques: Bloque[]): Trozo[] {
       tarjetas.push({ titular: bloques[j], imagen: bloques[j + 1] });
       j += 2;
     }
-    if (bloques[i]?.type === 'heading' && /consulta/i.test(bloques[i].text || '') && bloques[i + 1]?.type === 'text' && bloques[i + 2]?.type === 'contact_form') {
-      salida.push({ tipo: 'consulta', titular: bloques[i], texto: bloques[i + 1], formulario: bloques[i + 2] });
-      i += 3;
-    } else if (bloques[i]?.type === 'heading' && bloques[i].tag === 'h2' && bloques[i + 1]?.type === 'image' && !bloques[i + 1].href) {
-      salida.push({ tipo: 'banda', titular: bloques[i], imagen: bloques[i + 1] });
-      i += 2;
-    } else if (tarjetas.length >= 3) {
+    if (tarjetas.length >= 3) {
       salida.push({ tipo: 'rejilla', tarjetas });
       i = j;
     } else {

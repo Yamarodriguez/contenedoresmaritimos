@@ -45,6 +45,6 @@ const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio
   <body>
     <Header menu={menu} />
     <slot />
-    <Footer />
+    <Footer menu={menu} />
   </body>
 </html>

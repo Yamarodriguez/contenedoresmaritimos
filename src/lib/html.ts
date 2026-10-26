@@ -17,6 +17,8 @@ export function interno(url: string): string {
 // HTML de un widget de texto de Elementor: se conservan párrafos, listas,
 // enlaces y negritas; se quitan estilos, clases, scripts y el plugin de
 // resaltado. Como WordPress, si no trae párrafos, las líneas en blanco los separan.
+// Un párrafo que es solo una lista de enlaces (las provincias) se marca para
+// pintarlo como etiquetas.
 export function htmlTexto(html: string = ''): string {
   let h = html
     .replace(/<\/?elsnr-highlight[^>]*>/gi, '')
@@ -35,5 +37,5 @@ export function htmlTexto(html: string = ''): string {
   if (!/<(p|ul|ol|h[2-6])\b/i.test(h)) {
     h = h.split(/\n\s*\n/).map((s) => `<p>${s.trim().replace(/\n/g, '<br>')}</p>`).join('');
   }
-  return h;
+  return h.replace(/<p>((?:<a [^>]*>[^<]*<\/a>\s*(?:<br>)?\s*){4,})<\/p>/g, '<p class="chips">$1</p>');
 }

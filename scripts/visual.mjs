@@ -97,7 +97,7 @@ try {
       const altoCab = await pagina.evaluate(() => Math.round(document.querySelector('.cabecera')?.getBoundingClientRect().height || 0));
       if (altoCab > (vista === '390' ? 130 : 170)) informe.desborde.push(`${nombre} (${vista}): la cabecera mide ${altoCab} px`);
       if (vista === '390' && await pagina.evaluate(() => document.documentElement.scrollWidth > innerWidth + 1)) informe.desborde.push(`${nombre}: la página se sale de la pantalla a 390 px`);
-      await pagina.addStyleTag({ content: '.cabecera { position: relative !important; }' }); // la cabecera fija sale mal en capturas de página entera
+      await pagina.addStyleTag({ content: '.cabecera, .consulta { position: relative !important; top: auto !important; }' }); // la cabecera fija sale mal en capturas de página entera
       await pagina.screenshot({ path: `capturas/visual/${nombre}-${vista}.png`, fullPage: true });
       await pagina.close();
     }

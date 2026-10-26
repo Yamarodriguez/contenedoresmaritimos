@@ -1,6 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
 import Contenido from '../components/Contenido.astro';
+import Hero from '../components/Hero.astro';
+import { armarPagina } from '../lib/pagina';
 import { limpiar } from '../lib/html';
 import { seoDe } from '../lib/seo';
 
@@ -17,6 +19,7 @@ export async function getStaticPaths() {
 
 const { data } = Astro.props as { data: any };
 const seo = seoDe(data.slug);
+const pagina = armarPagina(data.blocks);
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base
@@ -28,17 +31,13 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
   ogTitulo={seo.ogTitulo}
   ogDescripcion={seo.ogDescripcion}
 >
-  <section class="heroe">
-    <div class="caja">
-      <h1 set:html={limpiar(h1 ? h1.text : data.title)} />
-    </div>
-  </section>
+  <Hero titulo={h1 ? h1.text : data.title} hero={pagina.hero} menu={data.menu} />
   <div class="bloque">
     <div class="bloque-in">
       {data.blocks.length === 0 && (
         <p><em>Esta página aún no tiene contenido capturado (pendiente de copiarlo a mano — ver legales-vivos.json).</em></p>
       )}
-      <Contenido blocks={data.blocks} />
+      <Contenido pagina={pagina} />
     </div>
   </div>
 </Base>

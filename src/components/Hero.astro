@@ -1,0 +1,40 @@
+---
+// Portada de cada página: foto grande con velo, H1, primer párrafo del original,
+// dos botones y tres datos que salen del propio sitio (nada inventado).
+import Foto from './Foto.astro';
+import { limpiar, htmlTexto } from '../lib/html';
+import menus from '../data/menus.json';
+import type { Pagina } from '../lib/pagina';
+
+interface Props {
+  titulo: string;
+  hero: Pagina['hero'];
+  menu?: string;
+}
+const { titulo, hero, menu = 'contenedores-maritimos' } = Astro.props as Props;
+const items = (menus as Record<string, any[]>)[menu] ?? [];
+const hijos = (etiqueta: string) => items.find((i) => i.label === etiqueta)?.children?.length ?? 0;
+const tipos = hijos('Tipos');
+const lugares = hijos('Provincias');
+const region = menu === 'argentina' ? 'Argentina' : 'España';
+---
+<section class="heroe">
+  {hero.imagen && <Foto src={hero.imagen.src ?? ''} alt={hero.imagen.alt} sizes="100vw" prioridad class="heroe-fondo" />}
+  <div class="heroe-velo"></div>
+  <div class="caja heroe-in">
+    <p class="etiqueta">Contenedores marítimos · {region}</p>
+    <h1 set:html={limpiar(titulo)} />
+    {hero.texto && <div class="heroe-texto" set:html={htmlTexto(hero.texto.html ?? hero.texto.text)} />}
+    <p class="heroe-botones">
+      <a class="boton" href="/contacto/">Pide presupuesto</a>
+      <a class="boton boton--borde" href="/precios/">Ver precios</a>
+    </p>
+    {(tipos > 0 || lugares > 0) && (
+      <dl class="heroe-datos">
+        {tipos > 0 && <div><dt>Modelos</dt><dd>{tipos} tipos de contenedor</dd></div>}
+        {lugares > 0 && <div><dt>Cobertura</dt><dd>{lugares} provincias y ciudades</dd></div>}
+        <div><dt>Servicios</dt><dd>Venta · alquiler · transporte</dd></div>
+      </dl>
+    )}
+  </div>
+</section>

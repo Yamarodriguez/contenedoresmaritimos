@@ -1,36 +1,48 @@
 ---
 import Bloque from './Bloque.astro';
-import { agrupar } from '../lib/agrupar';
-import { conFotosDeSeccion } from '../lib/fotos';
+import type { Pagina } from '../lib/pagina';
 
 interface Props {
-  blocks: any[];
+  pagina: Pagina;
 }
-const { blocks } = Astro.props as Props;
-// El H1 va en el héroe; el resto, en su orden.
-const trozos = agrupar(conFotosDeSeccion(blocks.filter((b: any) => !(b.type === 'heading' && b.tag === 'h1'))));
+const { pagina } = Astro.props as Props;
+let n = 0; // las secciones con título alternan panel oscuro y claro
 ---
-{trozos.map((t) => (
-  t.tipo === 'consulta' ? (
-    <section class="consulta">
-      <div class="consulta-texto"><Bloque block={t.titular} /><Bloque block={t.texto} /></div>
-      <div class="consulta-form"><Bloque block={t.formulario} /></div>
-    </section>
-  ) : t.tipo === 'banda' ? (
-    <section class="banda">
-      <div class="banda-titulo"><Bloque block={t.titular} /></div>
-      <div class="banda-foto"><Bloque block={t.imagen} sizes="(max-width: 700px) 90vw, 520px" /></div>
-    </section>
-  ) : t.tipo === 'rejilla' ? (
-    <div class="rejilla">
-      {t.tarjetas.map((c) => (
-        <article class="tarjeta">
-          <Bloque block={c.titular} />
-          <Bloque block={c.imagen} sizes="(max-width: 700px) 45vw, 230px" />
-        </article>
-      ))}
-    </div>
-  ) : (
-    <Bloque block={t.bloque} />
-  )
-))}
+<div class={`pagina${pagina.conLateral ? ' con-lateral' : ''}`}>
+  {pagina.elementos.map((e) => {
+    if (e.tipo === 'consulta') return (
+      <aside class="consulta">
+        <Bloque block={e.titular} />
+        <Bloque block={e.texto} />
+        <Bloque block={e.formulario} />
+      </aside>
+    );
+    const clase = e.titular ? (n++ % 2 === 0 ? 'seccion' : 'seccion seccion--clara') : 'seccion seccion--sin-titulo seccion--clara';
+    return (
+      <section class={clase}>
+        {e.titular && (
+          <header class="seccion-cab">
+            <Bloque block={e.titular} />
+            {e.imagen && <div class="seccion-foto"><Bloque block={e.imagen} sizes="(max-width: 700px) 90vw, 440px" /></div>}
+          </header>
+        )}
+        <div class="seccion-cuerpo">
+          {e.cuerpo.map((t) => (
+            t.tipo === 'rejilla' ? (
+              <div class="rejilla">
+                {t.tarjetas.map((c) => (
+                  <article class="tarjeta">
+                    <Bloque block={c.titular} />
+                    <Bloque block={c.imagen} sizes="(max-width: 700px) 45vw, 230px" />
+                  </article>
+                ))}
+              </div>
+            ) : (
+              <Bloque block={t.bloque} />
+            )
+          ))}
+        </div>
+      </section>
+    );
+  })}
+</div>
