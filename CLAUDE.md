@@ -51,6 +51,13 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 /rosario/, /necochea/, /bariloche/, /argentina/, /santa-fe/, /neuquen/,
 /talavera-de-la-reina/, /mendoza/, /la-plata/.
 
+## Decisiones de Yama sobre las páginas de ciudad (26-10-2026)
+- NO fusionar ni redirigir páginas de ciudad, aunque tengan poco tráfico.
+- NO tocar las duplicadas (valencia/container-valencia, ourense/orense,
+  girona/gerona, santiago-de-compostela/compostela): se quedan las dos.
+- Para diferenciarlas, solo se AÑADE información propia (src/lib/ciudades.ts),
+  nunca se quita ni se cambia el texto original.
+
 ## Estado (se actualiza al cerrar cada fase)
 - Fase actual: 3 (diseño A aplicado a todas las páginas; falta que Yama lo revise en la web de pruebas) — antes, Fase 0: falta: kit/ y analisis/ en la carpeta del proyecto,
   ficha de marca y datos del negocio, confirmar inventario y regla del H1.
