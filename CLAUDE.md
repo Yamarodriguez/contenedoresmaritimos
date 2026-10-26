@@ -58,6 +58,17 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - Para diferenciarlas, solo se AÑADE información propia (src/lib/ciudades.ts),
   nunca se quita ni se cambia el texto original.
 
+## Lanzamiento (Fase 7) — 26-10-2026
+- DNS del dominio pasados a Netlify (NS1: dns1-4.p01.nsone.net) por Yama.
+- Web lanzada: sin noindex (solo /gracias/ y 404), robots.txt abierto con sitemap,
+  netlify.app y www redirigen al dominio, redirecciones de wp-content y sitemaps de Yoast.
+- AdSense ca-pub-7333712322602518 + ads.txt; verificación de Bing (msvalidate).
+- PENDIENTE URGENTE (Yama): copiar a Netlify DNS los registros de correo de OVH
+  (MX 1 mx4.mail.ovh.net, MX 10 mx3.mail.ovh.net, CNAME autodiscover → mailconfig.ovh.net,
+  TXT openai-domain-verification, A ftp → 51.255.26.63).
+- PENDIENTE: ID de GA4 (el UA-215837852-1 ya no funciona); enviar sitemap.xml en Search
+  Console y Bing; prueba real del formulario (avisos en Netlify Forms); hosting viejo un mes más.
+
 ## Estado (se actualiza al cerrar cada fase)
 - Fase actual: 3 (diseño A aplicado a todas las páginas; falta que Yama lo revise en la web de pruebas) — antes, Fase 0: falta: kit/ y analisis/ en la carpeta del proyecto,
   ficha de marca y datos del negocio, confirmar inventario y regla del H1.
