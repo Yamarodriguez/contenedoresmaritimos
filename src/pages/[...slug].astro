@@ -25,8 +25,9 @@ const legal = data.blocks.length === 0 ? textoLegal(data.slug) : null;
 const bloques = legal ? [{ type: 'text', html: legal, nuevo: true }] : data.blocks;
 const pagina = armarPagina(bloques, { slug: data.slug, servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
 const datos = data.faq ? [{ '@type': 'FAQPage', mainEntity: data.faq.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }] : [];
-const migas = migasDe(data, data.title);
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
+// En las páginas nuevas el título de Google es largo: la miga usa el H1.
+const migas = migasDe(data, data.nueva && h1 ? h1.text.replace(/<[^>]+>/g, '') : data.title);
 ---
 <Base
   title={seo.titulo || data.title}

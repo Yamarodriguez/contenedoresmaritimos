@@ -1,0 +1,316 @@
+{
+ "slug": "contenedores-para-almacenaje",
+ "title": "Contenedores para almacenaje: tamaños, usos y consejos",
+ "url": "https://contenedoresmaritimos.net/contenedores-para-almacenaje/",
+ "meta_description": "Contenedores marítimos para almacenaje: qué tamaño elegir (10, 20 o 40 pies), qué se puede guardar y qué tener en cuenta. Pide presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "faq": [
+  {
+   "pregunta": "¿Cuántos metros cúbicos tiene un contenedor de almacenaje?",
+   "respuesta": "Aproximadamente 16 m³ uno de 10 pies, 33 m³ uno de 20 pies, 68 m³ uno de 40 pies y 76 m³ uno de 40 pies High Cube."
+  },
+  {
+   "pregunta": "¿Se moja lo que guardo en un contenedor marítimo?",
+   "respuesta": "Un contenedor en buen estado es estanco, pero puede haber condensación. Para cosas sensibles conviene ventilarlo o aislarlo."
+  },
+  {
+   "pregunta": "¿Necesito permiso para poner un contenedor en mi terreno?",
+   "respuesta": "Depende del municipio y del tipo de terreno. Consúltalo en tu ayuntamiento antes de colocarlo."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Contenedores para almacenaje"
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor marítimo es una de las formas más sencillas de ganar espacio de almacenaje: es de acero, se cierra con llave y se coloca donde lo necesites. Te explicamos qué tamaño elegir, qué puedes guardar y qué conviene revisar antes de colocarlo.",
+   "html": "<p>Un <strong>contenedor marítimo</strong> es una de las formas más sencillas de ganar espacio de <strong>almacenaje</strong>: es de acero, se cierra con llave y se coloca donde lo necesites. Te explicamos qué tamaño elegir, qué puedes guardar y qué conviene revisar antes de colocarlo.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/contenedores-para-almacenaje.jpg",
+   "alt": "Contenedores para almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Qué tamaño de contenedor necesito para almacenaje?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/que-tamano-de-contenedor-necesito-para-almacenaje.jpg",
+   "alt": "Qué tamaño de contenedor necesito para almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "El tamaño depende de lo que vayas a guardar y del espacio donde se va a colocar. Esta tabla resume el volumen interior aproximado de los contenedores más usados para almacenaje:",
+   "html": "<p>El <strong>tamaño</strong> depende de lo que vayas a guardar y del espacio donde se va a colocar. Esta tabla resume el volumen interior aproximado de los contenedores más usados para <strong>almacenaje</strong>:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "tabla",
+   "nuevo": true,
+   "nota": "Valores habituales según la norma ISO; varían según el fabricante. Medidas interiores en largo × ancho × alto.",
+   "cabecera": [
+    "Contenedor",
+    "Medidas interiores",
+    "Volumen interior"
+   ],
+   "filas": [
+    [
+     "10 pies Dry Van",
+     "2,802 × 2,352 × 2,385 m",
+     "15,9 m³"
+    ],
+    [
+     "20 pies Dry Van (estándar)",
+     "5,898 × 2,352 × 2,393 m",
+     "33,2 m³"
+    ],
+    [
+     "40 pies Dry Van (estándar)",
+     "12,032 × 2,352 × 2,393 m",
+     "67,7 m³"
+    ],
+    [
+     "40 pies High Cube",
+     "12,032 × 2,352 × 2,698 m",
+     "76,3 m³"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Como referencia, un contenedor de 20 pies suele bastar para el contenido de un trastero grande o el material de una obra pequeña, y uno de 40 pies para el stock de un negocio o maquinaria voluminosa. Consulta todas las medidas de los contenedores marítimos.",
+   "html": "<p>Como referencia, un contenedor de 20 pies suele bastar para el contenido de un trastero grande o el material de una obra pequeña, y uno de 40 pies para el stock de un negocio o maquinaria voluminosa. Consulta todas las <a href=\"/medidas/\">medidas de los contenedores marítimos</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Qué se puede guardar en un contenedor de almacenaje?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/que-se-puede-guardar-en-un-contenedor-de-almacenaje.jpg",
+   "alt": "Qué se puede guardar en un contenedor de almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Muebles y enseres"
+  },
+  {
+   "type": "text",
+   "text": "Durante una mudanza o una reforma, o como trastero permanente.",
+   "html": "<p>Durante una mudanza o una reforma, o como trastero permanente.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Herramientas y material de obra"
+  },
+  {
+   "type": "text",
+   "text": "En la propia obra o en una finca, a mano y bajo llave.",
+   "html": "<p>En la propia obra o en una finca, a mano y bajo llave.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Stock y mercancía"
+  },
+  {
+   "type": "text",
+   "text": "Como ampliación del almacén de un comercio o de una empresa.",
+   "html": "<p>Como ampliación del almacén de un comercio o de una empresa.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Maquinaria y equipos"
+  },
+  {
+   "type": "text",
+   "text": "Aperos agrícolas, maquinaria pequeña o equipos de eventos.",
+   "html": "<p>Aperos agrícolas, <strong>maquinaria</strong> pequeña o <strong>equipos</strong> de eventos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Archivo y documentación"
+  },
+  {
+   "type": "text",
+   "text": "En contenedores bien ventilados o acondicionados contra la humedad.",
+   "html": "<p>En contenedores bien ventilados o acondicionados contra la humedad.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué tener en cuenta antes de colocar un contenedor de almacenaje"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/que-tener-en-cuenta-antes-de-colocar-un-contenedor-de-almacenaje.jpg",
+   "alt": "Qué tener en cuenta antes de colocar un contenedor de almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Terreno firme y nivelado"
+  },
+  {
+   "type": "text",
+   "text": "El contenedor debe apoyar en un suelo firme y nivelado para que las puertas cierren bien.",
+   "html": "<p>El contenedor debe apoyar en un suelo firme y <strong>nivelado</strong> para que las puertas cierren bien.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Acceso para el camión"
+  },
+  {
+   "type": "text",
+   "text": "El camión que lo entrega necesita espacio para maniobrar y descargarlo. Consulta el transporte de contenedores.",
+   "html": "<p>El <strong>camión</strong> que lo entrega necesita espacio para maniobrar y descargarlo. Consulta el <a href=\"/transporte/\">transporte de contenedores</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Humedad y condensación"
+  },
+  {
+   "type": "text",
+   "text": "Si guardas cosas sensibles, valora un contenedor ventilado o el aislamiento.",
+   "html": "<p>Si guardas cosas sensibles, valora un contenedor <a href=\"/ventilados/\">ventilado</a> o el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Seguridad"
+  },
+  {
+   "type": "text",
+   "text": "Un buen candado y un cierre protegido dificultan los robos.",
+   "html": "<p>Un buen candado y un cierre protegido dificultan los robos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Permisos"
+  },
+  {
+   "type": "text",
+   "text": "En algunos municipios y terrenos hace falta autorización para colocar un contenedor: consúltalo en tu ayuntamiento.",
+   "html": "<p>En algunos municipios y terrenos hace falta autorización para colocar un contenedor: consúltalo en tu ayuntamiento.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Comprar o alquilar un contenedor para almacenaje?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/comprar-o-alquilar-un-contenedor-para-almacenaje.jpg",
+   "alt": "Comprar o alquilar un contenedor para almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Si lo necesitas por poco tiempo, el alquiler suele ser más práctico. Si lo vas a usar de forma permanente, comprar uno de segunda mano o nuevo suele compensar. Consulta los precios orientativos o pide presupuesto.",
+   "html": "<p>Si lo necesitas por poco tiempo, el <a href=\"/alquiler/\">alquiler</a> suele ser más práctico. Si lo vas a usar de forma permanente, <strong>comprar</strong> uno <a href=\"/segunda-mano/\">de segunda mano</a> o nuevo suele compensar. Consulta los <a href=\"/precios/\">precios orientativos</a> o pide presupuesto.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre contenedores para almacenaje"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/preguntas-frecuentes-sobre-contenedores-para-almacenaje.jpg",
+   "alt": "Preguntas frecuentes sobre contenedores para almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cuántos metros cúbicos tiene un contenedor de almacenaje?"
+  },
+  {
+   "type": "text",
+   "text": "Aproximadamente 16 m³ uno de 10 pies, 33 m³ uno de 20 pies, 68 m³ uno de 40 pies y 76 m³ uno de 40 pies High Cube.",
+   "html": "<p>Aproximadamente 16 m³ uno de 10 pies, 33 m³ uno de 20 pies, 68 m³ uno de 40 pies y 76 m³ uno de 40 pies High Cube.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Se moja lo que guardo en un contenedor marítimo?"
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor en buen estado es estanco, pero puede haber condensación. Para cosas sensibles conviene ventilarlo o aislarlo.",
+   "html": "<p>Un contenedor en buen estado es estanco, pero puede haber condensación. Para cosas sensibles conviene ventilarlo o aislarlo.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Necesito permiso para poner un contenedor en mi terreno?"
+  },
+  {
+   "type": "text",
+   "text": "Depende del municipio y del tipo de terreno. Consúltalo en tu ayuntamiento antes de colocarlo.",
+   "html": "<p>Depende del municipio y del tipo de <strong>terreno</strong>. Consúltalo en tu ayuntamiento antes de colocarlo.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de contenedores para almacenaje"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-almacenaje/pide-presupuesto-de-contenedores-para-almacenaje.jpg",
+   "alt": "Pide presupuesto de contenedores para almacenaje",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Ver precios orientativos",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  }
+ ]
+}

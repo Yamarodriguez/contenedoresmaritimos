@@ -1,0 +1,103 @@
+{
+  "_nota": "Páginas nuevas por búsquedas que ya traen impresiones sin página propia (Search Console, 3 meses): «contenedores para almacenaje» (307) y «contenedores para construcción» (304). Redactadas por Claude: texto informativo, sin precios, plazos ni garantías inventados. Las medidas salen de fichas.json.",
+  "paginas": [
+    {
+      "slug": "contenedores-para-almacenaje",
+      "h1": "Contenedores para almacenaje",
+      "titulo": "Contenedores para almacenaje: tamaños, usos y consejos",
+      "descripcion": "Contenedores marítimos para almacenaje: qué tamaño elegir (10, 20 o 40 pies), qué se puede guardar y qué tener en cuenta. Pide presupuesto sin compromiso.",
+      "clave": ["contenedores para almacenaje", "contenedor para almacenaje", "almacenaje", "contenedor marítimo", "contenedores marítimos"],
+      "foto_hero": "/img/2021/12/contenedores-almacenamiento.jpg",
+      "intro": "Un contenedor marítimo es una de las formas más sencillas de ganar espacio de almacenaje: es de acero, se cierra con llave y se coloca donde lo necesites. Te explicamos qué tamaño elegir, qué puedes guardar y qué conviene revisar antes de colocarlo.",
+      "secciones": [
+        {
+          "h2": "¿Qué tamaño de contenedor necesito para almacenaje?",
+          "foto": "/img/2022/01/contenedores-de-almacenamiento.png",
+          "texto": "El tamaño depende de lo que vayas a guardar y del espacio donde se va a colocar. Esta tabla resume el volumen interior aproximado de los contenedores más usados para almacenaje:",
+          "tabla": ["10", "20", "40", "40hc"],
+          "despues": "Como referencia, un contenedor de 20 pies suele bastar para el contenido de un trastero grande o el material de una obra pequeña, y uno de 40 pies para el stock de un negocio o maquinaria voluminosa. Consulta todas las <a href=\"/medidas/\">medidas de los contenedores marítimos</a>."
+        },
+        {
+          "h2": "¿Qué se puede guardar en un contenedor de almacenaje?",
+          "foto": "/img/2021/12/contenedores-almacenamiento.jpg",
+          "lista": [
+            ["Muebles y enseres", "Durante una mudanza o una reforma, o como trastero permanente."],
+            ["Herramientas y material de obra", "En la propia obra o en una finca, a mano y bajo llave."],
+            ["Stock y mercancía", "Como ampliación del almacén de un comercio o de una empresa."],
+            ["Maquinaria y equipos", "Aperos agrícolas, maquinaria pequeña o equipos de eventos."],
+            ["Archivo y documentación", "En contenedores bien ventilados o acondicionados contra la humedad."]
+          ]
+        },
+        {
+          "h2": "Qué tener en cuenta antes de colocar un contenedor de almacenaje",
+          "foto": "/img/2022/01/transporte-contenedores-maritimos.png",
+          "lista": [
+            ["Terreno firme y nivelado", "El contenedor debe apoyar en un suelo firme y nivelado para que las puertas cierren bien."],
+            ["Acceso para el camión", "El camión que lo entrega necesita espacio para maniobrar y descargarlo. Consulta el <a href=\"/transporte/\">transporte de contenedores</a>."],
+            ["Humedad y condensación", "Si guardas cosas sensibles, valora un contenedor <a href=\"/ventilados/\">ventilado</a> o el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a>."],
+            ["Seguridad", "Un buen candado y un cierre protegido dificultan los robos."],
+            ["Permisos", "En algunos municipios y terrenos hace falta autorización para colocar un contenedor: consúltalo en tu ayuntamiento."]
+          ]
+        },
+        {
+          "h2": "¿Comprar o alquilar un contenedor para almacenaje?",
+          "foto": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
+          "texto": "Si lo necesitas por poco tiempo, el <a href=\"/alquiler/\">alquiler</a> suele ser más práctico. Si lo vas a usar de forma permanente, comprar uno <a href=\"/segunda-mano/\">de segunda mano</a> o nuevo suele compensar. Consulta los <a href=\"/precios/\">precios orientativos</a> o pide presupuesto."
+        }
+      ],
+      "faq": [
+        ["¿Cuántos metros cúbicos tiene un contenedor de almacenaje?", "Aproximadamente 16 m³ uno de 10 pies, 33 m³ uno de 20 pies, 68 m³ uno de 40 pies y 76 m³ uno de 40 pies High Cube."],
+        ["¿Se moja lo que guardo en un contenedor marítimo?", "Un contenedor en buen estado es estanco, pero puede haber condensación. Para cosas sensibles conviene ventilarlo o aislarlo."],
+        ["¿Necesito permiso para poner un contenedor en mi terreno?", "Depende del municipio y del tipo de terreno. Consúltalo en tu ayuntamiento antes de colocarlo."]
+      ]
+    },
+    {
+      "slug": "contenedores-para-construccion",
+      "h1": "Contenedores para construcción y obras",
+      "titulo": "Contenedores para construcción y obras: casetas y almacén",
+      "descripcion": "Contenedores marítimos para construcción y obras: almacén de material, caseta de obra, vestuarios y aseos. Tamaños, usos y presupuesto sin compromiso.",
+      "clave": ["contenedores para construcción", "contenedor para construcción", "obras", "obra", "contenedor marítimo", "contenedores marítimos"],
+      "foto_hero": "/img/2022/01/construcciones-con-contenedores.jpg",
+      "intro": "En una obra, un contenedor marítimo sirve de almacén seguro para el material y la herramienta, de caseta o de vestuario para el equipo. Te contamos qué usos tiene, qué tamaño elegir y qué tener en cuenta para colocarlo.",
+      "secciones": [
+        {
+          "h2": "Usos de los contenedores en construcción y obras",
+          "foto": "/img/2021/12/contenedores-almacenamiento.jpg",
+          "lista": [
+            ["Almacén de obra", "Guarda herramienta, maquinaria pequeña y material bajo llave, a pie de obra."],
+            ["Caseta de obra u oficina", "Un contenedor acondicionado como <a href=\"/oficinas/\">oficina</a> para el jefe de obra o las reuniones."],
+            ["Vestuarios y aseos", "Módulos <a href=\"/sanitarios/\">sanitarios con contenedores</a> para el personal."],
+            ["Comedor o zona de descanso", "Un espacio a cubierto para el equipo durante la jornada."]
+          ]
+        },
+        {
+          "h2": "¿Qué tamaño de contenedor elegir para una obra?",
+          "foto": "/img/2022/01/contenedores-de-almacenamiento.png",
+          "texto": "Para almacenar material en obras pequeñas o con poco espacio suele bastar uno de 10 o 20 pies; en obras grandes, uno de 40 pies. Volumen interior aproximado:",
+          "tabla": ["10", "20", "40"],
+          "despues": "Consulta todas las <a href=\"/medidas/\">medidas de los contenedores marítimos</a>."
+        },
+        {
+          "h2": "Qué tener en cuenta al poner un contenedor en una obra",
+          "foto": "/img/2022/01/transporte-contenedores-maritimos.png",
+          "lista": [
+            ["Ubicación y acceso", "Reserva un lugar firme y nivelado con acceso para el camión que lo entrega y lo retira. Consulta el <a href=\"/transporte/\">transporte</a>."],
+            ["Ocupación de la vía pública", "Si va en la calle, normalmente hace falta permiso municipal."],
+            ["Electricidad y adaptación", "Si va a ser caseta o vestuario, necesitará <a href=\"/instalacion-electrica-contenedores-maritimos/\">instalación eléctrica</a>, <a href=\"/ventanas-puertas-contenedores-maritimos/\">ventanas y puertas</a> y, en su caso, <a href=\"/fontaneria-contenedores-maritimos/\">fontanería</a>."],
+            ["Duración de la obra", "Para obras cortas suele compensar el <a href=\"/alquiler/\">alquiler</a>; para varias obras seguidas, la compra."]
+          ]
+        },
+        {
+          "h2": "Construir con contenedores marítimos",
+          "foto": "/img/2022/01/construcciones-con-contenedores.jpg",
+          "texto": "Además de servir en la obra, los contenedores marítimos se usan como estructura para construir <a href=\"/casas/\">casas</a>, <a href=\"/oficinas/\">oficinas</a> y <a href=\"/locales-comerciales/\">locales</a>. Mira nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a>."
+        }
+      ],
+      "faq": [
+        ["¿Qué contenedor es mejor para una obra?", "Para almacén, uno de 20 pies suele ser suficiente; para obras grandes, uno de 40 pies. Si va a ser caseta o vestuario, necesita acondicionamiento."],
+        ["¿Hace falta permiso para poner un contenedor en la calle?", "Normalmente sí: ocupar la vía pública requiere autorización municipal."],
+        ["¿Se puede alquilar un contenedor para una obra?", "Sí. Para obras de poca duración el alquiler suele ser la opción más práctica."]
+      ]
+    }
+  ]
+}

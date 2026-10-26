@@ -1,0 +1,289 @@
+{
+ "slug": "contenedores-para-construccion",
+ "title": "Contenedores para construcción y obras: casetas y almacén",
+ "url": "https://contenedoresmaritimos.net/contenedores-para-construccion/",
+ "meta_description": "Contenedores marítimos para construcción y obras: almacén de material, caseta de obra, vestuarios y aseos. Tamaños, usos y presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "faq": [
+  {
+   "pregunta": "¿Qué contenedor es mejor para una obra?",
+   "respuesta": "Para almacén, uno de 20 pies suele ser suficiente; para obras grandes, uno de 40 pies. Si va a ser caseta o vestuario, necesita acondicionamiento."
+  },
+  {
+   "pregunta": "¿Hace falta permiso para poner un contenedor en la calle?",
+   "respuesta": "Normalmente sí: ocupar la vía pública requiere autorización municipal."
+  },
+  {
+   "pregunta": "¿Se puede alquilar un contenedor para una obra?",
+   "respuesta": "Sí. Para obras de poca duración el alquiler suele ser la opción más práctica."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Contenedores para construcción y obras"
+  },
+  {
+   "type": "text",
+   "text": "En una obra, un contenedor marítimo sirve de almacén seguro para el material y la herramienta, de caseta o de vestuario para el equipo. Te contamos qué usos tiene, qué tamaño elegir y qué tener en cuenta para colocarlo.",
+   "html": "<p>En una <strong>obra</strong>, un <strong>contenedor marítimo</strong> sirve de almacén seguro para el material y la herramienta, de caseta o de vestuario para el equipo. Te contamos qué usos tiene, qué tamaño elegir y qué tener en cuenta para colocarlo.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/contenedores-para-construccion-y-obras.jpg",
+   "alt": "Contenedores para construcción y obras",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Usos de los contenedores en construcción y obras"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/usos-de-los-contenedores-en-construccion-y-obras.jpg",
+   "alt": "Usos de los contenedores en construcción y obras",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Almacén de obra"
+  },
+  {
+   "type": "text",
+   "text": "Guarda herramienta, maquinaria pequeña y material bajo llave, a pie de obra.",
+   "html": "<p>Guarda herramienta, maquinaria pequeña y material bajo llave, a pie de <strong>obra</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Caseta de obra u oficina"
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor acondicionado como oficina para el jefe de obra o las reuniones.",
+   "html": "<p>Un contenedor acondicionado como <a href=\"/oficinas/\">oficina</a> para el jefe de <strong>obra</strong> o las reuniones.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Vestuarios y aseos"
+  },
+  {
+   "type": "text",
+   "text": "Módulos sanitarios con contenedores para el personal.",
+   "html": "<p>Módulos <a href=\"/sanitarios/\">sanitarios con contenedores</a> para el personal.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Comedor o zona de descanso"
+  },
+  {
+   "type": "text",
+   "text": "Un espacio a cubierto para el equipo durante la jornada.",
+   "html": "<p>Un espacio a cubierto para el equipo durante la jornada.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "¿Qué tamaño de contenedor elegir para una obra?"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/que-tamano-de-contenedor-elegir-para-una-obra.jpg",
+   "alt": "Qué tamaño de contenedor elegir para una obra",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Para almacenar material en obras pequeñas o con poco espacio suele bastar uno de 10 o 20 pies; en obras grandes, uno de 40 pies. Volumen interior aproximado:",
+   "html": "<p>Para almacenar material en <strong>obras</strong> pequeñas o con poco espacio suele bastar uno de 10 o 20 pies; en obras grandes, uno de 40 pies. Volumen interior aproximado:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "tabla",
+   "nuevo": true,
+   "nota": "Valores habituales según la norma ISO; varían según el fabricante. Medidas interiores en largo × ancho × alto.",
+   "cabecera": [
+    "Contenedor",
+    "Medidas interiores",
+    "Volumen interior"
+   ],
+   "filas": [
+    [
+     "10 pies Dry Van",
+     "2,802 × 2,352 × 2,385 m",
+     "15,9 m³"
+    ],
+    [
+     "20 pies Dry Van (estándar)",
+     "5,898 × 2,352 × 2,393 m",
+     "33,2 m³"
+    ],
+    [
+     "40 pies Dry Van (estándar)",
+     "12,032 × 2,352 × 2,393 m",
+     "67,7 m³"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Consulta todas las medidas de los contenedores marítimos.",
+   "html": "<p>Consulta todas las <a href=\"/medidas/\">medidas de los contenedores marítimos</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué tener en cuenta al poner un contenedor en una obra"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/que-tener-en-cuenta-al-poner-un-contenedor-en-una-obra.jpg",
+   "alt": "Qué tener en cuenta al poner un contenedor en una obra",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Ubicación y acceso"
+  },
+  {
+   "type": "text",
+   "text": "Reserva un lugar firme y nivelado con acceso para el camión que lo entrega y lo retira. Consulta el transporte.",
+   "html": "<p>Reserva un lugar firme y nivelado con <strong>acceso</strong> para el camión que lo entrega y lo retira. Consulta el <a href=\"/transporte/\">transporte</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Ocupación de la vía pública"
+  },
+  {
+   "type": "text",
+   "text": "Si va en la calle, normalmente hace falta permiso municipal.",
+   "html": "<p>Si va en la calle, normalmente hace falta permiso municipal.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Electricidad y adaptación"
+  },
+  {
+   "type": "text",
+   "text": "Si va a ser caseta o vestuario, necesitará instalación eléctrica, ventanas y puertas y, en su caso, fontanería.",
+   "html": "<p>Si va a ser caseta o vestuario, necesitará <a href=\"/instalacion-electrica-contenedores-maritimos/\">instalación eléctrica</a>, <a href=\"/ventanas-puertas-contenedores-maritimos/\">ventanas y puertas</a> y, en su caso, <a href=\"/fontaneria-contenedores-maritimos/\">fontanería</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Duración de la obra"
+  },
+  {
+   "type": "text",
+   "text": "Para obras cortas suele compensar el alquiler; para varias obras seguidas, la compra.",
+   "html": "<p>Para <strong>obras</strong> cortas suele compensar el <a href=\"/alquiler/\">alquiler</a>; para varias obras seguidas, la compra.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Construir con contenedores marítimos"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/construir-con-contenedores-maritimos.jpg",
+   "alt": "Construir con contenedores marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Además de servir en la obra, los contenedores marítimos se usan como estructura para construir casas, oficinas y locales. Mira nuestras construcciones con contenedores.",
+   "html": "<p>Además de servir en la <strong>obra</strong>, los <strong>contenedores marítimos</strong> se usan como estructura para <strong>construir</strong> <a href=\"/casas/\">casas</a>, <a href=\"/oficinas/\">oficinas</a> y <a href=\"/locales-comerciales/\">locales</a>. Mira nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre contenedores para construcción y obras"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/preguntas-frecuentes-sobre-contenedores-para-construccion-y-obras.jpg",
+   "alt": "Preguntas frecuentes sobre contenedores para construcción y obras",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Qué contenedor es mejor para una obra?"
+  },
+  {
+   "type": "text",
+   "text": "Para almacén, uno de 20 pies suele ser suficiente; para obras grandes, uno de 40 pies. Si va a ser caseta o vestuario, necesita acondicionamiento.",
+   "html": "<p>Para almacén, uno de 20 pies suele ser suficiente; para <strong>obras</strong> grandes, uno de 40 pies. Si va a ser caseta o vestuario, necesita acondicionamiento.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Hace falta permiso para poner un contenedor en la calle?"
+  },
+  {
+   "type": "text",
+   "text": "Normalmente sí: ocupar la vía pública requiere autorización municipal.",
+   "html": "<p>Normalmente sí: ocupar la vía pública requiere autorización municipal.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Se puede alquilar un contenedor para una obra?"
+  },
+  {
+   "type": "text",
+   "text": "Sí. Para obras de poca duración el alquiler suele ser la opción más práctica.",
+   "html": "<p>Sí. Para <strong>obras</strong> de poca duración el alquiler suele ser la opción más práctica.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de contenedores para construcción y obras"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/contenedores-para-construccion/pide-presupuesto-de-contenedores-para-construccion-y-obras.jpg",
+   "alt": "Pide presupuesto de contenedores para construcción y obras",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué necesitas guardar o para qué <strong>obra</strong> es, en qué provincia y durante cuánto tiempo. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Ver precios orientativos",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  }
+ ]
+}
