@@ -1,10 +1,12 @@
 ---
 import Formulario from './Formulario.astro';
+import { limpiar, htmlTexto, interno } from '../lib/html';
 
 interface Block {
   type: string;
   tag?: string;
   text?: string;
+  html?: string;
   href?: string;
   src?: string;
   alt?: string;
@@ -19,18 +21,29 @@ const { block } = Astro.props as Props;
 // Las cabeceras de Elementor a veces vienen marcadas como "p" en vez de un
 // hN real (lo decidió así el redactor en su momento); se pinta como tal,
 // no se reinterpreta.
+const href = interno(block.href || '#');
+const enlace = block.href ? interno(block.href) : '';
 const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
 ---
-{block.type === 'heading' && (
-  <Tag>{block.text}</Tag>
+{block.type === 'heading' && enlace && (
+  <Tag><a href={enlace} set:html={limpiar(block.text)} /></Tag>
 )}
-{block.type === 'text' && (
-  <p>{block.text}</p>
+{block.type === 'heading' && !enlace && (
+  <Tag set:html={limpiar(block.text)} />
+)}
+{block.type === 'text' && block.html && (
+  <div class="texto" set:html={htmlTexto(block.html)} />
+)}
+{block.type === 'text' && !block.html && (
+  <p set:html={limpiar(block.text)} />
 )}
 {block.type === 'button' && (
-  <a class="boton" href={block.href || '#'}>{block.text}</a>
+  <a class="boton" href={href}>{block.text}</a>
 )}
-{block.type === 'image' && (
+{block.type === 'image' && enlace && (
+  <a href={enlace}><img src={block.src} alt={block.alt || ''} loading="lazy" width="800" height="600" /></a>
+)}
+{block.type === 'image' && !enlace && (
   <img src={block.src} alt={block.alt || ''} loading="lazy" width="800" height="600" />
 )}
 {block.type === 'map' && (

@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { limpiar } from '../lib/html';
 import Bloque from '../components/Bloque.astro';
 import data from '../content/pages/contenedores-maritimos.json';
 
@@ -13,7 +14,7 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 >
   <section class="heroe">
     <div class="caja">
-      <h1>{h1 ? h1.text : data.title}</h1>
+      <h1 set:html={limpiar(h1 ? h1.text : data.title)} />
     </div>
   </section>
   <div class="bloque">
