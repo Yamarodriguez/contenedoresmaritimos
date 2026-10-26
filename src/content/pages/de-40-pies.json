@@ -92,7 +92,7 @@
   {
    "type": "button",
    "text": "Precios",
-   "href": "https://contenedoresmaritimos.netprecios/"
+   "href": "https://contenedoresmaritimos.net/precios/"
   },
   {
    "type": "heading",
@@ -275,7 +275,7 @@
   {
    "type": "button",
    "text": "Todos los modelos de contenedores",
-   "href": "https://contenedoresmaritimos.nettipos/"
+   "href": "https://contenedoresmaritimos.net/tipos/"
   },
   {
    "type": "heading",
@@ -315,7 +315,7 @@
   {
    "type": "button",
    "text": "Segunda mano",
-   "href": "https://contenedoresmaritimos.netsegunda-mano/"
+   "href": "https://contenedoresmaritimos.net/segunda-mano/"
   },
   {
    "type": "text",
@@ -330,7 +330,7 @@
   {
    "type": "button",
    "text": "Construcción",
-   "href": "https://contenedoresmaritimos.netconstrucciones-con-contenedores/"
+   "href": "https://contenedoresmaritimos.net/construcciones-con-contenedores/"
   },
   {
    "type": "text",
@@ -350,7 +350,7 @@
   {
    "type": "button",
    "text": "Presupuesto",
-   "href": "https://contenedoresmaritimos.netcomprar/"
+   "href": "https://contenedoresmaritimos.net/comprar/"
   },
   {
    "type": "heading",
@@ -360,7 +360,7 @@
   {
    "type": "button",
    "text": "Transporte",
-   "href": "https://contenedoresmaritimos.nettransporte/"
+   "href": "https://contenedoresmaritimos.net/transporte/"
   },
   {
    "type": "text",
@@ -375,7 +375,7 @@
   {
    "type": "button",
    "text": "Alquiler",
-   "href": "https://contenedoresmaritimos.netalquiler/"
+   "href": "https://contenedoresmaritimos.net/alquiler/"
   },
   {
    "type": "text",

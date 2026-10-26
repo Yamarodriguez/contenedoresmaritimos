@@ -29,6 +29,7 @@ function bloquesDe(html) {
 }
 const enlacesDe = (html) => {
   return [...zona(html).matchAll(/<a\b[^>]*href="([^"]+)"/g)].map((x) => x[1]
+    .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=[a-z0-9])/, 'https://contenedoresmaritimos.net/') // errata aprobada: falta la barra
     .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/, '')).filter((h) => !h.startsWith('#'));
 };
 
