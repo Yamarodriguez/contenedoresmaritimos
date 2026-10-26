@@ -11,7 +11,12 @@ const { blocks } = Astro.props as Props;
 const trozos = agrupar(conFotosDeSeccion(blocks.filter((b: any) => !(b.type === 'heading' && b.tag === 'h1'))));
 ---
 {trozos.map((t) => (
-  t.tipo === 'rejilla' ? (
+  t.tipo === 'banda' ? (
+    <section class="banda">
+      <div class="banda-titulo"><Bloque block={t.titular} /></div>
+      <div class="banda-foto"><Bloque block={t.imagen} /></div>
+    </section>
+  ) : t.tipo === 'rejilla' ? (
     <div class="rejilla">
       {t.tarjetas.map((c) => (
         <article class="tarjeta">

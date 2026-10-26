@@ -4,7 +4,8 @@
 export type Bloque = Record<string, any>;
 export type Trozo =
   | { tipo: 'bloque'; bloque: Bloque }
-  | { tipo: 'rejilla'; tarjetas: { titular: Bloque; imagen: Bloque }[] };
+  | { tipo: 'rejilla'; tarjetas: { titular: Bloque; imagen: Bloque }[] }
+  | { tipo: 'banda'; titular: Bloque; imagen: Bloque };
 
 const esTitularTarjeta = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h3' && b.href;
 const esFotoTarjeta = (b?: Bloque) => b?.type === 'image' && b.href;
@@ -19,7 +20,10 @@ export function agrupar(bloques: Bloque[]): Trozo[] {
       tarjetas.push({ titular: bloques[j], imagen: bloques[j + 1] });
       j += 2;
     }
-    if (tarjetas.length >= 3) {
+    if (bloques[i]?.type === 'heading' && bloques[i].tag === 'h2' && bloques[i + 1]?.type === 'image' && !bloques[i + 1].href) {
+      salida.push({ tipo: 'banda', titular: bloques[i], imagen: bloques[i + 1] });
+      i += 2;
+    } else if (tarjetas.length >= 3) {
       salida.push({ tipo: 'rejilla', tarjetas });
       i = j;
     } else {

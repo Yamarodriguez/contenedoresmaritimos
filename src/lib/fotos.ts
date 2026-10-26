@@ -22,19 +22,17 @@ function fotoPara(titulo: string) {
 
 export function conFotosDeSeccion(bloques: Bloque[]): Bloque[] {
   const salida: Bloque[] = [];
-  bloques.forEach((b, i) => {
-    salida.push(b);
-    if (!(b.type === 'heading' && b.tag === 'h2')) return;
-    const anterior = bloques[i - 1];
-    if (anterior?.type === 'image') return; // la foto ya iba antes del titular
-    // ¿hay una imagen en la propia sección (hasta el siguiente H2)?
-    for (let j = i + 1; j < bloques.length; j++) {
-      const s = bloques[j];
-      if (s.type === 'heading' && s.tag === 'h2') break;
-      if (s.type === 'image') return;
+  const esFoto = (b?: Bloque) => b?.type === 'image' && !b.href;
+  for (let i = 0; i < bloques.length; i++) {
+    const b = bloques[i];
+    if (!(b.type === 'heading' && b.tag === 'h2')) { salida.push(b); continue; }
+    if (esFoto(bloques[i + 1])) { salida.push(b); continue; } // la foto ya va detrás del titular
+    const anterior = salida[salida.length - 1];
+    if (esFoto(anterior)) { // la foto iba antes del titular: pasa a su banda
+      salida.pop(); salida.push(b, anterior); continue;
     }
     const f = fotoPara(b.text);
-    salida.push({ type: 'image', src: f.src, alt: f.alt, ajuste: f.ajuste, nuevo: true });
-  });
+    salida.push(b, { type: 'image', src: f.src, alt: f.alt, ajuste: f.ajuste, nuevo: true });
+  }
   return salida;
 }
