@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Ventanas y puertas">
+  <rect width="400" height="300" fill="#eaf1f8"/>
+  <circle cx="200" cy="150" r="118" fill="#fff" stroke="#d8e2ec" stroke-width="4"/>
+  <rect x="130" y="75" width="140" height="150" rx="6" fill="#bfe0ff" stroke="#0b2a4a" stroke-width="6"/><line x1="200" y1="75" x2="200" y2="225" stroke="#0b2a4a" stroke-width="6"/><line x1="130" y1="150" x2="270" y2="150" stroke="#0b2a4a" stroke-width="6"/><circle cx="187" cy="150" r="5" fill="#f2c200" stroke="#0b2a4a" stroke-width="3"/><circle cx="213" cy="150" r="5" fill="#f2c200" stroke="#0b2a4a" stroke-width="3"/>
+</svg>

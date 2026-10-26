@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Climatización">
+  <rect width="400" height="300" fill="#eaf1f8"/>
+  <circle cx="200" cy="150" r="118" fill="#fff" stroke="#d8e2ec" stroke-width="4"/>
+  <g stroke="#0b2a4a" stroke-width="6" stroke-linecap="round"><line x1="200" y1="70" x2="200" y2="230"/><line x1="131" y1="110" x2="269" y2="190"/><line x1="131" y1="190" x2="269" y2="110"/></g><g fill="#f2c200" stroke="#0b2a4a" stroke-width="4"><circle cx="200" cy="150" r="22"/></g><g stroke="#0b2a4a" stroke-width="5" stroke-linecap="round" fill="none"><path d="M185 82 l15 -12 l15 12"/><path d="M185 218 l15 12 l15 -12"/></g>
+</svg>

@@ -14,7 +14,7 @@
   {
    "type": "text",
    "text": "En esta página encontrarás las medidas y los usos de los contenedores de 45 pies. Si quieres comprar o alquilar uno, pide presupuesto y te asesoramos sin compromiso.",
-   "html": "<p>En esta página encontrarás las medidas y los usos de los contenedores de 45 pies. Si quieres comprar o alquilar uno, pide presupuesto y te asesoramos sin compromiso.</p>",
+   "html": "<p>En esta página encontrarás las medidas y los usos de los <strong>contenedores de 45 pies</strong>. Si quieres comprar o alquilar uno, pide presupuesto y te asesoramos sin compromiso.</p>",
    "nuevo": true
   },
   {
@@ -24,15 +24,15 @@
   },
   {
    "type": "image",
-   "src": "/img/tipos/de-45-pies.svg",
-   "alt": "Contenedores de 45 pies",
+   "src": "/img/servicios/de-45-pies/medidas-de-los-contenedores-de-45-pies.svg",
+   "alt": "Medidas de los contenedores de 45 pies",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Las medidas exteriores habituales de un contenedor de 45 pies son 13,72 m de largo, 2,44 m de ancho y 2,90 m de alto (versión high cube). Son medidas orientativas: pueden variar ligeramente según el fabricante.",
-   "html": "<p>Las medidas exteriores habituales de un contenedor de 45 pies son 13,72 m de largo, 2,44 m de ancho y 2,90 m de alto (versión high cube). Son medidas orientativas: pueden variar ligeramente según el fabricante.</p>",
+   "html": "<p>Las <strong>medidas</strong> exteriores habituales de un <strong>contenedor de 45 pies</strong> son 13,72 m de largo, 2,44 m de ancho y 2,90 m de alto (versión high cube). Son medidas orientativas: pueden variar ligeramente según el fabricante.</p>",
    "nuevo": true
   },
   {
@@ -42,14 +42,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
-   "alt": "tipos-de-contenedores-marítimos",
+   "src": "/img/servicios/de-45-pies/usos-de-los-contenedores-de-45-pies.jpg",
+   "alt": "Usos de los contenedores de 45 pies",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "El contenedor de 45 pies es el más largo de los habituales y se usa cuando se necesita más volumen que el de 40 pies, tanto para almacenar como para construcciones modulares.",
-   "html": "<p>El contenedor de 45 pies es el más largo de los habituales y se usa cuando se necesita más volumen que el de 40 pies, tanto para almacenar como para construcciones modulares.</p>",
+   "html": "<p>El <strong>contenedor de 45 pies</strong> es el más largo de los habituales y se usa cuando se necesita más volumen que el de 40 pies, tanto para almacenar como para construcciones modulares.</p>",
    "nuevo": true
   },
   {
@@ -59,8 +59,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/comprar-contenedores-maritimos.jpg",
-   "alt": "comprar-contenedores-marítimos",
+   "src": "/img/servicios/de-45-pies/comprar-o-alquilar-contenedores-de-45-pies.jpg",
+   "alt": "Comprar o alquilar contenedores de 45 pies",
    "nuevo": true
   },
   {

@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "La fontanería en contenedores marítimos permite convertirlos en baños, cocinas, vestuarios o viviendas. Aquí te explicamos qué incluye la instalación de agua y saneamiento y qué debes tener en cuenta.",
-   "html": "<p>La fontanería en contenedores marítimos permite convertirlos en baños, cocinas, vestuarios o viviendas. Aquí te explicamos qué incluye la instalación de agua y saneamiento y qué debes tener en cuenta.</p>",
+   "html": "<p>La <strong>fontanería en contenedores marítimos</strong> permite convertirlos en baños, cocinas, vestuarios o viviendas. Aquí te explicamos qué incluye la instalación de agua y saneamiento y qué debes tener en cuenta.</p>",
    "nuevo": true
   },
   {
@@ -39,15 +39,15 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/fontaneria-contenedores-maritimos.svg",
-   "alt": "Fontanería y saneamiento",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/que-es-la-fontaneria-en-contenedores-maritimos.svg",
+   "alt": "Qué es la fontanería en contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "La instalación de fontanería de un contenedor lleva agua fría y caliente a los puntos de consumo y evacúa las aguas usadas hacia la red de saneamiento o un sistema autorizado. Se diseña a la vez que el resto de instalaciones del contenedor.",
-   "html": "<p>La instalación de fontanería de un contenedor lleva agua fría y caliente a los puntos de consumo y evacúa las aguas usadas hacia la red de saneamiento o un sistema autorizado. Se diseña a la vez que el resto de instalaciones del contenedor.</p>",
+   "html": "<p>La instalación de <strong>fontanería</strong> de un contenedor lleva agua fría y caliente a los puntos de consumo y evacúa las aguas usadas hacia la red de saneamiento o un sistema autorizado. Se diseña a la vez que el resto de instalaciones del contenedor.</p>",
    "nuevo": true
   },
   {
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/que-incluye-la-fontaneria-en-un-contenedor-maritimo.jpg",
+   "alt": "Qué incluye la fontanería en un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -80,7 +80,7 @@
   {
    "type": "text",
    "text": "Lavabos, duchas, inodoros, fregaderos u otros puntos según el uso del contenedor.",
-   "html": "<p>Lavabos, duchas, inodoros, fregaderos u otros puntos según el uso del contenedor.</p>",
+   "html": "<p>Lavabos, duchas, inodoros, fregaderos u otros <strong>puntos</strong> según el uso del contenedor.</p>",
    "nuevo": true
   },
   {
@@ -91,7 +91,7 @@
   {
    "type": "text",
    "text": "Termo eléctrico u otro sistema de producción de agua caliente.",
-   "html": "<p>Termo eléctrico u otro sistema de producción de agua caliente.</p>",
+   "html": "<p>Termo eléctrico u otro sistema de producción de agua <strong>caliente</strong>.</p>",
    "nuevo": true
   },
   {
@@ -102,7 +102,7 @@
   {
    "type": "text",
    "text": "Tuberías con la pendiente adecuada y conexión a la red de saneamiento o a la solución autorizada.",
-   "html": "<p>Tuberías con la pendiente adecuada y conexión a la red de saneamiento o a la solución autorizada.</p>",
+   "html": "<p>Tuberías con la pendiente adecuada y conexión a la red de <strong>saneamiento</strong> o a la solución autorizada.</p>",
    "nuevo": true
   },
   {
@@ -123,8 +123,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/para-que-usos-se-instala-fontaneria-en-un-contenedor.jpg",
+   "alt": "Para qué usos se instala fontanería en un contenedor",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/que-tener-en-cuenta-al-instalar-fontaneria-en-un-contenedor.jpg",
+   "alt": "Qué tener en cuenta al instalar fontanería en un contenedor",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/preguntas-frecuentes-sobre-fontaneria-en-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre fontanería en contenedores marítimos",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/fontaneria-contenedores-maritimos/pide-presupuesto-de-fontaneria-en-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de fontanería en contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {

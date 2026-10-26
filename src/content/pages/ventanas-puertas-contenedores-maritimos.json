@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "Las ventanas y puertas para contenedores marítimos dan luz, ventilación y acceso al interior. Te explicamos cómo se abre un hueco sin debilitar la estructura, qué opciones hay y cómo pedir presupuesto.",
-   "html": "<p>Las ventanas y puertas para contenedores marítimos dan luz, ventilación y acceso al interior. Te explicamos cómo se abre un hueco sin debilitar la estructura, qué opciones hay y cómo pedir presupuesto.</p>",
+   "html": "<p>Las <strong>ventanas y puertas para contenedores marítimos</strong> dan luz, ventilación y acceso al interior. Te explicamos cómo se abre un hueco sin debilitar la estructura, qué opciones hay y cómo pedir presupuesto.</p>",
    "nuevo": true
   },
   {
@@ -39,8 +39,8 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos.svg",
-   "alt": "Ventanas y puertas",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/que-son-las-ventanas-y-puertas-para-contenedores-maritimos.svg",
+   "alt": "Qué son las ventanas y puertas para contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/que-incluye-instalar-ventanas-y-puertas-en-un-contenedor-maritimo.jpg",
+   "alt": "Qué incluye instalar ventanas y puertas en un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -80,7 +80,7 @@
   {
    "type": "text",
    "text": "Ventanas de aluminio o PVC en el tamaño y la posición que necesites, abatibles o correderas.",
-   "html": "<p>Ventanas de aluminio o PVC en el tamaño y la posición que necesites, abatibles o correderas.</p>",
+   "html": "<p><strong>Ventanas</strong> de aluminio o PVC en el tamaño y la posición que necesites, abatibles o correderas.</p>",
    "nuevo": true
   },
   {
@@ -91,7 +91,7 @@
   {
    "type": "text",
    "text": "Puertas peatonales, correderas o acristaladas, según el uso: oficina, local, vivienda o almacén.",
-   "html": "<p>Puertas peatonales, correderas o acristaladas, según el uso: oficina, local, vivienda o almacén.</p>",
+   "html": "<p><strong>Puertas</strong> peatonales, correderas o acristaladas, según el uso: oficina, local, vivienda o almacén.</p>",
    "nuevo": true
   },
   {
@@ -102,7 +102,7 @@
   {
    "type": "text",
    "text": "Un buen sellado evita la entrada de agua y de aire y protege los bordes del corte contra la corrosión.",
-   "html": "<p>Un buen sellado evita la entrada de agua y de aire y protege los bordes del corte contra la corrosión.</p>",
+   "html": "<p>Un buen <strong>sellado</strong> evita la entrada de agua y de aire y protege los bordes del corte contra la corrosión.</p>",
    "nuevo": true
   },
   {
@@ -113,7 +113,7 @@
   {
    "type": "text",
    "text": "Rejas, persianas o cierres de seguridad para proteger las nuevas aperturas.",
-   "html": "<p>Rejas, persianas o cierres de seguridad para proteger las nuevas aperturas.</p>",
+   "html": "<p>Rejas, persianas o cierres de <strong>seguridad</strong> para proteger las nuevas aperturas.</p>",
    "nuevo": true
   },
   {
@@ -123,14 +123,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/donde-se-instalan-ventanas-y-puertas-en-un-contenedor.jpg",
+   "alt": "Dónde se instalan ventanas y puertas en un contenedor",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Son imprescindibles en oficinas, locales comerciales, casas y módulos sanitarios. También se añaden puertas de acceso en almacenes para entrar sin abrir las puertas grandes.",
-   "html": "<p>Son imprescindibles en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/locales-comerciales/\">locales comerciales</a>, <a href=\"/casas/\">casas</a> y <a href=\"/sanitarios/\">módulos sanitarios</a>. También se añaden puertas de acceso en almacenes para entrar sin abrir las puertas grandes.</p>",
+   "html": "<p>Son imprescindibles en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/locales-comerciales/\">locales comerciales</a>, <a href=\"/casas/\">casas</a> y <a href=\"/sanitarios/\">módulos sanitarios</a>. También se añaden <strong>puertas</strong> de acceso en almacenes para entrar sin abrir las puertas grandes.</p>",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/que-tener-en-cuenta-al-abrir-huecos-en-un-contenedor.jpg",
+   "alt": "Qué tener en cuenta al abrir huecos en un contenedor",
    "nuevo": true
   },
   {
@@ -174,7 +174,7 @@
   {
    "type": "text",
    "text": "Los bordes cortados se tratan para que no se oxiden. Después se pintan.",
-   "html": "<p>Los bordes cortados se tratan para que no se oxiden. Después se <a href=\"/pintura-contenedores-maritimos/\">pintan</a>.</p>",
+   "html": "<p>Los <strong>bordes</strong> cortados se tratan para que no se oxiden. Después se <a href=\"/pintura-contenedores-maritimos/\">pintan</a>.</p>",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/preguntas-frecuentes-sobre-ventanas-y-puertas-para-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre ventanas y puertas para contenedores marítimos",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/ventanas-puertas-contenedores-maritimos/pide-presupuesto-de-ventanas-y-puertas-para-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de ventanas y puertas para contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {

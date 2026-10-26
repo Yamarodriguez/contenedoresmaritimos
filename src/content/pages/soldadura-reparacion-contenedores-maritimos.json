@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "La soldadura y reparación de contenedores marítimos recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.",
-   "html": "<p>La soldadura y reparación de contenedores marítimos recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.</p>",
+   "html": "<p>La <strong>soldadura y reparación de contenedores marítimos</strong> recupera la chapa, las puertas y la estructura de contenedores usados y prepara cualquier contenedor para su nuevo uso. Te explicamos qué se repara y qué conviene revisar.</p>",
    "nuevo": true
   },
   {
@@ -39,15 +39,15 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos.svg",
-   "alt": "Soldadura y reparación",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/que-es-la-soldadura-y-reparacion-de-contenedores-maritimos.svg",
+   "alt": "Qué es la soldadura y reparación de contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Reparar un contenedor marítimo consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La soldadura es la técnica habitual, seguida del tratamiento anticorrosión.",
-   "html": "<p>Reparar un contenedor marítimo consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La soldadura es la técnica habitual, seguida del tratamiento anticorrosión.</p>",
+   "html": "<p>Reparar un <strong>contenedor marítimo</strong> consiste en corregir los daños de la chapa, las puertas o el marco y reforzar la estructura cuando se modifica. La <strong>soldadura</strong> es la técnica habitual, seguida del tratamiento anticorrosión.</p>",
    "nuevo": true
   },
   {
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/que-se-repara-en-un-contenedor-maritimo.jpg",
+   "alt": "Qué se repara en un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -91,7 +91,7 @@
   {
    "type": "text",
    "text": "Reparación de bisagras, barras de cierre y juntas para que la puerta cierre bien y sea estanca.",
-   "html": "<p>Reparación de bisagras, barras de cierre y juntas para que la puerta cierre bien y sea estanca.</p>",
+   "html": "<p>Reparación de bisagras, barras de cierre y <strong>juntas</strong> para que la puerta cierre bien y sea estanca.</p>",
    "nuevo": true
   },
   {
@@ -123,8 +123,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/cuando-hay-que-reparar-un-contenedor-maritimo.jpg",
+   "alt": "Cuándo hay que reparar un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/que-revisar-antes-de-reparar-o-comprar-un-contenedor-usado.jpg",
+   "alt": "Qué revisar antes de reparar o comprar un contenedor usado",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/preguntas-frecuentes-sobre-soldadura-y-reparacion-de-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre soldadura y reparación de contenedores marítimos",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/soldadura-reparacion-contenedores-maritimos/pide-presupuesto-de-soldadura-y-reparacion-de-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de soldadura y reparación de contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {

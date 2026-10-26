@@ -22,7 +22,7 @@ const { data } = Astro.props as { data: any };
 const seo = seoDe(data.slug);
 const legal = data.blocks.length === 0 ? textoLegal(data.slug) : null;
 const bloques = legal ? [{ type: 'text', html: legal, nuevo: true }] : data.blocks;
-const pagina = armarPagina(bloques, { servicios: !data.nueva && !legal });
+const pagina = armarPagina(bloques, { servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
 const jsonld = data.faq ? JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: data.faq.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }) : undefined;
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Pintura">
+  <rect width="400" height="300" fill="#eaf1f8"/>
+  <circle cx="200" cy="150" r="118" fill="#fff" stroke="#d8e2ec" stroke-width="4"/>
+  <rect x="140" y="85" width="120" height="48" rx="8" fill="#f2c200" stroke="#0b2a4a" stroke-width="5"/><path d="M260 109 h24 v40 h-70 v30" fill="none" stroke="#0b2a4a" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/><rect x="198" y="179" width="32" height="56" rx="6" fill="#0b2a4a"/>
+</svg>

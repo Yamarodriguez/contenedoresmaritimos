@@ -7,11 +7,14 @@
 //   node scripts/nueva-pagina-servicios.mjs
 // No se editan a mano los JSON de las páginas.
 import fs from 'node:fs';
+import { crearFotos, negritas, palabrasClave } from './lib-contenido.mjs';
 
 const hub = JSON.parse(fs.readFileSync('src/data/servicios.json', 'utf8'));
 const { servicios } = JSON.parse(fs.readFileSync('src/data/servicios-paginas.json', 'utf8'));
 const fotos = JSON.parse(fs.readFileSync('src/data/fotos-seccion.json', 'utf8'));
 const dominio = 'https://contenedoresmaritimos.net';
+const { fotoDeH2, ejecutar } = crearFotos();
+
 
 // Quita las páginas de servicios que ya no estén en los datos.
 for (const f of fs.readdirSync('src/content/pages')) {
@@ -41,11 +44,12 @@ for (const s of servicios) {
 `);
 }
 
-const parr = (txt) => ({ type: 'text', text: txt.replace(/<[^>]+>/g, ''), html: `<p>${txt}</p>`, nuevo: true });
+const parr = (txt, terminos = []) => { const html = terminos.length ? negritas(txt, terminos) : txt; return { type: 'text', text: html.replace(/<[^>]+>/g, ''), html: `<p>${html}</p>`, nuevo: true }; };
 const boton = (texto, href) => ({ type: 'button', text: texto, href: `${dominio}${href}` });
-const imagenFoto = (clave) => ({ type: 'image', src: fotos[clave].src, alt: fotos[clave].alt, ajuste: fotos[clave].ajuste, nuevo: true });
 
 // ---- Página de cada servicio ----
+// Cada H2 lleva su foto (copia con nombre sacado del H2) y negritas en las palabras
+// clave del H2 dentro de sus textos.
 const pregunta = {
   'ventanas-puertas-contenedores-maritimos': '¿Qué son las',
   'cortes-aberturas-contenedores-maritimos': '¿Qué son los',
@@ -54,30 +58,36 @@ const pregunta = {
 const rotacion = ['construcc', 'segunda', 'venta', 'transporte', 'alquiler', 'comprar'];
 for (const s of servicios) {
   let r = 0;
-  const foto = () => imagenFoto(rotacion[r++ % rotacion.length]);
+  const carpeta = s.slug;
+  const base = [s.clave, s.nombre.toLowerCase(), 'contenedores marítimos', 'contenedor marítimo'];
+  const foto = (h2) => { const f = fotos[rotacion[r++ % rotacion.length]]; return fotoDeH2(carpeta, h2, f.src, f.ajuste); };
+  const t = (txt, h2) => parr(txt, palabrasClave(h2, base));
   const relacionados = servicios.filter((o) => o.slug !== s.slug)
     .map((o) => `<a href="/${o.slug}/">${o.nombre}</a>`).join(' · ');
+  const h2Que = `${pregunta[s.slug] ?? '¿Qué es la'} ${s.clave}?`;
+  const h2Pres = `Pide presupuesto de ${s.clave}`;
+  const h2Faq = `Preguntas frecuentes sobre ${s.clave}`;
   const blocks = [
     { type: 'heading', tag: 'h1', text: s.clave.charAt(0).toUpperCase() + s.clave.slice(1) },
-    parr(s.intro),
-    { type: 'heading', tag: 'h2', text: `${pregunta[s.slug] ?? '¿Qué es la'} ${s.clave}?` },
-    { type: 'image', src: `/img/servicios/${s.slug}.svg`, alt: s.nombre, ajuste: 'contain', nuevo: true },
-    parr(s.que_es),
+    parr(s.intro, base),
+    { type: 'heading', tag: 'h2', text: h2Que },
+    fotoDeH2(carpeta, h2Que, `/img/servicios/${s.slug}.svg`, 'contain'),
+    t(s.que_es, h2Que),
     { type: 'heading', tag: 'h2', text: s.incluye_h2 },
-    foto(),
-    ...s.incluye.flatMap(([h3, t]) => [{ type: 'heading', tag: 'h3', text: h3 }, parr(t)]),
+    foto(s.incluye_h2),
+    ...s.incluye.flatMap(([h3, x]) => [{ type: 'heading', tag: 'h3', text: h3 }, t(x, h3)]),
     { type: 'heading', tag: 'h2', text: s.usos_h2 },
-    foto(),
-    parr(s.usos),
+    foto(s.usos_h2),
+    t(s.usos, s.usos_h2),
     { type: 'heading', tag: 'h2', text: s.consideraciones_h2 },
-    foto(),
-    ...s.consideraciones.flatMap(([h3, t]) => [{ type: 'heading', tag: 'h3', text: h3 }, parr(t)]),
-    { type: 'heading', tag: 'h2', text: `Preguntas frecuentes sobre ${s.clave}` },
-    foto(),
-    ...s.faq.flatMap(([q, a]) => [{ type: 'heading', tag: 'h3', text: q }, parr(a)]),
-    { type: 'heading', tag: 'h2', text: `Pide presupuesto de ${s.clave}` },
-    foto(),
-    parr('Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.'),
+    foto(s.consideraciones_h2),
+    ...s.consideraciones.flatMap(([h3, x]) => [{ type: 'heading', tag: 'h3', text: h3 }, t(x, h3)]),
+    { type: 'heading', tag: 'h2', text: h2Faq },
+    foto(h2Faq),
+    ...s.faq.flatMap(([q, a]) => [{ type: 'heading', tag: 'h3', text: q }, t(a, q)]),
+    { type: 'heading', tag: 'h2', text: h2Pres },
+    foto(h2Pres),
+    t('Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.', h2Pres),
     { type: 'button', text: 'Pide presupuesto', href: `${dominio}/contacto/` },
     { type: 'button', text: 'Todos los servicios', href: `${dominio}/${hub.slug}/` },
     parr(`<strong>Otros servicios:</strong> ${relacionados}`),
@@ -94,15 +104,18 @@ for (const s of servicios) {
 // ---- Página resumen: cada servicio es un H3 con enlace a su página ----
 const hubBlocks = [
   { type: 'heading', tag: 'h1', text: hub.h1 },
-  parr(hub.entrada),
+  parr(hub.entrada, ['servicios', 'contenedor marítimo', 'presupuesto']),
 ];
+const hubRot = ['construcc', 'comprar', 'segunda'];
+let hubI = 0;
 for (const seccion of hub.secciones) {
   hubBlocks.push({ type: 'heading', tag: 'h2', text: seccion.h2 });
-  if (seccion.texto) hubBlocks.push(parr(seccion.texto));
+  { const f = fotos[hubRot[hubI++ % hubRot.length]]; hubBlocks.push(fotoDeH2(hub.slug, seccion.h2, f.src, f.ajuste)); }
+  if (seccion.texto) hubBlocks.push(parr(seccion.texto, palabrasClave(seccion.h2, ['contenedores marítimos', 'contenedor marítimo'])));
   if (seccion.lista) {
     for (const s of servicios) {
       hubBlocks.push({ type: 'heading', tag: 'h3', text: s.clave.charAt(0).toUpperCase() + s.clave.slice(1) });
-      hubBlocks.push(parr(`${s.resumen} <a href="/${s.slug}/">Más información sobre ${s.clave}</a>.`));
+      hubBlocks.push(parr(`${s.resumen} <a href="/${s.slug}/">Más información sobre ${s.clave}</a>.`, palabrasClave(s.clave, [s.nombre.toLowerCase()])));
     }
   }
 }
@@ -111,4 +124,5 @@ fs.writeFileSync(`src/content/pages/${hub.slug}.json`, JSON.stringify({
   slug: hub.slug, title: hub.titulo, url: `${dominio}/${hub.slug}/`, meta_description: hub.descripcion,
   menu: 'contenedores-maritimos', nueva: true, blocks: hubBlocks,
 }, null, 1) + '\n');
-console.log(`Servicios: ${servicios.length} páginas + resumen (/${hub.slug}/)`);
+const fotosHechas = await ejecutar([...servicios.map((x) => x.slug), hub.slug]);
+console.log(`Servicios: ${servicios.length} páginas + resumen (/${hub.slug}/), ${fotosHechas} fotos con nombre propio`);

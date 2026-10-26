@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "El aislamiento de contenedores marítimos es clave si vas a usarlos como oficina, local o vivienda: el acero conduce muy bien el calor y el frío. Aquí tienes los tipos de aislamiento, qué incluye el trabajo y cómo pedir presupuesto.",
-   "html": "<p>El aislamiento de contenedores marítimos es clave si vas a usarlos como oficina, local o vivienda: el acero conduce muy bien el calor y el frío. Aquí tienes los tipos de aislamiento, qué incluye el trabajo y cómo pedir presupuesto.</p>",
+   "html": "<p>El <strong>aislamiento de contenedores marítimos</strong> es clave si vas a usarlos como oficina, local o vivienda: el acero conduce muy bien el calor y el frío. Aquí tienes los tipos de aislamiento, qué incluye el trabajo y cómo pedir presupuesto.</p>",
    "nuevo": true
   },
   {
@@ -39,15 +39,15 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/aislamiento-contenedores-maritimos.svg",
-   "alt": "Aislamiento térmico y acústico",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/que-es-el-aislamiento-de-contenedores-maritimos.svg",
+   "alt": "Qué es el aislamiento de contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Aislar un contenedor marítimo consiste en añadir capas de material aislante en paredes, techo y suelo para reducir las pérdidas de calor, evitar la condensación y mejorar el confort acústico del interior.",
-   "html": "<p>Aislar un contenedor marítimo consiste en añadir capas de material aislante en paredes, techo y suelo para reducir las pérdidas de calor, evitar la condensación y mejorar el confort acústico del interior.</p>",
+   "html": "<p>Aislar un <strong>contenedor marítimo</strong> consiste en añadir capas de material aislante en paredes, techo y suelo para reducir las pérdidas de calor, evitar la condensación y mejorar el confort acústico del interior.</p>",
    "nuevo": true
   },
   {
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/tipos-de-aislamiento-para-contenedores-maritimos.jpg",
+   "alt": "Tipos de aislamiento para contenedores marítimos",
    "nuevo": true
   },
   {
@@ -80,7 +80,7 @@
   {
    "type": "text",
    "text": "Una capa que controla el vapor de agua evita que el interior se moje por condensación en las paredes de acero.",
-   "html": "<p>Una capa que controla el vapor de agua evita que el interior se moje por condensación en las paredes de acero.</p>",
+   "html": "<p>Una capa que controla el vapor de agua evita que el interior se moje por <strong>condensación</strong> en las paredes de acero.</p>",
    "nuevo": true
   },
   {
@@ -123,14 +123,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/cuando-es-necesario-aislar-un-contenedor-maritimo.jpg",
+   "alt": "Cuándo es necesario aislar un contenedor marítimo",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Es recomendable en oficinas, casas, locales y cualquier uso en el que haya personas dentro. Para almacenar material puede no ser necesario, salvo que haya que evitar la condensación.",
-   "html": "<p>Es recomendable en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/casas/\">casas</a>, <a href=\"/locales-comerciales/\">locales</a> y cualquier uso en el que haya personas dentro. Para almacenar material puede no ser necesario, salvo que haya que evitar la condensación.</p>",
+   "html": "<p>Es recomendable en <a href=\"/oficinas/\">oficinas</a>, <a href=\"/casas/\">casas</a>, <a href=\"/locales-comerciales/\">locales</a> y cualquier uso en el que haya personas dentro. Para almacenar material puede no ser <strong>necesario</strong>, salvo que haya que evitar la condensación.</p>",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/que-tener-en-cuenta-al-aislar-un-contenedor-maritimo.jpg",
+   "alt": "Qué tener en cuenta al aislar un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -152,7 +152,7 @@
   {
    "type": "text",
    "text": "El aislante y el revestimiento reducen algo el espacio útil: se calcula según el grosor elegido.",
-   "html": "<p>El aislante y el revestimiento reducen algo el espacio útil: se calcula según el grosor elegido.</p>",
+   "html": "<p>El aislante y el revestimiento reducen algo el <strong>espacio</strong> útil: se calcula según el grosor elegido.</p>",
    "nuevo": true
   },
   {
@@ -163,7 +163,7 @@
   {
    "type": "text",
    "text": "Un contenedor bien aislado necesita ventilación para renovar el aire y evitar la humedad. Mira la climatización.",
-   "html": "<p>Un contenedor bien aislado necesita ventilación para renovar el aire y evitar la humedad. Mira la <a href=\"/climatizacion-contenedores-maritimos/\">climatización</a>.</p>",
+   "html": "<p>Un contenedor bien aislado necesita <strong>ventilación</strong> para renovar el aire y evitar la humedad. Mira la <a href=\"/climatizacion-contenedores-maritimos/\">climatización</a>.</p>",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/preguntas-frecuentes-sobre-aislamiento-de-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre aislamiento de contenedores marítimos",
    "nuevo": true
   },
   {
@@ -207,7 +207,7 @@
   {
    "type": "text",
    "text": "Sí, según el proyecto. Aislar por fuera conserva el espacio interior, aunque cambia el aspecto exterior.",
-   "html": "<p>Sí, según el proyecto. Aislar por fuera conserva el espacio interior, aunque cambia el aspecto exterior.</p>",
+   "html": "<p>Sí, según el proyecto. <strong>Aislar</strong> por fuera conserva el espacio interior, aunque cambia el aspecto exterior.</p>",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/aislamiento-contenedores-maritimos/pide-presupuesto-de-aislamiento-de-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de aislamiento de contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {

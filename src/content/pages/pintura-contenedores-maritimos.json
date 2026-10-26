@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "La pintura de contenedores marítimos protege el acero de la corrosión y deja el contenedor del color que necesites. Te contamos qué pasos incluye, qué influye en el resultado y cómo pedir presupuesto.",
-   "html": "<p>La pintura de contenedores marítimos protege el acero de la corrosión y deja el contenedor del color que necesites. Te contamos qué pasos incluye, qué influye en el resultado y cómo pedir presupuesto.</p>",
+   "html": "<p>La <strong>pintura de contenedores marítimos</strong> protege el acero de la corrosión y deja el contenedor del color que necesites. Te contamos qué pasos incluye, qué influye en el resultado y cómo pedir presupuesto.</p>",
    "nuevo": true
   },
   {
@@ -39,15 +39,15 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/pintura-contenedores-maritimos.svg",
-   "alt": "Pintura",
+   "src": "/img/servicios/pintura-contenedores-maritimos/que-es-la-pintura-de-contenedores-maritimos.svg",
+   "alt": "Qué es la pintura de contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Pintar un contenedor marítimo es mucho más que dar color: el acero está expuesto a la lluvia, al salitre y al sol, y una buena preparación y unas capas adecuadas alargan su vida útil, sobre todo en contenedores de segunda mano.",
-   "html": "<p>Pintar un contenedor marítimo es mucho más que dar color: el acero está expuesto a la lluvia, al salitre y al sol, y una buena preparación y unas capas adecuadas alargan su vida útil, sobre todo en contenedores de segunda mano.</p>",
+   "html": "<p>Pintar un <strong>contenedor marítimo</strong> es mucho más que dar color: el acero está expuesto a la lluvia, al salitre y al sol, y una buena preparación y unas capas adecuadas alargan su vida útil, sobre todo en contenedores de segunda mano.</p>",
    "nuevo": true
   },
   {
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/pintura-contenedores-maritimos/que-incluye-la-pintura-de-un-contenedor-maritimo.jpg",
+   "alt": "Qué incluye la pintura de un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -69,7 +69,7 @@
   {
    "type": "text",
    "text": "Se limpia el contenedor y se elimina la pintura suelta, la suciedad y el óxido para que la nueva capa agarre bien.",
-   "html": "<p>Se limpia el contenedor y se elimina la pintura suelta, la suciedad y el óxido para que la nueva capa agarre bien.</p>",
+   "html": "<p>Se limpia el contenedor y se elimina la <strong>pintura</strong> suelta, la suciedad y el óxido para que la nueva capa agarre bien.</p>",
    "nuevo": true
   },
   {
@@ -80,7 +80,7 @@
   {
    "type": "text",
    "text": "Las zonas con corrosión se tratan antes de pintar para que no vuelva a aparecer bajo la pintura.",
-   "html": "<p>Las zonas con corrosión se tratan antes de pintar para que no vuelva a aparecer bajo la pintura.</p>",
+   "html": "<p>Las zonas con corrosión se tratan antes de pintar para que no vuelva a aparecer bajo la <strong>pintura</strong>.</p>",
    "nuevo": true
   },
   {
@@ -91,7 +91,7 @@
   {
    "type": "text",
    "text": "Una capa de imprimación protege el acero y mejora la adherencia del acabado.",
-   "html": "<p>Una capa de imprimación protege el acero y mejora la adherencia del acabado.</p>",
+   "html": "<p>Una capa de <strong>imprimación</strong> protege el acero y mejora la adherencia del acabado.</p>",
    "nuevo": true
   },
   {
@@ -102,7 +102,7 @@
   {
    "type": "text",
    "text": "Capas de esmalte o pintura para exteriores en el color elegido, con un acabado resistente a la intemperie.",
-   "html": "<p>Capas de esmalte o pintura para exteriores en el color elegido, con un acabado resistente a la intemperie.</p>",
+   "html": "<p>Capas de esmalte o <strong>pintura</strong> para exteriores en el color elegido, con un <strong>acabado</strong> resistente a la intemperie.</p>",
    "nuevo": true
   },
   {
@@ -113,7 +113,7 @@
   {
    "type": "text",
    "text": "Si lo necesitas, se pueden añadir o tapar rótulos y logotipos para personalizar el contenedor.",
-   "html": "<p>Si lo necesitas, se pueden añadir o tapar rótulos y logotipos para personalizar el contenedor.</p>",
+   "html": "<p>Si lo necesitas, se pueden añadir o tapar rótulos y <strong>logotipos</strong> para personalizar el contenedor.</p>",
    "nuevo": true
   },
   {
@@ -123,14 +123,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/pintura-contenedores-maritimos/cuando-conviene-pintar-un-contenedor-maritimo.jpg",
+   "alt": "Cuándo conviene pintar un contenedor marítimo",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Pintar un contenedor tiene sentido al comprar un contenedor de segunda mano, al convertirlo en oficina o local, o cuando quieres cambiar su aspecto y protegerlo.",
-   "html": "<p>Pintar un contenedor tiene sentido al comprar un <a href=\"/segunda-mano/\">contenedor de segunda mano</a>, al convertirlo en <a href=\"/oficinas/\">oficina</a> o <a href=\"/locales-comerciales/\">local</a>, o cuando quieres cambiar su aspecto y protegerlo.</p>",
+   "html": "<p><strong>Pintar</strong> un contenedor tiene sentido al comprar un <a href=\"/segunda-mano/\">contenedor de segunda mano</a>, al convertirlo en <a href=\"/oficinas/\">oficina</a> o <a href=\"/locales-comerciales/\">local</a>, o cuando quieres cambiar su aspecto y protegerlo.</p>",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/pintura-contenedores-maritimos/que-tener-en-cuenta-al-pintar-un-contenedor-maritimo.jpg",
+   "alt": "Qué tener en cuenta al pintar un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/pintura-contenedores-maritimos/preguntas-frecuentes-sobre-pintura-de-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre pintura de contenedores marítimos",
    "nuevo": true
   },
   {
@@ -196,7 +196,7 @@
   {
    "type": "text",
    "text": "Sí. Puedes elegir el color que prefieras; te asesoramos según el uso y el clima.",
-   "html": "<p>Sí. Puedes elegir el color que prefieras; te asesoramos según el uso y el clima.</p>",
+   "html": "<p>Sí. Puedes <strong>elegir</strong> el color que prefieras; te asesoramos según el uso y el clima.</p>",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/pintura-contenedores-maritimos/pide-presupuesto-de-pintura-de-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de pintura de contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {

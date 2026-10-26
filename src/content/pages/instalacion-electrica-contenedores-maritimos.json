@@ -29,7 +29,7 @@
   {
    "type": "text",
    "text": "La instalación eléctrica en contenedores marítimos convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.",
-   "html": "<p>La instalación eléctrica en contenedores marítimos convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.</p>",
+   "html": "<p>La <strong>instalación eléctrica en contenedores marítimos</strong> convierte una caja de acero en un espacio utilizable como oficina, local, almacén o vivienda. Aquí te explicamos qué incluye, qué conviene tener en cuenta y cómo pedir presupuesto.</p>",
    "nuevo": true
   },
   {
@@ -39,15 +39,15 @@
   },
   {
    "type": "image",
-   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos.svg",
-   "alt": "Instalación eléctrica",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/que-es-la-instalacion-electrica-en-contenedores-maritimos.svg",
+   "alt": "Qué es la instalación eléctrica en contenedores marítimos",
    "ajuste": "contain",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Una instalación eléctrica en un contenedor marítimo es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.",
-   "html": "<p>Una instalación eléctrica en un contenedor marítimo es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.</p>",
+   "html": "<p>Una <strong>instalación eléctrica</strong> en un <strong>contenedor marítimo</strong> es el conjunto de cuadro, protecciones, cableado, iluminación y tomas de corriente que lleva electricidad al interior del contenedor de forma segura. Como la estructura es de acero, el diseño debe pensarse desde el principio para el uso que vas a darle.</p>",
    "nuevo": true
   },
   {
@@ -57,8 +57,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/construcciones-con-contenedores.jpg",
-   "alt": "construcciones-con-contenedores",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/que-incluye-una-instalacion-electrica-en-un-contenedor-maritimo.jpg",
+   "alt": "Qué incluye una instalación eléctrica en un contenedor marítimo",
    "nuevo": true
   },
   {
@@ -69,7 +69,7 @@
   {
    "type": "text",
    "text": "El cuadro reúne las protecciones (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga.",
-   "html": "<p>El cuadro reúne las protecciones (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga.</p>",
+   "html": "<p>El <strong>cuadro</strong> reúne las <strong>protecciones</strong> (diferencial y magnetotérmicos) que cortan la corriente ante una sobrecarga o una fuga.</p>",
    "nuevo": true
   },
   {
@@ -80,7 +80,7 @@
   {
    "type": "text",
    "text": "Los cables se llevan por canalizaciones fijadas a la estructura, protegidos del roce con la chapa y de la humedad.",
-   "html": "<p>Los cables se llevan por canalizaciones fijadas a la estructura, protegidos del roce con la chapa y de la humedad.</p>",
+   "html": "<p>Los cables se llevan por <strong>canalizaciones</strong> fijadas a la estructura, protegidos del roce con la chapa y de la humedad.</p>",
    "nuevo": true
   },
   {
@@ -102,7 +102,7 @@
   {
    "type": "text",
    "text": "Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, puntos de datos.",
-   "html": "<p>Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, puntos de datos.</p>",
+   "html": "<p>Enchufes, tomas especiales para maquinaria o climatización y, si hace falta, <strong>puntos</strong> de datos.</p>",
    "nuevo": true
   },
   {
@@ -113,7 +113,7 @@
   {
    "type": "text",
    "text": "Al ser una estructura metálica, la toma de tierra es esencial para la seguridad de las personas que lo usan.",
-   "html": "<p>Al ser una estructura metálica, la toma de tierra es esencial para la seguridad de las personas que lo usan.</p>",
+   "html": "<p>Al ser una estructura metálica, la toma de <strong>tierra</strong> es esencial para la seguridad de las personas que lo usan.</p>",
    "nuevo": true
   },
   {
@@ -123,8 +123,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
-   "alt": "Contenedores-marítimos-segunda-mano",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/para-que-usos-se-instala-electricidad-en-un-contenedor.jpg",
+   "alt": "Para qué usos se instala electricidad en un contenedor",
    "nuevo": true
   },
   {
@@ -140,8 +140,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
-   "alt": "Contenedores-marítimos-venta",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/que-tener-en-cuenta-antes-de-instalar-electricidad-en-un-contenedor.jpg",
+   "alt": "Qué tener en cuenta antes de instalar electricidad en un contenedor",
    "nuevo": true
   },
   {
@@ -152,7 +152,7 @@
   {
    "type": "text",
    "text": "Para alimentar el contenedor hace falta una acometida o un punto de conexión autorizado, según la normativa de tu país.",
-   "html": "<p>Para alimentar el contenedor hace falta una acometida o un punto de conexión autorizado, según la normativa de tu país.</p>",
+   "html": "<p>Para alimentar el contenedor hace falta una acometida o un punto de <strong>conexión</strong> autorizado, según la normativa de tu país.</p>",
    "nuevo": true
   },
   {
@@ -184,8 +184,8 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/transporte-contenedores-maritimos.png",
-   "alt": "transporte-contenedores-marítimos",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/preguntas-frecuentes-sobre-instalacion-electrica-en-contenedores-maritimos.jpg",
+   "alt": "Preguntas frecuentes sobre instalación eléctrica en contenedores marítimos",
    "nuevo": true
   },
   {
@@ -207,7 +207,7 @@
   {
    "type": "text",
    "text": "Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas.",
-   "html": "<p>Sí. Como el contenedor es una estructura metálica, la puesta a tierra es imprescindible para evitar descargas.</p>",
+   "html": "<p>Sí. Como el contenedor es una estructura metálica, la puesta a <strong>tierra</strong> es imprescindible para evitar descargas.</p>",
    "nuevo": true
   },
   {
@@ -228,14 +228,14 @@
   },
   {
    "type": "image",
-   "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
-   "alt": "alquiler-contenedores-marítimos",
+   "src": "/img/servicios/instalacion-electrica-contenedores-maritimos/pide-presupuesto-de-instalacion-electrica-en-contenedores-maritimos.jpg",
+   "alt": "Pide presupuesto de instalación eléctrica en contenedores marítimos",
    "nuevo": true
   },
   {
    "type": "text",
    "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
-   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
    "nuevo": true
   },
   {
