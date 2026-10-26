@@ -10,6 +10,7 @@ import serviciosDatos from '../data/servicios-paginas.json';
 import fotos from '../data/fotos-seccion.json';
 import { resumenDe, tablaDe } from './fichas';
 import { extrasCiudad, textosExtra } from './ciudades';
+import faqPaginas from '../data/faq-paginas.json';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
 export type Consulta = { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
@@ -114,6 +115,20 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
       const sec = t.seccion === 'primera' ? titulos[0] : titulos.find((x) => new RegExp(t.seccion, 'i').test(x.titular?.text || ''));
       if (sec) sec.cuerpo.push({ tipo: 'bloque', bloque: { type: 'text', html: `<p>${t.html}</p>`, nuevo: true } });
     }
+  }
+
+  // Preguntas frecuentes añadidas al final de las páginas principales (faq-paginas.json).
+  const faq = opciones.slug ? (faqPaginas as Record<string, { tema: string; faq: string[][] }>)[opciones.slug] : undefined;
+  if (faq) {
+    elementos.push({
+      tipo: 'seccion',
+      titular: { type: 'heading', tag: 'h2', text: `Preguntas frecuentes sobre ${faq.tema}`, nuevo: true },
+      imagen: { type: 'image', src: fotos.comprar.src, alt: fotos.comprar.alt, nuevo: true },
+      cuerpo: faq.faq.flatMap(([q, a]) => [
+        { tipo: 'bloque' as const, bloque: { type: 'heading', tag: 'h3', text: q, nuevo: true } },
+        { tipo: 'bloque' as const, bloque: { type: 'text', html: `<p>${a}</p>`, nuevo: true } },
+      ]),
+    });
   }
 
   // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).

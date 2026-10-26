@@ -300,6 +300,21 @@
     },
     "contenedores-para-construccion": {
       "resumen": "En construcción y obras, los contenedores marítimos se usan como almacén de material y herramienta, caseta u oficina de obra, vestuarios y aseos. Para almacén suele bastar uno de 20 pies; en obras grandes, uno de 40. Se pueden comprar o alquilar y acondicionar con electricidad, ventanas y aseos."
+    },
+    "segunda-mano": {
+      "resumen": "Un contenedor marítimo de segunda mano es más económico que uno nuevo: según nuestra lista orientativa, entre 500 y 2.500 € uno de 20 pies y entre 1.800 y 5.000 € uno de 40 pies. Antes de comprarlo, revisa el suelo, las esquinas, el techo y el cierre de las puertas."
+    },
+    "alquiler": {
+      "resumen": "El alquiler de contenedores marítimos es la opción práctica para usos temporales: eventos, almacenaje u obras. Indica la dirección de entrega y el tiempo que lo necesitas y te asesoramos con el precio."
+    },
+    "transporte": {
+      "resumen": "Los contenedores marítimos se transportan por carretera en camión con grúa o con plataforma. Realizamos el transporte tanto si compras el contenedor aquí como si ya tienes uno; en el destino hace falta un terreno firme y espacio para que el camión maniobre."
+    },
+    "venta": {
+      "resumen": "Si tienes un contenedor marítimo, nuevo o de segunda mano, y quieres venderlo, contacta con nosotros con su tamaño, tipo, estado, fotos y ubicación. También vendemos contenedores nuevos y usados de distintos tipos y tamaños."
+    },
+    "comprar": {
+      "resumen": "Para comprar un contenedor marítimo, elige el tamaño (10, 20, 40 o 45 pies), decide si lo quieres nuevo o de segunda mano y pide presupuesto con la dirección de entrega para que incluya el transporte."
     }
   }
 }

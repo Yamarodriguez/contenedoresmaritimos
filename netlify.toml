@@ -10,3 +10,35 @@
   for = "/*"
   [headers.values]
     X-Robots-Tag = "noindex, nofollow"
+
+# --- Direcciones de la web antigua en WordPress (Fase 7) ---
+# Las fotos tenían la ruta /wp-content/uploads/AAAA/MM/foto.jpg y ahora están en /img/AAAA/MM/.
+# Mantener estas redirecciones conserva el posicionamiento en Google Imágenes y los enlaces externos.
+[[redirects]]
+  from = "/wp-content/uploads/*"
+  to = "/img/:splat"
+  status = 301
+
+# Mapas del sitio de Yoast que Google ya conoce -> el mapa nuevo.
+[[redirects]]
+  from = "/sitemap_index.xml"
+  to = "/sitemap.xml"
+  status = 301
+[[redirects]]
+  from = "/page-sitemap.xml"
+  to = "/sitemap.xml"
+  status = 301
+[[redirects]]
+  from = "/post-sitemap.xml"
+  to = "/sitemap.xml"
+  status = 301
+
+# Feed de WordPress (ya no hay blog) -> portada.
+[[redirects]]
+  from = "/feed/*"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/comments/feed/*"
+  to = "/"
+  status = 301

@@ -1,0 +1,69 @@
+{
+  "_nota": "Preguntas frecuentes AÑADIDAS al final de las páginas principales (el original no se toca), con datos estructurados FAQPage. Redactadas por Claude sin contradecir lo que dice cada página; precios = lista orientativa de /precios/; medidas y pesos = fichas.json.",
+  "precios": {
+    "tema": "precios de contenedores marítimos",
+    "faq": [
+      ["¿Cuánto cuesta un contenedor marítimo de 20 pies?", "Según nuestra lista orientativa, entre 500 y 2.500 € si es usado y entre 1.000 y 3.500 € si es nuevo. El precio final depende del estado, del tipo y del transporte."],
+      ["¿Cuánto cuesta un contenedor marítimo de 40 pies?", "Según nuestra lista orientativa, entre 1.800 y 5.000 € si es usado y entre 3.000 y 7.000 € si es nuevo."],
+      ["¿Qué influye en el precio de un contenedor marítimo?", "El tamaño (10, 20, 40 o 45 pies), si es nuevo o de segunda mano, su estado, el tipo (estándar, High Cube, refrigerado…), las modificaciones que necesites y el transporte hasta tu dirección."],
+      ["¿El precio incluye el transporte?", "Depende de cada presupuesto. Para comparar bien, pide siempre el precio con el transporte y la descarga incluidos."]
+    ]
+  },
+  "medidas": {
+    "tema": "medidas de los contenedores marítimos",
+    "faq": [
+      ["¿Cuánto mide un contenedor marítimo de 20 pies?", "Por fuera mide 6,06 m de largo, 2,44 m de ancho y 2,59 m de alto. Por dentro, unos 5,90 × 2,35 × 2,39 m."],
+      ["¿Cuánto mide un contenedor marítimo de 40 pies?", "Por fuera mide 12,19 m de largo, 2,44 m de ancho y 2,59 m de alto. La versión High Cube mide 2,90 m de alto."],
+      ["¿Cuántos metros cúbicos tiene un contenedor marítimo?", "Unos 33 m³ el de 20 pies, unos 68 m³ el de 40 pies y unos 76 m³ el de 40 pies High Cube."],
+      ["¿Cuánto pesa un contenedor marítimo vacío?", "Aproximadamente 2.200 kg el de 20 pies y 3.750 kg el de 40 pies. El peso exacto varía según el fabricante."]
+    ]
+  },
+  "tipos": {
+    "tema": "tipos de contenedores marítimos",
+    "faq": [
+      ["¿Qué diferencia hay entre un contenedor dry van y un High Cube?", "Tienen el mismo largo y ancho, pero el High Cube es 30 cm más alto (2,90 m por fuera frente a 2,59 m), por lo que tiene más volumen interior."],
+      ["¿Qué es un contenedor open top?", "Es un contenedor con el techo abierto, cubierto con lona, que permite cargar desde arriba con grúa mercancías altas o pesadas."],
+      ["¿Qué contenedor es mejor para hacer una casa u oficina?", "Se suele preferir el High Cube, porque su mayor altura interior da más confort. Mira nuestras casas y oficinas con contenedores."]
+    ]
+  },
+  "segunda-mano": {
+    "tema": "contenedores marítimos de segunda mano",
+    "faq": [
+      ["¿Qué hay que revisar al comprar un contenedor de segunda mano?", "El suelo, las esquinas, el techo, el estado de la chapa y que las puertas cierren bien y sus juntas estén enteras."],
+      ["¿Un contenedor marítimo usado es estanco?", "Si está en buen estado, sí. Conviene comprobarlo antes, sobre todo en el techo y en las juntas de las puertas."],
+      ["¿Cuánto cuesta un contenedor marítimo de segunda mano?", "Según nuestra lista orientativa, entre 500 y 2.500 € uno de 20 pies y entre 1.800 y 5.000 € uno de 40 pies, según su estado."]
+    ]
+  },
+  "alquiler": {
+    "tema": "alquiler de contenedores marítimos",
+    "faq": [
+      ["¿Para qué se puede alquilar un contenedor marítimo?", "Para eventos, almacenaje, obras y cualquier uso temporal en el que necesites un espacio cerrado y seguro."],
+      ["¿Es mejor alquilar o comprar un contenedor?", "Para usos cortos suele compensar el alquiler; si lo vas a usar de forma permanente, la compra, nueva o de segunda mano."],
+      ["¿El alquiler incluye el transporte?", "Depende del presupuesto: indica la dirección de entrega y el tiempo que lo necesitas para que te demos el precio completo."]
+    ]
+  },
+  "transporte": {
+    "tema": "transporte de contenedores marítimos",
+    "faq": [
+      ["¿Cómo se transporta un contenedor marítimo?", "Por carretera, en un camión con grúa o con plataforma, que lo descarga en el lugar de destino."],
+      ["¿Qué espacio hace falta para descargar un contenedor?", "Un terreno firme y nivelado y espacio para que el camión maniobre: un contenedor de 40 pies mide 12,19 m de largo y uno de 20 pies, 6,06 m."],
+      ["¿Podéis transportar un contenedor que ya tengo?", "Sí: realizamos el transporte tanto si compras el contenedor aquí como si ya tienes uno."]
+    ]
+  },
+  "venta": {
+    "tema": "venta de contenedores marítimos",
+    "faq": [
+      ["¿Puedo vender mi contenedor marítimo?", "Sí: si tienes un contenedor nuevo o de segunda mano y quieres venderlo, contacta con nosotros."],
+      ["¿Qué datos necesito para vender un contenedor?", "El tamaño y el tipo, su estado, algunas fotos y la ubicación donde está."],
+      ["¿También vendéis contenedores?", "Sí, contenedores marítimos nuevos y de segunda mano de distintos tipos y tamaños. Consulta los tipos y los precios orientativos."]
+    ]
+  },
+  "comprar": {
+    "tema": "comprar un contenedor marítimo",
+    "faq": [
+      ["¿Cómo comprar un contenedor marítimo?", "Elige el tamaño y el tipo, decide si lo quieres nuevo o de segunda mano y pide presupuesto con la dirección de entrega para incluir el transporte."],
+      ["¿Es mejor comprar un contenedor nuevo o usado?", "Uno nuevo dura más y llega en mejor estado; uno de segunda mano es más económico y suficiente para almacenaje u obras si está en buen estado."],
+      ["¿Qué tamaño de contenedor me conviene comprar?", "El de 20 pies es el más versátil; el de 40 pies, para grandes volúmenes; y el de 10 pies, para espacios pequeños. Consulta las medidas."]
+    ]
+  }
+}
