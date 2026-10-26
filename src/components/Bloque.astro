@@ -47,7 +47,14 @@ const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
   <img src={block.src} alt={block.alt || ''} loading="lazy" width="800" height="600" />
 )}
 {block.type === 'map' && (
-  <p class="mapa-nota">[Mapa: {block.address || 'ubicación'} — pendiente de conectar Google Maps en la Fase 2]</p>
+  <div class="mapa">
+    <iframe
+      loading="lazy"
+      src={`https://maps.google.com/maps?q=${encodeURIComponent(block.address || '')}&t=m&z=10&output=embed&iwloc=near`}
+      title={block.address}
+      aria-label={block.address}
+    ></iframe>
+  </div>
 )}
 {block.type === 'contact_form' && (
   <Formulario />

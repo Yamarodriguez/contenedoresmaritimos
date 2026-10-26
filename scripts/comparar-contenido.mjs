@@ -47,6 +47,13 @@ const imagenesDe = (html) => [...zona(html).matchAll(/<img\b[^>]*>/gi)].map((m) 
   return decodeURI(src.split('?')[0].split('/').pop()) + ' | ' + alt;
 });
 
+// Mapas: misma búsqueda y mismo título.
+const mapasDe = (html) => [...zona(html).matchAll(/<iframe\b[^>]*>/gi)].map((m) => {
+  const q = (m[0].match(/maps\?q=([^&"]+)/i) || [])[1] || '';
+  const t = (m[0].match(/title="([^"]*)"/i) || [])[1] || '';
+  return decodeURIComponent(q.replace(/\+/g, ' ')) + ' | ' + t;
+});
+
 const dif = [];
 let comparadas = 0;
 for (const p of paginas) {
@@ -68,6 +75,8 @@ for (const p of paginas) {
   const ia = imagenesDe(fs.readFileSync(ref, 'utf8')), ib = imagenesDe(nuevoHtml);
   let q = 0;
   for (const im of ia) { const i = ib.indexOf(im, q); if (i < 0) dif.push(`${p.url}: falta imagen ${im}`); else q = i + 1; }
+  const ma = mapasDe(fs.readFileSync(ref, 'utf8')), mb = mapasDe(nuevoHtml);
+  if (JSON.stringify(ma) !== JSON.stringify(mb)) dif.push(`${p.url}: mapa distinto (${ma}) vs (${mb})`);
   const ea = enlacesDe(fs.readFileSync(ref, 'utf8')), eb = enlacesDe(nuevoHtml);
   let k = 0;
   for (const h of ea) { const i = eb.indexOf(h, k); if (i < 0) dif.push(`${p.url}: falta enlace ${h}`); else k = i + 1; }
