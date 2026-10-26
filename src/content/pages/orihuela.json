@@ -7,7 +7,7 @@
  "blocks": [
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2024/11/contenedores-maritimos-Orihuela.png",
+   "src": "/img/2024/11/contenedores-maritimos-Orihuela.png",
    "alt": "contenedores-maritimos-Orihuela"
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedores-20-pies.jpg",
+   "src": "/img/2021/12/contenedores-20-pies.jpg",
    "alt": "contenedores-20-pies"
   },
   {
@@ -58,7 +58,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedores-40-pies.jpg",
+   "src": "/img/2021/12/contenedores-40-pies.jpg",
    "alt": "contenedores-40-pies"
   },
   {
@@ -68,7 +68,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/Contenedor-open-top.jpg",
+   "src": "/img/2021/12/Contenedor-open-top.jpg",
    "alt": "Contenedor-open-top"
   },
   {
@@ -78,7 +78,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/Contenedor-flat-rack.jpg",
+   "src": "/img/2021/12/Contenedor-flat-rack.jpg",
    "alt": "Contenedor-flat-rack"
   },
   {
@@ -88,7 +88,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/Contenedor-high-cube.jpg",
+   "src": "/img/2021/12/Contenedor-high-cube.jpg",
    "alt": "Contenedor-high-cube"
   },
   {
@@ -98,7 +98,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedor-refrigerado.jpg",
+   "src": "/img/2021/12/contenedor-refrigerado.jpg",
    "alt": "contenedor-refrigerado"
   },
   {
@@ -108,7 +108,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/open-side-contenedor.jpg",
+   "src": "/img/2021/12/open-side-contenedor.jpg",
    "alt": "open-side-contenedor"
   },
   {
@@ -118,7 +118,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimo.com/wp-content/uploads/2021/12/contenedor-dry-van.jpg",
+   "src": "/img/2021/12/contenedor-dry-van.jpg",
    "alt": "contenedor-dry-van"
   },
   {
@@ -128,7 +128,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedor-cisterna.jpg",
+   "src": "/img/2021/12/contenedor-cisterna.jpg",
    "alt": "contenedor-cisterna"
   },
   {
@@ -138,7 +138,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedores-almacenamiento.jpg",
+   "src": "/img/2021/12/contenedores-almacenamiento.jpg",
    "alt": "contenedores-almacenamiento"
   },
   {
@@ -148,7 +148,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedor-ventilado.jpg",
+   "src": "/img/2021/12/contenedor-ventilado.jpg",
    "alt": "contenedor-ventilado"
   },
   {
@@ -158,7 +158,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/Casas-contenedores.jpg",
+   "src": "/img/2021/12/Casas-contenedores.jpg",
    "alt": "Casas-contenedores"
   },
   {
@@ -168,7 +168,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/contenedores-oficinas.jpg",
+   "src": "/img/2021/12/contenedores-oficinas.jpg",
    "alt": "contenedores-oficinas"
   },
   {
@@ -178,7 +178,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/sanitarios-contenedores.jpg",
+   "src": "/img/2021/12/sanitarios-contenedores.jpg",
    "alt": "sanitarios-contenedores"
   },
   {
@@ -188,7 +188,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimos.net/wp-content/uploads/2021/12/locales-comerciales-contenedores.jpg",
+   "src": "/img/2021/12/locales-comerciales-contenedores.jpg",
    "alt": "locales-comerciales-contenedores"
   },
   {
@@ -203,7 +203,7 @@
   },
   {
    "type": "image",
-   "src": "https://contenedoresmaritimo.com/wp-content/uploads/2021/12/Precios-contenedores-maritimos.jpg",
+   "src": "/img/2021/12/Precios-contenedores-maritimos.jpg",
    "alt": "Precios-contenedores-marítimos"
   },
   {
