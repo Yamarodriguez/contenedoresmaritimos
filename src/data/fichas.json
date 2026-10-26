@@ -213,7 +213,38 @@
       }
     },
     "precios": {
-      "resumen": "Según nuestra lista orientativa, un contenedor marítimo de 20 pies cuesta entre 500 y 2.500 € usado y entre 1.000 y 3.500 € nuevo; uno de 40 pies, entre 1.800 y 5.000 € usado y entre 3.000 y 7.000 € nuevo. El precio final depende del tipo, del estado y del transporte: pide presupuesto para un precio cerrado."
+      "resumen": "Según los precios de mercado revisados en octubre de 2026, un contenedor marítimo de 20 pies cuesta entre 1.200 y 2.000 € usado y entre 2.200 y 3.500 € nuevo; uno de 40 pies, entre 1.500 y 2.800 € usado y entre 3.500 y 5.500 € nuevo, sin IVA ni transporte. El transporte suele sumar entre 250 y 1.500 € según la distancia.",
+      "tablaPrecios": {
+        "h2": "Tabla de precios de contenedores marítimos 2026 (orientativos)",
+        "cabecera": [
+          "Contenedor",
+          "Usado",
+          "Nuevo / One Trip"
+        ],
+        "filas": [
+          [
+            "20 pies",
+            "1.200 – 2.000 €",
+            "2.200 – 3.500 €"
+          ],
+          [
+            "40 pies",
+            "1.500 – 2.800 €",
+            "3.500 – 5.500 €"
+          ],
+          [
+            "40 pies High Cube",
+            "1.800 – 3.300 €",
+            "3.600 – 5.300 €"
+          ],
+          [
+            "Transporte",
+            "250 – 700 € en distancias cortas",
+            "700 – 1.500 € en rutas largas"
+          ]
+        ],
+        "nota": "Precios orientativos sin IVA ni transporte (salvo la fila de transporte), revisados en octubre de 2026 a partir de los precios publicados en el mercado español. El precio final depende del estado, la disponibilidad y la ubicación: pide presupuesto para un precio cerrado."
+      }
     },
     "tipos": {
       "resumen": "Los contenedores marítimos más habituales son los de 20 y 40 pies (dry van o estándar), el High Cube (30 cm más alto), el refrigerado, el open top (techo abierto), el flat rack (sin paredes laterales), el open side (apertura lateral) y el cisterna para líquidos. Además, se adaptan como oficinas, casas, locales o módulos sanitarios."
@@ -302,7 +333,7 @@
       "resumen": "En construcción y obras, los contenedores marítimos se usan como almacén de material y herramienta, caseta u oficina de obra, vestuarios y aseos. Para almacén suele bastar uno de 20 pies; en obras grandes, uno de 40. Se pueden comprar o alquilar y acondicionar con electricidad, ventanas y aseos."
     },
     "segunda-mano": {
-      "resumen": "Un contenedor marítimo de segunda mano es más económico que uno nuevo: según nuestra lista orientativa, entre 500 y 2.500 € uno de 20 pies y entre 1.800 y 5.000 € uno de 40 pies. Antes de comprarlo, revisa el suelo, las esquinas, el techo y el cierre de las puertas."
+      "resumen": "Un contenedor marítimo de segunda mano es más económico que uno nuevo: según los precios de mercado de 2026, entre 1.200 y 2.000 € uno de 20 pies y entre 1.500 y 2.800 € uno de 40 pies, sin IVA ni transporte. Antes de comprarlo, revisa el suelo, las esquinas, el techo y el cierre de las puertas."
     },
     "alquiler": {
       "resumen": "El alquiler de contenedores marítimos es la opción práctica para usos temporales: eventos, almacenaje u obras. Indica la dirección de entrega y el tiempo que lo necesitas y te asesoramos con el precio."

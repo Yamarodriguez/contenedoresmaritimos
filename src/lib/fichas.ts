@@ -5,7 +5,8 @@ import type { Bloque } from './agrupar';
 
 type Cont = { nombre: string; ext: number[]; int: number[]; puerta: number[]; volumen: number; tara: number; carga: number; bruto: number };
 const conts = fichas.contenedores as Record<string, Cont>;
-const paginas = fichas.paginas as Record<string, { resumen?: string; tabla?: { h2: string; tipos: string[] } }>;
+type TablaLibre = { h2: string; cabecera: string[]; filas: string[][]; nota: string };
+const paginas = fichas.paginas as Record<string, { resumen?: string; tabla?: { h2: string; tipos: string[] }; tablaPrecios?: TablaLibre }>;
 
 const m = (n: number) => n.toLocaleString('es-ES', { minimumFractionDigits: 3, maximumFractionDigits: 3 });
 const dims = (d: number[]) => d.map(m).join(' × ') + ' m';
@@ -20,6 +21,8 @@ export function resumenDe(slug: string): string | undefined {
 // Sección con la tabla: maestra (varias filas, una por contenedor) o ficha (una
 // columna por contenedor, una fila por característica).
 export function tablaDe(slug: string): { h2: string; bloque: Bloque } | undefined {
+  const libre = paginas[slug]?.tablaPrecios;
+  if (libre) return { h2: libre.h2, bloque: { type: 'tabla', nuevo: true, cabecera: libre.cabecera, filas: libre.filas, nota: libre.nota } };
   const t = paginas[slug]?.tabla;
   if (!t) return undefined;
   const lista = t.tipos.map((k) => conts[k]).filter(Boolean);
