@@ -14,7 +14,9 @@
   },
   "analytics": {
     "ga4": "",
-    "adsense": ""
+    "adsense": "ca-pub-7333712322602518",
+    "_nota": "Universal Analytics (UA-215837852-1) ya no funciona: falta el ID de GA4 (G-...)."
   },
-  "_nota": "Todos los campos vacíos están pendientes de que Yama los confirme (ficha de marca y datos del negocio). No se ha inventado nada."
+  "_nota": "Todos los campos vacíos están pendientes de que Yama los confirme (ficha de marca y datos del negocio). No se ha inventado nada.",
+  "bing": "1175EEAE881C3E0C1777F93E6C166E6D"
 }

@@ -4,7 +4,7 @@
 # y se vuelve a ejecutar (no se editan los JSON de las páginas a mano).
 import json
 
-FECHA = "26 de octubre de 2026"
+FECHA = "26 de octubre de 2026"  # actualizada al añadir AdSense
 
 PRIVACIDAD = """
 <p>Esta Política de Privacidad explica qué datos personales recoge <strong>{{dominio}}</strong>, para qué los usa y qué derechos tienes sobre ellos, de acuerdo con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD).</p>
@@ -30,7 +30,7 @@ PRIVACIDAD = """
 <h2>4. Cuánto tiempo conservamos tus datos</h2>
 <p>Conservamos tus datos mientras sean necesarios para atender tu consulta y, después, durante los plazos que la ley exija para atender posibles responsabilidades. Pasado ese tiempo, los eliminamos.</p>
 <h2>5. A quién comunicamos tus datos</h2>
-<p>No vendemos tus datos. Para que la web funcione intervienen proveedores tecnológicos que actúan por nuestra cuenta (alojamiento web y envío de formularios), con los que se aplican las garantías que exige la normativa, incluidas las relativas a transferencias internacionales cuando el proveedor está fuera del Espacio Económico Europeo. Solo comunicaremos tus datos a otras personas o empresas si la ley nos obliga o si tú nos lo pides.</p>
+<p>No vendemos tus datos. En la web se muestran anuncios de Google AdSense: Google puede usar cookies e identificadores de tu navegador para mostrarlos, según lo que elijas en su mensaje de privacidad (consulta la <a href="/politica-de-cookies/">Política de Cookies</a>). Para que la web funcione intervienen proveedores tecnológicos que actúan por nuestra cuenta (alojamiento web y envío de formularios), con los que se aplican las garantías que exige la normativa, incluidas las relativas a transferencias internacionales cuando el proveedor está fuera del Espacio Económico Europeo. Solo comunicaremos tus datos a otras personas o empresas si la ley nos obliga o si tú nos lo pides.</p>
 <h2>6. Tus derechos</h2>
 <p>Puedes ejercer en cualquier momento los derechos de <strong>acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad</strong> escribiendo a {{correo}} e indicando el derecho que quieres ejercer. Para proteger tu información, podemos pedirte que acredites tu identidad.</p>
 <p>Si crees que no hemos tratado tus datos correctamente, puedes presentar una reclamación ante la Agencia Española de Protección de Datos (<a href="https://www.aepd.es">www.aepd.es</a>).</p>
@@ -50,9 +50,10 @@ COOKIES = """
 <h2>2. Qué cookies usa este sitio</h2>
 <ul>
 <li><strong>Cookies propias:</strong> este sitio no instala cookies propias de seguimiento, publicidad ni analítica.</li>
+<li><strong>Cookies de terceros — Google AdSense:</strong> mostramos anuncios de Google. Google y sus socios pueden usar cookies para mostrar y medir anuncios, y, si lo aceptas, para personalizarlos según tus intereses. Al entrar en la web, el mensaje de privacidad de Google te permite aceptar, rechazar o configurar estas cookies. Más información en <a href="https://policies.google.com/technologies/ads">cómo usa Google las cookies en publicidad</a>.</li>
 <li><strong>Cookies de terceros — Google Maps:</strong> algunas páginas incluyen un mapa de Google Maps incrustado. Al cargarlo, Google puede instalar cookies en tu navegador para prestar ese servicio. Más información en <a href="https://policies.google.com/technologies/cookies">la política de cookies de Google</a>.</li>
 </ul>
-<p>Si en el futuro incorporamos otras herramientas (por ejemplo, de analítica o publicidad), actualizaremos esta política y te pediremos tu consentimiento cuando la ley lo exija.</p>
+<p>Si incorporamos otras herramientas (por ejemplo, de analítica), actualizaremos esta política y te pediremos tu consentimiento cuando la ley lo exija.</p>
 <h2>3. Cómo desactivar o eliminar las cookies</h2>
 <p>Puedes permitir, bloquear o eliminar las cookies desde la configuración de tu navegador (Chrome, Firefox, Safari, Edge u otros). Consulta la ayuda de tu navegador para ver cómo hacerlo. Si bloqueas las cookies de terceros, los mapas incrustados podrían no mostrarse correctamente.</p>
 <h2>4. Más información</h2>
@@ -63,9 +64,9 @@ COOKIES = """
 PERSONALIZAR = """
 <p>Aquí puedes ver cómo controlar las cookies de <strong>{{dominio}}</strong>.</p>
 <h2>Cookies que usa este sitio</h2>
-<p>Este sitio no instala cookies propias de seguimiento, publicidad ni analítica. Las únicas cookies que pueden instalarse son las de terceros de <strong>Google Maps</strong>, en las páginas que muestran un mapa.</p>
+<p>Este sitio no instala cookies propias de seguimiento, publicidad ni analítica. Pueden instalarse cookies de terceros de <strong>Google AdSense</strong> (anuncios) y de <strong>Google Maps</strong> (en las páginas con mapa).</p>
 <h2>Cómo personalizarlas</h2>
-<p>Puedes aceptar, bloquear o eliminar las cookies desde los ajustes de privacidad de tu navegador. Si bloqueas las cookies de terceros, los mapas incrustados podrían no mostrarse.</p>
+<p>Las cookies de publicidad de Google las puedes aceptar, rechazar o configurar en el mensaje de privacidad que aparece al entrar en la web. Además, puedes aceptar, bloquear o eliminar las cookies desde los ajustes de privacidad de tu navegador. Si bloqueas las cookies de terceros, los mapas incrustados podrían no mostrarse.</p>
 <p>Consulta todos los detalles en la <a href="/politica-de-cookies/">Política de Cookies</a> y en la <a href="/politica-de-privacidad/">Política de Privacidad</a>.</p>
 <p><em>Última actualización: {{fecha}}.</em></p>
 """

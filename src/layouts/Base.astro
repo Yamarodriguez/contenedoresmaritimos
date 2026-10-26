@@ -54,6 +54,8 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graf
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
     <link rel="canonical" href={canonical} />
+    {site.bing && <meta name="msvalidate.01" content={site.bing} />}
+    {site.analytics.adsense && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.analytics.adsense}`} crossorigin="anonymous"></script>}
     {!indexar && <meta name="robots" content="noindex, follow" />}
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
