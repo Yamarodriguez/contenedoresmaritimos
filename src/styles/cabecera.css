@@ -1,0 +1,51 @@
+/* Estilos de la cabecera. Van DENTRO de su shadow DOM (ver Header.astro): así los
+   anuncios automáticos de AdSense no pueden insertarse entre el logo y el menú.
+   Las variables de color y tipografía (--ink, --accion…) se heredan del documento. */
+*, *::before, *::after { box-sizing: border-box; }
+a { color: inherit; text-decoration: none; }
+img { display: block; max-width: 100%; height: auto; }
+.cabecera-fila { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; row-gap: 0; padding: 12px 24px 0; max-width: var(--caja); margin: 0 auto; }
+.cabecera-logo { display: flex; align-items: center; gap: 12px; color: var(--ink); }
+.cabecera-logo:hover { opacity: 0.92; }
+.cabecera-logo img { height: 56px; width: 56px; flex: none; }
+.marca { display: block; line-height: 1; }
+.marca b { display: block; font-family: var(--titular); font-weight: 700; font-size: 1.3rem; letter-spacing: -0.01em; color: var(--ink); }
+.marca i { display: block; margin-top: 5px; padding-top: 4px; border-top: 3px solid var(--accion); font-style: normal; font-weight: 600; font-size: 0.74rem; letter-spacing: 0.34em; text-transform: uppercase; color: var(--azul); }
+.nav-principal { order: 3; flex-basis: 100%; border-top: 1px solid var(--linea); margin-top: 10px; }
+.menu-principal { display: flex; flex-wrap: wrap; gap: 2px; list-style: none; margin: 0; padding: 0; font-size: 0.9rem; font-weight: 500; }
+.menu-principal > li { position: relative; }
+.menu-principal > li > a { display: block; padding: 12px 11px; color: var(--ink); border-bottom: 3px solid transparent; }
+.menu-principal > li > a:hover, .menu-principal > li > a:focus-visible { border-bottom-color: var(--accion); }
+.submenu { display: none; position: absolute; top: 100%; left: 0; z-index: 2; background: var(--papel); min-width: 240px; max-height: 60vh; overflow-y: auto; border-radius: 0 0 var(--radio) var(--radio); box-shadow: var(--sombra); list-style: none; margin: 0; padding: 8px; columns: 2; border: 1px solid var(--linea); }
+.menu-principal > li:hover .submenu, .menu-principal > li:focus-within .submenu { display: block; }
+.submenu li a { display: block; padding: 6px 10px; border-radius: 6px; color: var(--texto); font-size: 0.86rem; }
+.submenu li a:hover { background: var(--fondo); }
+.boton-cabecera { margin-left: auto; background: var(--accion); color: var(--ink); padding: 10px 18px; border-radius: 999px; font-weight: 700; white-space: nowrap; }
+.boton-cabecera:hover { background: var(--accion-oscuro); }
+.boton-menu-movil { display: none; flex-direction: column; gap: 5px; background: none; border: none; padding: 8px; cursor: pointer; }
+.boton-menu-movil span { width: 24px; height: 2px; background: var(--ink); display: block; }
+.solo-movil { display: none; }
+
+@media (max-width: 1100px) {
+  .cabecera-fila { padding-bottom: 12px; }
+  .cabecera-logo img { height: 48px; width: 48px; }
+  .boton-menu-movil { display: flex; order: 2; }
+  .boton-cabecera { order: 1; padding: 8px 14px; font-size: 0.88rem; }
+  .nav-principal { display: none; flex-basis: 100%; margin-top: 8px; }
+  .nav-principal.abierto { display: block; }
+  .menu-principal { flex-direction: column; }
+  .menu-principal > li > a { padding: 12px 8px; border-bottom: 1px solid var(--linea); }
+  .submenu { display: none; position: static; columns: 1; box-shadow: none; border: 0; background: var(--fondo); }
+  .menu-principal > li:hover .submenu { display: none; }
+  li.submenu-abierto .submenu, .menu-principal > li.submenu-abierto:hover .submenu { display: block; }
+}
+@media (max-width: 480px) {
+  .marca b { font-size: 1.05rem; }
+  .marca i { font-size: 0.62rem; letter-spacing: 0.28em; }
+  .cabecera-logo { gap: 8px; }
+  .cabecera-logo img { height: 40px; width: 40px; }
+  .cabecera-fila > .boton-cabecera { display: none; }
+  .solo-movil { display: block; padding: 12px 8px 8px; }
+  .solo-movil .boton-cabecera { display: inline-block; margin: 0; }
+  .menu-principal > li.solo-movil > a { border-bottom: 0; padding: 10px 16px; }
+}

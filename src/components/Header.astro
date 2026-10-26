@@ -1,60 +1,72 @@
 ﻿---
 import menusData from '../data/menus.json';
 import site from '../data/site.json';
+import estilos from '../styles/cabecera.css?raw';
 
 interface Props {
   menu?: string;
 }
 const { menu = 'contenedores-maritimos' } = Astro.props as Props;
 const items = (menusData as Record<string, any[]>)[menu] ?? [];
+
+// El contenido de la cabecera se arma como HTML (escapado) porque va dentro de un
+// <template shadowrootmode>, donde Astro no admite expresiones anidadas.
+const esc = (t = '') => String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const lis = items.map((item: any) => {
+  const sub = item.children?.length
+    ? `<ul class="submenu">${item.children.map((c: any) => `<li><a href="${esc(c.url)}">${esc(c.label)}</a></li>`).join('')}</ul>`
+    : '';
+  return `<li><a href="${esc(item.url === '#' ? '#' : item.url)}">${esc(item.label)}</a>${sub}</li>`;
+}).join('');
+const interior = `<style>${estilos}</style>
+<div class="cabecera-fila">
+  <a href="/" class="cabecera-logo" aria-label="${esc(site.nombre)}"><img src="/img/2022/01/Contenedores-maritimos-.svg" alt="" width="96" height="96" /><span class="marca"><b>Contenedores</b><i>Marítimos</i></span></a>
+  <button class="boton-menu-movil" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  <nav aria-label="Menú principal" id="menu-principal" class="nav-principal">
+    <ul class="menu-principal">${lis}<li class="solo-movil"><a href="/contacto/" class="boton-cabecera">Pide presupuesto</a></li></ul>
+  </nav>
+  <a href="/contacto/" class="boton-cabecera">Pide presupuesto</a>
+</div>`;
 ---
 <div class="barra-sup"><div class="barra-sup-in">
   <span>Contenedores marítimos · venta, alquiler, transporte y construcciones</span>
   {site.correo && <a href={`mailto:${site.correo}`}>{site.correo}</a>}
 </div></div>
+<!--
+  La cabecera va dentro de un shadow DOM declarativo: es HTML normal (Google lo lee y
+  los enlaces funcionan), pero los anuncios automáticos de AdSense no pueden insertarse
+  dentro. Así no aparecen anuncios entre el logo y el menú sin ocultar ningún anuncio.
+-->
 <header class="cabecera">
-  <div class="cabecera-fila">
-    <a href="/" class="cabecera-logo" aria-label={site.nombre}><img src="/img/2022/01/Contenedores-maritimos-.svg" alt="" width="96" height="96" /><span class="marca"><b>Contenedores</b><i>Marítimos</i></span></a>
-    <button class="boton-menu-movil" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
-      <span></span><span></span><span></span>
-    </button>
-    <nav aria-label="Menú principal" id="menu-principal" class="nav-principal">
-      <ul class="menu-principal">
-        {items.map((item) => (
-          <li>
-            <a href={item.url === '#' ? '#' : item.url}>{item.label}</a>
-            {item.children?.length > 0 && (
-              <ul class="submenu">
-                {item.children.map((child: any) => (
-                  <li><a href={child.url}>{child.label}</a></li>
-                ))}
-              </ul>
-            )}
-          </li>
-        ))}
-        <li class="solo-movil"><a href="/contacto/" class="boton-cabecera">Pide presupuesto</a></li>
-      </ul>
-    </nav>
-    <a href="/contacto/" class="boton-cabecera">Pide presupuesto</a>
-  </div>
+  <template shadowrootmode="open" set:html={interior}></template>
 </header>
 
-<script>
-  const boton = document.querySelector('.boton-menu-movil');
-  const nav = document.querySelector('.nav-principal');
-  boton?.addEventListener('click', () => {
-    const abierto = nav?.classList.toggle('abierto');
-    boton.setAttribute('aria-expanded', abierto ? 'true' : 'false');
-  });
-  // En móvil, un submenú se abre tocando el padre en vez de con :hover
-  document.querySelectorAll('.menu-principal > li:not(.solo-movil) > a').forEach((a) => {
-    a.addEventListener('click', (e) => {
-      const li = a.closest('li');
-      const tieneSubmenu = li?.querySelector('.submenu');
-      if (tieneSubmenu && window.matchMedia('(max-width: 1100px)').matches) {
-        e.preventDefault();
-        li.classList.toggle('submenu-abierto');
-      }
+<script is:inline>
+  (function () {
+    var host = document.querySelector('.cabecera');
+    if (!host) return;
+    // Navegadores antiguos sin shadow DOM declarativo: se monta a mano.
+    if (!host.shadowRoot) {
+      var t = host.querySelector('template[shadowrootmode]');
+      if (t) { host.attachShadow({ mode: 'open' }).appendChild(t.content); t.remove(); }
+    }
+    var raiz = host.shadowRoot;
+    if (!raiz) return;
+    var boton = raiz.querySelector('.boton-menu-movil');
+    var nav = raiz.querySelector('.nav-principal');
+    if (boton && nav) boton.addEventListener('click', function () {
+      var abierto = nav.classList.toggle('abierto');
+      boton.setAttribute('aria-expanded', abierto ? 'true' : 'false');
     });
-  });
+    // En móvil, un submenú se abre tocando el padre en vez de con :hover
+    raiz.querySelectorAll('.menu-principal > li:not(.solo-movil) > a').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var li = a.closest('li');
+        if (li && li.querySelector('.submenu') && window.matchMedia('(max-width: 1100px)').matches) {
+          e.preventDefault();
+          li.classList.toggle('submenu-abierto');
+        }
+      });
+    });
+  })();
 </script>
