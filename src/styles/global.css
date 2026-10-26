@@ -253,3 +253,10 @@ h1, h2, h3, h4 { font-family: var(--titular); color: var(--ink); line-height: 1.
 .texto h2:first-child { margin-top: 0; }
 
 .seccion-cuerpo .boton { margin-right: 10px; }
+
+/* --- Formulario: aviso de envío y campo trampa anti-spam --- */
+.campo-trampa { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; margin: 0; }
+.formulario-aviso { margin-top: 18px; padding: 16px 18px; border-radius: 12px; font-weight: 600; }
+.formulario-aviso--ok { background: #e7f6ec; color: #14532d; border: 1px solid #a7dcb8; }
+.formulario-aviso--error { background: #fdecec; color: #7f1d1d; border: 1px solid #f1b5b5; }
+.formulario-aviso[hidden] { display: none; }

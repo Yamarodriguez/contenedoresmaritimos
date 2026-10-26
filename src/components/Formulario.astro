@@ -1,26 +1,65 @@
+﻿---
+// Formulario "Consulta" (los mismos campos y textos que el Contact Form 7 de la
+// web original: nombre, teléfono, provincia/localidad, asunto y aceptación de la
+// política de privacidad). Fase 5: se envía con los formularios de Netlify, sin
+// salir de la página; el aviso por correo lo configura el titular en Netlify
+// (Forms > Form notifications). Sin JavaScript, el envío normal lleva a /gracias/.
 ---
-// Reproduce los campos del formulario "Consulta" (Contact Form 7) encontrados
-// en el export de WordPress: nombre, teléfono, provincia/localidad, asunto,
-// aceptación de política de privacidad. El envío real (AJAX) se conecta en
-// la Fase 5; de momento el formulario pinta los campos tal cual.
----
-<form class="formulario" method="post">
-  <label for="your-name">Tu nombre</label>
-  <input id="your-name" name="your-name" type="text" required />
+<div class="formulario-caja">
+<form class="formulario" name="consulta" method="POST" action="/gracias/" data-netlify="true" netlify-honeypot="campo-trampa" data-formulario>
+  <input type="hidden" name="form-name" value="consulta" />
+  <input type="hidden" name="pagina" value="" data-pagina />
+  <p class="campo-trampa" aria-hidden="true"><input name="campo-trampa" tabindex="-1" autocomplete="off" /></p>
+
+  <label for="nombre">Tu nombre</label>
+  <input id="nombre" name="nombre" type="text" autocomplete="name" required />
 
   <label for="telefono">Teléfono</label>
-  <input id="telefono" name="Telefono" type="tel" required />
+  <input id="telefono" name="telefono" type="tel" autocomplete="tel" required />
 
   <label for="provincia">Provincia/Localidad</label>
-  <input id="provincia" name="your-nam" type="text" required />
+  <input id="provincia" name="provincia" type="text" required />
 
   <label for="asunto">Asunto/consulta</label>
-  <input id="asunto" name="Asunto" type="text" required />
+  <input id="asunto" name="asunto" type="text" required />
 
   <label>
-    <input type="checkbox" name="PoliticadePrivacidad" required style="width:auto; display:inline-block; margin-right:6px;" />
+    <input type="checkbox" name="acepta-privacidad" required />
     He leido y acepto la <a href="/politica-de-privacidad/">politica de privacidad</a>
   </label>
 
   <button type="submit">Enviar</button>
 </form>
+<div class="formulario-aviso" role="status" aria-live="polite" hidden></div>
+</div>
+
+<script>
+  // Envío sin salir de la página, con el aviso en el mismo sitio.
+  document.querySelectorAll<HTMLFormElement>('form[data-formulario]').forEach((form) => {
+    const aviso = form.parentElement?.querySelector<HTMLElement>('.formulario-aviso');
+    const pagina = form.querySelector<HTMLInputElement>('[data-pagina]');
+    if (pagina) pagina.value = location.href;
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const boton = form.querySelector<HTMLButtonElement>('button[type="submit"]');
+      if (boton) { boton.disabled = true; boton.textContent = 'Enviando…'; }
+      const mostrar = (texto: string, error = false) => {
+        if (!aviso) return;
+        aviso.hidden = false;
+        aviso.className = 'formulario-aviso ' + (error ? 'formulario-aviso--error' : 'formulario-aviso--ok');
+        aviso.textContent = texto;
+      };
+      try {
+        const datos = new URLSearchParams(new FormData(form) as unknown as Record<string, string>);
+        const r = await fetch('/', { method: 'POST', headers: { 'Content-Type': 'application/x-www-form-urlencoded' }, body: datos.toString() });
+        if (!r.ok) throw new Error(String(r.status));
+        form.reset();
+        form.hidden = true;
+        mostrar('Mensaje enviado. Gracias: te responderemos lo antes posible.');
+      } catch {
+        mostrar('No se ha podido enviar el mensaje. Inténtalo de nuevo o escríbenos por correo.', true);
+        if (boton) { boton.disabled = false; boton.textContent = 'Enviar'; }
+      }
+    });
+  });
+</script>

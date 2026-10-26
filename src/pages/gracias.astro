@@ -1,0 +1,15 @@
+---
+// Destino del envío del formulario cuando el navegador no tiene JavaScript.
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+---
+<Base title="Mensaje enviado" canonical={`https://${site.dominio}/gracias/`}>
+  <section class="heroe">
+    <div class="heroe-velo"></div>
+    <div class="caja heroe-in">
+      <h1>Mensaje enviado</h1>
+      <p class="heroe-texto">Gracias: hemos recibido tu consulta y te responderemos lo antes posible.</p>
+      <p class="heroe-botones"><a class="boton" href="/">Volver al inicio</a></p>
+    </div>
+  </section>
+</Base>
