@@ -75,7 +75,7 @@ for (const p of conGeo) {
     .filter((o) => esZona || o.km > 2)
     .sort((x, y) => x.km - y.km)
     .filter((o, i, arr) => arr.findIndex((z) => z.nombre === o.nombre) === i)
-    .slice(0, esZona ? 6 : 4);
+    .slice(0, esZona ? 6 : 8);
   salida[p.slug] = {
     nombre: c.nombre.replace(/^Municipio de /, ''), tipo: c.tipo === 'state_district' ? 'province' : c.tipo, pais: c.pais,
     provincia: a.province ?? (c.pais === 'ar' ? a.state : undefined),

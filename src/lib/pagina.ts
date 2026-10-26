@@ -9,7 +9,7 @@ import { agrupar, type Bloque, type Trozo } from './agrupar';
 import serviciosDatos from '../data/servicios-paginas.json';
 import fotos from '../data/fotos-seccion.json';
 import { resumenDe, tablaDe } from './fichas';
-import { extrasCiudad } from './ciudades';
+import { extrasCiudad, textosExtra } from './ciudades';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
 export type Consulta = { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
@@ -107,6 +107,13 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
     añadir(titulos.find((t) => /transporte/i.test(t.titular?.text || '')), extras.transporte);
     añadir(titulos.find((t) => /construcc/i.test(t.titular?.text || '')), extras.construccion);
     añadir(titulos[titulos.length - 1], extras.ultima);
+  }
+  if (opciones.slug) {
+    const titulos = elementos.filter((e): e is Seccion => e.tipo === 'seccion' && !!e.titular && !e.titular.nuevo);
+    for (const t of textosExtra(opciones.slug)) {
+      const sec = t.seccion === 'primera' ? titulos[0] : titulos.find((x) => new RegExp(t.seccion, 'i').test(x.titular?.text || ''));
+      if (sec) sec.cuerpo.push({ tipo: 'bloque', bloque: { type: 'text', html: `<p>${t.html}</p>`, nuevo: true } });
+    }
   }
 
   // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).

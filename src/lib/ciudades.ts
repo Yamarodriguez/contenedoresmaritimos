@@ -4,6 +4,7 @@
 // ubicación, puerto comercial más cercano con su distancia en línea recta y páginas
 // cercanas de la propia web.
 import ciudades from '../data/ciudades.json';
+import extra from '../data/ciudades-extra.json';
 
 type Ciudad = {
   nombre: string; tipo: string; pais: 'es' | 'ar'; provincia?: string; comunidad?: string;
@@ -11,6 +12,8 @@ type Ciudad = {
 };
 const datos = ciudades as unknown as Record<string, Ciudad>;
 const ES_CIUDAD = new Set(['city', 'town', 'village', 'municipality', 'suburb', 'hamlet', 'neighbourhood', 'quarter', 'city_district']);
+// Segunda página de una misma ciudad (duplicadas): otra redacción y otras ciudades cercanas.
+const VARIANTE_B = new Set<string>(extra.variante_b);
 const nf = (n: number) => n.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
 
 const conArticulo = (r: string) => (/^(Comunidad|Región|Ciudad)/.test(r) ? `la ${r}` : /^(Principado|País)/.test(r) ? `el ${r}` : /^Islas/.test(r) ? `las ${r}` : r);
@@ -51,13 +54,16 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
   const zona = ciudadAutonoma ? undefined : ES_CIUDAD.has(c.tipo) ? (c.provincia ?? c.comunidad) : c.tipo === 'country' ? undefined : c.comunidad;
   const etiqueta = c.tipo === 'country' ? undefined : zona && zona !== c.nombre ? `${c.nombre} · ${zona.replace(/^Provincia de /, '')}` : c.nombre;
 
-  const cerca = c.cercanas.slice(0, c.esZona ? 6 : 3).map((o) => c.esZona ? `<a href="/${o.slug}/">${o.nombre}</a>` : `<a href="/${o.slug}/">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
+  const b = VARIANTE_B.has(slug);
+  const cerca = (b ? c.cercanas.slice(3, 6) : c.cercanas.slice(0, c.esZona ? 6 : 3)).map((o) => c.esZona ? `<a href="/${o.slug}/">${o.nombre}</a>` : `<a href="/${o.slug}/">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
   const listaCerca = cerca.length > 1 ? `${cerca.slice(0, -1).join(', ')} y ${cerca[cerca.length - 1]}` : cerca[0];
-  const primera = [lugar(c), listaCerca ? (c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
+  const primera = [lugar(c), listaCerca ? (b ? `Otras páginas de la zona que pueden interesarte: ${listaCerca}.` : c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
     .filter(Boolean).join(' ');
 
   const p = c.puerto;
-  const camion = `Para la entrega en ${c.nombre}, el contenedor llega en camión con grúa o con plataforma: indica en tu consulta la dirección exacta y si hay espacio para que el camión maniobre y lo descargue.`;
+  const camion = b
+    ? `El contenedor se entrega en ${c.nombre} por carretera, con un camión grúa o de plataforma; para darte precio necesitamos saber la dirección y cómo es el acceso.`
+    : `Para la entrega en ${c.nombre}, el contenedor llega en camión con grúa o con plataforma: indica en tu consulta la dirección exacta y si hay espacio para que el camión maniobre y lo descargue.`;
   let transporte: string;
   let construccion: string | undefined;
   if (c.esZona && !ciudadAutonoma) {
@@ -69,12 +75,16 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
     const portuaria = p.km <= 10 && (ciudadAutonoma || p.nombre === c.nombre || norm(p.nombre) === norm(c.nombre));
     const puertoTxt = portuaria
       ? `${c.nombre} tiene puerto comercial propio${p.mar === false ? ', de río' : ''}.`
-      : `Entre los principales puertos comerciales de ${pais}, el más cercano a ${c.nombre} es el de ${p.nombre}, a unos ${nf(p.km)} km en línea recta.`;
+      : b
+        ? `A unos ${nf(p.km)} km en línea recta de ${c.nombre} está el puerto de ${p.nombre}, el más próximo entre los principales de ${pais}.`
+        : `Entre los principales puertos comerciales de ${pais}, el más cercano a ${c.nombre} es el de ${p.nombre}, a unos ${nf(p.km)} km en línea recta.`;
     transporte = `${puertoTxt} ${camion}`;
     construccion = p.km <= 25 && p.mar !== false
-      ? `Por la cercanía de ${c.nombre} al mar, conviene proteger bien el contenedor contra la corrosión del salitre con una buena <a href="/pintura-contenedores-maritimos/">pintura</a> y revisar su estado con más frecuencia.`
+      ? b ? `El aire del mar acelera la corrosión: en ${c.nombre}, una buena <a href="/pintura-contenedores-maritimos/">pintura</a> antioxidante alarga la vida del contenedor.` : `Por la cercanía de ${c.nombre} al mar, conviene proteger bien el contenedor contra la corrosión del salitre con una buena <a href="/pintura-contenedores-maritimos/">pintura</a> y revisar su estado con más frecuencia.`
       : p.km > 60
-        ? `Como ${c.nombre} está lejos de los grandes puertos, el transporte por carretera pesa en el presupuesto: pide el precio con el transporte incluido. Si el contenedor va a usarse con personas dentro, valora también el <a href="/aislamiento-contenedores-maritimos/">aislamiento</a>.`
+        ? (b
+          ? `En ${c.nombre}, lejos de los grandes puertos, conviene pedir el presupuesto con el transporte ya incluido para comparar bien; y si habrá personas dentro, piensa en el <a href="/aislamiento-contenedores-maritimos/">aislamiento</a>.`
+          : `Como ${c.nombre} está lejos de los grandes puertos, el transporte por carretera pesa en el presupuesto: pide el precio con el transporte incluido. Si el contenedor va a usarse con personas dentro, valora también el <a href="/aislamiento-contenedores-maritimos/">aislamiento</a>.`)
         : undefined;
   }
 
@@ -86,4 +96,9 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
       : undefined;
 
   return { etiqueta, primera: primera || undefined, transporte, construccion, ultima };
+}
+
+// Textos añadidos a mano para una página concreta (src/data/ciudades-extra.json).
+export function textosExtra(slug: string): { seccion: string; html: string }[] {
+  return (extra.textos as Record<string, { seccion: string; html: string }[]>)[slug] ?? [];
 }
