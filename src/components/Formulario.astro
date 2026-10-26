@@ -1,0 +1,26 @@
+---
+// Reproduce los campos del formulario "Consulta" (Contact Form 7) encontrados
+// en el export de WordPress: nombre, teléfono, provincia/localidad, asunto,
+// aceptación de política de privacidad. El envío real (AJAX) se conecta en
+// la Fase 5; de momento el formulario pinta los campos tal cual.
+---
+<form class="formulario" method="post">
+  <label for="your-name">Tu nombre</label>
+  <input id="your-name" name="your-name" type="text" required />
+
+  <label for="telefono">Teléfono</label>
+  <input id="telefono" name="Telefono" type="tel" required />
+
+  <label for="provincia">Provincia/Localidad</label>
+  <input id="provincia" name="your-nam" type="text" required />
+
+  <label for="asunto">Asunto/consulta</label>
+  <input id="asunto" name="Asunto" type="text" required />
+
+  <label>
+    <input type="checkbox" name="PoliticadePrivacidad" required style="width:auto; display:inline-block; margin-right:6px;" />
+    He leído y acepto la <a href="/politica-de-privacidad/">política de privacidad</a>
+  </label>
+
+  <button type="submit">Enviar</button>
+</form>

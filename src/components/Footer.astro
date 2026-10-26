@@ -1,0 +1,25 @@
+---
+import menusData from '../data/menus.json';
+import site from '../data/site.json';
+
+const legales = (menusData as Record<string, any[]>).politicas ?? [];
+const year = new Date().getFullYear();
+---
+<footer class="pie">
+  <div class="pie-fila">
+    <div>
+      <strong>{site.nombre}</strong>
+      <p>{site.descripcion}</p>
+      {site.correo && <p>Correo: <a href={`mailto:${site.correo}`}>{site.correo}</a></p>}
+      {site.telefono && <p>Teléfono: {site.telefono}</p>}
+    </div>
+    <div>
+      <p>© {year} {site.nombre}. Todos los derechos reservados.</p>
+      <ul class="pie-legales">
+        {legales.map((item: any) => (
+          <li><a href={item.url}>{item.label}</a></li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</footer>

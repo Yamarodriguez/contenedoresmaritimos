@@ -1,0 +1,19 @@
+{
+  "nombre": "Contenedores Marítimos",
+  "dominio": "contenedoresmaritimos.net",
+  "descripcion": "Distribuidores y fabricantes de contenedores marítimos: venta, alquiler, transporte y construcciones con contenedores nuevos y de segunda mano.",
+  "telefono": "",
+  "whatsapp": "",
+  "correo": "Contacto@Contenedoresmaritimos.net",
+  "horario": "",
+  "titular": {
+    "nombre": "",
+    "nif": "",
+    "direccion": ""
+  },
+  "analytics": {
+    "ga4": "",
+    "adsense": ""
+  },
+  "_nota": "Todos los campos vacíos están pendientes de que Yama los confirme (ficha de marca y datos del negocio). No se ha inventado nada."
+}

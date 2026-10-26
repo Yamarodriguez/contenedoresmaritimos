@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import Bloque from '../components/Bloque.astro';
+
+export async function getStaticPaths() {
+  const files = import.meta.glob('../content/pages/*.json', { eager: true });
+  return Object.entries(files)
+    .map(([path, mod]: [string, any]) => mod.default)
+    .filter((data: any) => data.slug !== 'contenedores-maritimos') // esa es la home, va por index.astro
+    .map((data: any) => ({
+      params: { slug: data.slug },
+      props: { data },
+    }));
+}
+
+const { data } = Astro.props as { data: any };
+const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
+---
+<Base
+  title={data.title}
+  description={data.meta_description}
+  canonical={data.url}
+  menu={data.menu}
+>
+  <section class="heroe">
+    <div class="caja">
+      <h1>{h1 ? h1.text : data.title}</h1>
+    </div>
+  </section>
+  <div class="bloque">
+    <div class="bloque-in">
+      {data.blocks.length === 0 && (
+        <p><em>Esta página aún no tiene contenido capturado (pendiente de copiarlo a mano — ver legales-vivos.json).</em></p>
+      )}
+      {data.blocks.map((block: any) => (
+        block.type === 'heading' && block.tag === 'h1' ? null : <Bloque block={block} />
+      ))}
+    </div>
+  </div>
+</Base>

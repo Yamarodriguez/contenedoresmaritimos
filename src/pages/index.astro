@@ -1,0 +1,26 @@
+---
+import Base from '../layouts/Base.astro';
+import Bloque from '../components/Bloque.astro';
+import data from '../content/pages/contenedores-maritimos.json';
+
+const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
+---
+<Base
+  title={data.title}
+  description={data.meta_description}
+  canonical={data.url}
+  menu={data.menu}
+>
+  <section class="heroe">
+    <div class="caja">
+      <h1>{h1 ? h1.text : data.title}</h1>
+    </div>
+  </section>
+  <div class="bloque">
+    <div class="bloque-in">
+      {data.blocks.map((block: any) => (
+        block.type === 'heading' && block.tag === 'h1' ? null : <Bloque block={block} />
+      ))}
+    </div>
+  </div>
+</Base>

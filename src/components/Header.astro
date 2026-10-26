@@ -1,0 +1,55 @@
+---
+import menusData from '../data/menus.json';
+import site from '../data/site.json';
+
+interface Props {
+  menu?: string;
+}
+const { menu = 'contenedores-maritimos' } = Astro.props as Props;
+const items = (menusData as Record<string, any[]>)[menu] ?? [];
+---
+<header class="cabecera">
+  <div class="cabecera-fila">
+    <a href="/" class="cabecera-logo">{site.nombre}</a>
+    <button class="boton-menu-movil" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú">
+      <span></span><span></span><span></span>
+    </button>
+    <nav aria-label="Menú principal" id="menu-principal" class="nav-principal">
+      <ul class="menu-principal">
+        {items.map((item) => (
+          <li>
+            <a href={item.url === '#' ? '#' : item.url}>{item.label}</a>
+            {item.children?.length > 0 && (
+              <ul class="submenu">
+                {item.children.map((child: any) => (
+                  <li><a href={child.url}>{child.label}</a></li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+      </ul>
+    </nav>
+    <a href="/contacto/" class="boton-cabecera">Pide presupuesto</a>
+  </div>
+</header>
+
+<script>
+  const boton = document.querySelector('.boton-menu-movil');
+  const nav = document.querySelector('.nav-principal');
+  boton?.addEventListener('click', () => {
+    const abierto = nav?.classList.toggle('abierto');
+    boton.setAttribute('aria-expanded', abierto ? 'true' : 'false');
+  });
+  // En móvil, un submenú se abre tocando el padre en vez de con :hover
+  document.querySelectorAll('.menu-principal > li > a').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      const li = a.closest('li');
+      const tieneSubmenu = li?.querySelector('.submenu');
+      if (tieneSubmenu && window.matchMedia('(max-width: 760px)').matches) {
+        e.preventDefault();
+        li.classList.toggle('submenu-abierto');
+      }
+    });
+  });
+</script>
