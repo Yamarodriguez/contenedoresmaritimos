@@ -38,6 +38,9 @@ for (const f of ficheros) {
     if (!m) fallos.push(`${rel}: sin canonical`);
     else if (m[1] !== esperado) fallos.push(`${rel}: canonical ${m[1]} (esperado ${esperado})`);
   }
+  for (const m of html.matchAll(/<img[^>]+>/g)) {
+    if (!/ width="\d+"/.test(m[0]) || !/ height="\d+"/.test(m[0])) fallos.push(`${rel}: imagen sin medidas ${m[0].slice(0, 80)}`);
+  }
   for (const m of html.matchAll(/<img[^>]+src="([^"]+)"/g)) {
     const src = m[1];
     if (/^https?:\/\//.test(src)) { fallos.push(`${rel}: imagen externa ${src}`); continue; }

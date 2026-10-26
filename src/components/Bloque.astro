@@ -1,6 +1,7 @@
 ---
 import Formulario from './Formulario.astro';
 import { limpiar, htmlTexto, interno } from '../lib/html';
+import medidas from '../data/imagenes.json';
 
 interface Block {
   type: string;
@@ -23,6 +24,7 @@ const { block } = Astro.props as Props;
 // no se reinterpreta.
 const href = interno(block.href || '#');
 const enlace = block.href ? interno(block.href) : '';
+const medida = (medidas as Record<string, { w: number; h: number }>)[block.src ?? ''];
 const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
 ---
 {block.type === 'heading' && enlace && (
@@ -41,10 +43,10 @@ const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
   <a class="boton" href={href}>{block.text}</a>
 )}
 {block.type === 'image' && enlace && (
-  <a href={enlace}><img src={block.src} alt={block.alt || ''} loading="lazy" width="800" height="600" /></a>
+  <a href={enlace}><img src={block.src} alt={block.alt || ''} loading="lazy" width={medida?.w} height={medida?.h} /></a>
 )}
 {block.type === 'image' && !enlace && (
-  <img src={block.src} alt={block.alt || ''} loading="lazy" width="800" height="600" />
+  <img src={block.src} alt={block.alt || ''} loading="lazy" width={medida?.w} height={medida?.h} />
 )}
 {block.type === 'map' && (
   <div class="mapa">

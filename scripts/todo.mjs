@@ -3,6 +3,7 @@
 import { spawnSync } from 'node:child_process';
 
 const pasos = [
+  ['Medidas de imagen', 'node', ['scripts/medidas-imagenes.mjs']],
   ['Compilar', 'npx', ['astro', 'build']],
   ['Validar (C3)', 'node', ['scripts/validar.mjs']],
   ['Encabezados (C1)', 'node', ['scripts/comparar-encabezados.mjs']],
