@@ -8,6 +8,8 @@ interface Block {
   tag?: string;
   text?: string;
   html?: string;
+  nuevo?: boolean;
+  ajuste?: string;
   href?: string;
   src?: string;
   alt?: string;
@@ -46,7 +48,7 @@ const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
   <a href={enlace}><img src={block.src} alt={block.alt || ''} loading="lazy" width={medida?.w} height={medida?.h} /></a>
 )}
 {block.type === 'image' && !enlace && (
-  <img src={block.src} alt={block.alt || ''} loading="lazy" width={medida?.w} height={medida?.h} />
+  <img src={block.src} alt={block.alt || ''} loading="lazy" width={medida?.w} height={medida?.h} class={block.nuevo ? 'foto-seccion' : undefined} data-nuevo={block.nuevo ? '' : undefined} data-ajuste={block.ajuste} />
 )}
 {block.type === 'map' && (
   <div class="mapa">

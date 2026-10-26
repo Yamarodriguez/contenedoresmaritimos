@@ -305,3 +305,13 @@ h1, h2, h3, h4 {
 
 /* Direcciones y correos largos no deben ensanchar la página en móvil */
 .bloque { overflow-wrap: anywhere; }
+
+/* Foto de sección (H2): ancho de lectura, formato apaisado */
+.foto-seccion { width: 100%; max-width: 820px; aspect-ratio: 16 / 7; object-fit: cover; }
+.foto-seccion[data-ajuste="contain"] { object-fit: contain; background: #fff; }
+
+/* Logo en la cabecera: el del original (globo y contenedores) junto al nombre */
+.cabecera-logo { display: flex; align-items: center; gap: 10px; }
+.cabecera-logo img { height: 72px; width: auto; flex: none; }
+@media (max-width: 1100px) { .cabecera-logo img { height: 56px; } }
+@media (max-width: 600px) { .cabecera-logo span { display: none; } .cabecera-logo img { height: 52px; } }

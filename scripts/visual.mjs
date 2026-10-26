@@ -78,12 +78,17 @@ try {
       pagina.on('response', (r) => { const u = r.url(); if (r.status() >= 400 && u.startsWith(BASE) && !(nombre === '404' && u === BASE + ruta)) mal.push(`${r.status()} ${u.replace(BASE, '')}`); });
       pagina.on('requestfailed', (r) => { if (r.url().startsWith(BASE)) mal.push(`fallo ${r.url().replace(BASE, '')}`); });
       await pagina.goto(BASE + ruta, { waitUntil: 'networkidle' });
-      await pagina.evaluate(async () => { for (let y = 0; y < document.body.scrollHeight; y += 500) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 50)); } window.scrollTo(0, 0); });
+      await pagina.evaluate(async () => { document.querySelectorAll('img[loading=lazy]').forEach((i) => { i.loading = 'eager'; }); for (let y = 0; y < document.body.scrollHeight; y += 400) { window.scrollTo(0, y); await new Promise((r) => setTimeout(r, 120)); } window.scrollTo(0, 0); });
+      // Espera a que todas las fotos terminen de cargar y comprueba que se ven (no rotas, no vacías).
+      await pagina.evaluate(async () => { await Promise.all([...document.images].map((i) => i.complete ? 1 : new Promise((r) => { i.onload = i.onerror = r; }))); });
       await pagina.waitForTimeout(300);
+      const rotas = await pagina.evaluate(() => [...document.images].filter((i) => !i.naturalWidth).map((i) => i.getAttribute('src')));
+      rotas.forEach((r) => informe.fallos404.push(`${nombre} (${vista}): foto sin cargar ${r}`));
       mal.forEach((m) => informe.fallos404.push(`${nombre} (${vista}): ${m}`));
       if (process.env.PRUEBA_CONTRASTE) await pagina.addStyleTag({ content: '.bloque p, .bloque a { color: #f2c200 !important; }' });
       const medida = await pagina.evaluate(medirContraste);
       informe.medidos = (informe.medidos || 0) + medida.medidos;
+      (informe.porPagina = informe.porPagina || {})[`${nombre} ${vista}`] = medida.medidos;
       for (const c of medida.lista) {
         if (c.tipo === 'foto') informe.fotosAMano.push(`${nombre} (${vista}): ${c.el} «${c.texto}»`);
         else informe.contraste.push(`${nombre} (${vista}): ${c.ratio}:1 (mín. ${c.minimo}) ${c.el} «${c.texto}»`);

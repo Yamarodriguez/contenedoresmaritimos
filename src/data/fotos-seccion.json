@@ -1,0 +1,35 @@
+{
+ "medidas": {
+  "src": "/img/2022/01/contenedores-maritimos-medidas.jpg",
+  "alt": "contenedores-marítimos-medidas",
+  "ajuste": "contain"
+ },
+ "segunda": {
+  "src": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+  "alt": "Contenedores-marítimos-segunda-mano"
+ },
+ "venta": {
+  "src": "/img/2022/01/Contenedores-maritimos-venta.jpg",
+  "alt": "Contenedores-marítimos-venta"
+ },
+ "construcc": {
+  "src": "/img/2022/01/construcciones-con-contenedores.jpg",
+  "alt": "construcciones-con-contenedores"
+ },
+ "comprar": {
+  "src": "/img/2022/01/comprar-contenedores-maritimos.jpg",
+  "alt": "comprar-contenedores-marítimos"
+ },
+ "transporte": {
+  "src": "/img/2022/01/transporte-contenedores-maritimos.png",
+  "alt": "transporte-contenedores-marítimos"
+ },
+ "alquiler": {
+  "src": "/img/2022/01/alquiler-contenedores-maritimos.jpg",
+  "alt": "alquiler-contenedores-marítimos"
+ },
+ "general": {
+  "src": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
+  "alt": "tipos-de-contenedores-marítimos"
+ }
+}
