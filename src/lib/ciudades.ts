@@ -1,0 +1,89 @@
+// Información propia de cada página de ciudad, provincia o región, para que no
+// sean páginas casi idénticas. Solo se AÑADE texto al final de algunas secciones
+// (el original no se toca) y todo sale de datos verificables (src/data/ciudades.json):
+// ubicación, puerto comercial más cercano con su distancia en línea recta y páginas
+// cercanas de la propia web.
+import ciudades from '../data/ciudades.json';
+
+type Ciudad = {
+  nombre: string; tipo: string; pais: 'es' | 'ar'; provincia?: string; comunidad?: string;
+  puerto: { nombre: string; km: number; mar?: boolean }; cercanas: { slug: string; nombre: string; km: number }[]; esZona?: boolean; puertosZona?: string[];
+};
+const datos = ciudades as unknown as Record<string, Ciudad>;
+const ES_CIUDAD = new Set(['city', 'town', 'village', 'municipality', 'suburb', 'hamlet', 'neighbourhood', 'quarter', 'city_district']);
+const nf = (n: number) => n.toLocaleString('es-ES', { useGrouping: 'always' } as Intl.NumberFormatOptions);
+
+const conArticulo = (r: string) => (/^(Comunidad|Región|Ciudad)/.test(r) ? `la ${r}` : /^(Principado|País)/.test(r) ? `el ${r}` : /^Islas/.test(r) ? `las ${r}` : r);
+const norm = (t = '') => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/^(provincia de |comunidad (foral )?de |principado de |region de |illes |islas )/, '').replace(/[^a-z]/g, '');
+
+// Página de la web para una provincia o comunidad (si existe), para enlazarla.
+function paginaDe(nombre: string | undefined, yo: string): string | undefined {
+  if (!nombre) return undefined;
+  const n = norm(nombre);
+  const alias: Record<string, string> = { acoruna: 'la-coruna', lacoruna: 'la-coruna', cataluna: 'cataluna', catalunya: 'cataluna', araba: 'alava', alavaaraba: 'alava', arabaalava: 'alava', vizcaya: 'bizkaia', guipuzcoa: 'gipuzkoa', asturias: 'asturias', canarias: 'canarias', balears: 'mallorca' };
+  const slug = alias[n] ?? Object.keys(datos).find((s) => norm(datos[s].nombre) === n && !ES_CIUDAD.has(datos[s].tipo));
+  return slug && slug !== yo ? slug : undefined;
+}
+
+function lugar(c: Ciudad): string | undefined {
+  if (/^(Ceuta|Melilla)$/.test(c.nombre)) return `${c.nombre} es una ciudad autónoma de España, en el norte de África.`;
+  if (c.pais === 'ar') {
+    if (c.tipo === 'country') return undefined;
+    if (c.tipo === 'state' || c.tipo === 'province') return `${c.nombre} es una provincia de Argentina.`;
+    return c.provincia ? `${c.nombre} se encuentra en la provincia de ${c.provincia.replace(/^Provincia de /, '')}, Argentina.` : undefined;
+  }
+  if (c.tipo === 'state') return `${c.nombre} es una comunidad autónoma de España.`;
+  if (c.tipo === 'province') return c.comunidad ? `${c.nombre} es una provincia de ${conArticulo(c.comunidad)}.` : undefined;
+  if (c.tipo === 'island' || c.tipo === 'archipelago') return c.comunidad ? `${c.nombre} forma parte de ${conArticulo(c.comunidad)}.` : undefined;
+  const prov = c.provincia && c.provincia !== c.comunidad ? `la provincia de ${c.provincia}` : '';
+  const com = c.comunidad ? conArticulo(c.comunidad) : '';
+  if (!prov && !com) return undefined;
+  return `${c.nombre} se encuentra en ${[prov, com].filter(Boolean).join(', en ')}.`;
+}
+
+export type ExtrasCiudad = { etiqueta?: string; primera?: string; transporte?: string; construccion?: string; ultima?: string };
+
+export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
+  const c = datos[slug];
+  if (!c || !c.puerto) return undefined;
+  const pais = c.pais === 'ar' ? 'Argentina' : 'España';
+  const ciudadAutonoma = /^(Ceuta|Melilla)$/.test(c.nombre);
+  const zona = ciudadAutonoma ? undefined : ES_CIUDAD.has(c.tipo) ? (c.provincia ?? c.comunidad) : c.tipo === 'country' ? undefined : c.comunidad;
+  const etiqueta = c.tipo === 'country' ? undefined : zona && zona !== c.nombre ? `${c.nombre} · ${zona.replace(/^Provincia de /, '')}` : c.nombre;
+
+  const cerca = c.cercanas.slice(0, c.esZona ? 6 : 3).map((o) => c.esZona ? `<a href="/${o.slug}/">${o.nombre}</a>` : `<a href="/${o.slug}/">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
+  const listaCerca = cerca.length > 1 ? `${cerca.slice(0, -1).join(', ')} y ${cerca[cerca.length - 1]}` : cerca[0];
+  const primera = [lugar(c), listaCerca ? (c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
+    .filter(Boolean).join(' ');
+
+  const p = c.puerto;
+  const camion = `Para la entrega en ${c.nombre}, el contenedor llega en camión con grúa o con plataforma: indica en tu consulta la dirección exacta y si hay espacio para que el camión maniobre y lo descargue.`;
+  let transporte: string;
+  let construccion: string | undefined;
+  if (c.esZona && !ciudadAutonoma) {
+    // Provincias, regiones e islas: no se da una distancia (se mediría desde el centro de la zona).
+    const ps = c.puertosZona ?? [];
+    const lista = ps.length > 1 ? `${ps.slice(0, -1).join(', ')} y ${ps[ps.length - 1]}` : ps[0];
+    transporte = `${lista ? `Los principales puertos comerciales cercanos a las ciudades de ${c.nombre} con página en esta web son ${ps.length > 1 ? 'los de' : 'el de'} ${lista}. ` : ''}${camion}`;
+  } else {
+    const portuaria = p.km <= 10 && (ciudadAutonoma || p.nombre === c.nombre || norm(p.nombre) === norm(c.nombre));
+    const puertoTxt = portuaria
+      ? `${c.nombre} tiene puerto comercial propio${p.mar === false ? ', de río' : ''}.`
+      : `Entre los principales puertos comerciales de ${pais}, el más cercano a ${c.nombre} es el de ${p.nombre}, a unos ${nf(p.km)} km en línea recta.`;
+    transporte = `${puertoTxt} ${camion}`;
+    construccion = p.km <= 25 && p.mar !== false
+      ? `Por la cercanía de ${c.nombre} al mar, conviene proteger bien el contenedor contra la corrosión del salitre con una buena <a href="/pintura-contenedores-maritimos/">pintura</a> y revisar su estado con más frecuencia.`
+      : p.km > 60
+        ? `Como ${c.nombre} está lejos de los grandes puertos, el transporte por carretera pesa en el presupuesto: pide el precio con el transporte incluido. Si el contenedor va a usarse con personas dentro, valora también el <a href="/aislamiento-contenedores-maritimos/">aislamiento</a>.`
+        : undefined;
+  }
+
+  const prov = paginaDe(c.provincia, slug) ?? paginaDe(c.comunidad, slug);
+  const ultima = prov
+    ? `Si buscas un contenedor en otra zona de ${datos[prov].nombre}, consulta también nuestra página de <a href="/${prov}/">contenedores marítimos en ${datos[prov].nombre}</a>.`
+    : c.pais === 'ar' && slug !== 'argentina'
+      ? `Consulta también nuestra página de <a href="/argentina/">contenedores marítimos en ${pais}</a>.`
+      : undefined;
+
+  return { etiqueta, primera: primera || undefined, transporte, construccion, ultima };
+}

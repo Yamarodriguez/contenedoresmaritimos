@@ -10,8 +10,9 @@ interface Props {
   titulo: string;
   hero: Pagina['hero'];
   menu?: string;
+  zona?: string; // «Madrid · Madrid»: la etiqueta de arriba en páginas de ciudad
 }
-const { titulo, hero, menu = 'contenedores-maritimos' } = Astro.props as Props;
+const { titulo, hero, menu = 'contenedores-maritimos', zona } = Astro.props as Props;
 const items = (menus as Record<string, any[]>)[menu] ?? [];
 const hijos = (etiqueta: string) => items.find((i) => i.label === etiqueta)?.children?.length ?? 0;
 const tipos = hijos('Tipos');
@@ -22,7 +23,7 @@ const region = menu === 'argentina' ? 'Argentina' : 'España';
   {hero.imagen && <Foto src={hero.imagen.src ?? ''} alt={hero.imagen.alt} sizes="100vw" prioridad class="heroe-fondo" />}
   <div class="heroe-velo"></div>
   <div class="caja heroe-in">
-    <p class="etiqueta">Contenedores marítimos · {region}</p>
+    <p class="etiqueta">Contenedores marítimos · {zona ? `${zona} · ${region}` : region}</p>
     <h1 set:html={limpiar(titulo)} />
     {hero.texto && <div class="heroe-texto" set:html={htmlTexto(hero.texto.html ?? hero.texto.text)} />}
     <p class="heroe-botones">

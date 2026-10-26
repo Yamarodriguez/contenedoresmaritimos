@@ -1,0 +1,5105 @@
+{
+ "_nota": "Generado por scripts/geo-ciudades.mjs. Datos geográficos © colaboradores de OpenStreetMap (ODbL). Distancias en línea recta, redondeadas.",
+ "adeje": {
+  "nombre": "Adeje",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Santa Cruz de Tenerife",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 60,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 10
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 18
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 118
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 128
+   }
+  ],
+  "esZona": false
+ },
+ "alava": {
+  "nombre": "Álava",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "albacete": {
+  "nombre": "Albacete",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 140,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 108
+   },
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 118
+   },
+   {
+    "slug": "cuenca",
+    "nombre": "Cuenca",
+    "km": 121
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 124
+   }
+  ],
+  "esZona": false
+ },
+ "alcala-de-guadaira": {
+  "nombre": "Alcalá de Guadaíra",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Sevilla",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 15,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 10
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 15
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 18
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 77
+   }
+  ],
+  "esZona": false
+ },
+ "alcala-de-henares": {
+  "nombre": "Alcalá de Henares",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 285,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "coslada",
+    "nombre": "Coslada",
+    "km": 17
+   },
+   {
+    "slug": "arganda-del-rey",
+    "nombre": "Arganda del Rey",
+    "km": 21
+   },
+   {
+    "slug": "alcobendas",
+    "nombre": "Alcobendas",
+    "km": 24
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 30
+   }
+  ],
+  "esZona": false
+ },
+ "alcobendas": {
+  "nombre": "Alcobendas",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 9
+   },
+   {
+    "slug": "coslada",
+    "nombre": "Coslada",
+    "km": 15
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 15
+   },
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 17
+   }
+  ],
+  "esZona": false
+ },
+ "alcorcon": {
+  "nombre": "Alcorcón",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 315,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mostoles",
+    "nombre": "Móstoles",
+    "km": 4
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 6
+   },
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 7
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 8
+   }
+  ],
+  "esZona": false
+ },
+ "alicante": {
+  "nombre": "Alicante",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 7
+   },
+   {
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 31
+   },
+   {
+    "slug": "benidorm",
+    "nombre": "Benidorm",
+    "km": 38
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 39
+   }
+  ],
+  "esZona": false
+ },
+ "almeria": {
+  "nombre": "Almería",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Almería",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Almería",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "lorca",
+    "nombre": "Lorca",
+    "km": 104
+   },
+   {
+    "slug": "motril",
+    "nombre": "Motril",
+    "km": 108
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 119
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 144
+   }
+  ],
+  "esZona": false
+ },
+ "aranjuez": {
+  "nombre": "Aranjuez",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 290,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "valdemoro",
+    "nombre": "Valdemoro",
+    "km": 18
+   },
+   {
+    "slug": "pinto",
+    "nombre": "Pinto",
+    "km": 25
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 32
+   },
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 32
+   }
+  ],
+  "esZona": false
+ },
+ "arganda-del-rey": {
+  "nombre": "Arganda del Rey",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 285,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "coslada",
+    "nombre": "Coslada",
+    "km": 17
+   },
+   {
+    "slug": "alcala-de-henares",
+    "nombre": "Alcalá de Henares",
+    "km": 21
+   },
+   {
+    "slug": "pinto",
+    "nombre": "Pinto",
+    "km": 23
+   },
+   {
+    "slug": "valdemoro",
+    "nombre": "Valdemoro",
+    "km": 23
+   }
+  ],
+  "esZona": false
+ },
+ "argentina": {
+  "nombre": "Argentina",
+  "tipo": "country",
+  "pais": "ar",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 460,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "arona": {
+  "nombre": "Arona",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Santa Cruz de Tenerife",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 10
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 15
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 110
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 123
+   }
+  ],
+  "esZona": false
+ },
+ "arrecife": {
+  "nombre": "Arrecife",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Las Palmas",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Arrecife",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 206
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 235
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 308
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 323
+   }
+  ],
+  "esZona": false
+ },
+ "asturias": {
+  "nombre": "Asturias",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Avilés",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 7
+   },
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 26
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 27
+   },
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 34
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Avilés",
+   "Gijón"
+  ]
+ },
+ "avila": {
+  "nombre": "Ávila",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "segovia",
+    "nombre": "Segovia",
+    "km": 56
+   },
+   {
+    "slug": "collado-villalba",
+    "nombre": "Collado Villalba",
+    "km": 57
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 70
+   },
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 72
+   }
+  ],
+  "esZona": false
+ },
+ "aviles": {
+  "nombre": "Avilés",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Avilés",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 21
+   },
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 23
+   },
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 29
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 129
+   }
+  ],
+  "esZona": false
+ },
+ "badajoz": {
+  "nombre": "Badajoz",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Badajoz",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Huelva",
+   "km": 185,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 54
+   },
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 84
+   },
+   {
+    "slug": "huelva",
+    "nombre": "Huelva",
+    "km": 180
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 186
+   }
+  ],
+  "esZona": false
+ },
+ "badalona": {
+  "nombre": "Badalona",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 10
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 10
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 10
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 18
+   }
+  ],
+  "esZona": false
+ },
+ "baracaldo": {
+  "nombre": "Baracaldo",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 6
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 56
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 69
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 86
+   }
+  ],
+  "esZona": false
+ },
+ "barcelona": {
+  "nombre": "Barcelona",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 9
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 10
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 12
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 12
+   }
+  ],
+  "esZona": false
+ },
+ "bariloche": {
+  "nombre": "San Carlos de Bariloche",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Río Negro",
+  "puerto": {
+   "nombre": "San Antonio Este",
+   "km": 540,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 1110
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 1229
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 1309
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 1329
+   }
+  ],
+  "esZona": false
+ },
+ "benalmadena": {
+  "nombre": "Benalmádena",
+  "tipo": "village",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 7
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 8
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 22
+   },
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 23
+   }
+  ],
+  "esZona": false
+ },
+ "benidorm": {
+  "nombre": "Benidorm",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 35
+   },
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 38
+   },
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 38
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 48
+   }
+  ],
+  "esZona": false
+ },
+ "bizkaia": {
+  "nombre": "Vizcaya",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 13
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 17
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Bilbao"
+  ]
+ },
+ "boadilla-del-monte": {
+  "nombre": "Boadilla del Monte",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pozuelo-de-alarcon",
+    "nombre": "Pozuelo de Alarcón",
+    "km": 6
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 7
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 8
+   },
+   {
+    "slug": "mostoles",
+    "nombre": "Móstoles",
+    "km": 9
+   }
+  ],
+  "esZona": false
+ },
+ "burgos": {
+  "nombre": "Burgos",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 120,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 101
+   },
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 103
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 116
+   },
+   {
+    "slug": "valladolid",
+    "nombre": "Valladolid",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
+ "caceres": {
+  "nombre": "Cáceres",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 240,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 58
+   },
+   {
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 84
+   },
+   {
+    "slug": "talavera-de-la-reina",
+    "nombre": "Talavera de la Reina",
+    "km": 137
+   },
+   {
+    "slug": "salamanca",
+    "nombre": "Salamanca",
+    "km": 176
+   }
+  ],
+  "esZona": false
+ },
+ "cadiz": {
+  "nombre": "Cádiz",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Cádiz",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-fernando",
+    "nombre": "San Fernando",
+    "km": 11
+   },
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 22
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 28
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 86
+   }
+  ],
+  "esZona": false
+ },
+ "calvia": {
+  "nombre": "Calvià",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 198
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 198
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 201
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 201
+   }
+  ],
+  "esZona": false
+ },
+ "canarias": {
+  "nombre": "Canarias",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 20
+   },
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 21
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 27
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 113
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 118
+   },
+   {
+    "slug": "arrecife",
+    "nombre": "Arrecife",
+    "km": 309
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Santa Cruz de Tenerife",
+   "Las Palmas",
+   "Arrecife"
+  ]
+ },
+ "cantabria": {
+  "nombre": "Cantabria",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Cantabria",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 21
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 40
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Santander"
+  ]
+ },
+ "cartagena": {
+  "nombre": "Cartagena",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Cartagena",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 37
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 46
+   },
+   {
+    "slug": "torrevieja",
+    "nombre": "Torrevieja",
+    "km": 48
+   },
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 53
+   }
+  ],
+  "esZona": false
+ },
+ "castelldefels": {
+  "nombre": "Castelldefels",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 4
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 7
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 10
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 19
+   }
+  ],
+  "esZona": false
+ },
+ "castellon": {
+  "nombre": "Castellón",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Castellón",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "cataluna": {
+  "nombre": "Cataluña",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 75,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "manresa",
+    "nombre": "Manresa",
+    "km": 25
+   },
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 48
+   },
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 55
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 62
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 63
+   },
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 65
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Barcelona"
+  ]
+ },
+ "catamarca": {
+  "nombre": "Catamarca",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Catamarca",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 760,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "ceuta": {
+  "nombre": "Ceuta",
+  "tipo": "administrative",
+  "pais": "es",
+  "comunidad": "Plazas de Soberanía",
+  "puerto": {
+   "nombre": "Ceuta",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "la-linea-de-la-concepcion",
+    "nombre": "La Línea de la Concepción",
+    "km": 30
+   },
+   {
+    "slug": "estepona",
+    "nombre": "Estepona",
+    "km": 62
+   },
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 84
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 97
+   }
+  ],
+  "esZona": false
+ },
+ "ciudad-real": {
+  "nombre": "Ciudad Real",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Ciudad Real",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 250,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "collado-villalba": {
+  "nombre": "Collado Villalba",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 20
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 22
+   },
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 24
+   },
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 28
+   }
+  ],
+  "esZona": false
+ },
+ "colmenar-viejo": {
+  "nombre": "Colmenar Viejo",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 305,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 8
+   },
+   {
+    "slug": "alcobendas",
+    "nombre": "Alcobendas",
+    "km": 17
+   },
+   {
+    "slug": "collado-villalba",
+    "nombre": "Collado Villalba",
+    "km": 20
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 23
+   }
+  ],
+  "esZona": false
+ },
+ "compostela": {
+  "nombre": "Santiago de Compostela",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "A Coruña",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 50
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 54
+   },
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 70
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 81
+   }
+  ],
+  "esZona": false
+ },
+ "container-valencia": {
+  "nombre": "Valencia",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 10
+   },
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 25
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 57
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 58
+   }
+  ],
+  "esZona": false
+ },
+ "contenedores-alcoy": {
+  "nombre": "Alcoy",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 34
+   },
+   {
+    "slug": "benidorm",
+    "nombre": "Benidorm",
+    "km": 35
+   },
+   {
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 37
+   },
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 39
+   }
+  ],
+  "esZona": false
+ },
+ "contenedores-granadilla-de-abona": {
+  "nombre": "Granadilla de Abona",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Santa Cruz de Tenerife",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 15
+   },
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 18
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 100
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 110
+   }
+  ],
+  "esZona": false
+ },
+ "cordoba": {
+  "nombre": "Córdoba",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Córdoba",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 120,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 88
+   },
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 102
+   },
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 112
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
+ "coslada": {
+  "nombre": "Coslada",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 295,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 13
+   },
+   {
+    "slug": "alcobendas",
+    "nombre": "Alcobendas",
+    "km": 15
+   },
+   {
+    "slug": "alcala-de-henares",
+    "nombre": "Alcalá de Henares",
+    "km": 17
+   },
+   {
+    "slug": "arganda-del-rey",
+    "nombre": "Arganda del Rey",
+    "km": 17
+   }
+  ],
+  "esZona": false
+ },
+ "cuenca": {
+  "nombre": "Cuenca",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 170,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "alcala-de-henares",
+    "nombre": "Alcalá de Henares",
+    "km": 114
+   },
+   {
+    "slug": "arganda-del-rey",
+    "nombre": "Arganda del Rey",
+    "km": 114
+   },
+   {
+    "slug": "albacete",
+    "nombre": "Albacete",
+    "km": 121
+   },
+   {
+    "slug": "aranjuez",
+    "nombre": "Aranjuez",
+    "km": 125
+   }
+  ],
+  "esZona": false
+ },
+ "dos-hermanas": {
+  "nombre": "Dos Hermanas",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Sevilla",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 10,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 10
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 13
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 17
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 68
+   }
+  ],
+  "esZona": false
+ },
+ "el-prat-de-llobregat": {
+  "nombre": "el Prat de Llobregat",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 4
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 7
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 9
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 10
+   }
+  ],
+  "esZona": false
+ },
+ "elda": {
+  "nombre": "Elda",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 25
+   },
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 31
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 37
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 51
+   }
+  ],
+  "esZona": false
+ },
+ "estepona": {
+  "nombre": "Estepona",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Algeciras",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 32
+   },
+   {
+    "slug": "la-linea-de-la-concepcion",
+    "nombre": "La Línea de la Concepción",
+    "km": 34
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 48
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 55
+   }
+  ],
+  "esZona": false
+ },
+ "extremadura": {
+  "nombre": "Extremadura",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 205,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 30
+   },
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 38
+   },
+   {
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 78
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "ferrol": {
+  "nombre": "Ferrol",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Ferrol",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 22
+   },
+   {
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 70
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 124
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 151
+   }
+  ],
+  "esZona": false
+ },
+ "formosa": {
+  "nombre": "Formosa",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Formosa",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 785,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "fuengirola": {
+  "nombre": "Fuengirola",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 8
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 15
+   },
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 17
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 30
+   }
+  ],
+  "esZona": false
+ },
+ "fuenlabrada": {
+  "nombre": "Fuenlabrada",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 6
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 6
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 8
+   },
+   {
+    "slug": "mostoles",
+    "nombre": "Móstoles",
+    "km": 8
+   }
+  ],
+  "esZona": false
+ },
+ "galicia": {
+  "nombre": "Galicia",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Marín",
+   "km": 75,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 62
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 64
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 85
+   },
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 92
+   },
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 104
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "A Coruña",
+   "Marín",
+   "Vigo",
+   "Ferrol"
+  ]
+ },
+ "gandia": {
+  "nombre": "Gandía",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 55,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 39
+   },
+   {
+    "slug": "benidorm",
+    "nombre": "Benidorm",
+    "km": 48
+   },
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 58
+   },
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 67
+   }
+  ],
+  "esZona": false
+ },
+ "gerona": {
+  "nombre": "Gerona",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 90,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 60
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 70
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 76
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 78
+   }
+  ],
+  "esZona": false
+ },
+ "getafe": {
+  "nombre": "Getafe",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 305,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 4
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 6
+   },
+   {
+    "slug": "pinto",
+    "nombre": "Pinto",
+    "km": 8
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 9
+   }
+  ],
+  "esZona": false
+ },
+ "gijon": {
+  "nombre": "Gijón",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 17
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 21
+   },
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 28
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 132
+   }
+  ],
+  "esZona": false
+ },
+ "gipuzkoa": {
+  "nombre": "Guipúzcoa",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "girona": {
+  "nombre": "Gerona",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 90,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 60
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 70
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 76
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 78
+   }
+  ],
+  "esZona": false
+ },
+ "granada": {
+  "nombre": "Granada",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "motril",
+    "nombre": "Motril",
+    "km": 48
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 62
+   },
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 69
+   },
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 79
+   }
+  ],
+  "esZona": false
+ },
+ "granollers": {
+  "nombre": "Granollers",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 10
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 18
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 18
+   },
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 24
+   }
+  ],
+  "esZona": false
+ },
+ "guadalajara": {
+  "nombre": "Guadalajara",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Castellón",
+   "km": 225,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "guecho": {
+  "nombre": "Guecho",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 6
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 62
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 66
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 84
+   }
+  ],
+  "esZona": false
+ },
+ "huelva": {
+  "nombre": "Huelva",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Huelva",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Huelva",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 75
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 86
+   },
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 91
+   },
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 96
+   }
+  ],
+  "esZona": false
+ },
+ "huesca": {
+  "nombre": "Huesca",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Huesca",
+  "comunidad": "Aragón",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 155,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "ibiza": {
+  "nombre": "Ibiza",
+  "tipo": "island",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Ibiza",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "irun": {
+  "nombre": "Irún",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 59
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 89
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 97
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 99
+   }
+  ],
+  "esZona": false
+ },
+ "jaen": {
+  "nombre": "Jaén",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Jaén",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 120,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 37
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 69
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 88
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 114
+   }
+  ],
+  "esZona": false
+ },
+ "jerez-de-la-frontera": {
+  "nombre": "Jerez de la Frontera",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Cádiz",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cadiz",
+    "nombre": "Cádiz",
+    "km": 22
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 22
+   },
+   {
+    "slug": "san-fernando",
+    "nombre": "San Fernando",
+    "km": 25
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 64
+   }
+  ],
+  "esZona": false
+ },
+ "la-coruna": {
+  "nombre": "La Coruña",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "A Coruña",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 22
+   },
+   {
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 50
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 103
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 130
+   }
+  ],
+  "esZona": false
+ },
+ "la-linea-de-la-concepcion": {
+  "nombre": "La Línea de la Concepción",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Algeciras",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "ceuta",
+    "nombre": "Ceuta",
+    "km": 30
+   },
+   {
+    "slug": "estepona",
+    "nombre": "Estepona",
+    "km": 34
+   },
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 62
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 77
+   }
+  ],
+  "esZona": false
+ },
+ "la-pampa": {
+  "nombre": "La Pampa",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "La Pampa",
+  "puerto": {
+   "nombre": "Bahía Blanca",
+   "km": 350,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "la-plata": {
+  "nombre": "La Plata",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 55,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 63
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 332
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 344
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 410
+   }
+  ],
+  "esZona": false
+ },
+ "la-rioja": {
+  "nombre": "La Rioja",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "La Rioja",
+  "comunidad": "La Rioja",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 125,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 21
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "las-palmas": {
+  "nombre": "Las Palmas de Gran Canaria",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Las Palmas",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Las Palmas",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 34
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 110
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 123
+   },
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 128
+   }
+  ],
+  "esZona": false
+ },
+ "leganes": {
+  "nombre": "Leganés",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 4
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 6
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 6
+   },
+   {
+    "slug": "mostoles",
+    "nombre": "Móstoles",
+    "km": 8
+   }
+  ],
+  "esZona": false
+ },
+ "leon": {
+  "nombre": "León",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "León",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Avilés",
+   "km": 105,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 51
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "linares": {
+  "nombre": "Linares",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Jaén",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 150,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 37
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 102
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 102
+   },
+   {
+    "slug": "motril",
+    "nombre": "Motril",
+    "km": 150
+   }
+  ],
+  "esZona": false
+ },
+ "lleida": {
+  "nombre": "Lérida",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 75,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 65
+   },
+   {
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "km": 76
+   },
+   {
+    "slug": "manresa",
+    "nombre": "Manresa",
+    "km": 101
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 101
+   }
+  ],
+  "esZona": false
+ },
+ "logrono": {
+  "nombre": "Logroño",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "La Rioja",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 105,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 46
+   },
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 75
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 102
+   },
+   {
+    "slug": "burgos",
+    "nombre": "Burgos",
+    "km": 103
+   }
+  ],
+  "esZona": false
+ },
+ "lorca": {
+  "nombre": "Lorca",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Cartagena",
+   "km": 70,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 64
+   },
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 64
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 70
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 84
+   }
+  ],
+  "esZona": false
+ },
+ "lugo": {
+  "nombre": "Lugo",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Lugo",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Ferrol",
+   "km": 80,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "madrid": {
+  "nombre": "Madrid",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pozuelo-de-alarcon",
+    "nombre": "Pozuelo de Alarcón",
+    "km": 10
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 11
+   },
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 12
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 13
+   }
+  ],
+  "esZona": false
+ },
+ "majadahona": {
+  "nombre": "Majadahonda",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 325,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pozuelo-de-alarcon",
+    "nombre": "Pozuelo de Alarcón",
+    "km": 6
+   },
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 8
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 14
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 16
+   }
+  ],
+  "esZona": false
+ },
+ "malaga": {
+  "nombre": "Málaga",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 15
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 16
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 22
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 30
+   }
+  ],
+  "esZona": false
+ },
+ "mallorca": {
+  "nombre": "Mallorca",
+  "tipo": "island",
+  "pais": "es",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "manresa": {
+  "nombre": "Manresa",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 24
+   },
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 31
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 37
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 38
+   }
+  ],
+  "esZona": false
+ },
+ "mar-del-plata": {
+  "nombre": "Mar del Plata",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Mar del Plata",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 121
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 344
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 383
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 627
+   }
+  ],
+  "esZona": false
+ },
+ "marbella": {
+  "nombre": "Marbella",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 17
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 23
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 30
+   },
+   {
+    "slug": "estepona",
+    "nombre": "Estepona",
+    "km": 32
+   }
+  ],
+  "esZona": false
+ },
+ "melilla": {
+  "nombre": "Melilla",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Melilla",
+  "puerto": {
+   "nombre": "Melilla",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "mendoza": {
+  "nombre": "Mendoza",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Mendoza",
+  "puerto": {
+   "nombre": "Bahía Blanca",
+   "km": 740,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "merida": {
+  "nombre": "Mérida",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Badajoz",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 180,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 54
+   },
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 58
+   },
+   {
+    "slug": "talavera-de-la-reina",
+    "nombre": "Talavera de la Reina",
+    "km": 167
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 177
+   }
+  ],
+  "esZona": false
+ },
+ "molina-de-segura": {
+  "nombre": "Molina de Segura",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Cartagena",
+   "km": 55,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 16
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 26
+   },
+   {
+    "slug": "torrevieja",
+    "nombre": "Torrevieja",
+    "km": 47
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 53
+   }
+  ],
+  "esZona": false
+ },
+ "mollet-del-valles": {
+  "nombre": "Mollet del Vallès",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 8
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 10
+   },
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 10
+   },
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 16
+   }
+  ],
+  "esZona": false
+ },
+ "mostoles": {
+  "nombre": "Móstoles",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 4
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 8
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 8
+   },
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 9
+   }
+  ],
+  "esZona": false
+ },
+ "motril": {
+  "nombre": "Motril",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 48
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 52
+   },
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 68
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 82
+   }
+  ],
+  "esZona": false
+ },
+ "murcia": {
+  "nombre": "Murcia",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Cartagena",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 16
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 20
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 37
+   },
+   {
+    "slug": "torrevieja",
+    "nombre": "Torrevieja",
+    "km": 38
+   }
+  ],
+  "esZona": false
+ },
+ "navarra": {
+  "nombre": "Navarra",
+  "tipo": "state",
+  "pais": "es",
+  "comunidad": "Navarra",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 70,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 13
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "necochea": {
+  "nombre": "Necochea",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Quequén",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 121
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 410
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 435
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 646
+   }
+  ],
+  "esZona": false
+ },
+ "neuquen": {
+  "nombre": "Neuquén",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Neuquén",
+  "puerto": {
+   "nombre": "San Antonio Este",
+   "km": 475,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "orense": {
+  "nombre": "Ourense",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Ourense",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Marín",
+   "km": 100,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "orihuela": {
+  "nombre": "Orihuela",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 20
+   },
+   {
+    "slug": "torrevieja",
+    "nombre": "Torrevieja",
+    "km": 21
+   },
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 26
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 46
+   }
+  ],
+  "esZona": false
+ },
+ "ourense": {
+  "nombre": "Ourense",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Ourense",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Marín",
+   "km": 100,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "oviedo": {
+  "nombre": "Oviedo",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Avilés",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 20
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 23
+   },
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 28
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 110
+   }
+  ],
+  "esZona": false
+ },
+ "palencia": {
+  "nombre": "Palencia",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Palencia",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 130,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "pamplona": {
+  "nombre": "Pamplona",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Navarra",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 60,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "irun",
+    "nombre": "Irún",
+    "km": 59
+   },
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 75
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 82
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 121
+   }
+  ],
+  "esZona": false
+ },
+ "parana": {
+  "nombre": "Paraná",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Entre Ríos",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 20,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 137
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 372
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 428
+   },
+   {
+    "slug": "tucuman",
+    "nombre": "San Miguel de Tucumán",
+    "km": 709
+   }
+  ],
+  "esZona": false
+ },
+ "paterna": {
+  "nombre": "Paterna",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 10
+   },
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 24
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 56
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 67
+   }
+  ],
+  "esZona": false
+ },
+ "pinto": {
+  "nombre": "Pinto",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 300,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "valdemoro",
+    "nombre": "Valdemoro",
+    "km": 6
+   },
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 8
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 9
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 11
+   }
+  ],
+  "esZona": false
+ },
+ "ponferrada": {
+  "nombre": "Ponferrada",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "León",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Avilés",
+   "km": 130,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 110
+   },
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 125
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 129
+   },
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 138
+   }
+  ],
+  "esZona": false
+ },
+ "pontevedra": {
+  "nombre": "Pontevedra",
+  "tipo": "municipality",
+  "pais": "es",
+  "provincia": "Pontevedra",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Marín",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 27
+   },
+   {
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 54
+   },
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 103
+   },
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 124
+   }
+  ],
+  "esZona": false
+ },
+ "pozuelo-de-alarcon": {
+  "nombre": "Pozuelo de Alarcón",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "boadilla-del-monte",
+    "nombre": "Boadilla del Monte",
+    "km": 6
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 6
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 10
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 10
+   }
+  ],
+  "esZona": false
+ },
+ "ramos-mejia": {
+  "nombre": "Ramos Mejía",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 20,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 63
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 270
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 372
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 383
+   }
+  ],
+  "esZona": false
+ },
+ "reus": {
+  "nombre": "Reus",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "km": 13
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 52
+   },
+   {
+    "slug": "lleida",
+    "nombre": "Lérida",
+    "km": 65
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 75
+   }
+  ],
+  "esZona": false
+ },
+ "rincon-de-la-victoria": {
+  "nombre": "Rincón de la Victoria",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 15
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 18
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 22
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 29
+   }
+  ],
+  "esZona": false
+ },
+ "rio-grande": {
+  "nombre": "Río Grande",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Tierra del Fuego",
+  "puerto": {
+   "nombre": "Ushuaia",
+   "km": 120,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 1432
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 1825
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 1919
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 2231
+   }
+  ],
+  "esZona": false
+ },
+ "rosario": {
+  "nombre": "Rosario",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Santa Fe",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 5,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 137
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 270
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 332
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 627
+   }
+  ],
+  "esZona": false
+ },
+ "rubi": {
+  "nombre": "Rubí",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 8
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 9
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 16
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 17
+   }
+  ],
+  "esZona": false
+ },
+ "sagunto": {
+  "nombre": "Sagunto",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Sagunto",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 24
+   },
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 25
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 32
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 80
+   }
+  ],
+  "esZona": false
+ },
+ "salamanca": {
+  "nombre": "Salamanca",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 290,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "avila",
+    "nombre": "Ávila",
+    "km": 91
+   },
+   {
+    "slug": "valladolid",
+    "nombre": "Valladolid",
+    "km": 107
+   },
+   {
+    "slug": "segovia",
+    "nombre": "Segovia",
+    "km": 130
+   },
+   {
+    "slug": "talavera-de-la-reina",
+    "nombre": "Talavera de la Reina",
+    "km": 130
+   }
+  ],
+  "esZona": false
+ },
+ "salta": {
+  "nombre": "Salta",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Salta",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 810,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "san-bartolome-de-tirajana": {
+  "nombre": "San Bartolomé de Tirajana",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Las Palmas",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Las Palmas",
+   "km": 35,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 34
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 100
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 110
+   },
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
+ "san-baudilio-de-llobregat": {
+  "nombre": "Sant Boi de Llobregat",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 3
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 4
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 7
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 12
+   }
+  ],
+  "esZona": false
+ },
+ "san-fernando": {
+  "nombre": "San Fernando",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Cádiz",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cadiz",
+    "nombre": "Cádiz",
+    "km": 11
+   },
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 25
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 37
+   },
+   {
+    "slug": "la-linea-de-la-concepcion",
+    "nombre": "La Línea de la Concepción",
+    "km": 83
+   }
+  ],
+  "esZona": false
+ },
+ "san-juan": {
+  "nombre": "San Juan",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "San Juan",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 815,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "san-luis": {
+  "nombre": "San Luis",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "San Luis",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 515,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "san-vicente-del-raspeig": {
+  "nombre": "San Vicente del Raspeig",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 7
+   },
+   {
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 25
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 34
+   },
+   {
+    "slug": "benidorm",
+    "nombre": "Benidorm",
+    "km": 38
+   }
+  ],
+  "esZona": false
+ },
+ "sanlucar-de-barrameda": {
+  "nombre": "Sanlúcar de Barrameda",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Cádiz",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 22
+   },
+   {
+    "slug": "cadiz",
+    "nombre": "Cádiz",
+    "km": 28
+   },
+   {
+    "slug": "san-fernando",
+    "nombre": "San Fernando",
+    "km": 37
+   },
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 68
+   }
+  ],
+  "esZona": false
+ },
+ "santa-cruz": {
+  "nombre": "Santa Cruz",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Santa Cruz",
+  "puerto": {
+   "nombre": "Ushuaia",
+   "km": 655,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "santa-fe": {
+  "nombre": "Santa Fe",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Santa Fe",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 155,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 298
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Rosario"
+  ]
+ },
+ "santander": {
+  "nombre": "Santander",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cantabria",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 23
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 66
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 69
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 115
+   }
+  ],
+  "esZona": false
+ },
+ "santiago-de-compostela": {
+  "nombre": "Santiago de Compostela",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "A Coruña",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 50
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 54
+   },
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 70
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 81
+   }
+  ],
+  "esZona": false
+ },
+ "sardanola-del-valles": {
+  "nombre": "Cerdanyola del Vallès",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 8
+   },
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 9
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 10
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 12
+   }
+  ],
+  "esZona": false
+ },
+ "segovia": {
+  "nombre": "Segovia",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 280,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "collado-villalba",
+    "nombre": "Collado Villalba",
+    "km": 35
+   },
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 44
+   },
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 52
+   },
+   {
+    "slug": "avila",
+    "nombre": "Ávila",
+    "km": 56
+   }
+  ],
+  "esZona": false
+ },
+ "sevilla": {
+  "nombre": "Sevilla",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Sevilla",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 5,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 13
+   },
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 15
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 30
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 75
+   }
+  ],
+  "esZona": false
+ },
+ "siero": {
+  "nombre": "Siero",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 17
+   },
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 20
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 29
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 125
+   }
+  ],
+  "esZona": false
+ },
+ "soria": {
+  "nombre": "Soria",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 195,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "talavera-de-la-reina": {
+  "nombre": "Talavera de la Reina",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 305,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "toledo",
+    "nombre": "Toledo",
+    "km": 75
+   },
+   {
+    "slug": "avila",
+    "nombre": "Ávila",
+    "km": 81
+   },
+   {
+    "slug": "mostoles",
+    "nombre": "Móstoles",
+    "km": 96
+   },
+   {
+    "slug": "alcorcon",
+    "nombre": "Alcorcón",
+    "km": 100
+   }
+  ],
+  "esZona": false
+ },
+ "tarragona": {
+  "nombre": "Tarragona",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 13
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 41
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 64
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 67
+   }
+  ],
+  "esZona": false
+ },
+ "tenerife": {
+  "nombre": "Tenerife",
+  "tipo": "island",
+  "pais": "es",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "terrassa": {
+  "nombre": "Terrassa",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 8
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 13
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 17
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 24
+   }
+  ],
+  "esZona": false
+ },
+ "teruel": {
+  "nombre": "Teruel",
+  "tipo": "province",
+  "pais": "es",
+  "comunidad": "Aragón",
+  "puerto": {
+   "nombre": "Castellón",
+   "km": 105,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "toledo": {
+  "nombre": "Toledo",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "aranjuez",
+    "nombre": "Aranjuez",
+    "km": 41
+   },
+   {
+    "slug": "valdemoro",
+    "nombre": "Valdemoro",
+    "km": 48
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 51
+   },
+   {
+    "slug": "pinto",
+    "nombre": "Pinto",
+    "km": 51
+   }
+  ],
+  "esZona": false
+ },
+ "torrelavega": {
+  "nombre": "Torrelavega",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cantabria",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 23
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 84
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 86
+   },
+   {
+    "slug": "burgos",
+    "nombre": "Burgos",
+    "km": 116
+   }
+  ],
+  "esZona": false
+ },
+ "torremolinos": {
+  "nombre": "Torremolinos",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 7
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 15
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 16
+   },
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 22
+   }
+  ],
+  "esZona": false
+ },
+ "torrevieja": {
+  "nombre": "Torrevieja",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 45,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 21
+   },
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 38
+   },
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 44
+   },
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 47
+   }
+  ],
+  "esZona": false
+ },
+ "tres-cantos": {
+  "nombre": "Tres Cantos",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 310,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 8
+   },
+   {
+    "slug": "alcobendas",
+    "nombre": "Alcobendas",
+    "km": 9
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 20
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 21
+   }
+  ],
+  "esZona": false
+ },
+ "tucuman": {
+  "nombre": "San Miguel de Tucumán",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Tucumán",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 690,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 709
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 810
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 1076
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 1134
+   }
+  ],
+  "esZona": false
+ },
+ "utrera": {
+  "nombre": "Utrera",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Sevilla",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 25,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 17
+   },
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 18
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 30
+   },
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 64
+   }
+  ],
+  "esZona": false
+ },
+ "valdemoro": {
+  "nombre": "Valdemoro",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 300,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pinto",
+    "nombre": "Pinto",
+    "km": 6
+   },
+   {
+    "slug": "getafe",
+    "nombre": "Getafe",
+    "km": 14
+   },
+   {
+    "slug": "fuenlabrada",
+    "nombre": "Fuenlabrada",
+    "km": 15
+   },
+   {
+    "slug": "leganes",
+    "nombre": "Leganés",
+    "km": 17
+   }
+  ],
+  "esZona": false
+ },
+ "valencia": {
+  "nombre": "Valencia",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 10
+   },
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 25
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 57
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 58
+   }
+  ],
+  "esZona": false
+ },
+ "valladolid": {
+  "nombre": "Valladolid",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Santander",
+   "km": 215,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "segovia",
+    "nombre": "Segovia",
+    "km": 90
+   },
+   {
+    "slug": "avila",
+    "nombre": "Ávila",
+    "km": 107
+   },
+   {
+    "slug": "salamanca",
+    "nombre": "Salamanca",
+    "km": 107
+   },
+   {
+    "slug": "burgos",
+    "nombre": "Burgos",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
+ "velez-malaga": {
+  "nombre": "Vélez-Málaga",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 18
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 31
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 40
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 47
+   }
+  ],
+  "esZona": false
+ },
+ "vigo": {
+  "nombre": "Vigo",
+  "tipo": "municipality",
+  "pais": "es",
+  "provincia": "Pontevedra",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Vigo",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 27
+   },
+   {
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 81
+   },
+   {
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 130
+   },
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 151
+   }
+  ],
+  "esZona": false
+ },
+ "viladecans": {
+  "nombre": "Viladecans",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 3
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 4
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 7
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 15
+   }
+  ],
+  "esZona": false
+ },
+ "villanueva-y-geltru": {
+  "nombre": "Vilanova i la Geltrú",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 40,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 23
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 26
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 29
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 33
+   }
+  ],
+  "esZona": false
+ },
+ "villareal": {
+  "nombre": "Vila-real",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Castellón",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 32
+   },
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 56
+   },
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 57
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 108
+   }
+  ],
+  "esZona": false
+ },
+ "vitoria": {
+  "nombre": "Vitoria",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 46
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 56
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 62
+   },
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 82
+   }
+  ],
+  "esZona": false
+ },
+ "zamora": {
+  "nombre": "Zamora",
+  "tipo": "province",
+  "pais": "es",
+  "provincia": "Zamora",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 210,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
+ "zaragoza": {
+  "nombre": "Zaragoza",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Aragón",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 190,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "lleida",
+    "nombre": "Lérida",
+    "km": 128
+   },
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 139
+   },
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 153
+   },
+   {
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 178
+   }
+  ],
+  "esZona": false
+ }
+}

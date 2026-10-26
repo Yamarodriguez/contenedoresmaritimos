@@ -9,6 +9,7 @@ import { agrupar, type Bloque, type Trozo } from './agrupar';
 import serviciosDatos from '../data/servicios-paginas.json';
 import fotos from '../data/fotos-seccion.json';
 import { resumenDe, tablaDe } from './fichas';
+import { extrasCiudad } from './ciudades';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
 export type Consulta = { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
@@ -28,7 +29,7 @@ function seccionServicios(): Seccion {
   }));
   return {
     tipo: 'seccion',
-    titular: { type: 'heading', tag: 'h2', text: 'Servicios para tus contenedores marítimos' },
+    titular: { type: 'heading', tag: 'h2', text: 'Servicios para tus contenedores marítimos', nuevo: true },
     imagen: { type: 'image', src: fotos.construcc.src, alt: fotos.construcc.alt, nuevo: true },
     cuerpo: [
       { tipo: 'bloque', bloque: { type: 'text', html: '<p>Además de vender, alquilar y transportar contenedores, los acondicionamos para el uso que necesites. Elige un servicio para ver qué incluye.</p>', nuevo: true } },
@@ -93,6 +94,21 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
     const iTipos = elementos.findIndex((e) => e.tipo === 'seccion' && /tipos/i.test(e.titular?.text || ''));
     elementos.splice(iTipos >= 0 ? iTipos + 1 : elementos.length, 0, seccionServicios());
   }
+  // Páginas de ciudad: información propia AÑADIDA al final de algunas secciones
+  // (ubicación y ciudades cercanas, puerto y transporte, consejo según la costa,
+  // enlace a la provincia). El texto original no se toca.
+  const extras = opciones.slug ? extrasCiudad(opciones.slug) : undefined;
+  if (extras) {
+    const titulos = elementos.filter((e): e is Seccion => e.tipo === 'seccion' && !!e.titular && !e.titular.nuevo);
+    const añadir = (sec: Seccion | undefined, html?: string) => {
+      if (sec && html) sec.cuerpo.push({ tipo: 'bloque', bloque: { type: 'text', html: `<p>${html}</p>`, nuevo: true } });
+    };
+    añadir(titulos[0], extras.primera);
+    añadir(titulos.find((t) => /transporte/i.test(t.titular?.text || '')), extras.transporte);
+    añadir(titulos.find((t) => /construcc/i.test(t.titular?.text || '')), extras.construccion);
+    añadir(titulos[titulos.length - 1], extras.ultima);
+  }
+
   // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).
   if (opciones.slug) {
     const arriba: Elemento[] = [];
