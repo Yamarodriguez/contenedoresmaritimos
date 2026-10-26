@@ -5,11 +5,13 @@
 [build.environment]
   NODE_VERSION = "22"
 
-# Se QUITA el día del cambio de DNS (Fase 7), ni antes ni después.
-[[headers]]
-  for = "/*"
-  [headers.values]
-    X-Robots-Tag = "noindex, nofollow"
+# Fase 7 (día del cambio de DNS): la web ya se indexa. La copia de pruebas en
+# netlify.app redirige al dominio para que Google no la vea como duplicada.
+[[redirects]]
+  from = "https://contenedoresmaritimos.netlify.app/*"
+  to = "https://contenedoresmaritimos.net/:splat"
+  status = 301
+  force = true
 
 # --- Direcciones de la web antigua en WordPress (Fase 7) ---
 # Las fotos tenían la ruta /wp-content/uploads/AAAA/MM/foto.jpg y ahora están en /img/AAAA/MM/.

@@ -64,6 +64,11 @@ for (const f of ficheros) {
       } catch { fallos.push(`${rel}: datos estructurados con JSON roto`); }
     }
   }
+  // Desde la Fase 7 la web se indexa: ninguna página de contenido puede llevar noindex.
+  const sinIndice = /<meta name="robots" content="noindex/.test(html);
+  const debeIndexarse = !es404 && rel !== 'gracias/index.html';
+  if (debeIndexarse && sinIndice) fallos.push(`${rel}: lleva noindex y debería indexarse`);
+  if (!debeIndexarse && !sinIndice) fallos.push(`${rel}: debería llevar noindex`);
   if (/casascontenedores/i.test(html)) {
     // Vale si ya estaba en el original (p. ej. un enlace real al sitio hermano).
     const slug = rel === 'index.html' ? 'index' : rel.replace(/\/index\.html$/, '').replace(/\//g, '__');

@@ -1,2 +1,6 @@
+# contenedoresmaritimos.net
+# Abierto a buscadores y a buscadores con IA (Google, Bing, ChatGPT, Perplexity, Claude...).
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://contenedoresmaritimos.net/sitemap.xml

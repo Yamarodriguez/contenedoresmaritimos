@@ -19,8 +19,9 @@ interface Props {
   ogDescripcion?: string;
   datos?: Record<string, unknown>[]; // datos estructurados propios de la página (p. ej. FAQPage)
   migas?: Miga[];
+  indexar?: boolean; // false en páginas que no deben salir en Google (gracias, 404)
 }
-const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, datos = [], migas = [] } = Astro.props as Props;
+const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, datos = [], migas = [], indexar = true } = Astro.props as Props;
 const dominio = site.dominio ? `https://${site.dominio}` : '';
 const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio}${imagen}`) : '';
 
@@ -53,7 +54,7 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graf
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
     <link rel="canonical" href={canonical} />
-    <meta name="robots" content="noindex, nofollow" />
+    {!indexar && <meta name="robots" content="noindex, follow" />}
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="es_ES" />
     <meta property="og:site_name" content={site.nombre} />
@@ -63,7 +64,6 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graf
     {imagenAbsoluta && <meta property="og:image" content={imagenAbsoluta} />}
     <script type="application/ld+json" set:html={jsonld} />
     <meta name="twitter:card" content={imagenAbsoluta ? 'summary_large_image' : 'summary'} />
-    <!-- noindex provisional: se quita en la Fase 7, el día del cambio de DNS -->
   </head>
   <body>
     <Header menu={menu} />

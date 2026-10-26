@@ -2,7 +2,7 @@
 import Base from '../layouts/Base.astro';
 import site from '../data/site.json';
 ---
-<Base title={`Página no encontrada — ${site.nombre}`} canonical={`${site.dominio ? 'https://' + site.dominio : ''}/404/`}>
+<Base indexar={false} title={`Página no encontrada — ${site.nombre}`} canonical={`${site.dominio ? 'https://' + site.dominio : ''}/404/`}>
   <div class="bloque">
     <div class="bloque-in" style="text-align:center; padding: 60px 0;">
       <h1>Página no encontrada</h1>
