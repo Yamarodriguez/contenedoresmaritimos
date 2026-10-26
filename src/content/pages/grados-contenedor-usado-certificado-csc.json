@@ -1,0 +1,257 @@
+{
+ "slug": "grados-contenedor-usado-certificado-csc",
+ "title": "Grados de un contenedor usado (CW, WWT, As-is) y certificado CSC",
+ "url": "https://contenedoresmaritimos.net/grados-contenedor-usado-certificado-csc/",
+ "meta_description": "Qué significan los grados de un contenedor usado: One Trip, Cargo Worthy (CW), Wind and Water Tight (WWT) y As-is, y qué es el certificado CSC.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "guia": true,
+ "faq": [
+  {
+   "pregunta": "¿Qué significa Cargo Worthy (CW)?",
+   "respuesta": "Que el contenedor está en condiciones de transportar carga por mar: estructura sana y estanco."
+  },
+  {
+   "pregunta": "¿Qué diferencia hay entre CW y WWT?",
+   "respuesta": "Los dos son estancos, pero el CW además es apto para el transporte marítimo; el WWT está pensado para usos en tierra, como almacenaje u obras."
+  },
+  {
+   "pregunta": "¿Necesito el certificado CSC para usar el contenedor como almacén?",
+   "respuesta": "No. La placa CSC solo es necesaria si el contenedor va a transportar mercancía por mar a nivel internacional."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Grados de un contenedor usado y certificado CSC"
+  },
+  {
+   "type": "text",
+   "text": "Cuando buscas un contenedor usado verás siglas como CW, WWT o As-is. Son los grados que indican su estado y para qué sirve. Te explicamos qué significa cada uno y qué es el certificado CSC.",
+   "html": "<p>Cuando buscas un <strong>contenedor usado</strong> verás siglas como CW, WWT o <strong>As-is</strong>. Son los <strong>grados</strong> que indican su estado y para qué sirve. Te explicamos qué significa cada uno y qué es el <strong>certificado CSC</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/grados-de-un-contenedor-usado-y-certificado-csc.jpg",
+   "alt": "Grados de un contenedor usado y certificado CSC",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué son los grados de un contenedor marítimo usado"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/que-son-los-grados-de-un-contenedor-maritimo-usado.jpg",
+   "alt": "Qué son los grados de un contenedor marítimo usado",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Los grados son la forma en la que el sector clasifica el estado de un contenedor. No hay un único reglamento que los defina, así que conviene confirmar con el vendedor qué incluye cada uno. Estos son los más habituales:",
+   "html": "<p>Los <strong>grados</strong> son la forma en la que el sector clasifica el estado de un contenedor. No hay un único reglamento que los defina, así que conviene confirmar con el vendedor qué incluye cada uno. Estos son los más habituales:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "tabla",
+   "nuevo": true,
+   "cabecera": [
+    "Grado",
+    "Qué significa",
+    "Para qué sirve"
+   ],
+   "filas": [
+    [
+     "One Trip",
+     "Prácticamente nuevo: un solo viaje desde la fábrica",
+     "Vivienda, oficina, imagen comercial"
+    ],
+    [
+     "Cargo Worthy (CW)",
+     "Apto para transportar carga por mar: estructura sana y estanco",
+     "Transporte marítimo, almacenaje, obras"
+    ],
+    [
+     "Wind and Water Tight (WWT)",
+     "Estanco al viento y al agua, pero no necesariamente apto para viajar por mar",
+     "Almacenaje y obras en tierra"
+    ],
+    [
+     "As-is (tal cual)",
+     "Se vende como está, sin garantía; puede tener agujeros o daños",
+     "Piezas, reformas o usos donde no importa la estanqueidad"
+    ]
+   ],
+   "nota": "Las definiciones pueden variar entre vendedores: pide siempre que te detallen el estado y fotos actuales."
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué grado de contenedor elegir según el uso"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/que-grado-de-contenedor-elegir-segun-el-uso.jpg",
+   "alt": "Qué grado de contenedor elegir según el uso",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Para almacenaje"
+  },
+  {
+   "type": "text",
+   "text": "Un WWT suele ser suficiente: lo importante es que no entre agua. Mira los contenedores para almacenaje.",
+   "html": "<p>Un WWT suele ser suficiente: lo importante es que no entre agua. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Para enviar mercancía por mar"
+  },
+  {
+   "type": "text",
+   "text": "Necesitas un Cargo Worthy con su placa CSC en vigor.",
+   "html": "<p>Necesitas un <strong>Cargo Worthy</strong> con su <strong>placa CSC</strong> en vigor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Para vivienda u oficina"
+  },
+  {
+   "type": "text",
+   "text": "Mejor un One Trip o un CW en muy buen estado. Mira contenedor marítimo nuevo o usado.",
+   "html": "<p>Mejor un <strong>One Trip</strong> o un CW en muy buen estado. Mira <a href=\"/contenedor-maritimo-nuevo-o-usado/\">contenedor marítimo nuevo o usado</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué es el certificado CSC de un contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/que-es-el-certificado-csc-de-un-contenedor.jpg",
+   "alt": "Qué es el certificado CSC de un contenedor",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (placa CSC) con datos como el fabricante, la fecha de fabricación y el peso bruto máximo, y a que se revisen periódicamente.",
+   "html": "<p>El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (<strong>placa CSC</strong>) con datos como el fabricante, la fecha de fabricación y el peso bruto máximo, y a que se revisen periódicamente.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cuándo es necesario?"
+  },
+  {
+   "type": "text",
+   "text": "Para transportar mercancía en el contenedor por mar a nivel internacional.",
+   "html": "<p>Para transportar mercancía en el contenedor por mar a nivel internacional.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cuándo no hace falta?"
+  },
+  {
+   "type": "text",
+   "text": "Si el contenedor se queda en tierra como almacén, caseta u obra, la placa CSC no es necesaria.",
+   "html": "<p>Si el contenedor se queda en tierra como almacén, caseta u obra, la <strong>placa CSC</strong> no es necesaria.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Dónde está la placa"
+  },
+  {
+   "type": "text",
+   "text": "Normalmente en la puerta del contenedor, junto a otras placas de identificación.",
+   "html": "<p>Normalmente en la puerta del contenedor, junto a otras placas de identificación.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre grados de un contenedor usado y certificado csc"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/preguntas-frecuentes-sobre-grados-de-un-contenedor-usado-y-certificado-csc.jpg",
+   "alt": "Preguntas frecuentes sobre grados de un contenedor usado y certificado csc",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Qué significa Cargo Worthy (CW)?"
+  },
+  {
+   "type": "text",
+   "text": "Que el contenedor está en condiciones de transportar carga por mar: estructura sana y estanco.",
+   "html": "<p>Que el contenedor está en condiciones de transportar carga por mar: estructura sana y estanco.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Qué diferencia hay entre CW y WWT?"
+  },
+  {
+   "type": "text",
+   "text": "Los dos son estancos, pero el CW además es apto para el transporte marítimo; el WWT está pensado para usos en tierra, como almacenaje u obras.",
+   "html": "<p>Los dos son estancos, pero el CW además es apto para el transporte marítimo; el WWT está pensado para usos en tierra, como almacenaje u obras.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Necesito el certificado CSC para usar el contenedor como almacén?"
+  },
+  {
+   "type": "text",
+   "text": "No. La placa CSC solo es necesaria si el contenedor va a transportar mercancía por mar a nivel internacional.",
+   "html": "<p>No. La <strong>placa CSC</strong> solo es necesaria si el contenedor va a transportar mercancía por mar a nivel internacional.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto indicando el grado que necesitas"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/grados-contenedor-usado-certificado-csc/pide-presupuesto-indicando-el-grado-que-necesitas.jpg",
+   "alt": "Pide presupuesto indicando el grado que necesitas",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor <strong>necesitas</strong>, para qué uso y en qué provincia. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Ver precios orientativos",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  }
+ ]
+}

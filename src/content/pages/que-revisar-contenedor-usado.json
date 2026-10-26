@@ -1,0 +1,285 @@
+{
+ "slug": "que-revisar-contenedor-usado",
+ "title": "Qué revisar al comprar un contenedor usado (y cómo evitar estafas)",
+ "url": "https://contenedoresmaritimos.net/que-revisar-contenedor-usado/",
+ "meta_description": "Lista de comprobación para comprar un contenedor marítimo usado: estructura, techo, suelo, puertas, número de contenedor y señales de estafa.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "guia": true,
+ "faq": [
+  {
+   "pregunta": "¿Cómo sé si un contenedor usado es estanco?",
+   "respuesta": "Haz la prueba de luz: entra, cierra las puertas y busca puntos de luz en el techo y las paredes. Revisa también las juntas de las puertas."
+  },
+  {
+   "pregunta": "¿Es normal que un contenedor usado tenga golpes?",
+   "respuesta": "Sí. Los golpes en la chapa son normales; lo importante es que no haya agujeros, óxido que perfore la chapa ni daños en esquinas y largueros."
+  },
+  {
+   "pregunta": "¿Cómo sé si un vendedor de contenedores es fiable?",
+   "respuesta": "Comprueba su CIF, su dirección y las opiniones de otros clientes, pide fotos con el número del contenedor y evita pagar todo por adelantado."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Qué revisar al comprar un contenedor usado"
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor usado puede ser una buena compra o un problema: todo depende de su estado y de quién te lo vende. Esta es la lista de lo que conviene revisar antes de pagar y las señales para no caer en una estafa.",
+   "html": "<p>Un <strong>contenedor usado</strong> puede ser una buena compra o un problema: todo depende de su estado y de quién te lo vende. Esta es la lista de lo que conviene <strong>revisar</strong> antes de pagar y las señales para no caer en una <strong>estafa</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/que-revisar-al-comprar-un-contenedor-usado.jpg",
+   "alt": "Qué revisar al comprar un contenedor usado",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué revisar en la estructura de un contenedor usado"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/que-revisar-en-la-estructura-de-un-contenedor-usado.jpg",
+   "alt": "Qué revisar en la estructura de un contenedor usado",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Esquinas y largueros"
+  },
+  {
+   "type": "text",
+   "text": "Son las piezas que sostienen todo el contenedor. No deben estar dobladas, rotas ni muy oxidadas.",
+   "html": "<p>Son las piezas que sostienen todo el contenedor. No deben estar dobladas, rotas ni muy oxidadas.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Paredes"
+  },
+  {
+   "type": "text",
+   "text": "Los golpes en la chapa ondulada son normales; lo que preocupa son los agujeros y el óxido que atraviesa la chapa.",
+   "html": "<p>Los golpes en la chapa ondulada son normales; lo que preocupa son los agujeros y el óxido que atraviesa la chapa.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Óxido"
+  },
+  {
+   "type": "text",
+   "text": "El óxido superficial se trata con pintura; el que perfora la chapa obliga a reparar.",
+   "html": "<p>El óxido superficial se trata con <a href=\"/pintura-contenedores-maritimos/\">pintura</a>; el que perfora la chapa obliga a <a href=\"/soldadura-reparacion-contenedores-maritimos/\">reparar</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Cómo comprobar el techo, el suelo y las puertas"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/como-comprobar-el-techo-el-suelo-y-las-puertas.jpg",
+   "alt": "Cómo comprobar el techo, el suelo y las puertas",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Prueba de luz"
+  },
+  {
+   "type": "text",
+   "text": "Entra, cierra las puertas y mira el techo y las paredes: si ves puntos de luz, hay agujeros por donde entrará el agua.",
+   "html": "<p>Entra, cierra las puertas y mira el techo y las paredes: si ves puntos de luz, hay agujeros por donde entrará el agua.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Techo"
+  },
+  {
+   "type": "text",
+   "text": "Busca abolladuras donde se acumule el agua de lluvia; con el tiempo acaban oxidando la chapa.",
+   "html": "<p>Busca abolladuras donde se acumule el agua de lluvia; con el tiempo acaban oxidando la chapa.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Suelo"
+  },
+  {
+   "type": "text",
+   "text": "Suele ser de madera contrachapada. Comprueba que no esté podrido, blando ni con zonas hundidas.",
+   "html": "<p>Suele ser de madera contrachapada. Comprueba que no esté podrido, blando ni con zonas hundidas.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Puertas y juntas"
+  },
+  {
+   "type": "text",
+   "text": "Deben abrir y cerrar sin forzar, con las barras de cierre en buen estado y las gomas enteras.",
+   "html": "<p>Deben abrir y cerrar sin forzar, con las barras de cierre en buen estado y las gomas enteras.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Documentación y número del contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/documentacion-y-numero-del-contenedor.jpg",
+   "alt": "Documentación y número del contenedor",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cada contenedor marítimo lleva un número único (norma ISO 6346): cuatro letras del propietario, seis cifras y un dígito de control, pintado en las puertas y en las paredes. Pide fotos donde se vea ese número y la placa de datos, y comprueba que coincide con el que te van a entregar. Si el contenedor va a viajar por mar, necesitará además una placa CSC en vigor: te lo explicamos en la guía de grados de un contenedor usado y certificado CSC.",
+   "html": "<p>Cada contenedor marítimo lleva un <strong>número</strong> único (norma ISO 6346): cuatro letras del propietario, seis cifras y un dígito de control, pintado en las puertas y en las paredes. Pide fotos donde se vea ese número y la placa de datos, y comprueba que coincide con el que te van a entregar. Si el contenedor va a viajar por mar, necesitará además una placa CSC en vigor: te lo explicamos en la guía de <a href=\"/grados-contenedor-usado-certificado-csc/\">grados de un contenedor usado y certificado CSC</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Cómo evitar estafas al comprar un contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/como-evitar-estafas-al-comprar-un-contenedor-maritimo.jpg",
+   "alt": "Cómo evitar estafas al comprar un contenedor marítimo",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Desconfía de precios muy bajos"
+  },
+  {
+   "type": "text",
+   "text": "Si el precio está muy por debajo del mercado (mira la tabla de precios), sospecha.",
+   "html": "<p>Si el precio está muy por debajo del mercado (mira la <a href=\"/precios/\">tabla de precios</a>), sospecha.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Comprueba la empresa"
+  },
+  {
+   "type": "text",
+   "text": "Busca su CIF, una dirección física y opiniones de otros clientes. Desconfía de webs recién creadas sin datos de contacto reales.",
+   "html": "<p>Busca su CIF, una dirección física y opiniones de otros clientes. Desconfía de webs recién creadas sin datos de contacto reales.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Pide pruebas del contenedor"
+  },
+  {
+   "type": "text",
+   "text": "Fotos actuales con el número del contenedor visible o, mejor, verlo en persona en el depósito.",
+   "html": "<p>Fotos actuales con el número del contenedor visible o, mejor, verlo en persona en el depósito.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Cuidado con el pago"
+  },
+  {
+   "type": "text",
+   "text": "Evita pagar el 100 % por adelantado a un vendedor que no conoces y desconfía de quien te mete prisa.",
+   "html": "<p>Evita pagar el 100 % por adelantado a un vendedor que no conoces y desconfía de quien te mete prisa.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre qué revisar al comprar un contenedor usado"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/preguntas-frecuentes-sobre-que-revisar-al-comprar-un-contenedor-usado.jpg",
+   "alt": "Preguntas frecuentes sobre qué revisar al comprar un contenedor usado",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cómo sé si un contenedor usado es estanco?"
+  },
+  {
+   "type": "text",
+   "text": "Haz la prueba de luz: entra, cierra las puertas y busca puntos de luz en el techo y las paredes. Revisa también las juntas de las puertas.",
+   "html": "<p>Haz la prueba de luz: entra, cierra las puertas y busca puntos de luz en el techo y las paredes. Revisa también las juntas de las puertas.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Es normal que un contenedor usado tenga golpes?"
+  },
+  {
+   "type": "text",
+   "text": "Sí. Los golpes en la chapa son normales; lo importante es que no haya agujeros, óxido que perfore la chapa ni daños en esquinas y largueros.",
+   "html": "<p>Sí. Los <strong>golpes</strong> en la chapa son normales; lo importante es que no haya agujeros, óxido que perfore la chapa ni daños en esquinas y largueros.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cómo sé si un vendedor de contenedores es fiable?"
+  },
+  {
+   "type": "text",
+   "text": "Comprueba su CIF, su dirección y las opiniones de otros clientes, pide fotos con el número del contenedor y evita pagar todo por adelantado.",
+   "html": "<p>Comprueba su CIF, su dirección y las opiniones de otros clientes, pide fotos con el número del contenedor y evita pagar todo por adelantado.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de un contenedor usado revisado"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/que-revisar-contenedor-usado/pide-presupuesto-de-un-contenedor-usado-revisado.jpg",
+   "alt": "Pide presupuesto de un contenedor usado revisado",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Ver precios orientativos",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  }
+ ]
+}

@@ -1,0 +1,235 @@
+{
+ "slug": "permiso-poner-contenedor-terreno",
+ "title": "¿Necesito permiso para poner un contenedor en mi terreno?",
+ "url": "https://contenedoresmaritimos.net/permiso-poner-contenedor-terreno/",
+ "meta_description": "Cuándo hace falta permiso para colocar un contenedor marítimo en una finca, una parcela o la vía pública, y qué cambia si es almacén, caseta o vivienda.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "guia": true,
+ "faq": [
+  {
+   "pregunta": "¿Puedo poner un contenedor en mi parcela sin licencia?",
+   "respuesta": "Depende de tu municipio, del tipo de suelo y del uso. Para almacén a veces basta una comunicación previa; para vivir dentro casi siempre hace falta licencia de obra."
+  },
+  {
+   "pregunta": "¿Un contenedor se considera una construcción?",
+   "respuesta": "Si se usa como vivienda u oficina, sí: se trata como una edificación y debe cumplir la normativa. Como almacén temporal, depende del municipio."
+  },
+  {
+   "pregunta": "¿Dónde pregunto si necesito permiso?",
+   "respuesta": "En el servicio de urbanismo de tu ayuntamiento. Lleva el uso, el tamaño del contenedor, el tiempo que estará y la referencia de la parcela."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "¿Necesito permiso para poner un contenedor en mi terreno?"
+  },
+  {
+   "type": "text",
+   "text": "La respuesta depende de dónde quieras ponerlo, para qué lo vas a usar y cuánto tiempo va a estar. En esta guía te explicamos los casos más habituales en España para que sepas qué preguntar en tu ayuntamiento. Es información general: la norma que se aplica es la de tu municipio y tu comunidad autónoma.",
+   "html": "<p>La respuesta depende de dónde quieras ponerlo, para qué lo vas a usar y cuánto tiempo va a estar. En esta guía te explicamos los casos más habituales en España para que sepas qué preguntar en tu <strong>ayuntamiento</strong>. Es información general: la norma que se aplica es la de tu municipio y tu comunidad autónoma.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/necesito-permiso-para-poner-un-contenedor-en-mi-terreno.jpg",
+   "alt": "Necesito permiso para poner un contenedor en mi terreno",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "De qué depende que haga falta permiso para un contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/de-que-depende-que-haga-falta-permiso-para-un-contenedor.jpg",
+   "alt": "De qué depende que haga falta permiso para un contenedor",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El uso"
+  },
+  {
+   "type": "text",
+   "text": "No es lo mismo un contenedor para guardar herramientas que uno para vivir o trabajar dentro.",
+   "html": "<p>No es lo mismo un contenedor para guardar herramientas que uno para vivir o trabajar dentro.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El tipo de suelo"
+  },
+  {
+   "type": "text",
+   "text": "Las normas cambian según si la parcela es suelo urbano, urbanizable o rústico.",
+   "html": "<p>Las normas cambian según si la <strong>parcela</strong> es suelo urbano, urbanizable o rústico.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El tiempo"
+  },
+  {
+   "type": "text",
+   "text": "Una instalación temporal (por ejemplo, durante una obra) se trata distinto de una permanente.",
+   "html": "<p>Una instalación temporal (por ejemplo, durante una obra) se trata distinto de una permanente.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El lugar"
+  },
+  {
+   "type": "text",
+   "text": "Si va en la calle, ocupa la vía pública y casi siempre necesita autorización.",
+   "html": "<p>Si va en la calle, ocupa la vía pública y casi siempre necesita autorización.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Contenedor como almacén o caseta en una parcela"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/contenedor-como-almacen-o-caseta-en-una-parcela.jpg",
+   "alt": "Contenedor como almacén o caseta en una parcela",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "En muchos municipios, colocar un contenedor como almacén o caseta se trata como una instalación auxiliar y puede bastar con una comunicación previa o una licencia sencilla. En otros se exige licencia de obra. Pregunta en el servicio de urbanismo de tu ayuntamiento antes de colocarlo. Mira los contenedores para almacenaje.",
+   "html": "<p>En muchos municipios, colocar un contenedor como <strong>almacén</strong> o <strong>caseta</strong> se trata como una instalación auxiliar y puede bastar con una comunicación previa o una <strong>licencia</strong> sencilla. En otros se exige licencia de obra. Pregunta en el servicio de urbanismo de tu <strong>ayuntamiento</strong> antes de colocarlo. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Contenedor como vivienda u oficina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/contenedor-como-vivienda-u-oficina.jpg",
+   "alt": "Contenedor como vivienda u oficina",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Si vas a vivir o trabajar dentro, el contenedor se considera una edificación: normalmente necesitas licencia de obra con un proyecto técnico firmado por un profesional y cumplir el Código Técnico de la Edificación (aislamiento, ventilación, seguridad, instalaciones). Mira nuestras casas con contenedores y los servicios de acondicionamiento.",
+   "html": "<p>Si vas a vivir o trabajar dentro, el contenedor se considera una edificación: normalmente necesitas <strong>licencia</strong> de obra con un proyecto técnico firmado por un profesional y cumplir el Código Técnico de la Edificación (aislamiento, ventilación, seguridad, instalaciones). Mira nuestras <a href=\"/casas/\">casas con contenedores</a> y los <a href=\"/servicios-contenedores-maritimos/\">servicios de acondicionamiento</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Contenedor en suelo rústico o en la vía pública"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/contenedor-en-suelo-rustico-o-en-la-via-publica.jpg",
+   "alt": "Contenedor en suelo rústico o en la vía pública",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Suelo rústico"
+  },
+  {
+   "type": "text",
+   "text": "Las construcciones en suelo rústico están muy limitadas, y más aún si son para vivir. Consulta antes de comprar: en muchos casos no se autoriza.",
+   "html": "<p>Las construcciones en suelo <strong>rústico</strong> están muy limitadas, y más aún si son para vivir. Consulta antes de comprar: en muchos casos no se autoriza.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Vía pública"
+  },
+  {
+   "type": "text",
+   "text": "Si el contenedor va en la calle (por ejemplo, durante una obra), necesitas autorización municipal de ocupación de la vía pública. Mira los contenedores para construcción y obras.",
+   "html": "<p>Si el contenedor va en la calle (por ejemplo, durante una obra), necesitas autorización municipal de ocupación de la vía <strong>pública</strong>. Mira los <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes: necesito permiso para poner un contenedor en mi terreno"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/preguntas-frecuentes-necesito-permiso-para-poner-un-contenedor-en-mi-terreno.jpg",
+   "alt": "Preguntas frecuentes: necesito permiso para poner un contenedor en mi terreno",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Puedo poner un contenedor en mi parcela sin licencia?"
+  },
+  {
+   "type": "text",
+   "text": "Depende de tu municipio, del tipo de suelo y del uso. Para almacén a veces basta una comunicación previa; para vivir dentro casi siempre hace falta licencia de obra.",
+   "html": "<p>Depende de tu municipio, del tipo de suelo y del uso. Para almacén a veces basta una comunicación previa; para vivir dentro casi siempre hace falta <strong>licencia</strong> de obra.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Un contenedor se considera una construcción?"
+  },
+  {
+   "type": "text",
+   "text": "Si se usa como vivienda u oficina, sí: se trata como una edificación y debe cumplir la normativa. Como almacén temporal, depende del municipio.",
+   "html": "<p>Si se usa como vivienda u oficina, sí: se trata como una edificación y debe cumplir la normativa. Como almacén temporal, depende del municipio.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Dónde pregunto si necesito permiso?"
+  },
+  {
+   "type": "text",
+   "text": "En el servicio de urbanismo de tu ayuntamiento. Lleva el uso, el tamaño del contenedor, el tiempo que estará y la referencia de la parcela.",
+   "html": "<p>En el servicio de urbanismo de tu <strong>ayuntamiento</strong>. Lleva el uso, el tamaño del contenedor, el tiempo que estará y la referencia de la <strong>parcela</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto para tu contenedor"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/permiso-poner-contenedor-terreno/pide-presupuesto-para-tu-contenedor.jpg",
+   "alt": "Pide presupuesto para tu contenedor",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Ver precios orientativos",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  }
+ ]
+}

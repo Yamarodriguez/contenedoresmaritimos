@@ -1,0 +1,113 @@
+{
+ "slug": "guias",
+ "title": "Guías sobre contenedores marítimos: compra, grados y permisos",
+ "url": "https://contenedoresmaritimos.net/guias/",
+ "meta_description": "Guías para comprar bien un contenedor marítimo: nuevo o usado, qué revisar, grados CW, WWT y As-is, certificado CSC y permisos para colocarlo.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "guia": true,
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Guías sobre contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Antes de comprar o alquilar un contenedor marítimo conviene tener claras algunas cosas: si lo necesitas nuevo o usado, cómo revisarlo, qué significan los grados de los usados y si hace falta permiso para colocarlo. Aquí tienes nuestras guías.",
+   "html": "<p>Antes de comprar o alquilar un <strong>contenedor marítimo</strong> conviene tener claras algunas cosas: si lo necesitas nuevo o usado, cómo revisarlo, qué significan los grados de los usados y si hace falta permiso para colocarlo. Aquí tienes nuestras <strong>guías</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Guías para comprar y colocar un contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/guias-para-comprar-y-colocar-un-contenedor-maritimo.jpg",
+   "alt": "Guías para comprar y colocar un contenedor marítimo",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Elige la guía que necesitas:",
+   "html": "<p>Elige la guía que necesitas:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedor marítimo nuevo o usado",
+   "href": "https://contenedoresmaritimos.net/contenedor-maritimo-nuevo-o-usado/"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/contenedor-maritimo-nuevo-o-usado.jpg",
+   "alt": "Contenedor marítimo nuevo o usado",
+   "nuevo": true,
+   "href": "https://contenedoresmaritimos.net/contenedor-maritimo-nuevo-o-usado/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Qué revisar al comprar un contenedor usado",
+   "href": "https://contenedoresmaritimos.net/que-revisar-contenedor-usado/"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/que-revisar-al-comprar-un-contenedor-usado.jpg",
+   "alt": "Qué revisar al comprar un contenedor usado",
+   "nuevo": true,
+   "href": "https://contenedoresmaritimos.net/que-revisar-contenedor-usado/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Grados de un contenedor usado y certificado CSC",
+   "href": "https://contenedoresmaritimos.net/grados-contenedor-usado-certificado-csc/"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/grados-de-un-contenedor-usado-y-certificado-csc.jpg",
+   "alt": "Grados de un contenedor usado y certificado CSC",
+   "nuevo": true,
+   "href": "https://contenedoresmaritimos.net/grados-contenedor-usado-certificado-csc/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Necesito permiso para poner un contenedor en mi terreno",
+   "href": "https://contenedoresmaritimos.net/permiso-poner-contenedor-terreno/"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/necesito-permiso-para-poner-un-contenedor-en-mi-terreno.jpg",
+   "alt": "Necesito permiso para poner un contenedor en mi terreno",
+   "nuevo": true,
+   "href": "https://contenedoresmaritimos.net/permiso-poner-contenedor-terreno/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto para tu contenedor marítimo"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/guias/pide-presupuesto-para-tu-contenedor-maritimo.jpg",
+   "alt": "Pide presupuesto para tu contenedor marítimo",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Si ya tienes claro lo que necesitas, cuéntanos el tamaño, el uso y la provincia y te preparamos un presupuesto sin compromiso.",
+   "html": "<p>Si ya tienes claro lo que necesitas, cuéntanos el tamaño, el uso y la provincia y te preparamos un presupuesto sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  }
+ ]
+}

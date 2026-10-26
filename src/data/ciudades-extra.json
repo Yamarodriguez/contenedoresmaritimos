@@ -1,42 +1,125 @@
 {
-  "_nota": "Textos AÑADIDOS (nunca sustituyen al original) para que las páginas duplicadas de una misma ciudad no parezcan iguales. Decisión de Yama (26-10-2026): no fusionar ni redirigir; solo añadir. 'seccion' es una expresión que se busca en el H2 de la sección ('primera' = primera sección de la página). Datos de medidas de fichas.json.",
-  "variante_b": ["container-valencia", "orense", "gerona", "compostela"],
+  "_nota": "Textos AÑADIDOS (nunca sustituyen al original) para que las páginas duplicadas de una misma ciudad no parezcan iguales. Decisión de Yama (26-10-2026): no fusionar ni redirigir; solo añadir. 'seccion' es una expresión que se busca en el H2 de la sección ('primera' = primera sección de la página). Datos de medidas de fichas.json. También se usa para añadir enlaces a las guías en páginas principales.",
+  "variante_b": [
+    "container-valencia",
+    "orense",
+    "gerona",
+    "compostela"
+  ],
   "textos": {
     "valencia": [
-      { "seccion": "primera", "html": "Valencia es la capital de la provincia del mismo nombre y la tercera ciudad más poblada de España." },
-      { "seccion": "transporte", "html": "El puerto de Valencia es uno de los puertos de contenedores con más tráfico de España y del Mediterráneo." }
+      {
+        "seccion": "primera",
+        "html": "Valencia es la capital de la provincia del mismo nombre y la tercera ciudad más poblada de España."
+      },
+      {
+        "seccion": "transporte",
+        "html": "El puerto de Valencia es uno de los puertos de contenedores con más tráfico de España y del Mediterráneo."
+      }
     ],
     "container-valencia": [
-      { "seccion": "primera", "html": "«Container» es la palabra inglesa para «contenedor», y en español también se usa para referirse a los contenedores marítimos: en esta página usamos los dos términos." },
-      { "seccion": "medidas", "html": "Los containers más habituales en Valencia son los de 20 y 40 pies: el de 20 pies tiene unos 33 m³ de volumen interior y el de 40 pies, unos 68 m³. Consulta la <a href=\"/medidas/\">tabla de medidas</a> completa." },
-      { "seccion": "alquiler", "html": "Si buscas un container en Valencia para guardar cosas, mira nuestra página de <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>; si es para una obra, la de <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>." }
+      {
+        "seccion": "primera",
+        "html": "«Container» es la palabra inglesa para «contenedor», y en español también se usa para referirse a los contenedores marítimos: en esta página usamos los dos términos."
+      },
+      {
+        "seccion": "medidas",
+        "html": "Los containers más habituales en Valencia son los de 20 y 40 pies: el de 20 pies tiene unos 33 m³ de volumen interior y el de 40 pies, unos 68 m³. Consulta la <a href=\"/medidas/\">tabla de medidas</a> completa."
+      },
+      {
+        "seccion": "alquiler",
+        "html": "Si buscas un container en Valencia para guardar cosas, mira nuestra página de <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>; si es para una obra, la de <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>."
+      }
     ],
     "ourense": [
-      { "seccion": "primera", "html": "Ourense es el nombre oficial de la ciudad, en gallego; en castellano también se la conoce como Orense. Es la capital de la provincia del mismo nombre, en el interior de Galicia." },
-      { "seccion": "segunda", "html": "Para guardar material, aperos o herramientas, un contenedor de segunda mano es una opción económica: mira nuestros <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>." }
+      {
+        "seccion": "primera",
+        "html": "Ourense es el nombre oficial de la ciudad, en gallego; en castellano también se la conoce como Orense. Es la capital de la provincia del mismo nombre, en el interior de Galicia."
+      },
+      {
+        "seccion": "segunda",
+        "html": "Para guardar material, aperos o herramientas, un contenedor de segunda mano es una opción económica: mira nuestros <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>."
+      }
     ],
     "orense": [
-      { "seccion": "primera", "html": "Orense es el nombre en castellano de Ourense, capital de la provincia del mismo nombre, en Galicia." },
-      { "seccion": "medidas", "html": "Para calcular el espacio que necesitas: un contenedor de 20 pies ocupa unos 15 m² de suelo (6,06 × 2,44 m) y uno de 40 pies, unos 30 m² (12,19 × 2,44 m)." },
-      { "seccion": "construcc", "html": "Si quieres convertir el contenedor en oficina, caseta o vivienda, consulta nuestros <a href=\"/servicios-contenedores-maritimos/\">servicios</a>: electricidad, aislamiento, ventanas y puertas, y más." }
+      {
+        "seccion": "primera",
+        "html": "Orense es el nombre en castellano de Ourense, capital de la provincia del mismo nombre, en Galicia."
+      },
+      {
+        "seccion": "medidas",
+        "html": "Para calcular el espacio que necesitas: un contenedor de 20 pies ocupa unos 15 m² de suelo (6,06 × 2,44 m) y uno de 40 pies, unos 30 m² (12,19 × 2,44 m)."
+      },
+      {
+        "seccion": "construcc",
+        "html": "Si quieres convertir el contenedor en oficina, caseta o vivienda, consulta nuestros <a href=\"/servicios-contenedores-maritimos/\">servicios</a>: electricidad, aislamiento, ventanas y puertas, y más."
+      }
     ],
     "girona": [
-      { "seccion": "primera", "html": "Girona es el nombre oficial de la ciudad, en catalán; en castellano también se escribe Gerona. Es la capital de la provincia del mismo nombre, en Cataluña." },
-      { "seccion": "alquiler", "html": "Para una obra en Girona o en su comarca, mira nuestra página de <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>: almacén, caseta y vestuarios." }
+      {
+        "seccion": "primera",
+        "html": "Girona es el nombre oficial de la ciudad, en catalán; en castellano también se escribe Gerona. Es la capital de la provincia del mismo nombre, en Cataluña."
+      },
+      {
+        "seccion": "alquiler",
+        "html": "Para una obra en Girona o en su comarca, mira nuestra página de <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>: almacén, caseta y vestuarios."
+      }
     ],
     "gerona": [
-      { "seccion": "primera", "html": "Gerona es la forma en castellano de Girona, capital de la provincia del mismo nombre, en Cataluña." },
-      { "seccion": "medidas", "html": "Para colocar un contenedor de 40 pies hace falta, además de sus 12,19 m de largo, espacio para que el camión maniobre y lo descargue; uno de 20 pies (6,06 m) cabe en sitios más pequeños." },
-      { "seccion": "segunda", "html": "Antes de comprar un contenedor de segunda mano, revisa el suelo, las esquinas, el techo y el cierre de las puertas. Si necesita arreglos, mira la <a href=\"/soldadura-reparacion-contenedores-maritimos/\">soldadura y reparación de contenedores</a>." }
+      {
+        "seccion": "primera",
+        "html": "Gerona es la forma en castellano de Girona, capital de la provincia del mismo nombre, en Cataluña."
+      },
+      {
+        "seccion": "medidas",
+        "html": "Para colocar un contenedor de 40 pies hace falta, además de sus 12,19 m de largo, espacio para que el camión maniobre y lo descargue; uno de 20 pies (6,06 m) cabe en sitios más pequeños."
+      },
+      {
+        "seccion": "segunda",
+        "html": "Antes de comprar un contenedor de segunda mano, revisa el suelo, las esquinas, el techo y el cierre de las puertas. Si necesita arreglos, mira la <a href=\"/soldadura-reparacion-contenedores-maritimos/\">soldadura y reparación de contenedores</a>."
+      }
     ],
     "santiago-de-compostela": [
-      { "seccion": "primera", "html": "Santiago de Compostela es la capital de Galicia." },
-      { "seccion": "construcc", "html": "Para adaptar un contenedor como oficina o local en Santiago, consulta la <a href=\"/instalacion-electrica-contenedores-maritimos/\">instalación eléctrica</a> y el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a> de contenedores." }
+      {
+        "seccion": "primera",
+        "html": "Santiago de Compostela es la capital de Galicia."
+      },
+      {
+        "seccion": "construcc",
+        "html": "Para adaptar un contenedor como oficina o local en Santiago, consulta la <a href=\"/instalacion-electrica-contenedores-maritimos/\">instalación eléctrica</a> y el <a href=\"/aislamiento-contenedores-maritimos/\">aislamiento</a> de contenedores."
+      }
     ],
     "compostela": [
-      { "seccion": "primera", "html": "Compostela es como se conoce abreviadamente a Santiago de Compostela, capital de Galicia y final del Camino de Santiago." },
-      { "seccion": "medidas", "html": "Si tienes poco espacio, el <a href=\"/de-10-pies/\">contenedor de 10 pies</a>, de unos 3 m de largo, es la opción más compacta; el de 20 pies mide unos 6 m." },
-      { "seccion": "alquiler", "html": "Para almacenar durante una mudanza o una reforma, consulta nuestros <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>." }
+      {
+        "seccion": "primera",
+        "html": "Compostela es como se conoce abreviadamente a Santiago de Compostela, capital de Galicia y final del Camino de Santiago."
+      },
+      {
+        "seccion": "medidas",
+        "html": "Si tienes poco espacio, el <a href=\"/de-10-pies/\">contenedor de 10 pies</a>, de unos 3 m de largo, es la opción más compacta; el de 20 pies mide unos 6 m."
+      },
+      {
+        "seccion": "alquiler",
+        "html": "Para almacenar durante una mudanza o una reforma, consulta nuestros <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>."
+      }
+    ],
+    "segunda-mano": [
+      {
+        "seccion": "primera",
+        "html": "Antes de comprar, lee nuestras guías: <a href=\"/que-revisar-contenedor-usado/\">qué revisar al comprar un contenedor usado</a> y <a href=\"/grados-contenedor-usado-certificado-csc/\">grados de un contenedor usado (CW, WWT, As-is) y certificado CSC</a>."
+      }
+    ],
+    "precios": [
+      {
+        "seccion": "primera",
+        "html": "¿Dudas entre nuevo o usado? Lee la guía <a href=\"/contenedor-maritimo-nuevo-o-usado/\">contenedor marítimo nuevo o usado</a>."
+      }
+    ],
+    "contenedores-para-construccion": [
+      {
+        "seccion": "ubicaci|tener en cuenta",
+        "html": "Más detalle sobre licencias y autorizaciones en la guía <a href=\"/permiso-poner-contenedor-terreno/\">¿necesito permiso para poner un contenedor en mi terreno?</a>"
+      }
     ]
   }
 }

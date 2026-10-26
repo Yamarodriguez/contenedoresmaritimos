@@ -346,6 +346,21 @@
     },
     "comprar": {
       "resumen": "Para comprar un contenedor marítimo, elige el tamaño (10, 20, 40 o 45 pies), decide si lo quieres nuevo o de segunda mano y pide presupuesto con la dirección de entrega para que incluya el transporte."
+    },
+    "guias": {
+      "resumen": "Guías para comprar y colocar bien un contenedor marítimo: cuándo elegir uno nuevo o usado, qué revisar al comprar uno usado y cómo evitar estafas, qué significan los grados CW, WWT y As-is y el certificado CSC, y cuándo hace falta permiso para ponerlo en un terreno."
+    },
+    "contenedor-maritimo-nuevo-o-usado": {
+      "resumen": "Un contenedor marítimo usado cuesta bastante menos (1.200–2.000 € un 20 pies, frente a 2.200–3.500 € uno nuevo, sin IVA ni transporte) y es suficiente para almacenaje u obras si es estanco. Uno nuevo o One Trip compensa para vivienda, oficina o imagen comercial, porque llega casi sin desgaste."
+    },
+    "que-revisar-contenedor-usado": {
+      "resumen": "Antes de comprar un contenedor usado, revisa las esquinas y los largueros, haz la prueba de luz para detectar agujeros, comprueba el suelo y que las puertas cierren bien, y pide fotos con su número ISO. Para evitar estafas, desconfía de los precios muy bajos, comprueba el CIF del vendedor y no pagues todo por adelantado."
+    },
+    "grados-contenedor-usado-certificado-csc": {
+      "resumen": "Los grados indican el estado de un contenedor usado: One Trip (casi nuevo), Cargo Worthy o CW (apto para transportar carga por mar), Wind and Water Tight o WWT (estanco, para usos en tierra) y As-is (tal cual, sin garantía). La placa CSC solo es necesaria si va a transportar mercancía por mar."
+    },
+    "permiso-poner-contenedor-terreno": {
+      "resumen": "Depende del uso, del tipo de suelo, del tiempo y del lugar. Como almacén en una parcela a veces basta una comunicación previa; para vivir o trabajar dentro suele hacer falta licencia de obra y cumplir el Código Técnico de la Edificación; en la vía pública siempre hace falta autorización. Consulta en tu ayuntamiento."
     }
   }
 }

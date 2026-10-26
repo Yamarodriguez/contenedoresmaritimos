@@ -1,0 +1,218 @@
+{
+  "_nota": "Guías informativas (redactadas por Claude, 26-10-2026). Cada una apunta a una búsqueda propia para no canibalizar las páginas comerciales (/segunda-mano/, /precios/, /contenedores-para-construccion/), a las que enlazan. Precios = tabla de mercado 2026 aprobada por Yama. Contenido general: no es asesoramiento legal.",
+  "hub": {
+    "slug": "guias",
+    "h1": "Guías sobre contenedores marítimos",
+    "titulo": "Guías sobre contenedores marítimos: compra, grados y permisos",
+    "descripcion": "Guías para comprar bien un contenedor marítimo: nuevo o usado, qué revisar, grados CW, WWT y As-is, certificado CSC y permisos para colocarlo.",
+    "intro": "Antes de comprar o alquilar un contenedor marítimo conviene tener claras algunas cosas: si lo necesitas nuevo o usado, cómo revisarlo, qué significan los grados de los usados y si hace falta permiso para colocarlo. Aquí tienes nuestras guías."
+  },
+  "paginas": [
+    {
+      "slug": "contenedor-maritimo-nuevo-o-usado",
+      "h1": "¿Contenedor marítimo nuevo o usado?",
+      "titulo": "¿Contenedor marítimo nuevo o usado? Cuál te conviene",
+      "descripcion": "Contenedor marítimo nuevo o usado: diferencias, precios orientativos 2026 y cuál elegir según el uso (almacenaje, obra, oficina o vivienda).",
+      "clave": ["contenedor marítimo nuevo", "contenedor marítimo usado", "nuevo o usado", "contenedor nuevo", "contenedor usado", "segunda mano"],
+      "foto_hero": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+      "intro": "Elegir entre un contenedor marítimo nuevo o usado depende sobre todo del uso que le vas a dar y del presupuesto. Te explicamos las diferencias, los precios orientativos y en qué casos compensa cada uno.",
+      "secciones": [
+        {
+          "h2": "Diferencias entre un contenedor marítimo nuevo y uno usado",
+          "foto": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
+          "texto": "Un contenedor nuevo, también llamado <em>One Trip</em>, ha hecho como mucho un viaje desde la fábrica: llega casi sin golpes ni óxido. Uno usado ha trabajado años en el transporte marítimo y su estado depende de su historia. Estas son las diferencias principales:",
+          "tablaLibre": {
+            "cabecera": ["", "Nuevo (One Trip)", "Usado"],
+            "filas": [
+              ["Estado", "Casi como recién fabricado", "Con marcas de uso; varía mucho según el grado"],
+              ["Aspecto", "Pintura uniforme, sin rótulos de naviera", "Golpes, óxido superficial y rótulos de la naviera"],
+              ["Estanqueidad", "Garantizada", "Depende del grado: comprobar techo y juntas"],
+              ["Precio 20 pies", "2.200 – 3.500 €", "1.200 – 2.000 €"],
+              ["Precio 40 pies", "3.500 – 5.500 €", "1.500 – 2.800 €"]
+            ],
+            "nota": "Precios orientativos de mercado 2026, sin IVA ni transporte. Más detalle en nuestra página de precios."
+          },
+          "despues": "Consulta la <a href=\"/precios/\">tabla de precios de contenedores marítimos</a> y los <a href=\"/segunda-mano/\">contenedores de segunda mano</a> disponibles."
+        },
+        {
+          "h2": "Cuándo conviene un contenedor marítimo usado",
+          "foto": "/img/2021/12/contenedores-almacenamiento.jpg",
+          "lista": [
+            ["Almacenaje", "Para guardar material, muebles o stock, un usado en buen estado cumple igual y cuesta bastante menos. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>."],
+            ["Obras", "Como almacén de obra o caseta, el aspecto importa poco y se valora el precio. Mira los <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>."],
+            ["Presupuesto ajustado", "Si el contenedor va a estar en un terreno propio y sin uso marítimo, un usado estanco es suficiente."]
+          ]
+        },
+        {
+          "h2": "Cuándo conviene un contenedor marítimo nuevo",
+          "foto": "/img/2022/01/construcciones-con-contenedores.jpg",
+          "lista": [
+            ["Vivienda u oficina", "Para <a href=\"/casas/\">casas</a> u <a href=\"/oficinas/\">oficinas</a> con contenedores, partir de uno nuevo ahorra reparaciones y da mejor acabado."],
+            ["Imagen comercial", "En un <a href=\"/locales-comerciales/\">local comercial</a> o un punto de venta, el aspecto cuenta."],
+            ["Durabilidad", "Un contenedor nuevo empieza su vida útil desde cero y necesita menos mantenimiento los primeros años."]
+          ]
+        },
+        {
+          "h2": "Qué tener en cuenta en ambos casos",
+          "foto": "/img/2022/01/transporte-contenedores-maritimos.png",
+          "texto": "Sea nuevo o usado, pide el precio con el <a href=\"/transporte/\">transporte</a> y la descarga incluidos, comprueba que el tamaño cabe en tu terreno (mira las <a href=\"/medidas/\">medidas</a>) y, si es usado, revísalo antes de pagar: te lo contamos en la guía <a href=\"/que-revisar-contenedor-usado/\">qué revisar al comprar un contenedor usado</a>."
+        }
+      ],
+      "faq": [
+        ["¿Qué es un contenedor One Trip?", "Es un contenedor prácticamente nuevo que solo ha hecho un viaje, normalmente desde la fábrica. Se vende como nuevo."],
+        ["¿Cuánto más caro es un contenedor nuevo que uno usado?", "Según los precios de mercado de 2026, un 20 pies nuevo cuesta entre 2.200 y 3.500 € y uno usado entre 1.200 y 2.000 €, sin IVA ni transporte."],
+        ["¿Un contenedor usado sirve para hacer una casa?", "Puede servir si está en buen estado, pero suele necesitar más reparaciones. Para vivienda muchas personas prefieren uno nuevo o One Trip."]
+      ],
+      "cierre": "Pide presupuesto de un contenedor nuevo o usado"
+    },
+    {
+      "slug": "que-revisar-contenedor-usado",
+      "h1": "Qué revisar al comprar un contenedor usado",
+      "titulo": "Qué revisar al comprar un contenedor usado (y cómo evitar estafas)",
+      "descripcion": "Lista de comprobación para comprar un contenedor marítimo usado: estructura, techo, suelo, puertas, número de contenedor y señales de estafa.",
+      "clave": ["contenedor usado", "contenedor marítimo usado", "revisar", "estafas", "estafa", "comprar"],
+      "foto_hero": "/img/2022/01/Contenedores-maritimos-venta.jpg",
+      "intro": "Un contenedor usado puede ser una buena compra o un problema: todo depende de su estado y de quién te lo vende. Esta es la lista de lo que conviene revisar antes de pagar y las señales para no caer en una estafa.",
+      "secciones": [
+        {
+          "h2": "Qué revisar en la estructura de un contenedor usado",
+          "foto": "/img/2021/12/contenedor-dry-van.jpg",
+          "lista": [
+            ["Esquinas y largueros", "Son las piezas que sostienen todo el contenedor. No deben estar dobladas, rotas ni muy oxidadas."],
+            ["Paredes", "Los golpes en la chapa ondulada son normales; lo que preocupa son los agujeros y el óxido que atraviesa la chapa."],
+            ["Óxido", "El óxido superficial se trata con <a href=\"/pintura-contenedores-maritimos/\">pintura</a>; el que perfora la chapa obliga a <a href=\"/soldadura-reparacion-contenedores-maritimos/\">reparar</a>."]
+          ]
+        },
+        {
+          "h2": "Cómo comprobar el techo, el suelo y las puertas",
+          "foto": "/img/2021/12/Contenedor-high-cube.jpg",
+          "lista": [
+            ["Prueba de luz", "Entra, cierra las puertas y mira el techo y las paredes: si ves puntos de luz, hay agujeros por donde entrará el agua."],
+            ["Techo", "Busca abolladuras donde se acumule el agua de lluvia; con el tiempo acaban oxidando la chapa."],
+            ["Suelo", "Suele ser de madera contrachapada. Comprueba que no esté podrido, blando ni con zonas hundidas."],
+            ["Puertas y juntas", "Deben abrir y cerrar sin forzar, con las barras de cierre en buen estado y las gomas enteras."]
+          ]
+        },
+        {
+          "h2": "Documentación y número del contenedor",
+          "foto": "/img/2022/01/contenedores-maritimos-medidas.jpg",
+          "ajuste": "contain",
+          "texto": "Cada contenedor marítimo lleva un número único (norma ISO 6346): cuatro letras del propietario, seis cifras y un dígito de control, pintado en las puertas y en las paredes. Pide fotos donde se vea ese número y la placa de datos, y comprueba que coincide con el que te van a entregar. Si el contenedor va a viajar por mar, necesitará además una placa CSC en vigor: te lo explicamos en la guía de <a href=\"/grados-contenedor-usado-certificado-csc/\">grados de un contenedor usado y certificado CSC</a>."
+        },
+        {
+          "h2": "Cómo evitar estafas al comprar un contenedor marítimo",
+          "foto": "/img/2022/01/comprar-contenedores-maritimos.jpg",
+          "lista": [
+            ["Desconfía de precios muy bajos", "Si el precio está muy por debajo del mercado (mira la <a href=\"/precios/\">tabla de precios</a>), sospecha."],
+            ["Comprueba la empresa", "Busca su CIF, una dirección física y opiniones de otros clientes. Desconfía de webs recién creadas sin datos de contacto reales."],
+            ["Pide pruebas del contenedor", "Fotos actuales con el número del contenedor visible o, mejor, verlo en persona en el depósito."],
+            ["Cuidado con el pago", "Evita pagar el 100 % por adelantado a un vendedor que no conoces y desconfía de quien te mete prisa."]
+          ]
+        }
+      ],
+      "faq": [
+        ["¿Cómo sé si un contenedor usado es estanco?", "Haz la prueba de luz: entra, cierra las puertas y busca puntos de luz en el techo y las paredes. Revisa también las juntas de las puertas."],
+        ["¿Es normal que un contenedor usado tenga golpes?", "Sí. Los golpes en la chapa son normales; lo importante es que no haya agujeros, óxido que perfore la chapa ni daños en esquinas y largueros."],
+        ["¿Cómo sé si un vendedor de contenedores es fiable?", "Comprueba su CIF, su dirección y las opiniones de otros clientes, pide fotos con el número del contenedor y evita pagar todo por adelantado."]
+      ],
+      "cierre": "Pide presupuesto de un contenedor usado revisado"
+    },
+    {
+      "slug": "grados-contenedor-usado-certificado-csc",
+      "h1": "Grados de un contenedor usado y certificado CSC",
+      "titulo": "Grados de un contenedor usado (CW, WWT, As-is) y certificado CSC",
+      "descripcion": "Qué significan los grados de un contenedor usado: One Trip, Cargo Worthy (CW), Wind and Water Tight (WWT) y As-is, y qué es el certificado CSC.",
+      "clave": ["Cargo Worthy", "Wind and Water Tight", "As-is", "One Trip", "certificado CSC", "placa CSC", "grados", "grado", "contenedor usado"],
+      "foto_hero": "/img/2022/01/contenedores-maritimos.png",
+      "intro": "Cuando buscas un contenedor usado verás siglas como CW, WWT o As-is. Son los grados que indican su estado y para qué sirve. Te explicamos qué significa cada uno y qué es el certificado CSC.",
+      "secciones": [
+        {
+          "h2": "Qué son los grados de un contenedor marítimo usado",
+          "foto": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
+          "texto": "Los grados son la forma en la que el sector clasifica el estado de un contenedor. No hay un único reglamento que los defina, así que conviene confirmar con el vendedor qué incluye cada uno. Estos son los más habituales:",
+          "tablaLibre": {
+            "cabecera": ["Grado", "Qué significa", "Para qué sirve"],
+            "filas": [
+              ["One Trip", "Prácticamente nuevo: un solo viaje desde la fábrica", "Vivienda, oficina, imagen comercial"],
+              ["Cargo Worthy (CW)", "Apto para transportar carga por mar: estructura sana y estanco", "Transporte marítimo, almacenaje, obras"],
+              ["Wind and Water Tight (WWT)", "Estanco al viento y al agua, pero no necesariamente apto para viajar por mar", "Almacenaje y obras en tierra"],
+              ["As-is (tal cual)", "Se vende como está, sin garantía; puede tener agujeros o daños", "Piezas, reformas o usos donde no importa la estanqueidad"]
+            ],
+            "nota": "Las definiciones pueden variar entre vendedores: pide siempre que te detallen el estado y fotos actuales."
+          }
+        },
+        {
+          "h2": "Qué grado de contenedor elegir según el uso",
+          "foto": "/img/2021/12/contenedores-almacenamiento.jpg",
+          "lista": [
+            ["Para almacenaje", "Un WWT suele ser suficiente: lo importante es que no entre agua. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>."],
+            ["Para enviar mercancía por mar", "Necesitas un Cargo Worthy con su placa CSC en vigor."],
+            ["Para vivienda u oficina", "Mejor un One Trip o un CW en muy buen estado. Mira <a href=\"/contenedor-maritimo-nuevo-o-usado/\">contenedor marítimo nuevo o usado</a>."]
+          ]
+        },
+        {
+          "h2": "Qué es el certificado CSC de un contenedor",
+          "foto": "/img/2022/01/contenedores-maritimos-medidas.jpg",
+          "ajuste": "contain",
+          "texto": "El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (placa CSC) con datos como el fabricante, la fecha de fabricación y el peso bruto máximo, y a que se revisen periódicamente.",
+          "lista": [
+            ["¿Cuándo es necesario?", "Para transportar mercancía en el contenedor por mar a nivel internacional."],
+            ["¿Cuándo no hace falta?", "Si el contenedor se queda en tierra como almacén, caseta u obra, la placa CSC no es necesaria."],
+            ["Dónde está la placa", "Normalmente en la puerta del contenedor, junto a otras placas de identificación."]
+          ]
+        }
+      ],
+      "faq": [
+        ["¿Qué significa Cargo Worthy (CW)?", "Que el contenedor está en condiciones de transportar carga por mar: estructura sana y estanco."],
+        ["¿Qué diferencia hay entre CW y WWT?", "Los dos son estancos, pero el CW además es apto para el transporte marítimo; el WWT está pensado para usos en tierra, como almacenaje u obras."],
+        ["¿Necesito el certificado CSC para usar el contenedor como almacén?", "No. La placa CSC solo es necesaria si el contenedor va a transportar mercancía por mar a nivel internacional."]
+      ],
+      "cierre": "Pide presupuesto indicando el grado que necesitas"
+    },
+    {
+      "slug": "permiso-poner-contenedor-terreno",
+      "h1": "¿Necesito permiso para poner un contenedor en mi terreno?",
+      "titulo": "¿Necesito permiso para poner un contenedor en mi terreno?",
+      "descripcion": "Cuándo hace falta permiso para colocar un contenedor marítimo en una finca, una parcela o la vía pública, y qué cambia si es almacén, caseta o vivienda.",
+      "clave": ["permiso", "licencia", "ayuntamiento", "terreno", "parcela", "contenedor marítimo"],
+      "foto_hero": "/img/2022/01/casas-contenedores.jpg",
+      "intro": "La respuesta depende de dónde quieras ponerlo, para qué lo vas a usar y cuánto tiempo va a estar. En esta guía te explicamos los casos más habituales en España para que sepas qué preguntar en tu ayuntamiento. Es información general: la norma que se aplica es la de tu municipio y tu comunidad autónoma.",
+      "secciones": [
+        {
+          "h2": "De qué depende que haga falta permiso para un contenedor",
+          "foto": "/img/2022/01/construcciones-con-contenedores.jpg",
+          "lista": [
+            ["El uso", "No es lo mismo un contenedor para guardar herramientas que uno para vivir o trabajar dentro."],
+            ["El tipo de suelo", "Las normas cambian según si la parcela es suelo urbano, urbanizable o rústico."],
+            ["El tiempo", "Una instalación temporal (por ejemplo, durante una obra) se trata distinto de una permanente."],
+            ["El lugar", "Si va en la calle, ocupa la vía pública y casi siempre necesita autorización."]
+          ]
+        },
+        {
+          "h2": "Contenedor como almacén o caseta en una parcela",
+          "foto": "/img/2021/12/contenedores-almacenamiento.jpg",
+          "texto": "En muchos municipios, colocar un contenedor como almacén o caseta se trata como una instalación auxiliar y puede bastar con una comunicación previa o una licencia sencilla. En otros se exige licencia de obra. Pregunta en el servicio de urbanismo de tu ayuntamiento antes de colocarlo. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a>."
+        },
+        {
+          "h2": "Contenedor como vivienda u oficina",
+          "foto": "/img/2022/01/casas-contenedores.jpg",
+          "texto": "Si vas a vivir o trabajar dentro, el contenedor se considera una edificación: normalmente necesitas licencia de obra con un proyecto técnico firmado por un profesional y cumplir el Código Técnico de la Edificación (aislamiento, ventilación, seguridad, instalaciones). Mira nuestras <a href=\"/casas/\">casas con contenedores</a> y los <a href=\"/servicios-contenedores-maritimos/\">servicios de acondicionamiento</a>."
+        },
+        {
+          "h2": "Contenedor en suelo rústico o en la vía pública",
+          "foto": "/img/2022/01/transporte-contenedores-maritimos.png",
+          "lista": [
+            ["Suelo rústico", "Las construcciones en suelo rústico están muy limitadas, y más aún si son para vivir. Consulta antes de comprar: en muchos casos no se autoriza."],
+            ["Vía pública", "Si el contenedor va en la calle (por ejemplo, durante una obra), necesitas autorización municipal de ocupación de la vía pública. Mira los <a href=\"/contenedores-para-construccion/\">contenedores para construcción y obras</a>."]
+          ]
+        }
+      ],
+      "faq": [
+        ["¿Puedo poner un contenedor en mi parcela sin licencia?", "Depende de tu municipio, del tipo de suelo y del uso. Para almacén a veces basta una comunicación previa; para vivir dentro casi siempre hace falta licencia de obra."],
+        ["¿Un contenedor se considera una construcción?", "Si se usa como vivienda u oficina, sí: se trata como una edificación y debe cumplir la normativa. Como almacén temporal, depende del municipio."],
+        ["¿Dónde pregunto si necesito permiso?", "En el servicio de urbanismo de tu ayuntamiento. Lleva el uso, el tamaño del contenedor, el tiempo que estará y la referencia de la parcela."]
+      ],
+      "cierre": "Pide presupuesto para tu contenedor"
+    }
+  ]
+}

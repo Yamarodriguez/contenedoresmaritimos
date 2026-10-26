@@ -20,6 +20,9 @@ export const GET: APIRoute = () => {
   l.push(`- [Tipos de contenedores marítimos](${D}/tipos/): ${res('tipos')}`);
   l.push(`- [Contenedores para almacenaje](${D}/contenedores-para-almacenaje/): ${res('contenedores-para-almacenaje')}`);
   l.push(`- [Contenedores para construcción y obras](${D}/contenedores-para-construccion/): ${res('contenedores-para-construccion')}`, '');
+  l.push('## Guías', '');
+  for (const [slug, nombre] of [['contenedor-maritimo-nuevo-o-usado', '¿Contenedor marítimo nuevo o usado?'], ['que-revisar-contenedor-usado', 'Qué revisar al comprar un contenedor usado'], ['grados-contenedor-usado-certificado-csc', 'Grados de un contenedor usado y certificado CSC'], ['permiso-poner-contenedor-terreno', '¿Necesito permiso para poner un contenedor en mi terreno?']]) l.push(`- [${nombre}](${D}/${slug}/): ${res(slug)}`);
+  l.push('');
   l.push('## Tipos de contenedor', '');
   for (const [slug, nombre] of [['de-10-pies', 'Contenedor de 10 pies'], ['de-20-pies', 'Contenedor de 20 pies'], ['de-40-pies', 'Contenedor de 40 pies'], ['de-45-pies', 'Contenedor de 45 pies'], ['high-cube', 'High Cube'], ['refrigerados', 'Refrigerados'], ['open-top', 'Open top'], ['dry-van', 'Dry van']]) {
     if (slug.startsWith('de-') && slug !== 'de-20-pies' && slug !== 'de-40-pies' && !tiposNuevos.tipos.some((t) => t.slug === slug)) continue;
