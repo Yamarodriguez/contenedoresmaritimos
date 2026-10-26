@@ -17,7 +17,7 @@ const norm = (s) =>
 
 // Zona de contenido: en la web vieja, el <article>; en la nueva, desde el héroe al pie.
 function zona(html) {
-  const a = html.match(/<article[\s\S]*?<\/article>/i);
+  const a = html.match(/<article class="single-page-article[\s\S]*?<\/article>/i);
   if (a) return a[0];
   const m = html.match(/<section class="heroe">[\s\S]*?<footer/i);
   return m ? m[0] : html;

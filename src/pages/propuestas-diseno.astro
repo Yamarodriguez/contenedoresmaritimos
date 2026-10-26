@@ -1,0 +1,39 @@
+---
+import Base from '../layouts/Base.astro';
+
+// Página interna para elegir el diseño (Fase 3). No está en el menú ni en el
+// inventario de páginas: se borra cuando se apruebe uno.
+const propuestas = [
+  { id: 'a', nombre: 'A · Travesía', texto: 'Azul marino del logo y amarillo de su raya. Cabecera clara, aire de empresa de logística. Titulares Sora, texto Inter.' },
+  { id: 'b', nombre: 'B · Patio', texto: 'Papel cálido, rojo óxido y verde contenedor; chapa ondulada en el héroe. Más cercano y artesano. Titulares Fraunces, texto Source Sans.' },
+  { id: 'c', nombre: 'C · Taller', texto: 'Negro de taller y amarillo de seguridad, mayúsculas condensadas y número de contenedor. Industrial y directo. Titulares Barlow Condensed.' },
+];
+---
+<Base title="Propuestas de diseño" canonical="https://contenedoresmaritimos.net/propuestas-diseno/">
+  <section class="heroe"><div class="caja"><h1>Propuestas de diseño</h1><p>La misma página (Salta, la de más tráfico) con tres estilos distintos. Toca «Ver página completa» para recorrerla entera.</p></div></section>
+  <div class="bloque"><div class="bloque-in">
+    {propuestas.map((p) => (
+      <section class="propuesta">
+        <h2>{p.nombre}</h2>
+        <p>{p.texto}</p>
+        <div class="propuesta-vistas">
+          <div class="marco marco-escritorio"><iframe src={`/salta/?tema=${p.id}`} title={`${p.nombre}, escritorio`} loading="lazy"></iframe></div>
+          <div class="marco marco-movil"><iframe src={`/salta/?tema=${p.id}`} title={`${p.nombre}, móvil`} loading="lazy"></iframe></div>
+        </div>
+        <p><a class="boton" href={`/salta/?tema=${p.id}`}>Ver página completa en {p.nombre}</a></p>
+      </section>
+    ))}
+  </div></div>
+</Base>
+
+<style is:global>
+  .propuesta { margin-bottom: 48px; }
+  .propuesta-vistas { display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start; }
+  .marco { overflow: hidden; border: 1px solid var(--linea); border-radius: 8px; background: #fff; flex: none; }
+  .marco iframe { border: 0; transform-origin: 0 0; display: block; }
+  /* Se pinta a tamaño real (1400 y 390 de ancho) y se reduce para que quepa. */
+  .marco-escritorio { width: 840px; height: 540px; max-width: 100%; }
+  .marco-escritorio iframe { width: 1400px; height: 900px; transform: scale(0.6); }
+  .marco-movil { width: 273px; height: 560px; }
+  .marco-movil iframe { width: 390px; height: 800px; transform: scale(0.7); }
+</style>

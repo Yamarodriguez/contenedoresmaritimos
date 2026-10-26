@@ -1,0 +1,25 @@
+---
+import Bloque from './Bloque.astro';
+import { agrupar } from '../lib/agrupar';
+
+interface Props {
+  blocks: any[];
+}
+const { blocks } = Astro.props as Props;
+// El H1 va en el héroe; el resto, en su orden.
+const trozos = agrupar(blocks.filter((b: any) => !(b.type === 'heading' && b.tag === 'h1')));
+---
+{trozos.map((t) => (
+  t.tipo === 'rejilla' ? (
+    <div class="rejilla">
+      {t.tarjetas.map((c) => (
+        <article class="tarjeta">
+          <Bloque block={c.titular} />
+          <Bloque block={c.imagen} />
+        </article>
+      ))}
+    </div>
+  ) : (
+    <Bloque block={t.bloque} />
+  )
+))}

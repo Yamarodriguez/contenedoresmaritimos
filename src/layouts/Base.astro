@@ -3,6 +3,18 @@ import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import site from '../data/site.json';
 import '../styles/global.css';
+import '../styles/temas.css';
+import '@fontsource/sora/latin-400.css';
+import '@fontsource/sora/latin-700.css';
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-600.css';
+import '@fontsource/fraunces/latin-600.css';
+import '@fontsource/source-sans-3/latin-400.css';
+import '@fontsource/source-sans-3/latin-600.css';
+import '@fontsource/barlow-condensed/latin-700.css';
+import '@fontsource/barlow/latin-400.css';
+import '@fontsource/barlow/latin-600.css';
+import '@fontsource/jetbrains-mono/latin-400.css';
 
 interface Props {
   title: string;
@@ -17,6 +29,10 @@ const { title, description = '', canonical, menu } = Astro.props as Props;
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script is:inline>
+      // Solo para las propuestas de diseño: ?tema=a|b|c
+      try { var t = new URLSearchParams(location.search).get('tema'); if (/^[abc]$/.test(t)) document.documentElement.dataset.tema = t; } catch (e) {}
+    </script>
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={canonical} />

@@ -4,3 +4,5 @@ dist/
 *.log
 referencia/
 informes/*.json
+capturas/
+.claude/

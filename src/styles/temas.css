@@ -1,0 +1,97 @@
+/* PROPUESTAS DE DISEÑO (Fase 3). Se activan con ?tema=a|b|c en cualquier página.
+   Cuando Yama elija, la elegida pasa a global.css y esto se borra. */
+
+/* ---------- A · TRAVESÍA --------------------------------------------------
+   Azul marino del globo del logo para el texto; cabecera clara con filete.
+   El amarillo de la raya del logo para la acción (con texto marino: contraste
+   AA). Sora en titulares, Inter en el texto. Detalle propio: una barra amarilla
+   bajo cada H2, como la raya del logo. */
+html[data-tema="a"] {
+  --ink: #0b2a4a; --texto: #26384a; --texto-suave: #55687a;
+  --fondo: #f2f6fa; --papel: #ffffff; --linea: #d8e2ec;
+  --acero: #ffffff; --acero-claro: #eaf1f8;
+  --enlace: #1561a8; --accion: #f2c200; --accion-oscuro: #d9ad00; --acento: #1561a8;
+  --radio: 12px; --sombra: 0 4px 16px rgba(11, 42, 74, 0.08);
+  --titular: 'Sora', system-ui, sans-serif; --cuerpo: 'Inter', system-ui, sans-serif;
+}
+html[data-tema="a"] .cabecera { background: #fff; color: var(--ink); border-bottom: 1px solid var(--linea); box-shadow: none; }
+html[data-tema="a"] .cabecera-logo { color: var(--ink); }
+html[data-tema="a"] .menu-principal > li > a { color: var(--ink); }
+html[data-tema="a"] .menu-principal > li > a:hover { background: var(--acero-claro); }
+html[data-tema="a"] .boton-menu-movil span { background: var(--ink); }
+html[data-tema="a"] .boton, html[data-tema="a"] .boton-cabecera, html[data-tema="a"] .formulario button { background: var(--accion); color: var(--ink) !important; }
+html[data-tema="a"] .boton:hover, html[data-tema="a"] .boton-cabecera:hover, html[data-tema="a"] .formulario button:hover { background: var(--accion-oscuro); }
+html[data-tema="a"] .heroe { background: var(--ink); background-image: radial-gradient(circle at 85% 20%, #1561a8 0, transparent 55%); padding: 72px 20px 60px; }
+html[data-tema="a"] .heroe h1 { font-weight: 700; letter-spacing: -0.01em; }
+html[data-tema="a"] .bloque h2::after { content: ""; display: block; width: 56px; height: 4px; background: var(--accion); margin-top: 10px; border-radius: 2px; }
+html[data-tema="a"] .pie { background: var(--ink); }
+@media (max-width: 1100px) {
+  html[data-tema="a"] .menu-principal > li > a { border-bottom-color: var(--linea); }
+  html[data-tema="a"] .submenu { background: var(--acero-claro); color: var(--ink); }
+  html[data-tema="a"] .submenu li a { color: var(--ink); }
+}
+
+/* ---------- B · PATIO ------------------------------------------------------
+   El patio de un puerto: papel cálido, rojo óxido de contenedor para la acción
+   y verde contenedor para los detalles. Fraunces (serif con carácter) en
+   titulares y Source Sans 3 en el texto. Detalle propio: la chapa ondulada del
+   contenedor como textura del héroe. */
+html[data-tema="b"] {
+  --ink: #1d2b3a; --texto: #2f3a44; --texto-suave: #5d6872;
+  --fondo: #f3eee5; --papel: #fffdf8; --linea: #e0d8c8;
+  --acero: #fffdf8; --acero-claro: #f3eee5;
+  --accion: #b3361f; --accion-oscuro: #8f2a17; --acento: #2f6b4f;
+  --radio: 6px; --sombra: 0 1px 0 var(--linea), 0 6px 14px rgba(60, 40, 20, 0.07);
+  --titular: 'Fraunces', Georgia, serif; --cuerpo: 'Source Sans 3', system-ui, sans-serif;
+}
+html[data-tema="b"] body { font-size: 1.06rem; }
+html[data-tema="b"] .cabecera { background: var(--papel); color: var(--ink); border-bottom: 3px solid var(--accion); box-shadow: none; }
+html[data-tema="b"] .cabecera-logo { color: var(--ink); font-weight: 700; font-size: 1.3rem; }
+html[data-tema="b"] .menu-principal > li > a { color: var(--ink); }
+html[data-tema="b"] .menu-principal > li > a:hover { background: var(--fondo); }
+html[data-tema="b"] .boton-menu-movil span { background: var(--ink); }
+html[data-tema="b"] .heroe {
+  background: var(--acento);
+  background-image: repeating-linear-gradient(90deg, rgba(255,255,255,0.07) 0 6px, rgba(0,0,0,0.07) 6px 12px);
+  padding: 72px 20px 60px;
+}
+html[data-tema="b"] .heroe h1 { font-weight: 600; text-shadow: 0 1px 8px rgba(0,0,0,0.25); }
+html[data-tema="b"] .bloque h2 { color: var(--accion); }
+html[data-tema="b"] .tarjeta { border: 1px solid var(--linea); }
+html[data-tema="b"] .pie { background: var(--ink); }
+@media (max-width: 1100px) {
+  html[data-tema="b"] .menu-principal > li > a { border-bottom-color: var(--linea); }
+  html[data-tema="b"] .submenu { background: var(--fondo); color: var(--ink); }
+  html[data-tema="b"] .submenu li a { color: var(--ink); }
+}
+
+/* ---------- C · TALLER -----------------------------------------------------
+   Industrial y directo: negro de taller, gris cemento y amarillo de seguridad.
+   Barlow Condensed en mayúsculas para titulares, Barlow en el texto y JetBrains
+   Mono para cifras. Esquinas casi rectas. Detalle propio: un número de
+   contenedor (ISO) en mono como antetítulo del héroe. */
+html[data-tema="c"] {
+  --ink: #111417; --texto: #2a2f34; --texto-suave: #5a6168;
+  --fondo: #e8e9eb; --papel: #ffffff; --linea: #c9ccd0;
+  --acero: #111417; --acero-claro: #262b30;
+  --enlace: #111417; --accion: #ffc20e; --accion-oscuro: #e0a800; --acento: #111417;
+  --radio: 2px; --sombra: none;
+  --titular: 'Barlow Condensed', system-ui, sans-serif; --cuerpo: 'Barlow', system-ui, sans-serif;
+}
+html[data-tema="c"] h1, html[data-tema="c"] h2, html[data-tema="c"] h3 { text-transform: uppercase; letter-spacing: 0.02em; }
+html[data-tema="c"] h1, html[data-tema="c"] h2 { font-weight: 700; }
+html[data-tema="c"] .cabecera { border-bottom: 4px solid var(--accion); }
+html[data-tema="c"] .cabecera-logo { text-transform: uppercase; letter-spacing: 0.06em; }
+html[data-tema="c"] .boton, html[data-tema="c"] .boton-cabecera, html[data-tema="c"] .formulario button { background: var(--accion); color: var(--ink) !important; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
+html[data-tema="c"] .boton:hover, html[data-tema="c"] .boton-cabecera:hover, html[data-tema="c"] .formulario button:hover { background: var(--accion-oscuro); }
+html[data-tema="c"] .heroe { background: var(--ink); padding: 72px 20px 56px; border-bottom: 4px solid var(--accion); }
+html[data-tema="c"] .heroe .caja::before {
+  content: "MSKU 482916 · 7  22G1"; display: block; margin-bottom: 14px;
+  font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 0.8rem; letter-spacing: 0.12em; color: var(--accion);
+}
+html[data-tema="c"] .bloque .texto a { text-decoration: underline; text-decoration-color: var(--accion); text-decoration-thickness: 3px; text-underline-offset: 3px; }
+html[data-tema="c"] .tarjeta { border: 2px solid var(--ink); }
+html[data-tema="c"] .tarjeta h3 { border-top: 2px solid var(--ink); background: var(--accion); }
+html[data-tema="c"] .tarjeta h3 a { color: var(--ink); }
+html[data-tema="c"] .formulario { border: 2px solid var(--ink); }
+html[data-tema="c"] .pie { background: var(--ink); border-top: 4px solid var(--accion); }

@@ -1,7 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import { limpiar } from '../lib/html';
-import Bloque from '../components/Bloque.astro';
+import Contenido from '../components/Contenido.astro';
 import data from '../content/pages/contenedores-maritimos.json';
 
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
@@ -19,9 +19,7 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
   </section>
   <div class="bloque">
     <div class="bloque-in">
-      {data.blocks.map((block: any) => (
-        block.type === 'heading' && block.tag === 'h1' ? null : <Bloque block={block} />
-      ))}
+      <Contenido blocks={data.blocks} />
     </div>
   </div>
 </Base>
