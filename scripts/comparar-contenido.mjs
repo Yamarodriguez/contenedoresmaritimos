@@ -54,6 +54,14 @@ const mapasDe = (html) => [...zona(html).matchAll(/<iframe\b[^>]*>/gi)].map((m) 
   return decodeURIComponent(q.replace(/\+/g, ' ')) + ' | ' + t;
 });
 
+// Menú principal: mismas entradas, mismo texto y mismo orden.
+const menuDe = (html) => {
+  const n = html.match(/<nav[^>]*id="(?:site-navigation|menu-principal)"[\s\S]*?<\/nav>/)?.[0] || '';
+  return [...n.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)]
+    .map((m) => rel(m[1]) + ' | ' + norm(m[2]));
+};
+const rel = (u) => u.replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/i, '');
+
 const dif = [];
 let comparadas = 0;
 for (const p of paginas) {
@@ -75,6 +83,8 @@ for (const p of paginas) {
   const ia = imagenesDe(fs.readFileSync(ref, 'utf8')), ib = imagenesDe(nuevoHtml);
   let q = 0;
   for (const im of ia) { const i = ib.indexOf(im, q); if (i < 0) dif.push(`${p.url}: falta imagen ${im}`); else q = i + 1; }
+  const na = menuDe(fs.readFileSync(ref, 'utf8')), nb = menuDe(nuevoHtml);
+  if (JSON.stringify(na) !== JSON.stringify(nb)) dif.push(`${p.url}: menú distinto (${na.length} vs ${nb.length} entradas)`);
   const ma = mapasDe(fs.readFileSync(ref, 'utf8')), mb = mapasDe(nuevoHtml);
   if (JSON.stringify(ma) !== JSON.stringify(mb)) dif.push(`${p.url}: mapa distinto (${ma}) vs (${mb})`);
   const ea = enlacesDe(fs.readFileSync(ref, 'utf8')), eb = enlacesDe(nuevoHtml);
