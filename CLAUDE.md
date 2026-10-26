@@ -27,7 +27,7 @@ Regla del H1: [pendiente — ver informes/inventario.md]
 ## Marca y diseño
 Sector y público: [pendiente] · Tres palabras: [pendiente] ·
 Webs de referencia: [pendiente]
-Lenguaje visual aprobado (Fase 3): [pendiente]
+Lenguaje visual aprobado (Fase 3): **A · Travesía** (aprobado por Yama el 2026-10-26): azul marino #0b2a4a del globo del logo, amarillo #f2c200 de la raya del logo para la acción (texto marino encima), azul #1561a8 para enlaces; Sora en titulares e Inter en texto; barra amarilla bajo cada H2. Detalle en el comentario de :root de src/styles/global.css.
 
 ## Reglas
 - Método: PROMPT-MIGRACION-V6.md. Antes de cada fase, lee esa fase y la
@@ -52,9 +52,11 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 /talavera-de-la-reina/, /mendoza/, /la-plata/.
 
 ## Estado (se actualiza al cerrar cada fase)
-- Fase actual: 0 — falta: kit/ y analisis/ en la carpeta del proyecto,
+- Fase actual: 3 (diseño A aplicado a todas las páginas; falta que Yama lo revise en la web de pruebas) — antes, Fase 0: falta: kit/ y analisis/ en la carpeta del proyecto,
   ficha de marca y datos del negocio, confirmar inventario y regla del H1.
 - Hecho:
+  - Fases 1-2: referencia/ con el HTML vivo, imágenes propias, `npm run todo` a 0 (validador, encabezados, contenido, menús, mapas, enlaces e imágenes). Erratas aprobadas del original en src/data/fallos-original.json.
+  - Fase 3: diseño A aplicado; `npm run todo:visual` a 0 (404, contraste, desbordes). Capturas en capturas/visual/ (no sube a Git).
   - Inventario inicial a partir del XML de WordPress (informes/inventario.md).
   - estructura-viva.json (195 páginas, encabezados completos, desde Elementor).
   - contenido-vivo.json (195 páginas, bloques de contenido completos, desde Elementor).

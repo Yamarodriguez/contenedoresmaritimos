@@ -1,26 +1,18 @@
 :root {
-  /* ACERO Y ÓXIDO (provisional, pendiente de la ficha de marca):
-     azul acero para la cabecera y el texto fuerte -- evoca el contenedor
-     metálico y el mar; naranja óxido/corten para la acción -- el color
-     real de un contenedor marítimo pintado. Se cambia en la Fase 3 con
-     el lenguaje visual que apruebe Yama. */
-  --ink: #0f2436;
-  --texto: #2b3b47;
-  --texto-suave: #5b6b76;
-  --papel: #ffffff;
-  --fondo: #f4f6f7;
-  --linea: #dde3e6;
-  --acero: #0f2436;
-  --acero-claro: #1c3a52;
-  --accion: #d9622b;
-  --accion-oscuro: #b84f20;
-  --acento: #0f7a63;
-  --radio: 10px;
-  --sombra: 0 2px 10px rgba(15, 36, 54, 0.08);
+  /* TRAVESÍA (aprobado por Yama, Fase 3).
+     Azul marino del globo del logo para titulares, héroe y pie; blanco con
+     filete en la cabecera. El amarillo de la raya del logo es el color de la
+     acción (botones), siempre con texto marino para mantener el contraste AA;
+     el azul medio del globo es el de los enlaces. Sora en titulares (geométrica,
+     con presencia) e Inter en el texto. Detalle propio: una barra amarilla bajo
+     cada H2, como la raya del logo. */
+  --ink: #0b2a4a; --texto: #26384a; --texto-suave: #55687a;
+  --fondo: #f2f6fa; --papel: #ffffff; --linea: #d8e2ec;
+  --acero: #ffffff; --acero-claro: #eaf1f8;
+  --enlace: #1561a8; --accion: #f2c200; --accion-oscuro: #d9ad00; --acento: #1561a8;
+  --radio: 12px; --sombra: 0 4px 16px rgba(11, 42, 74, 0.08);
+  --titular: 'Sora', system-ui, sans-serif; --cuerpo: 'Inter', system-ui, sans-serif;
   --caja: 1180px;
-
-  --titular: 'Barlow Semi Condensed', system-ui, sans-serif;
-  --cuerpo: 'Inter', system-ui, sans-serif;
 }
 
 * { box-sizing: border-box; }
@@ -292,3 +284,24 @@ h1, h2, h3, h4 {
 .texto { max-width: 72ch; }
 .texto ul, .texto ol { padding-left: 1.3em; margin: 0 0 1em; }
 .bloque h2 { margin-top: 1.4em; }
+
+/* --- Travesía: cabecera, héroe, botones y detalles --- */
+.cabecera { background: #fff; color: var(--ink); border-bottom: 1px solid var(--linea); box-shadow: none; }
+.cabecera-logo { color: var(--ink); }
+.menu-principal > li > a { color: var(--ink); }
+.menu-principal > li > a:hover { background: var(--acero-claro); }
+.boton-menu-movil span { background: var(--ink); }
+.boton, .boton-cabecera, .formulario button { background: var(--accion); color: var(--ink) !important; }
+.boton:hover, .boton-cabecera:hover, .formulario button:hover { background: var(--accion-oscuro); }
+.heroe { background: var(--ink); background-image: radial-gradient(circle at 85% 20%, #1561a8 0, transparent 55%); padding: 72px 20px 60px; }
+.heroe h1 { font-weight: 700; letter-spacing: -0.01em; }
+.bloque h2::after { content: ""; display: block; width: 56px; height: 4px; background: var(--accion); margin-top: 10px; border-radius: 2px; }
+.pie { background: var(--ink); }
+@media (max-width: 1100px) {
+  .menu-principal > li > a { border-bottom-color: var(--linea); }
+  .submenu { background: var(--acero-claro); color: var(--ink); }
+  .submenu li a { color: var(--ink); }
+}
+
+/* Direcciones y correos largos no deben ensanchar la página en móvil */
+.bloque { overflow-wrap: anywhere; }
