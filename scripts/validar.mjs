@@ -52,6 +52,18 @@ for (const f of ficheros) {
       if (url && !fs.existsSync(path.join('dist', decodeURI(url)))) fallos.push(`${rel}: falta imagen webp ${url}`);
     }
   }
+  // Datos estructurados: JSON válido con empresa, sitio y página; migas fuera de la portada.
+  if (!es404) {
+    const bloques = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map((m) => m[1]);
+    if (!bloques.length) fallos.push(`${rel}: sin datos estructurados`);
+    for (const b of bloques) {
+      try {
+        const tipos = (JSON.parse(b)['@graph'] ?? []).map((n) => n['@type']);
+        for (const t of ['Organization', 'WebSite', 'WebPage']) if (!tipos.includes(t)) fallos.push(`${rel}: falta ${t} en los datos estructurados`);
+        if (rel !== 'index.html' && !tipos.includes('BreadcrumbList')) fallos.push(`${rel}: faltan las migas en los datos estructurados`);
+      } catch { fallos.push(`${rel}: datos estructurados con JSON roto`); }
+    }
+  }
   if (/casascontenedores/i.test(html)) {
     // Vale si ya estaba en el original (p. ej. un enlace real al sitio hermano).
     const slug = rel === 'index.html' ? 'index' : rel.replace(/\/index\.html$/, '').replace(/\//g, '__');

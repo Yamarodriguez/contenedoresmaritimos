@@ -8,10 +8,12 @@ import { conFotosDeSeccion } from './fotos';
 import { agrupar, type Bloque, type Trozo } from './agrupar';
 import serviciosDatos from '../data/servicios-paginas.json';
 import fotos from '../data/fotos-seccion.json';
+import { resumenDe, tablaDe } from './fichas';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
 export type Consulta = { tipo: 'consulta'; titular: Bloque; texto: Bloque; formulario: Bloque };
-export type Elemento = Seccion | Consulta;
+export type Resumen = { tipo: 'resumen'; html: string };
+export type Elemento = Seccion | Consulta | Resumen;
 export type Pagina = { hero: { imagen?: Bloque; texto?: Bloque }; elementos: Elemento[]; conLateral: boolean };
 
 const esH2 = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h2';
@@ -36,7 +38,7 @@ function seccionServicios(): Seccion {
   };
 }
 
-export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean } = {}): Pagina {
+export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; slug?: string } = {}): Pagina {
   const sinH1 = bloques.filter((b) => !(b.type === 'heading' && b.tag === 'h1'));
   const iH2 = sinH1.findIndex(esH2);
   const antes = iH2 < 0 ? [...sinH1] : sinH1.slice(0, iH2);
@@ -90,6 +92,15 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean }
   if (opciones.servicios && elementos.some((e) => e.tipo === 'seccion' && e.titular)) {
     const iTipos = elementos.findIndex((e) => e.tipo === 'seccion' && /tipos/i.test(e.titular?.text || ''));
     elementos.splice(iTipos >= 0 ? iTipos + 1 : elementos.length, 0, seccionServicios());
+  }
+  // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).
+  if (opciones.slug) {
+    const arriba: Elemento[] = [];
+    const r = resumenDe(opciones.slug);
+    if (r) arriba.push({ tipo: 'resumen', html: r });
+    const t = tablaDe(opciones.slug);
+    if (t) arriba.push({ tipo: 'seccion', titular: { type: 'heading', tag: 'h2', text: t.h2 }, cuerpo: [{ tipo: 'bloque', bloque: t.bloque }] });
+    elementos.unshift(...arriba);
   }
   return { hero, elementos, conLateral: elementos.some((e) => e.tipo === 'consulta') };
 }

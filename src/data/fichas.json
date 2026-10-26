@@ -1,0 +1,61 @@
+{
+  "_nota": "Fichas técnicas y resúmenes (AEO) añadidos por Claude. Medidas: valores ISO habituales en metros, kg y m³; varían según fabricante y año (lo dice la nota de cada tabla). Los precios del resumen de /precios/ son los de la propia lista orientativa de esa página. Fuentes: DHL (tipos y tamaños de contenedores de carga) e iContainers (tipos de contenedores y dimensiones).",
+  "contenedores": {
+    "10": { "nombre": "10 pies Dry Van", "ext": [2.991, 2.438, 2.591], "int": [2.802, 2.352, 2.385], "puerta": [2.340, 2.280], "volumen": 15.9, "tara": 1300, "carga": 8860, "bruto": 10160 },
+    "20": { "nombre": "20 pies Dry Van (estándar)", "ext": [6.058, 2.438, 2.591], "int": [5.898, 2.352, 2.393], "puerta": [2.340, 2.280], "volumen": 33.2, "tara": 2230, "carga": 28250, "bruto": 30480 },
+    "40": { "nombre": "40 pies Dry Van (estándar)", "ext": [12.192, 2.438, 2.591], "int": [12.032, 2.352, 2.393], "puerta": [2.340, 2.280], "volumen": 67.7, "tara": 3750, "carga": 26730, "bruto": 30480 },
+    "40hc": { "nombre": "40 pies High Cube", "ext": [12.192, 2.438, 2.896], "int": [12.032, 2.352, 2.698], "puerta": [2.340, 2.585], "volumen": 76.3, "tara": 3900, "carga": 26580, "bruto": 30480 },
+    "45hc": { "nombre": "45 pies High Cube", "ext": [13.716, 2.438, 2.896], "int": [13.556, 2.352, 2.698], "puerta": [2.340, 2.585], "volumen": 86.0, "tara": 4800, "carga": 27700, "bruto": 32500 },
+    "20rf": { "nombre": "20 pies refrigerado", "ext": [6.058, 2.438, 2.591], "int": [5.444, 2.290, 2.268], "puerta": [2.290, 2.264], "volumen": 28.3, "tara": 3080, "carga": 27400, "bruto": 30480 },
+    "40rf": { "nombre": "40 pies refrigerado High Cube", "ext": [12.192, 2.438, 2.896], "int": [11.583, 2.294, 2.554], "puerta": [2.294, 2.569], "volumen": 67.9, "tara": 4800, "carga": 29200, "bruto": 34000 },
+    "20ot": { "nombre": "20 pies Open Top", "ext": [6.058, 2.438, 2.591], "int": [5.898, 2.352, 2.348], "puerta": [2.340, 2.280], "volumen": 32.6, "tara": 2350, "carga": 28130, "bruto": 30480 },
+    "40ot": { "nombre": "40 pies Open Top", "ext": [12.192, 2.438, 2.591], "int": [12.032, 2.352, 2.348], "puerta": [2.340, 2.280], "volumen": 66.4, "tara": 3850, "carga": 26630, "bruto": 30480 }
+  },
+  "paginas": {
+    "index": {
+      "resumen": "Contenedores marítimos nuevos y de segunda mano de 10, 20, 40 y 45 pies, en venta y en alquiler, con transporte hasta tu provincia y servicios para adaptarlos (electricidad, pintura, aislamiento, ventanas y más). Trabajamos en España y en Argentina. Consulta las medidas y los precios orientativos o pide presupuesto sin compromiso."
+    },
+    "medidas": {
+      "resumen": "Un contenedor marítimo de 20 pies mide por fuera 6,06 × 2,44 × 2,59 m y tiene unos 33 m³ de volumen interior. Uno de 40 pies mide 12,19 m de largo, con la misma anchura y altura, y unos 68 m³. El High Cube de 40 pies es 30 cm más alto (2,90 m) y llega a unos 76 m³.",
+      "tabla": { "h2": "Tabla de medidas de contenedores marítimos: exteriores, interiores, peso y volumen", "tipos": ["10", "20", "40", "40hc", "45hc", "20rf", "40rf", "20ot", "40ot"] }
+    },
+    "precios": {
+      "resumen": "Según nuestra lista orientativa, un contenedor marítimo de 20 pies cuesta entre 500 y 2.500 € usado y entre 1.000 y 3.500 € nuevo; uno de 40 pies, entre 1.800 y 5.000 € usado y entre 3.000 y 7.000 € nuevo. El precio final depende del tipo, del estado y del transporte: pide presupuesto para un precio cerrado."
+    },
+    "tipos": {
+      "resumen": "Los contenedores marítimos más habituales son los de 20 y 40 pies (dry van o estándar), el High Cube (30 cm más alto), el refrigerado, el open top (techo abierto), el flat rack (sin paredes laterales), el open side (apertura lateral) y el cisterna para líquidos. Además, se adaptan como oficinas, casas, locales o módulos sanitarios."
+    },
+    "de-10-pies": {
+      "resumen": "El contenedor marítimo de 10 pies es el más pequeño de los habituales: mide por fuera 2,99 × 2,44 × 2,59 m y tiene unos 16 m³ de volumen interior. Se usa como trastero, caseta o pequeña oficina y es el más fácil de transportar y colocar.",
+      "tabla": { "h2": "Ficha técnica del contenedor de 10 pies", "tipos": ["10"] }
+    },
+    "de-20-pies": {
+      "resumen": "Un contenedor marítimo de 20 pies mide por fuera 6,06 × 2,44 × 2,59 m, tiene unos 33 m³ de volumen interior y una tara de unos 2.200 kg. Es el tamaño de referencia (1 TEU) y el más fácil de transportar y colocar. Hay unidades nuevas y de segunda mano.",
+      "tabla": { "h2": "Ficha técnica del contenedor de 20 pies", "tipos": ["20"] }
+    },
+    "de-40-pies": {
+      "resumen": "Un contenedor marítimo de 40 pies mide por fuera 12,19 × 2,44 × 2,59 m, tiene unos 68 m³ de volumen interior y una tara de unos 3.750 kg. Ofrece el doble de espacio que uno de 20 pies y se usa para almacenaje y construcciones grandes. Si necesitas más altura, existe la versión High Cube.",
+      "tabla": { "h2": "Ficha técnica del contenedor de 40 pies", "tipos": ["40", "40hc"] }
+    },
+    "de-45-pies": {
+      "resumen": "El contenedor marítimo de 45 pies es el más largo de los habituales: mide por fuera 13,72 × 2,44 × 2,90 m (versión High Cube) y tiene unos 86 m³ de volumen interior, más que uno de 40 pies. Se usa cuando hace falta el máximo volumen.",
+      "tabla": { "h2": "Ficha técnica del contenedor de 45 pies", "tipos": ["45hc"] }
+    },
+    "high-cube": {
+      "resumen": "Un contenedor High Cube tiene el mismo largo y ancho que uno estándar, pero es 30 cm más alto: 2,90 m por fuera. El de 40 pies High Cube ofrece unos 76 m³ de volumen interior, frente a los 68 m³ del estándar, por eso es muy usado en casas y oficinas con contenedores.",
+      "tabla": { "h2": "Ficha técnica del contenedor High Cube", "tipos": ["40hc", "45hc"] }
+    },
+    "refrigerados": {
+      "resumen": "Un contenedor refrigerado (reefer) tiene equipo de frío y paredes aisladas para mantener la temperatura de la carga. Por eso su interior es algo menor que el de uno estándar: unos 28 m³ el de 20 pies y unos 68 m³ el de 40 pies High Cube.",
+      "tabla": { "h2": "Ficha técnica del contenedor refrigerado", "tipos": ["20rf", "40rf"] }
+    },
+    "open-top": {
+      "resumen": "Un contenedor open top tiene el techo abierto, cubierto con lona, para cargar por arriba con grúa mercancías altas o pesadas. Sus medidas exteriores son las de un contenedor estándar: 6,06 m de largo el de 20 pies y 12,19 m el de 40 pies, con 2,44 m de ancho y 2,59 m de alto.",
+      "tabla": { "h2": "Ficha técnica del contenedor open top", "tipos": ["20ot", "40ot"] }
+    },
+    "dry-van": {
+      "resumen": "El contenedor dry van es el contenedor marítimo estándar, cerrado y sin climatizar. El de 20 pies mide por fuera 6,06 × 2,44 × 2,59 m y tiene unos 33 m³; el de 40 pies mide 12,19 m de largo y tiene unos 68 m³. Es el más usado para transporte y almacenaje.",
+      "tabla": { "h2": "Ficha técnica del contenedor dry van", "tipos": ["20", "40"] }
+    }
+  }
+}

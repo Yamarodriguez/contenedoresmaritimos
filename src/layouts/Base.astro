@@ -2,6 +2,7 @@
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import site from '../data/site.json';
+import type { Miga } from '../lib/migas';
 import '../styles/global.css';
 import '@fontsource/sora/latin-400.css';
 import '@fontsource/sora/latin-700.css';
@@ -16,11 +17,31 @@ interface Props {
   imagen?: string; // imagen para compartir en redes (ruta absoluta del sitio)
   ogTitulo?: string;
   ogDescripcion?: string;
-  jsonld?: string; // datos estructurados (JSON-LD) ya serializados
+  datos?: Record<string, unknown>[]; // datos estructurados propios de la página (p. ej. FAQPage)
+  migas?: Miga[];
 }
-const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, jsonld } = Astro.props as Props;
+const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, datos = [], migas = [] } = Astro.props as Props;
 const dominio = site.dominio ? `https://${site.dominio}` : '';
 const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio}${imagen}`) : '';
+
+// Datos estructurados en todas las páginas: la empresa, el sitio y las migas.
+// (La web original en WordPress ya los tenía con Yoast: no se pierden al migrar.)
+// Teléfono y dirección se añadirán cuando Yama los confirme (site.json).
+const empresa: Record<string, unknown> = {
+  '@type': 'Organization', '@id': `${dominio}/#empresa`, name: site.nombre, url: `${dominio}/`,
+  logo: { '@type': 'ImageObject', url: `${dominio}/img/2022/01/Contenedores-maritimos-.jpg`, width: 810, height: 450 },
+  description: site.descripcion, areaServed: [{ '@type': 'Country', name: 'España' }, { '@type': 'Country', name: 'Argentina' }],
+  ...(site.correo ? { email: site.correo } : {}),
+  ...(site.telefono ? { telephone: site.telefono } : {}),
+};
+const grafo: Record<string, unknown>[] = [
+  empresa,
+  { '@type': 'WebSite', '@id': `${dominio}/#web`, url: `${dominio}/`, name: site.nombre, inLanguage: 'es', publisher: { '@id': `${dominio}/#empresa` } },
+  { '@type': 'WebPage', '@id': `${canonical}#pagina`, url: canonical, name: title, ...(description ? { description } : {}), isPartOf: { '@id': `${dominio}/#web` }, inLanguage: 'es', ...(migas.length > 1 ? { breadcrumb: { '@id': `${canonical}#migas` } } : {}) },
+  ...(migas.length > 1 ? [{ '@type': 'BreadcrumbList', '@id': `${canonical}#migas`, itemListElement: migas.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.nombre, item: m.url })) }] : []),
+  ...datos,
+];
+const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': grafo });
 ---
 <!doctype html>
 <html lang="es">
@@ -40,12 +61,21 @@ const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio
     {(ogDescripcion || description) && <meta property="og:description" content={ogDescripcion || description} />}
     <meta property="og:url" content={canonical} />
     {imagenAbsoluta && <meta property="og:image" content={imagenAbsoluta} />}
-    {jsonld && <script type="application/ld+json" set:html={jsonld} />}
+    <script type="application/ld+json" set:html={jsonld} />
     <meta name="twitter:card" content={imagenAbsoluta ? 'summary_large_image' : 'summary'} />
     <!-- noindex provisional: se quita en la Fase 7, el día del cambio de DNS -->
   </head>
   <body>
     <Header menu={menu} />
+    {migas.length > 1 && (
+      <nav class="migas" aria-label="Estás en">
+        <ol>
+          {migas.map((m, i) => i < migas.length - 1
+            ? <li><a href={m.url.replace(/^https?:\/\/[^/]+/, '')}>{m.nombre}</a></li>
+            : <li aria-current="page">{m.nombre}</li>)}
+        </ol>
+      </nav>
+    )}
     <slot />
     <Footer menu={menu} />
   </body>

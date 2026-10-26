@@ -9,6 +9,9 @@ interface Block {
   text?: string;
   html?: string;
   nuevo?: boolean;
+  cabecera?: string[];
+  filas?: string[][];
+  nota?: string;
   ajuste?: string;
   href?: string;
   src?: string;
@@ -49,6 +52,15 @@ const Tag = block.tag && /^h[1-6]$/.test(block.tag) ? block.tag : 'p';
 )}
 {block.type === 'image' && !enlace && (
   <Foto src={block.src ?? ''} alt={block.alt} sizes={sizes} class={block.nuevo ? 'foto-seccion' : undefined} nuevo={block.nuevo} ajuste={block.ajuste} />
+)}
+{block.type === 'tabla' && (
+  <div class="tabla-caja" data-nuevo>
+    <table class="tabla">
+      <thead><tr>{(block.cabecera ?? []).map((c: string) => <th scope="col">{c}</th>)}</tr></thead>
+      <tbody>{(block.filas ?? []).map((f: string[]) => <tr>{f.map((c, i) => i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>)}</tr>)}</tbody>
+    </table>
+    {block.nota && <p class="tabla-nota">{block.nota}</p>}
+  </div>
 )}
 {block.type === 'map' && (
   <div class="mapa">

@@ -11,6 +11,12 @@ let n = 0; // las secciones con título alternan panel oscuro y claro
 ---
 <div class={`pagina${pagina.conLateral ? ' con-lateral' : ''}`}>
   {pagina.elementos.map((e) => {
+    if (e.tipo === 'resumen') return (
+      <aside class="resumen" aria-label="En resumen">
+        <p class="resumen-etiqueta">En resumen</p>
+        <p set:html={e.html} />
+      </aside>
+    );
     if (e.tipo === 'consulta') return (
       <aside class="consulta">
         <Bloque block={e.titular} />

@@ -6,6 +6,7 @@ import { armarPagina } from '../lib/pagina';
 import { limpiar } from '../lib/html';
 import { seoDe } from '../lib/seo';
 import { textoLegal } from '../lib/legales';
+import { migasDe } from '../lib/migas';
 
 export async function getStaticPaths() {
   const files = import.meta.glob('../content/pages/*.json', { eager: true });
@@ -22,8 +23,9 @@ const { data } = Astro.props as { data: any };
 const seo = seoDe(data.slug);
 const legal = data.blocks.length === 0 ? textoLegal(data.slug) : null;
 const bloques = legal ? [{ type: 'text', html: legal, nuevo: true }] : data.blocks;
-const pagina = armarPagina(bloques, { servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
-const jsonld = data.faq ? JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: data.faq.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }) : undefined;
+const pagina = armarPagina(bloques, { slug: data.slug, servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
+const datos = data.faq ? [{ '@type': 'FAQPage', mainEntity: data.faq.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }] : [];
+const migas = migasDe(data, data.title);
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base
@@ -34,7 +36,8 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
   imagen={seo.imagen}
   ogTitulo={seo.ogTitulo}
   ogDescripcion={seo.ogDescripcion}
-  jsonld={jsonld}
+  datos={datos}
+  migas={migas}
 >
   <Hero titulo={h1 ? h1.text : data.title} hero={pagina.hero} menu={data.menu} />
   <div class="bloque">

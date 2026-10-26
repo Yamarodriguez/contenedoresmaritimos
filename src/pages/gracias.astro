@@ -3,7 +3,7 @@
 import Base from '../layouts/Base.astro';
 import site from '../data/site.json';
 ---
-<Base title="Mensaje enviado" canonical={`https://${site.dominio}/gracias/`}>
+<Base title="Mensaje enviado" canonical={`https://${site.dominio}/gracias/`} migas={[{ nombre: 'Inicio', url: `https://${site.dominio}/` }, { nombre: 'Mensaje enviado', url: `https://${site.dominio}/gracias/` }]}>
   <section class="heroe">
     <div class="heroe-velo"></div>
     <div class="caja heroe-in">

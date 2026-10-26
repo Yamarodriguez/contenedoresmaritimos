@@ -260,3 +260,26 @@ h1, h2, h3, h4 { font-family: var(--titular); color: var(--ink); line-height: 1.
 .formulario-aviso--ok { background: #e7f6ec; color: #14532d; border: 1px solid #a7dcb8; }
 .formulario-aviso--error { background: #fdecec; color: #7f1d1d; border: 1px solid #f1b5b5; }
 .formulario-aviso[hidden] { display: none; }
+
+/* --- Migas de pan --- */
+.migas { background: var(--papel); border-bottom: 1px solid var(--linea); font-size: 0.82rem; }
+.migas ol { list-style: none; margin: 0 auto; padding: 9px 24px; max-width: var(--caja); display: flex; flex-wrap: wrap; gap: 4px 0; color: var(--texto-suave); }
+.migas li + li::before { content: "›"; margin: 0 8px; color: var(--texto-suave); }
+.migas a { color: var(--enlace); }
+.migas [aria-current] { color: var(--texto); font-weight: 600; }
+
+/* --- En resumen (respuesta corta al principio) --- */
+.resumen { background: var(--papel); border: 1px solid var(--linea); border-left: 6px solid var(--accion); border-radius: 18px; padding: 20px 24px; box-shadow: var(--sombra); }
+.resumen-etiqueta { margin: 0 0 6px; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--azul); }
+.resumen p:last-child { margin: 0; font-size: 1.08rem; line-height: 1.6; color: var(--ink); }
+
+/* --- Tablas de medidas y fichas técnicas --- */
+.tabla-caja { overflow-x: auto; margin: 4px 0 8px; border-radius: 14px; border: 1px solid var(--linea); background: var(--papel); }
+.tabla { width: 100%; border-collapse: collapse; font-size: 0.92rem; color: var(--texto); min-width: 640px; }
+.tabla th, .tabla td { padding: 11px 14px; text-align: left; border-bottom: 1px solid var(--linea); vertical-align: top; }
+.tabla thead th { background: var(--ink); color: #fff; font-weight: 600; font-size: 0.82rem; letter-spacing: 0.02em; white-space: nowrap; }
+.tabla tbody th { color: var(--ink); font-weight: 600; white-space: nowrap; }
+.tabla tbody tr:nth-child(even) { background: var(--fondo); }
+.tabla td { font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tabla-nota { font-size: 0.8rem; color: var(--texto-suave); margin: 0; padding: 10px 14px; border-top: 1px solid var(--linea); }
+.seccion:not(.seccion--clara) .tabla-nota { color: var(--texto-suave); }
