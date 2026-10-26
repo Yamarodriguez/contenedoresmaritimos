@@ -8,6 +8,7 @@ const pasos = [
   ['Validar (C3)', 'node', ['scripts/validar.mjs']],
   ['Encabezados (C1)', 'node', ['scripts/comparar-encabezados.mjs']],
   ['Contenido (C2)', 'node', ['scripts/comparar-contenido.mjs']],
+  ['SEO (títulos, descripciones, mapa)', 'node', ['scripts/comparar-seo.mjs']],
 ];
 
 pasos.forEach(([nombre, cmd, args], i) => {

@@ -13,8 +13,13 @@ interface Props {
   description?: string;
   canonical: string;
   menu?: string;
+  imagen?: string; // imagen para compartir en redes (ruta absoluta del sitio)
+  ogTitulo?: string;
+  ogDescripcion?: string;
 }
-const { title, description = '', canonical, menu } = Astro.props as Props;
+const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion } = Astro.props as Props;
+const dominio = site.dominio ? `https://${site.dominio}` : '';
+const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio}${imagen}`) : '';
 ---
 <!doctype html>
 <html lang="es">
@@ -27,6 +32,14 @@ const { title, description = '', canonical, menu } = Astro.props as Props;
     <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
     <link rel="canonical" href={canonical} />
     <meta name="robots" content="noindex, nofollow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content={site.nombre} />
+    <meta property="og:title" content={ogTitulo || title} />
+    {(ogDescripcion || description) && <meta property="og:description" content={ogDescripcion || description} />}
+    <meta property="og:url" content={canonical} />
+    {imagenAbsoluta && <meta property="og:image" content={imagenAbsoluta} />}
+    <meta name="twitter:card" content={imagenAbsoluta ? 'summary_large_image' : 'summary'} />
     <!-- noindex provisional: se quita en la Fase 7, el día del cambio de DNS -->
   </head>
   <body>

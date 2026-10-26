@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Contenido from '../components/Contenido.astro';
 import { limpiar } from '../lib/html';
+import { seoDe } from '../lib/seo';
 
 export async function getStaticPaths() {
   const files = import.meta.glob('../content/pages/*.json', { eager: true });
@@ -15,13 +16,17 @@ export async function getStaticPaths() {
 }
 
 const { data } = Astro.props as { data: any };
+const seo = seoDe(data.slug);
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base
-  title={data.title}
-  description={data.meta_description}
+  title={seo.titulo || data.title}
+  description={seo.descripcion || data.meta_description}
   canonical={data.url}
   menu={data.menu}
+  imagen={seo.imagen}
+  ogTitulo={seo.ogTitulo}
+  ogDescripcion={seo.ogDescripcion}
 >
   <section class="heroe">
     <div class="caja">

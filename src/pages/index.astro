@@ -1,16 +1,21 @@
 ---
 import Base from '../layouts/Base.astro';
 import { limpiar } from '../lib/html';
+import { seoDe } from '../lib/seo';
 import Contenido from '../components/Contenido.astro';
 import data from '../content/pages/contenedores-maritimos.json';
 
+const seo = seoDe('index');
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base
-  title={data.title}
-  description={data.meta_description}
+  title={seo.titulo || data.title}
+  description={seo.descripcion || data.meta_description}
   canonical={data.url}
   menu={data.menu}
+  imagen={seo.imagen}
+  ogTitulo={seo.ogTitulo}
+  ogDescripcion={seo.ogDescripcion}
 >
   <section class="heroe">
     <div class="caja">
