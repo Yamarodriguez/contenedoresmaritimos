@@ -1,0 +1,28 @@
+{
+  "_nota": "BORRADOR. Servicios confirmados por Yama: electricidad y pintura (el resto, 'etc.', pendiente de que diga cuáles son). Los textos son genéricos a propósito: sin precios, plazos ni garantías que no se hayan confirmado.",
+  "slug": "servicios-contenedores-maritimos",
+  "titulo": "Servicios para contenedores marítimos: electricidad, pintura y más",
+  "descripcion": "Servicios para contenedores marítimos: instalación eléctrica, pintura y más. Cuéntanos qué necesitas y pide presupuesto sin compromiso.",
+  "h1": "Servicios para contenedores marítimos",
+  "entrada": "Además de la venta, el alquiler y el transporte, ofrecemos servicios para adaptar tu contenedor marítimo al uso que quieras darle: oficina, almacén, local u otro proyecto. Cuéntanos qué necesitas y te preparamos un presupuesto.",
+  "secciones": [
+    {
+      "h2": "Servicios de reforma y acondicionamiento de contenedores marítimos",
+      "texto": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.",
+      "servicios": [
+        {
+          "h3": "Instalación eléctrica en contenedores marítimos",
+          "texto": "Instalación eléctrica adaptada al uso que le vayas a dar al contenedor. Consúltanos tu caso y te presupuestamos."
+        },
+        {
+          "h3": "Pintura de contenedores marítimos",
+          "texto": "Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos."
+        }
+      ]
+    },
+    {
+      "h2": "Pide presupuesto para tu contenedor marítimo",
+      "texto": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso."
+    }
+  ]
+}

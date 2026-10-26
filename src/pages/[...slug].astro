@@ -5,6 +5,7 @@ import Hero from '../components/Hero.astro';
 import { armarPagina } from '../lib/pagina';
 import { limpiar } from '../lib/html';
 import { seoDe } from '../lib/seo';
+import { textoLegal } from '../lib/legales';
 
 export async function getStaticPaths() {
   const files = import.meta.glob('../content/pages/*.json', { eager: true });
@@ -19,7 +20,9 @@ export async function getStaticPaths() {
 
 const { data } = Astro.props as { data: any };
 const seo = seoDe(data.slug);
-const pagina = armarPagina(data.blocks);
+const legal = data.blocks.length === 0 ? textoLegal(data.slug) : null;
+const bloques = legal ? [{ type: 'text', html: legal, nuevo: true }] : data.blocks;
+const pagina = armarPagina(bloques);
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 ---
 <Base
@@ -34,7 +37,7 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
   <Hero titulo={h1 ? h1.text : data.title} hero={pagina.hero} menu={data.menu} />
   <div class="bloque">
     <div class="bloque-in">
-      {data.blocks.length === 0 && (
+      {bloques.length === 0 && (
         <p><em>Esta página aún no tiene contenido capturado (pendiente de copiarlo a mano — ver legales-vivos.json).</em></p>
       )}
       <Contenido pagina={pagina} />

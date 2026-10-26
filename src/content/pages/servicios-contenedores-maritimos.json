@@ -1,0 +1,70 @@
+{
+ "slug": "servicios-contenedores-maritimos",
+ "title": "Servicios para contenedores marítimos: electricidad, pintura y más",
+ "url": "https://contenedoresmaritimos.net/servicios-contenedores-maritimos/",
+ "meta_description": "Servicios para contenedores marítimos: instalación eléctrica, pintura y más. Cuéntanos qué necesitas y pide presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Servicios para contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Además de la venta, el alquiler y el transporte, ofrecemos servicios para adaptar tu contenedor marítimo al uso que quieras darle: oficina, almacén, local u otro proyecto. Cuéntanos qué necesitas y te preparamos un presupuesto.",
+   "html": "<p>Además de la venta, el alquiler y el transporte, ofrecemos servicios para adaptar tu contenedor marítimo al uso que quieras darle: oficina, almacén, local u otro proyecto. Cuéntanos qué necesitas y te preparamos un presupuesto.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Servicios de reforma y acondicionamiento de contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.",
+   "html": "<p>Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Instalación eléctrica en contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Instalación eléctrica adaptada al uso que le vayas a dar al contenedor. Consúltanos tu caso y te presupuestamos.",
+   "html": "<p>Instalación eléctrica adaptada al uso que le vayas a dar al contenedor. Consúltanos tu caso y te presupuestamos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Pintura de contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos.",
+   "html": "<p>Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto para tu contenedor marítimo"
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué contenedor tienes o qué necesitas, en qué provincia está y qué servicio buscas. Te respondemos con un presupuesto sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  }
+ ]
+}

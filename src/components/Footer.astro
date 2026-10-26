@@ -52,7 +52,10 @@ const correo = site.correo;
     </nav>
     <nav aria-label="Servicios">
       <h3>Servicios</h3>
-      <ul>{grupo(['Construcciones', 'Comprar', 'Transporte', 'Alquiler']).map((i: any) => <li><a href={i.url}>{i.label}</a></li>)}</ul>
+      <ul>
+        {grupo(['Construcciones', 'Comprar', 'Transporte', 'Alquiler']).map((i: any) => <li><a href={i.url}>{i.label}</a></li>)}
+        <li><a href="/servicios-contenedores-maritimos/">Electricidad, pintura y más</a></li>
+      </ul>
     </nav>
     <nav aria-label="Dónde">
       <h3>Dónde</h3>
