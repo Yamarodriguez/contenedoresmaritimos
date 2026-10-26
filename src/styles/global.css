@@ -353,3 +353,5 @@ h1, h2, h3, h4 {
   .rejilla { grid-template-columns: repeat(2, 1fr); gap: 12px; }
   .tarjeta h3 { padding: 10px 12px 12px; font-size: 0.92rem; }
 }
+
+picture { display: contents; }

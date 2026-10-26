@@ -46,6 +46,12 @@ for (const f of ficheros) {
     if (/^https?:\/\//.test(src)) { fallos.push(`${rel}: imagen externa ${src}`); continue; }
     if (!fs.existsSync(path.join('dist', decodeURI(src.split('?')[0])))) fallos.push(`${rel}: falta imagen ${src}`);
   }
+  for (const m of html.matchAll(/srcset="([^"]+)"/g)) {
+    for (const parte of m[1].split(',')) {
+      const url = parte.trim().split(/\s+/)[0];
+      if (url && !fs.existsSync(path.join('dist', decodeURI(url)))) fallos.push(`${rel}: falta imagen webp ${url}`);
+    }
+  }
   if (/casascontenedores/i.test(html)) {
     // Vale si ya estaba en el original (p. ej. un enlace real al sitio hermano).
     const slug = rel === 'index.html' ? 'index' : rel.replace(/\/index\.html$/, '').replace(/\//g, '__');

@@ -1,0 +1,28 @@
+---
+// Una foto con su versión webp a varios tamaños (<picture>) y el original como
+// src: quien no entienda webp sigue viendo la misma imagen.
+import medidas from '../data/imagenes.json';
+
+interface Props {
+  src: string;
+  alt?: string;
+  sizes?: string;
+  loading?: 'lazy' | 'eager';
+  prioridad?: boolean;
+  class?: string;
+  nuevo?: boolean;
+  ajuste?: string;
+}
+const { src, alt = '', sizes = '(max-width: 860px) 95vw, 820px', loading = 'lazy', prioridad = false, class: clase, nuevo = false, ajuste } = Astro.props as Props;
+const m = (medidas as Record<string, { w: number; h: number; ws: number[] }>)[src];
+const base = src.replace(/\.(jpe?g|png)$/i, '');
+const srcset = m?.ws?.map((w) => `${base}-${w}.webp ${w}w`).join(', ');
+---
+{srcset ? (
+  <picture>
+    <source type="image/webp" srcset={srcset} sizes={sizes} />
+    <img src={src} alt={alt} loading={prioridad ? 'eager' : loading} fetchpriority={prioridad ? 'high' : undefined} decoding="async" width={m?.w} height={m?.h} class={clase} data-nuevo={nuevo ? '' : undefined} data-ajuste={ajuste} />
+  </picture>
+) : (
+  <img src={src} alt={alt} loading={loading} width={m?.w} height={m?.h} class={clase} data-nuevo={nuevo ? '' : undefined} data-ajuste={ajuste} />
+)}
