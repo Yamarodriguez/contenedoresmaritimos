@@ -260,6 +260,11 @@
    800
   ]
  },
+ "/img/2022/01/Contenedores-maritimos-.svg": {
+  "w": 96,
+  "h": 96,
+  "ws": []
+ },
  "/img/2022/01/contenedores-maritimos-Alava.png": {
   "w": 1350,
   "h": 500,
@@ -1818,5 +1823,15 @@
    800,
    1350
   ]
+ },
+ "/img/tipos/de-10-pies.svg": {
+  "w": 400,
+  "h": 300,
+  "ws": []
+ },
+ "/img/tipos/de-45-pies.svg": {
+  "w": 400,
+  "h": 300,
+  "ws": []
  }
 }

@@ -14,10 +14,11 @@ function ficheros(dir) {
 }
 const salida = {}; const fallos = []; let creadas = 0;
 for (const f of ficheros('public/img')) {
-  if (!/\.(jpe?g|png)$/i.test(f)) continue;
+  if (!/\.(jpe?g|png|svg)$/i.test(f)) continue;
   try {
     const m = await sharp(f).metadata();
     const clave = '/' + path.relative('public', f).split(path.sep).join('/');
+    if (/\.svg$/i.test(f)) { salida[clave] = { w: m.width, h: m.height, ws: [] }; continue; } // los vectoriales no necesitan webp
     const anchos = ANCHOS.filter((a) => a < m.width);
     if (!anchos.length || anchos[anchos.length - 1] < m.width * 0.9) anchos.push(m.width); // la última cubre el original
     const base = f.replace(/\.(jpe?g|png)$/i, '');

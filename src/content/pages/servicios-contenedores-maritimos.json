@@ -2,7 +2,7 @@
  "slug": "servicios-contenedores-maritimos",
  "title": "Servicios para contenedores marítimos: electricidad, pintura y más",
  "url": "https://contenedoresmaritimos.net/servicios-contenedores-maritimos/",
- "meta_description": "Servicios para contenedores marítimos: instalación eléctrica, pintura y más. Cuéntanos qué necesitas y pide presupuesto sin compromiso.",
+ "meta_description": "Servicios para contenedores marítimos: electricidad, pintura, aislamiento, ventanas y puertas, climatización y más. Pide presupuesto sin compromiso.",
  "menu": "contenedores-maritimos",
  "nueva": true,
  "blocks": [
@@ -24,8 +24,8 @@
   },
   {
    "type": "text",
-   "text": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.",
-   "html": "<p>Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.</p>",
+   "text": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano. Cuéntanos tu caso y te presupuestamos cada uno.",
+   "html": "<p>Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano. Cuéntanos tu caso y te presupuestamos cada uno.</p>",
    "nuevo": true
   },
   {
@@ -48,6 +48,83 @@
    "type": "text",
    "text": "Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos.",
    "html": "<p>Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Aislamiento térmico y acústico de contenedores"
+  },
+  {
+   "type": "text",
+   "text": "Aislamiento del contenedor para que sea más confortable por dentro, según el uso que vayas a darle.",
+   "html": "<p>Aislamiento del contenedor para que sea más confortable por dentro, según el uso que vayas a darle.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Ventanas y puertas en contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Apertura de huecos e instalación de ventanas y puertas para dar luz y acceso al contenedor.",
+   "html": "<p>Apertura de huecos e instalación de ventanas y puertas para dar luz y acceso al contenedor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Climatización de contenedores"
+  },
+  {
+   "type": "text",
+   "text": "Instalación de climatización para oficinas, locales y otros usos del contenedor.",
+   "html": "<p>Instalación de climatización para oficinas, locales y otros usos del contenedor.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Fontanería e instalación sanitaria en contenedores"
+  },
+  {
+   "type": "text",
+   "text": "Instalación de agua y saneamiento para contenedores destinados a baños, cocinas u otros usos.",
+   "html": "<p>Instalación de agua y saneamiento para contenedores destinados a baños, cocinas u otros usos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Soldadura y reparación de contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Reparación y refuerzo de la estructura del contenedor, también en contenedores de segunda mano.",
+   "html": "<p>Reparación y refuerzo de la estructura del contenedor, también en contenedores de segunda mano.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Cortes y aberturas en contenedores marítimos"
+  },
+  {
+   "type": "text",
+   "text": "Cortes en la chapa para abrir puertas, ventanas o unir varios contenedores.",
+   "html": "<p>Cortes en la chapa para abrir puertas, ventanas o unir varios contenedores.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Adaptación de contenedores marítimos a oficina, almacén, local o vivienda"
+  },
+  {
+   "type": "text",
+   "text": "Combinando estos servicios puedes convertir un contenedor en <a href=\"/oficinas/\">oficina</a>, <a href=\"/almacenamiento/\">almacén</a>, <a href=\"/locales-comerciales/\">local comercial</a> o <a href=\"/casas/\">casa</a>. Mira también nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a>.",
+   "html": "<p>Combinando estos servicios puedes convertir un contenedor en <a href=\"/oficinas/\">oficina</a>, <a href=\"/almacenamiento/\">almacén</a>, <a href=\"/locales-comerciales/\">local comercial</a> o <a href=\"/casas/\">casa</a>. Mira también nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a>.</p>",
    "nuevo": true
   },
   {

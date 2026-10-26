@@ -6,8 +6,8 @@ export type Trozo =
   | { tipo: 'bloque'; bloque: Bloque }
   | { tipo: 'rejilla'; tarjetas: { titular: Bloque; imagen: Bloque }[] };
 
-const esTitularTarjeta = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h3' && b.href;
-const esFotoTarjeta = (b?: Bloque) => b?.type === 'image' && b.href;
+const esTitularTarjeta = (b?: Bloque) => b?.type === 'heading' && b.tag === 'h3';
+const esFotoTarjeta = (b?: Bloque) => b?.type === 'image';
 
 export function agrupar(bloques: Bloque[]): Trozo[] {
   const salida: Trozo[] = [];

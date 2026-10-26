@@ -1,6 +1,7 @@
 ---
 import Bloque from './Bloque.astro';
 import type { Pagina } from '../lib/pagina';
+import tiposNuevos from '../data/tipos-nuevos.json';
 
 interface Props {
   pagina: Pagina;
@@ -30,7 +31,7 @@ let n = 0; // las secciones con título alternan panel oscuro y claro
           {e.cuerpo.map((t) => (
             t.tipo === 'rejilla' ? (
               <div class="rejilla">
-                {t.tarjetas.map((c) => (
+                {[...t.tarjetas, ...(t.tarjetas.some((c) => /de-20-pies|20 pies/.test((c.titular.href || '') + (c.titular.text || ''))) ? tiposNuevos.tipos.map((n) => ({ titular: { type: 'heading', tag: 'h3', text: n.nombre, href: `/${n.slug}/` }, imagen: { type: 'image', src: `/img/tipos/${n.slug}.svg`, alt: n.nombre, href: `/${n.slug}/` } })) : [])].map((c) => (
                   <article class="tarjeta">
                     <Bloque block={c.titular} />
                     <Bloque block={c.imagen} sizes="(max-width: 700px) 45vw, 230px" />

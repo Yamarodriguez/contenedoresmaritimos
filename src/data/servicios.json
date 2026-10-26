@@ -1,14 +1,14 @@
 {
-  "_nota": "BORRADOR. Servicios confirmados por Yama: electricidad y pintura (el resto, 'etc.', pendiente de que diga cuáles son). Los textos son genéricos a propósito: sin precios, plazos ni garantías que no se hayan confirmado.",
+  "_nota": "BORRADOR. Confirmados por Yama: electricidad y pintura. El resto los propuse yo (Claude) con permiso de Yama ('lo que veas que se pueda agregar'): Yama debe BORRAR los que no ofrezca. Textos genéricos a propósito: sin precios, plazos ni garantías.",
   "slug": "servicios-contenedores-maritimos",
   "titulo": "Servicios para contenedores marítimos: electricidad, pintura y más",
-  "descripcion": "Servicios para contenedores marítimos: instalación eléctrica, pintura y más. Cuéntanos qué necesitas y pide presupuesto sin compromiso.",
+  "descripcion": "Servicios para contenedores marítimos: electricidad, pintura, aislamiento, ventanas y puertas, climatización y más. Pide presupuesto sin compromiso.",
   "h1": "Servicios para contenedores marítimos",
   "entrada": "Además de la venta, el alquiler y el transporte, ofrecemos servicios para adaptar tu contenedor marítimo al uso que quieras darle: oficina, almacén, local u otro proyecto. Cuéntanos qué necesitas y te preparamos un presupuesto.",
   "secciones": [
     {
       "h2": "Servicios de reforma y acondicionamiento de contenedores marítimos",
-      "texto": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano.",
+      "texto": "Estos son los servicios que podemos hacer sobre tu contenedor marítimo, nuevo o de segunda mano. Cuéntanos tu caso y te presupuestamos cada uno.",
       "servicios": [
         {
           "h3": "Instalación eléctrica en contenedores marítimos",
@@ -17,8 +17,36 @@
         {
           "h3": "Pintura de contenedores marítimos",
           "texto": "Pintura del contenedor para protegerlo y dejarlo del color que necesites. Consúltanos tu caso y te presupuestamos."
+        },
+        {
+          "h3": "Aislamiento térmico y acústico de contenedores",
+          "texto": "Aislamiento del contenedor para que sea más confortable por dentro, según el uso que vayas a darle."
+        },
+        {
+          "h3": "Ventanas y puertas en contenedores marítimos",
+          "texto": "Apertura de huecos e instalación de ventanas y puertas para dar luz y acceso al contenedor."
+        },
+        {
+          "h3": "Climatización de contenedores",
+          "texto": "Instalación de climatización para oficinas, locales y otros usos del contenedor."
+        },
+        {
+          "h3": "Fontanería e instalación sanitaria en contenedores",
+          "texto": "Instalación de agua y saneamiento para contenedores destinados a baños, cocinas u otros usos."
+        },
+        {
+          "h3": "Soldadura y reparación de contenedores marítimos",
+          "texto": "Reparación y refuerzo de la estructura del contenedor, también en contenedores de segunda mano."
+        },
+        {
+          "h3": "Cortes y aberturas en contenedores marítimos",
+          "texto": "Cortes en la chapa para abrir puertas, ventanas o unir varios contenedores."
         }
       ]
+    },
+    {
+      "h2": "Adaptación de contenedores marítimos a oficina, almacén, local o vivienda",
+      "texto": "Combinando estos servicios puedes convertir un contenedor en <a href=\"/oficinas/\">oficina</a>, <a href=\"/almacenamiento/\">almacén</a>, <a href=\"/locales-comerciales/\">local comercial</a> o <a href=\"/casas/\">casa</a>. Mira también nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a>."
     },
     {
       "h2": "Pide presupuesto para tu contenedor marítimo",

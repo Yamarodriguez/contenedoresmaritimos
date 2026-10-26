@@ -251,3 +251,5 @@ h1, h2, h3, h4 { font-family: var(--titular); color: var(--ink); line-height: 1.
 
 .texto h2 { font-size: 1.3rem; margin: 1.6em 0 0.5em; }
 .texto h2:first-child { margin-top: 0; }
+
+.seccion-cuerpo .boton { margin-right: 10px; }

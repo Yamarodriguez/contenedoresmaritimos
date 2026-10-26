@@ -1,0 +1,21 @@
+{
+  "_nota": "Tipos de contenedor NUEVOS propuestos por Claude con permiso de Yama ('lo que veas que se pueda agregar'). Medidas = estándar ISO orientativo, pueden variar según el fabricante. Las imágenes son ilustraciones propias (no fotos): Yama puede sustituirlas por fotos reales. Yama debe BORRAR los tipos que no vendan.",
+  "tipos": [
+    {
+      "slug": "de-10-pies",
+      "nombre": "Contenedores de 10 pies",
+      "pies": 10,
+      "medidas": "2,99 m de largo, 2,44 m de ancho y 2,59 m de alto",
+      "descripcion": "Contenedores marítimos de 10 pies: medidas, usos y presupuesto. El tamaño más compacto, ideal para espacios reducidos. Pide presupuesto sin compromiso.",
+      "usos": "Por su tamaño reducido, el contenedor de 10 pies se usa a menudo como trastero, caseta o pequeña oficina, y es más fácil de transportar y colocar que uno de 20 pies."
+    },
+    {
+      "slug": "de-45-pies",
+      "nombre": "Contenedores de 45 pies",
+      "pies": 45,
+      "medidas": "13,72 m de largo, 2,44 m de ancho y 2,90 m de alto (versión high cube)",
+      "descripcion": "Contenedores marítimos de 45 pies: medidas, usos y presupuesto. El más largo, con mayor capacidad que uno de 40 pies. Pide presupuesto sin compromiso.",
+      "usos": "El contenedor de 45 pies es el más largo de los habituales y se usa cuando se necesita más volumen que el de 40 pies, tanto para almacenar como para construcciones modulares."
+    }
+  ]
+}

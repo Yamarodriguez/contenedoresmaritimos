@@ -1,0 +1,83 @@
+{
+ "slug": "de-10-pies",
+ "title": "Contenedores de 10 pies",
+ "url": "https://contenedoresmaritimos.net/de-10-pies/",
+ "meta_description": "Contenedores marítimos de 10 pies: medidas, usos y presupuesto. El tamaño más compacto, ideal para espacios reducidos. Pide presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Contenedores de 10 pies"
+  },
+  {
+   "type": "text",
+   "text": "En esta página encontrarás las medidas y los usos de los contenedores de 10 pies. Si quieres comprar o alquilar uno, pide presupuesto y te asesoramos sin compromiso.",
+   "html": "<p>En esta página encontrarás las medidas y los usos de los contenedores de 10 pies. Si quieres comprar o alquilar uno, pide presupuesto y te asesoramos sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Medidas de los contenedores de 10 pies"
+  },
+  {
+   "type": "image",
+   "src": "/img/tipos/de-10-pies.svg",
+   "alt": "Contenedores de 10 pies",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Las medidas exteriores habituales de un contenedor de 10 pies son 2,99 m de largo, 2,44 m de ancho y 2,59 m de alto. Son medidas orientativas: pueden variar ligeramente según el fabricante.",
+   "html": "<p>Las medidas exteriores habituales de un contenedor de 10 pies son 2,99 m de largo, 2,44 m de ancho y 2,59 m de alto. Son medidas orientativas: pueden variar ligeramente según el fabricante.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Usos de los contenedores de 10 pies"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
+   "alt": "tipos-de-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Por su tamaño reducido, el contenedor de 10 pies se usa a menudo como trastero, caseta o pequeña oficina, y es más fácil de transportar y colocar que uno de 20 pies.",
+   "html": "<p>Por su tamaño reducido, el contenedor de 10 pies se usa a menudo como trastero, caseta o pequeña oficina, y es más fácil de transportar y colocar que uno de 20 pies.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Comprar o alquilar contenedores de 10 pies"
+  },
+  {
+   "type": "image",
+   "src": "/img/2022/01/comprar-contenedores-maritimos.jpg",
+   "alt": "comprar-contenedores-marítimos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Consúltanos disponibilidad, precio y transporte hasta tu provincia. Mira también los precios y las medidas de todos los modelos.",
+   "html": "<p>Consúltanos disponibilidad, precio y transporte hasta tu provincia. Mira también los precios y las medidas de todos los modelos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "button",
+   "text": "Todos los tipos de contenedores",
+   "href": "https://contenedoresmaritimos.net/tipos/"
+  }
+ ]
+}
