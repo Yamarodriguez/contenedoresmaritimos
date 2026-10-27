@@ -29,7 +29,7 @@ function bloquesDe(html) {
     .map((x) => norm(x[2])).filter((t) => t.length > 1);
 }
 const enlacesDe = (html) => {
-  return [...zona(html).matchAll(/<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map((x) => {
+  return [...zona(html).matchAll(/<a\b[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map((x) => {
     const h = x[1]
       .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=[a-z0-9])/, 'https://contenedoresmaritimos.net/') // errata aprobada: falta la barra
       .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/, '');
@@ -81,7 +81,12 @@ for (const p of paginas) {
   const nueva = path.join('dist', rutaNueva(ruta), 'index.html'); // Argentina: en /ar/
   if (!fs.existsSync(ref) || !fs.existsSync(nueva)) { dif.push(`${p.url}: falta ${!fs.existsSync(ref) ? 'referencia' : 'dist'}`); continue; }
   comparadas++;
-  const a = bloquesDe(fs.readFileSync(ref, 'utf8'));
+  // errata aprobada: en las páginas de Argentina, los precios del original en euros pasan a dólares
+  // y «en alguna provincia de España» pasa a «de Argentina»
+  const refTexto = (rutaNueva(ruta) === 'ar' || rutaNueva(ruta).startsWith('ar/'))
+    ? fs.readFileSync(ref, 'utf8').replace(/\beuros\b/g, 'dólares').replace(/provincia de España/g, 'provincia de Argentina')
+    : fs.readFileSync(ref, 'utf8');
+  const a = bloquesDe(refTexto);
   const nuevoHtml = fs.readFileSync(nueva, 'utf8');
   const b = bloquesDe(nuevoHtml).join(' | ');
   let pos = 0;

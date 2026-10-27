@@ -3,6 +3,7 @@
 // menús y de site.json: lo que falte (teléfono, WhatsApp) no se pinta.
 import menusData from '../data/menus.json';
 import site from '../data/site.json';
+import { paraPais } from '../lib/rutas';
 
 interface Props {
   menu?: string;
@@ -13,6 +14,7 @@ const items = menus[menu] ?? [];
 const legales = menus.politicas ?? [];
 const enlace = (etiqueta: string) => items.find((i) => i.label === etiqueta);
 const grupo = (etiquetas: string[]) => etiquetas.map(enlace).filter(Boolean);
+const pais = menu === 'argentina' ? 'ar' : 'es';
 const lugares = (enlace('Provincias')?.children ?? []).slice(0, 7);
 const year = new Date().getFullYear();
 const correo = site.correo;
@@ -24,7 +26,7 @@ const correo = site.correo;
       <h2>¿Necesitas un contenedor?</h2>
       <p>Cuéntanos qué contenedor buscas y dónde lo necesitas.</p>
       <p class="heroe-botones">
-        <a class="boton" href="/contacto/">Pide presupuesto</a>
+        <a class="boton" href={paraPais('/contacto/', pais)}>Pide presupuesto</a>
         {correo && <a class="boton boton--borde" href={`mailto:${correo}`}>Escribir un correo</a>}
       </p>
     </div>
@@ -38,7 +40,7 @@ const correo = site.correo;
 <footer class="pie">
   <div class="caja pie-cols">
     <div class="pie-marca">
-      <a href="/" class="marca-pie" aria-label={site.nombre}>
+      <a href={paraPais('/', pais)} class="marca-pie" aria-label={site.nombre}>
         <img src="/img/2022/01/Contenedores-maritimos-.svg" alt="" width="96" height="96" />
         <span class="marca"><b>Contenedores</b><i>Marítimos</i></span>
       </a>
@@ -59,7 +61,7 @@ const correo = site.correo;
       <h3>Servicios</h3>
       <ul>
         {grupo(['Construcciones', 'Comprar', 'Transporte', 'Alquiler']).map((i: any) => <li><a href={i.url}>{i.label}</a></li>)}
-        <li><a href="/servicios-contenedores-maritimos/">Todos los servicios</a></li>
+        <li><a href={paraPais('/servicios-contenedores-maritimos/', pais)}>Todos los servicios</a></li>
         <li><a href="/instalacion-electrica-contenedores-maritimos/">Instalación eléctrica</a></li>
         <li><a href="/pintura-contenedores-maritimos/">Pintura de contenedores</a></li>
       </ul>
@@ -76,7 +78,7 @@ const correo = site.correo;
     <nav aria-label="Contacto">
       <h3>Contacto</h3>
       <ul>
-        <li><a href="/contacto/">Pedir presupuesto</a></li>
+        <li><a href={paraPais('/contacto/', pais)}>Pedir presupuesto</a></li>
         {correo && <li><a href={`mailto:${correo}`}>Escribir un correo</a></li>}
       </ul>
     </nav>

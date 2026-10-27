@@ -26,8 +26,8 @@ const { data } = Astro.props as { data: any };
 const seo = seoDe(data.slug);
 const legal = data.blocks.length === 0 ? textoLegal(data.slug) : null;
 const bloques = legal ? [{ type: 'text', html: legal, nuevo: true }] : data.blocks;
-const pagina = armarPagina(bloques, { slug: data.slug, servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
-const faqLista = data.faq ?? ((faqPaginas as Record<string, any>)[data.slug]?.faq ?? []).map(([pregunta, respuesta]: string[]) => ({ pregunta, respuesta }));
+const pagina = armarPagina(bloques, { slug: data.slug, ficha: data.ar_de, pais: data.menu === 'argentina' ? 'ar' : 'es', servicios: !data.servicio && data.slug !== 'servicios-contenedores-maritimos' && !legal });
+const faqLista = data.faq ?? ((faqPaginas as Record<string, any>)[data.ar_de ?? data.slug]?.faq ?? []).map(([pregunta, respuesta]: string[]) => ({ pregunta, respuesta }));
 const datos = faqLista.length ? [{ '@type': 'FAQPage', mainEntity: faqLista.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }] : [];
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 // En las páginas nuevas el título de Google es largo: la miga usa el H1.

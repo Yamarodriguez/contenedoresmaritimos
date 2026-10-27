@@ -10,6 +10,7 @@ import serviciosDatos from '../data/servicios-paginas.json';
 import fotos from '../data/fotos-seccion.json';
 import { resumenDe, tablaDe } from './fichas';
 import { extrasCiudad, textosExtra } from './ciudades';
+import { paraPais } from './rutas';
 import faqPaginas from '../data/faq-paginas.json';
 
 export type Seccion = { tipo: 'seccion'; titular?: Bloque; imagen?: Bloque; cuerpo: Trozo[] };
@@ -23,7 +24,7 @@ const longitud = (t = '') => t.replace(/<[^>]+>/g, '').length;
 
 // Sección «Servicios para tus contenedores marítimos»: tarjetas hacia las páginas
 // de servicios. Sale en la portada y en el resto de páginas de contenido.
-function seccionServicios(): Seccion {
+function seccionServicios(pais: 'es' | 'ar' = 'es'): Seccion {
   const tarjetas = serviciosDatos.servicios.map((s) => ({
     titular: { type: 'heading', tag: 'h3', text: s.nombre, href: `/${s.slug}/` },
     imagen: { type: 'image', src: `/img/servicios/${s.slug}.svg`, alt: s.nombre, href: `/${s.slug}/` },
@@ -35,12 +36,12 @@ function seccionServicios(): Seccion {
     cuerpo: [
       { tipo: 'bloque', bloque: { type: 'text', html: '<p>Además de vender, alquilar y transportar contenedores, los acondicionamos para el uso que necesites. Elige un servicio para ver qué incluye.</p>', nuevo: true } },
       { tipo: 'rejilla', tarjetas },
-      { tipo: 'bloque', bloque: { type: 'button', text: 'Ver todos los servicios', href: '/servicios-contenedores-maritimos/' } },
+      { tipo: 'bloque', bloque: { type: 'button', text: 'Ver todos los servicios', href: paraPais('/servicios-contenedores-maritimos/', pais) } },
     ],
   };
 }
 
-export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; slug?: string } = {}): Pagina {
+export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; slug?: string; ficha?: string; pais?: 'es' | 'ar' } = {}): Pagina {
   const sinH1 = bloques.filter((b) => !(b.type === 'heading' && b.tag === 'h1'));
   const iH2 = sinH1.findIndex(esH2);
   const antes = iH2 < 0 ? [...sinH1] : sinH1.slice(0, iH2);
@@ -93,7 +94,7 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
   }
   if (opciones.servicios && elementos.some((e) => e.tipo === 'seccion' && e.titular)) {
     const iTipos = elementos.findIndex((e) => e.tipo === 'seccion' && /tipos/i.test(e.titular?.text || ''));
-    elementos.splice(iTipos >= 0 ? iTipos + 1 : elementos.length, 0, seccionServicios());
+    elementos.splice(iTipos >= 0 ? iTipos + 1 : elementos.length, 0, seccionServicios(opciones.pais));
   }
   // Páginas de ciudad: información propia AÑADIDA al final de algunas secciones
   // (ubicación y ciudades cercanas, puerto y transporte, consejo según la costa,
@@ -118,7 +119,9 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
   }
 
   // Preguntas frecuentes añadidas al final de las páginas principales (faq-paginas.json).
-  const faq = opciones.slug ? (faqPaginas as Record<string, { tema: string; faq: string[][] }>)[opciones.slug] : undefined;
+  // Las versiones de Argentina (ficha = página de España) llevan su mismo resumen, tabla y preguntas.
+  const ficha = opciones.ficha ?? opciones.slug;
+  const faq = ficha ? (faqPaginas as Record<string, { tema: string; faq: string[][] }>)[ficha] : undefined;
   if (faq) {
     elementos.push({
       tipo: 'seccion',
@@ -132,11 +135,11 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
   }
 
   // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).
-  if (opciones.slug) {
+  if (ficha) {
     const arriba: Elemento[] = [];
-    const r = resumenDe(opciones.slug);
+    const r = resumenDe(ficha);
     if (r) arriba.push({ tipo: 'resumen', html: r });
-    const t = tablaDe(opciones.slug);
+    const t = tablaDe(ficha);
     if (t) arriba.push({ tipo: 'seccion', titular: { type: 'heading', tag: 'h2', text: t.h2 }, cuerpo: [{ tipo: 'bloque', bloque: t.bloque }] });
     elementos.unshift(...arriba);
   }

@@ -24,6 +24,30 @@
  },
  "equivalentes": {
   "/precios/": "/ar/precios/",
-  "/segunda-mano/": "/ar/segunda-mano/"
+  "/segunda-mano/": "/ar/segunda-mano/",
+  "/medidas/": "/ar/medidas/",
+  "/tipos/": "/ar/tipos/",
+  "/venta/": "/ar/venta/",
+  "/alquiler/": "/ar/alquiler/",
+  "/transporte/": "/ar/transporte/",
+  "/construcciones-con-contenedores/": "/ar/construcciones-con-contenedores/",
+  "/comprar/": "/ar/comprar/",
+  "/servicios-contenedores-maritimos/": "/ar/servicios-contenedores-maritimos/",
+  "/de-20-pies/": "/ar/de-20-pies/",
+  "/de-40-pies/": "/ar/de-40-pies/",
+  "/high-cube/": "/ar/high-cube/",
+  "/refrigerados/": "/ar/refrigerados/",
+  "/open-top/": "/ar/open-top/",
+  "/flat-rack/": "/ar/flat-rack/",
+  "/open-side/": "/ar/open-side/",
+  "/dry-van/": "/ar/dry-van/",
+  "/cisternas/": "/ar/cisternas/",
+  "/almacenamiento/": "/ar/almacenamiento/",
+  "/ventilados/": "/ar/ventilados/",
+  "/casas/": "/ar/casas/",
+  "/oficinas/": "/ar/oficinas/",
+  "/sanitarios/": "/ar/sanitarios/",
+  "/locales-comerciales/": "/ar/locales-comerciales/",
+  "/contacto/": "/ar/contacto/"
  }
 }

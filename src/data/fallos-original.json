@@ -13,5 +13,10 @@
   "descripcion": "Botones «Presupuesto» del original que llevaban a /comprar/; unificados a /contacto/ como en el resto del sitio, a petición de Yama (27-10-2026).",
   "botones": 191,
   "paginas": 191
+ },
+ "euros_en_argentina": {
+  "descripcion": "Páginas de Argentina del original (/argentina/ y /mar-del-plata/) que daban los precios en euros; pasan a dólares como el resto de Argentina, a petición de Yama (27-10-2026). En /argentina/ también «en alguna provincia de España» pasa a «de Argentina».",
+  "cambios": 28,
+  "paginas": 2
  }
 }

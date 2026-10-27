@@ -129,7 +129,7 @@
   {
    "type": "text",
    "text": "Un contenedor usado en buen estado sirve para almacenaje, para obras y, acondicionado, como oficina, local o vivienda.",
-   "html": "<p>Un contenedor usado en buen estado sirve para <a href=\"/contenedores-para-almacenaje/\">almacenaje</a>, para <a href=\"/contenedores-para-construccion/\">obras</a> y, acondicionado, como <a href=\"/oficinas/\">oficina</a>, <a href=\"/locales-comerciales/\">local</a> o <a href=\"/casas/\">vivienda</a>.</p>",
+   "html": "<p>Un contenedor usado en buen estado sirve para <a href=\"/contenedores-para-almacenaje/\">almacenaje</a>, para <a href=\"/contenedores-para-construccion/\">obras</a> y, acondicionado, como <a href=\"/ar/oficinas/\">oficina</a>, <a href=\"/ar/locales-comerciales/\">local</a> o <a href=\"/ar/casas/\">vivienda</a>.</p>",
    "nuevo": true
   },
   {
@@ -146,7 +146,7 @@
   {
    "type": "text",
    "text": "El contenedor llega en camión con grúa o con plataforma. Indica en tu consulta la dirección exacta y cómo es el acceso para que te demos el precio con el flete incluido. Mira también el transporte de contenedores.",
-   "html": "<p>El contenedor llega en camión con grúa o con plataforma. Indica en tu consulta la dirección exacta y cómo es el acceso para que te demos el precio con el flete incluido. Mira también el <a href=\"/transporte/\">transporte de contenedores</a>.</p>",
+   "html": "<p>El contenedor llega en camión con grúa o con plataforma. Indica en tu consulta la dirección exacta y cómo es el acceso para que te demos el precio con el flete incluido. Mira también el <a href=\"/ar/transporte/\">transporte de contenedores</a>.</p>",
    "nuevo": true
   },
   {
@@ -213,7 +213,7 @@
   {
    "type": "button",
    "text": "Pide presupuesto",
-   "href": "https://contenedoresmaritimos.net/contacto/"
+   "href": "https://contenedoresmaritimos.net/ar/contacto/"
   },
   {
    "type": "button",

@@ -86,6 +86,11 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
   es-ES/es-AR entre portada, precios y segunda mano (src/lib/rutas.ts). El menú y las páginas de Argentina enlazan
   esas versiones («equivalentes» en rutas-ar.json); el menú de Argentina lleva las provincias nuevas en «Provincias»
   y las ciudades nuevas en el desplegable de «Container Argentina» (ciudades-nuevas.mjs). Orden: ciudades-nuevas → geo-ciudades → mover-argentina.
+- Versiones de Argentina de las páginas generales (medidas, tipos, venta, alquiler, transporte, construcciones,
+  comprar, servicios, los 15 tipos de contenedor y contacto): `node scripts/argentina-equivalentes.mjs` las crea a
+  partir de la de España (slug-ar, ar_de = slug de España) con H1 propio, euros → dólares, «provincia de España» →
+  «de Argentina» y fotos renombradas; luego mover-argentina.mjs. Todas en «equivalentes» con hreflang.
+  En /argentina/ y /mar-del-plata/ (original) los euros pasaron a dólares (fallos-original.json).
 - Pendiente de Yama: WhatsApp/teléfono de Argentina y precios propios en dólares (las páginas nuevas usan las
   mismas cifras en dólares que ya daba el original).
 

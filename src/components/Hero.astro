@@ -2,6 +2,7 @@
 // Portada de cada página: foto grande con velo, H1, primer párrafo del original,
 // dos botones y tres datos que salen del propio sitio (nada inventado).
 import Foto from './Foto.astro';
+import { paraPais } from '../lib/rutas';
 import { limpiar, htmlTexto } from '../lib/html';
 import menus from '../data/menus.json';
 import type { Pagina } from '../lib/pagina';
@@ -27,8 +28,8 @@ const region = menu === 'argentina' ? 'Argentina' : 'España';
     <h1 set:html={limpiar(titulo)} />
     {hero.texto && <div class="heroe-texto" set:html={htmlTexto(hero.texto.html ?? hero.texto.text)} />}
     <p class="heroe-botones">
-      <a class="boton" href="/contacto/">Pide presupuesto</a>
-      <a class="boton boton--borde" href="/precios/">Ver precios</a>
+      <a class="boton" href={paraPais('/contacto/', menu === 'argentina' ? 'ar' : 'es')}>Pide presupuesto</a>
+      <a class="boton boton--borde" href={paraPais('/precios/', menu === 'argentina' ? 'ar' : 'es')}>Ver precios</a>
     </p>
     {(tipos > 0 || lugares > 0) && (
       <dl class="heroe-datos">

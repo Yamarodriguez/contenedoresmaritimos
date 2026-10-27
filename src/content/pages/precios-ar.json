@@ -90,7 +90,7 @@
   {
    "type": "text",
    "text": "Un contenedor de 20 pies usado ronda entre 1.000 y 2.500 dólares, y uno nuevo entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del contenedor de 20 pies.",
-   "html": "<p>Un contenedor de <strong>20 pies</strong> <strong>usado</strong> ronda entre 1.000 y 2.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del <a href=\"/de-20-pies/\">contenedor de 20 pies</a>.</p>",
+   "html": "<p>Un contenedor de <strong>20 pies</strong> <strong>usado</strong> ronda entre 1.000 y 2.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del <a href=\"/ar/de-20-pies/\">contenedor de 20 pies</a>.</p>",
    "nuevo": true
   },
   {
@@ -107,7 +107,7 @@
   {
    "type": "text",
    "text": "Un contenedor de 40 pies usado ronda entre 1.500 y 3.500 dólares, y uno nuevo entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de 20 pies, así que por metro cúbico sale más barato. Más información en la página del contenedor de 40 pies.",
-   "html": "<p>Un contenedor de <strong>40 pies</strong> <strong>usado</strong> ronda entre 1.500 y 3.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de <strong>20 pies</strong>, así que por metro cúbico sale más barato. Más información en la página del <a href=\"/de-40-pies/\">contenedor de 40 pies</a>.</p>",
+   "html": "<p>Un contenedor de <strong>40 pies</strong> <strong>usado</strong> ronda entre 1.500 y 3.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de <strong>20 pies</strong>, así que por metro cúbico sale más barato. Más información en la página del <a href=\"/ar/de-40-pies/\">contenedor de 40 pies</a>.</p>",
    "nuevo": true
   },
   {
@@ -146,7 +146,7 @@
   {
    "type": "text",
    "text": "Los de 20 y 40 pies son los más habituales. Los high cube, refrigerados u open top tienen otro precio: pide presupuesto para el modelo que necesitas.",
-   "html": "<p>Los de 20 y <strong>40 pies</strong> son los más habituales. Los <a href=\"/high-cube/\">high cube</a>, <a href=\"/refrigerados/\">refrigerados</a> u <a href=\"/open-top/\">open top</a> tienen otro precio: pide presupuesto para el modelo que necesitas.</p>",
+   "html": "<p>Los de 20 y <strong>40 pies</strong> son los más habituales. Los <a href=\"/ar/high-cube/\">high cube</a>, <a href=\"/ar/refrigerados/\">refrigerados</a> u <a href=\"/ar/open-top/\">open top</a> tienen otro precio: pide presupuesto para el modelo que necesitas.</p>",
    "nuevo": true
   },
   {
@@ -168,7 +168,7 @@
   {
    "type": "text",
    "text": "Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los servicios para contenedores.",
-   "html": "<p>Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los <a href=\"/servicios-contenedores-maritimos/\">servicios para contenedores</a>.</p>",
+   "html": "<p>Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los <a href=\"/ar/servicios-contenedores-maritimos/\">servicios para contenedores</a>.</p>",
    "nuevo": true
   },
   {
@@ -218,7 +218,7 @@
   {
    "type": "text",
    "text": "Tienes todas las medidas en la tabla de medidas de contenedores.",
-   "html": "<p>Tienes todas las <strong>medidas</strong> en la <a href=\"/medidas/\">tabla de medidas de contenedores</a>.</p>",
+   "html": "<p>Tienes todas las <strong>medidas</strong> en la <a href=\"/ar/medidas/\">tabla de medidas de contenedores</a>.</p>",
    "nuevo": true
   },
   {
@@ -285,7 +285,7 @@
   {
    "type": "button",
    "text": "Pide presupuesto",
-   "href": "https://contenedoresmaritimos.net/contacto/"
+   "href": "https://contenedoresmaritimos.net/ar/contacto/"
   }
  ]
 }
