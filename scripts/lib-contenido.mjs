@@ -19,12 +19,13 @@ export function crearFotos() {
   return {
     fotoDeH2(carpeta, h2, origen, ajuste) {
       const esSvg = origen.endsWith('.svg');
-      const destino = `/img/servicios/${carpeta}/${slugify(h2)}.${esSvg ? 'svg' : 'jpg'}`;
+      const base = carpeta.startsWith('/') ? carpeta : `/img/servicios/${carpeta}`;
+      const destino = `${base}/${slugify(h2)}.${esSvg ? 'svg' : 'jpg'}`;
       trabajos.push({ de: `public${origen}`, a: `public${destino}`, esSvg });
       return { type: 'image', src: destino, alt: sinSigno(h2), ajuste, nuevo: true };
     },
     async ejecutar(carpetasALimpiar = []) {
-      for (const c of carpetasALimpiar) fs.rmSync(`public/img/servicios/${c}`, { recursive: true, force: true });
+      for (const c of carpetasALimpiar) fs.rmSync(c.startsWith('/') ? `public${c}` : `public/img/servicios/${c}`, { recursive: true, force: true });
       for (const t of trabajos) {
         fs.mkdirSync(path.dirname(t.a), { recursive: true });
         if (t.esSvg) fs.copyFileSync(t.de, t.a);

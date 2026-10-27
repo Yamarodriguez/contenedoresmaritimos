@@ -41,12 +41,20 @@ const pausa = (ms) => new Promise((r) => setTimeout(r, ms));
 
 const cache = fs.existsSync(CACHE) ? JSON.parse(fs.readFileSync(CACHE, 'utf8')) : {};
 const paginas = fs.readdirSync('src/content/pages').map((f) => JSON.parse(fs.readFileSync(`src/content/pages/${f}`, 'utf8')))
-  .filter((p) => !p.nueva && !NO_CIUDAD.has(p.slug));
+  .filter((p) => (!p.nueva || p.ciudad) && !NO_CIUDAD.has(p.slug));
+const nuevas = JSON.parse(fs.readFileSync('src/data/ciudades-nuevas.json', 'utf8')).ubicaciones;
+for (const u of nuevas) BUSQUEDA[u.slug] = u.busqueda;
 
 for (const p of paginas) {
   if (cache[p.slug]) continue;
   const pais = p.menu === 'argentina' ? 'ar' : 'es';
   const nombre = BUSQUEDA[p.slug] ?? p.title.replace(/^(Contenedores (Mar[ií]timos )?|Container )/i, '').replace(/ container$/i, '').trim();
+  const man = nuevas.find((u) => u.slug === p.slug)?.manual;
+  if (man) {
+    cache[p.slug] = { busqueda: nombre, pais, lat: man.lat, lon: man.lon, tipo: man.tipo, nombre: nuevas.find((u) => u.slug === p.slug).nombre, direccion: { province: man.provincia, state: man.comunidad } };
+    fs.writeFileSync(CACHE, JSON.stringify(cache, null, 1) + '\n');
+    continue;
+  }
   const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&addressdetails=1&limit=1&accept-language=es&countrycodes=${pais}&q=${encodeURIComponent(nombre)}`;
   const r = await fetch(url, { headers: { 'User-Agent': 'contenedoresmaritimos.net-migracion/1.0' } });
   const j = await r.json();
@@ -67,6 +75,7 @@ for (const p of conGeo) {
   // Ciudades: las 4 páginas de ciudad más próximas. Provincias y regiones: las
   // ciudades de la web que están dentro de ellas.
   const ZONA = new Set(['state', 'state_district', 'province', 'island', 'archipelago', 'country', 'region']);
+  const manual = nuevas.find((u) => u.slug === p.slug)?.manual;
   const esZona = ZONA.has(c.tipo);
   const cercanas = conGeo
     .filter((o) => o.slug !== p.slug && cache[o.slug].pais === c.pais && !ZONA.has(cache[o.slug].tipo) && cache[o.slug].nombre !== c.nombre)
@@ -76,6 +85,7 @@ for (const p of conGeo) {
     .sort((x, y) => x.km - y.km)
     .filter((o, i, arr) => arr.findIndex((z) => z.nombre === o.nombre) === i)
     .slice(0, esZona ? 6 : 8);
+  if (manual?.cercanas) { cercanas.length = 0; for (const sl of manual.cercanas) if (cache[sl]?.lat) cercanas.push({ slug: sl, nombre: cache[sl].nombre, km: Math.round(km(punto, [cache[sl].lat, cache[sl].lon])) }); }
   salida[p.slug] = {
     nombre: c.nombre.replace(/^Municipio de /, ''), tipo: c.tipo === 'state_district' ? 'province' : c.tipo, pais: c.pais,
     provincia: a.province ?? (c.pais === 'ar' ? a.state : undefined),

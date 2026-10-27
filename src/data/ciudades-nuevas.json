@@ -1,0 +1,17 @@
+{
+  "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo.",
+  "ubicaciones": [
+    { "slug": "javea", "nombre": "Jávea", "busqueda": "Jávea", "pais": "es", "impresiones": 540 },
+    { "slug": "fuerteventura", "nombre": "Fuerteventura", "busqueda": "Fuerteventura", "pais": "es", "impresiones": 133 },
+    { "slug": "baleares", "nombre": "Baleares", "busqueda": "Illes Balears", "pais": "es", "impresiones": 84 },
+    { "slug": "aragon", "nombre": "Aragón", "busqueda": "Aragón", "pais": "es", "impresiones": 70 },
+    { "slug": "san-sebastian", "nombre": "San Sebastián", "extra": "Donostia", "busqueda": "San Sebastián, Gipuzkoa", "pais": "es", "impresiones": 64 },
+    { "slug": "costa-blanca", "nombre": "Costa Blanca", "busqueda": "Costa Blanca", "pais": "es", "impresiones": 64,
+      "manual": { "lat": 38.45, "lon": -0.35, "tipo": "region", "comunidad": "Comunidad Valenciana", "provincia": "Alicante", "cercanas": ["alicante", "benidorm", "torrevieja", "elda", "orihuela", "gandia", "javea"] } },
+    { "slug": "bilbao", "nombre": "Bilbao", "busqueda": "Bilbao", "pais": "es", "impresiones": 40 },
+    { "slug": "algeciras", "nombre": "Algeciras", "busqueda": "Algeciras", "pais": "es", "impresiones": 25 },
+    { "slug": "lanzarote", "nombre": "Lanzarote", "busqueda": "Lanzarote", "pais": "es", "impresiones": 22 },
+    { "slug": "durango", "nombre": "Durango", "busqueda": "Durango, Bizkaia", "pais": "es", "impresiones": 20 },
+    { "slug": "la-palma", "nombre": "La Palma", "busqueda": "La Palma, Canarias", "pais": "es", "impresiones": 9 }
+  ]
+}

@@ -36,6 +36,7 @@ function lugar(c: Ciudad): string | undefined {
     return c.provincia ? `${c.nombre} se encuentra en la provincia de ${c.provincia.replace(/^Provincia de /, '')}, Argentina.` : undefined;
   }
   if (c.tipo === 'state') return `${c.nombre} es una comunidad autónoma de España.`;
+  if (c.comunidad && norm(c.comunidad) === norm(c.nombre)) return `${c.nombre.replace(/^Islas /, 'Las Islas ')} ${/^Islas /.test(c.nombre) ? 'son' : 'es'} una comunidad autónoma de España.`;
   if (c.tipo === 'province') return c.comunidad ? `${c.nombre} es una provincia de ${conArticulo(c.comunidad)}.` : undefined;
   if (c.tipo === 'island' || c.tipo === 'archipelago') return c.comunidad ? `${c.nombre} forma parte de ${conArticulo(c.comunidad)}.` : undefined;
   const prov = c.provincia && c.provincia !== c.comunidad ? `la provincia de ${c.provincia}` : '';
@@ -70,9 +71,9 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
     // Provincias, regiones e islas: no se da una distancia (se mediría desde el centro de la zona).
     const ps = c.puertosZona ?? [];
     const lista = ps.length > 1 ? `${ps.slice(0, -1).join(', ')} y ${ps[ps.length - 1]}` : ps[0];
-    transporte = `${lista ? `Los principales puertos comerciales cercanos a las ciudades de ${c.nombre} con página en esta web son ${ps.length > 1 ? 'los de' : 'el de'} ${lista}. ` : ''}${camion}`;
+    transporte = `${lista ? `${ps.length > 1 ? `Los principales puertos comerciales cercanos a las ciudades de ${c.nombre} con página en esta web son los de ${lista}` : `El principal puerto comercial cercano a las ciudades de ${c.nombre} con página en esta web es el de ${lista}`}. ` : ''}${camion}`;
   } else {
-    const portuaria = p.km <= 10 && (ciudadAutonoma || p.nombre === c.nombre || norm(p.nombre) === norm(c.nombre));
+    const portuaria = (p.km <= 10 && ciudadAutonoma) || norm(p.nombre) === norm(c.nombre) || (p.km <= 10 && p.nombre === c.nombre);
     const puertoTxt = portuaria
       ? `${c.nombre} tiene puerto comercial propio${p.mar === false ? ', de río' : ''}.`
       : b

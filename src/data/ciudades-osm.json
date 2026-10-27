@@ -2763,5 +2763,184 @@
    "country": "Argentina",
    "country_code": "ar"
   }
+ },
+ "algeciras": {
+  "busqueda": "Algeciras",
+  "pais": "es",
+  "lat": 36.1311725,
+  "lon": -5.4473991,
+  "tipo": "city",
+  "nombre": "Algeciras",
+  "direccion": {
+   "city": "Algeciras",
+   "county": "Campo de Gibraltar",
+   "state_district": "Cádiz",
+   "ISO3166-2-lvl6": "ES-CA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "aragon": {
+  "busqueda": "Aragón",
+  "pais": "es",
+  "lat": 41.3787291,
+  "lon": -0.7639373,
+  "tipo": "state",
+  "nombre": "Aragón",
+  "direccion": {
+   "state": "Aragón",
+   "ISO3166-2-lvl4": "ES-AR",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "baleares": {
+  "busqueda": "Illes Balears",
+  "pais": "es",
+  "lat": 39.613432,
+  "lon": 2.8829185,
+  "tipo": "province",
+  "nombre": "Islas Baleares",
+  "direccion": {
+   "province": "Islas Baleares",
+   "ISO3166-2-lvl6": "ES-PM",
+   "state": "Islas Baleares",
+   "ISO3166-2-lvl4": "ES-IB",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "bilbao": {
+  "busqueda": "Bilbao",
+  "pais": "es",
+  "lat": 43.2630018,
+  "lon": -2.9350039,
+  "tipo": "city",
+  "nombre": "Bilbao",
+  "direccion": {
+   "city": "Bilbao",
+   "province": "Vizcaya",
+   "ISO3166-2-lvl6": "ES-BI",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "costa-blanca": {
+  "busqueda": "Costa Blanca",
+  "pais": "es",
+  "lat": 38.45,
+  "lon": -0.35,
+  "tipo": "region",
+  "nombre": "Costa Blanca",
+  "direccion": {
+   "province": "Alicante",
+   "state": "Comunidad Valenciana"
+  }
+ },
+ "durango": {
+  "busqueda": "Durango, Bizkaia",
+  "pais": "es",
+  "lat": 43.1707065,
+  "lon": -2.6334897,
+  "tipo": "town",
+  "nombre": "Durango",
+  "direccion": {
+   "town": "Durango",
+   "province": "Vizcaya",
+   "ISO3166-2-lvl6": "ES-BI",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "postcode": "48200",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "fuerteventura": {
+  "busqueda": "Fuerteventura",
+  "pais": "es",
+  "lat": 28.4003769,
+  "lon": -14.0048697,
+  "tipo": "island",
+  "nombre": "Fuerteventura",
+  "direccion": {
+   "island": "Fuerteventura",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "javea": {
+  "busqueda": "Jávea",
+  "pais": "es",
+  "lat": 38.7893804,
+  "lon": 0.1634168,
+  "tipo": "town",
+  "nombre": "Jávea",
+  "direccion": {
+   "town": "Jávea",
+   "region": "La Marina Alta",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "la-palma": {
+  "busqueda": "La Palma, Canarias",
+  "pais": "es",
+  "lat": 28.6551163,
+  "lon": -17.8572686,
+  "tipo": "island",
+  "nombre": "La Palma",
+  "direccion": {
+   "island": "La Palma",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "lanzarote": {
+  "busqueda": "Lanzarote",
+  "pais": "es",
+  "lat": 29.0397081,
+  "lon": -13.6362916,
+  "tipo": "island",
+  "nombre": "Lanzarote",
+  "direccion": {
+   "island": "Lanzarote",
+   "province": "Las Palmas",
+   "ISO3166-2-lvl6": "ES-GC",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "san-sebastian": {
+  "busqueda": "San Sebastián, Gipuzkoa",
+  "pais": "es",
+  "lat": 43.3224219,
+  "lon": -1.9838889,
+  "tipo": "city",
+  "nombre": "San Sebastián",
+  "direccion": {
+   "city": "San Sebastián",
+   "state_district": "Guipúzcoa",
+   "ISO3166-2-lvl6": "ES-SS",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "country": "España",
+   "country_code": "es"
+  }
  }
 }
