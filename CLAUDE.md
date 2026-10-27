@@ -69,6 +69,10 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - PENDIENTE: ID de GA4 (el UA-215837852-1 ya no funciona); enviar sitemap.xml en Search
   Console y Bing; prueba real del formulario (avisos en Netlify Forms); hosting viejo un mes más.
 
+## Ubicaciones nuevas (27-10-2026)
+- Tanda 1 (11) y tanda 2 (54: ciudades grandes, costa, islas y comunidades) en src/data/ciudades-nuevas.json; se generan con `node scripts/ciudades-nuevas.mjs && node scripts/geo-ciudades.mjs`. Foto principal y de H2 con la palabra clave en nombre y alt. Región de Murcia y Cabo de Palos no se crean (ya existen /murcia/ y La Manga: evitar canibalismo).
+- Siguen pendientes: 11 provincias de Argentina y sus ciudades.
+
 ## Estado (se actualiza al cerrar cada fase)
 - Fase actual: 3 (diseño A aplicado a todas las páginas; falta que Yama lo revise en la web de pruebas) — antes, Fase 0: falta: kit/ y analisis/ en la carpeta del proyecto,
   ficha de marca y datos del negocio, confirmar inventario y regla del H1.

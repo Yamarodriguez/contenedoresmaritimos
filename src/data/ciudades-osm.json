@@ -2942,5 +2942,892 @@
    "country": "España",
    "country_code": "es"
   }
+ },
+ "aguilas": {
+  "busqueda": "Águilas",
+  "pais": "es",
+  "lat": 37.4099628,
+  "lon": -1.5804922,
+  "tipo": "town",
+  "nombre": "Águilas",
+  "direccion": {
+   "town": "Águilas",
+   "county": "Alto Guadalentín",
+   "province": "Región de Murcia",
+   "ISO3166-2-lvl6": "ES-MU",
+   "state": "Región de Murcia",
+   "ISO3166-2-lvl4": "ES-MC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "alcala-de-xivert": {
+  "busqueda": "Alcalà de Xivert",
+  "pais": "es",
+  "lat": 40.3041662,
+  "lon": 0.2252763,
+  "tipo": "village",
+  "nombre": "Alcalà de Xivert",
+  "direccion": {
+   "village": "Alcalà de Xivert",
+   "county": "El Baix Maestrat",
+   "state_district": "Castellón",
+   "ISO3166-2-lvl6": "ES-CS",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "almunecar": {
+  "busqueda": "Almuñécar",
+  "pais": "es",
+  "lat": 36.7703688,
+  "lon": -3.7236281,
+  "tipo": "city",
+  "nombre": "Almuñécar",
+  "direccion": {
+   "city": "Almuñécar",
+   "county": "Comarca de la Costa Granadina",
+   "state_district": "Granada",
+   "ISO3166-2-lvl6": "ES-GR",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "altea": {
+  "busqueda": "Altea",
+  "pais": "es",
+  "lat": 38.6028245,
+  "lon": -0.0472059,
+  "tipo": "town",
+  "nombre": "Altea",
+  "direccion": {
+   "town": "Altea",
+   "county": "La Marina Baixa",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "andalucia": {
+  "busqueda": "Andalucía",
+  "pais": "es",
+  "lat": 37.3399964,
+  "lon": -4.5811614,
+  "tipo": "state",
+  "nombre": "Andalucía",
+  "direccion": {
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "benicassim": {
+  "busqueda": "Benicàssim",
+  "pais": "es",
+  "lat": 40.0554183,
+  "lon": 0.0644655,
+  "tipo": "village",
+  "nombre": "Benicasim",
+  "direccion": {
+   "village": "Benicasim",
+   "county": "La Plana Alta",
+   "state_district": "Castellón",
+   "ISO3166-2-lvl6": "ES-CS",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "12560",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "calahorra": {
+  "busqueda": "Calahorra",
+  "pais": "es",
+  "lat": 42.3035212,
+  "lon": -1.9648758,
+  "tipo": "town",
+  "nombre": "Calahorra",
+  "direccion": {
+   "town": "Calahorra",
+   "state": "La Rioja",
+   "ISO3166-2-lvl4": "ES-RI",
+   "postcode": "26500",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "calpe": {
+  "busqueda": "Calpe",
+  "pais": "es",
+  "lat": 38.6443252,
+  "lon": 0.046012,
+  "tipo": "town",
+  "nombre": "Calpe",
+  "direccion": {
+   "town": "Calpe",
+   "region": "La Marina Alta",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "03710",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "castilla-la-mancha": {
+  "busqueda": "Castilla-La Mancha",
+  "pais": "es",
+  "lat": 39.4177902,
+  "lon": -2.6232332,
+  "tipo": "state",
+  "nombre": "Castilla-La Mancha",
+  "direccion": {
+   "state": "Castilla-La Mancha",
+   "ISO3166-2-lvl4": "ES-CM",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "castilla-y-leon": {
+  "busqueda": "Castilla y León",
+  "pais": "es",
+  "lat": 41.55005,
+  "lon": -5.1387401,
+  "tipo": "state",
+  "nombre": "Castilla y León",
+  "direccion": {
+   "state": "Castilla y León",
+   "ISO3166-2-lvl4": "ES-CL",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "castro-urdiales": {
+  "busqueda": "Castro Urdiales",
+  "pais": "es",
+  "lat": 43.3843347,
+  "lon": -3.2162576,
+  "tipo": "town",
+  "nombre": "Castro-Urdiales",
+  "direccion": {
+   "town": "Castro-Urdiales",
+   "state": "Cantabria",
+   "ISO3166-2-lvl6": "ES-S",
+   "ISO3166-2-lvl4": "ES-CB",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "chiclana-de-la-frontera": {
+  "busqueda": "Chiclana de la Frontera",
+  "pais": "es",
+  "lat": 36.4191096,
+  "lon": -6.1460683,
+  "tipo": "town",
+  "nombre": "Chiclana de la Frontera",
+  "direccion": {
+   "town": "Chiclana de la Frontera",
+   "county": "Bahía de Cádiz",
+   "state_district": "Cádiz",
+   "ISO3166-2-lvl6": "ES-CA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "comunidad-valenciana": {
+  "busqueda": "Comunidad Valenciana",
+  "pais": "es",
+  "lat": 39.6819591,
+  "lon": -0.7654406,
+  "tipo": "state",
+  "nombre": "Comunidad Valenciana",
+  "direccion": {
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "costa-brava": {
+  "busqueda": "Costa Brava",
+  "pais": "es",
+  "lat": 41.85,
+  "lon": 3.12,
+  "tipo": "region",
+  "nombre": "Costa Brava",
+  "direccion": {
+   "province": "Girona",
+   "state": "Cataluña"
+  }
+ },
+ "costa-del-sol": {
+  "busqueda": "Costa del Sol",
+  "pais": "es",
+  "lat": 36.6,
+  "lon": -4.6,
+  "tipo": "region",
+  "nombre": "Costa del Sol",
+  "direccion": {
+   "province": "Málaga",
+   "state": "Andalucía"
+  }
+ },
+ "costa-dorada": {
+  "busqueda": "Costa Dorada",
+  "pais": "es",
+  "lat": 41.1,
+  "lon": 1.25,
+  "tipo": "region",
+  "nombre": "Costa Dorada",
+  "direccion": {
+   "province": "Tarragona",
+   "state": "Cataluña"
+  }
+ },
+ "cullera": {
+  "busqueda": "Cullera",
+  "pais": "es",
+  "lat": 39.1647217,
+  "lon": -0.2542313,
+  "tipo": "town",
+  "nombre": "Cullera",
+  "direccion": {
+   "town": "Cullera",
+   "region": "La Ribera Baixa",
+   "state_district": "Valencia",
+   "ISO3166-2-lvl6": "ES-V",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "denia": {
+  "busqueda": "Dénia",
+  "pais": "es",
+  "lat": 38.8408382,
+  "lon": 0.1061105,
+  "tipo": "town",
+  "nombre": "Dénia",
+  "direccion": {
+   "town": "Dénia",
+   "region": "La Marina Alta",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "el-ejido": {
+  "busqueda": "El Ejido",
+  "pais": "es",
+  "lat": 36.7743863,
+  "lon": -2.8124886,
+  "tipo": "town",
+  "nombre": "El Ejido",
+  "direccion": {
+   "town": "El Ejido",
+   "province": "Almería",
+   "ISO3166-2-lvl6": "ES-AL",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "el-hierro": {
+  "busqueda": "El Hierro, Canarias",
+  "pais": "es",
+  "lat": 27.7435084,
+  "lon": -18.0381796,
+  "tipo": "island",
+  "nombre": "El Hierro",
+  "direccion": {
+   "island": "El Hierro",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "el-puerto-de-santa-maria": {
+  "busqueda": "El Puerto de Santa María",
+  "pais": "es",
+  "lat": 36.6004006,
+  "lon": -6.2252702,
+  "tipo": "town",
+  "nombre": "El Puerto de Santa María",
+  "direccion": {
+   "town": "El Puerto de Santa María",
+   "county": "Bahía de Cádiz",
+   "state_district": "Cádiz",
+   "ISO3166-2-lvl6": "ES-CA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "elche": {
+  "busqueda": "Elche, Alicante",
+  "pais": "es",
+  "lat": 38.2653307,
+  "lon": -0.6988391,
+  "tipo": "city",
+  "nombre": "Elche",
+  "direccion": {
+   "city": "Elche",
+   "county": "El Baix Vinalopó",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "hospitalet-de-llobregat": {
+  "busqueda": "L'Hospitalet de Llobregat",
+  "pais": "es",
+  "lat": 41.3595118,
+  "lon": 2.0996318,
+  "tipo": "city",
+  "nombre": "l'Hospitalet de Llobregat",
+  "direccion": {
+   "city": "l'Hospitalet de Llobregat",
+   "county": "Barcelonés",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "la-gomera": {
+  "busqueda": "La Gomera, Canarias",
+  "pais": "es",
+  "lat": 28.1192356,
+  "lon": -17.2257471,
+  "tipo": "island",
+  "nombre": "La Gomera",
+  "direccion": {
+   "island": "La Gomera",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "la-laguna": {
+  "busqueda": "San Cristóbal de La Laguna",
+  "pais": "es",
+  "lat": 28.4857715,
+  "lon": -16.3159422,
+  "tipo": "town",
+  "nombre": "San Cristóbal de La Laguna",
+  "direccion": {
+   "town": "San Cristóbal de La Laguna",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "la-manga": {
+  "busqueda": "La Manga",
+  "pais": "es",
+  "lat": 37.64,
+  "lon": -0.715,
+  "tipo": "town",
+  "nombre": "La Manga",
+  "direccion": {
+   "province": "Murcia",
+   "state": "Región de Murcia"
+  }
+ },
+ "las-rozas": {
+  "busqueda": "Las Rozas de Madrid",
+  "pais": "es",
+  "lat": 40.4933095,
+  "lon": -3.8758396,
+  "tipo": "town",
+  "nombre": "Las Rozas de Madrid",
+  "direccion": {
+   "town": "Las Rozas de Madrid",
+   "state": "Comunidad de Madrid",
+   "ISO3166-2-lvl4": "ES-MD",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mataro": {
+  "busqueda": "Mataró",
+  "pais": "es",
+  "lat": 41.5398348,
+  "lon": 2.4448926,
+  "tipo": "city",
+  "nombre": "Mataró",
+  "direccion": {
+   "city": "Mataró",
+   "county": "Maresme",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mijas": {
+  "busqueda": "Mijas",
+  "pais": "es",
+  "lat": 36.5557539,
+  "lon": -4.6950428,
+  "tipo": "city",
+  "nombre": "Mijas",
+  "direccion": {
+   "city": "Mijas",
+   "county": "Costa del Sol Occidental",
+   "state_district": "Málaga",
+   "ISO3166-2-lvl6": "ES-MA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mojacar": {
+  "busqueda": "Mojácar",
+  "pais": "es",
+  "lat": 37.1402087,
+  "lon": -1.8510071,
+  "tipo": "village",
+  "nombre": "Mojácar",
+  "direccion": {
+   "village": "Mojácar",
+   "province": "Almería",
+   "ISO3166-2-lvl6": "ES-AL",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "postcode": "04638",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "nerja": {
+  "busqueda": "Nerja",
+  "pais": "es",
+  "lat": 36.7468565,
+  "lon": -3.8790164,
+  "tipo": "town",
+  "nombre": "Nerja",
+  "direccion": {
+   "town": "Nerja",
+   "county": "La Axarquía",
+   "state_district": "Málaga",
+   "ISO3166-2-lvl6": "ES-MA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "ontinyent": {
+  "busqueda": "Ontinyent",
+  "pais": "es",
+  "lat": 38.8208523,
+  "lon": -0.6099929,
+  "tipo": "town",
+  "nombre": "Onteniente",
+  "direccion": {
+   "town": "Onteniente",
+   "region": "La Vall d'Albaida",
+   "state_district": "Valencia",
+   "ISO3166-2-lvl6": "ES-V",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "46870",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "oropesa-del-mar": {
+  "busqueda": "Oropesa del Mar",
+  "pais": "es",
+  "lat": 40.0932078,
+  "lon": 0.1358123,
+  "tipo": "village",
+  "nombre": "Oropesa del Mar",
+  "direccion": {
+   "village": "Oropesa del Mar",
+   "county": "La Plana Alta",
+   "state_district": "Castellón",
+   "ISO3166-2-lvl6": "ES-CS",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "12594",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "pais-vasco": {
+  "busqueda": "País Vasco, España",
+  "pais": "es",
+  "lat": 42.9911816,
+  "lon": -2.5543023,
+  "tipo": "state",
+  "nombre": "País Vasco",
+  "direccion": {
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "parla": {
+  "busqueda": "Parla",
+  "pais": "es",
+  "lat": 40.2373952,
+  "lon": -3.7718902,
+  "tipo": "city",
+  "nombre": "Parla",
+  "direccion": {
+   "city": "Parla",
+   "state": "Comunidad de Madrid",
+   "ISO3166-2-lvl4": "ES-MD",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "peniscola": {
+  "busqueda": "Peñíscola",
+  "pais": "es",
+  "lat": 40.3577844,
+  "lon": 0.4073793,
+  "tipo": "village",
+  "nombre": "Peñíscola",
+  "direccion": {
+   "village": "Peñíscola",
+   "county": "El Baix Maestrat",
+   "state_district": "Castellón",
+   "ISO3166-2-lvl6": "ES-CS",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "puerto-del-rosario": {
+  "busqueda": "Puerto del Rosario",
+  "pais": "es",
+  "lat": 28.4993424,
+  "lon": -13.8599051,
+  "tipo": "town",
+  "nombre": "Puerto del Rosario",
+  "direccion": {
+   "town": "Puerto del Rosario",
+   "province": "Las Palmas",
+   "ISO3166-2-lvl6": "ES-GC",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "rivas-vaciamadrid": {
+  "busqueda": "Rivas-Vaciamadrid",
+  "pais": "es",
+  "lat": 40.3536054,
+  "lon": -3.5310879,
+  "tipo": "town",
+  "nombre": "Rivas-Vaciamadrid",
+  "direccion": {
+   "town": "Rivas-Vaciamadrid",
+   "state": "Comunidad de Madrid",
+   "ISO3166-2-lvl4": "ES-MD",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "roquetas-de-mar": {
+  "busqueda": "Roquetas de Mar",
+  "pais": "es",
+  "lat": 36.7630203,
+  "lon": -2.6115886,
+  "tipo": "town",
+  "nombre": "Roquetas de Mar",
+  "direccion": {
+   "town": "Roquetas de Mar",
+   "province": "Almería",
+   "ISO3166-2-lvl6": "ES-AL",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "sabadell": {
+  "busqueda": "Sabadell",
+  "pais": "es",
+  "lat": 41.5460801,
+  "lon": 2.1083214,
+  "tipo": "city",
+  "nombre": "Sabadell",
+  "direccion": {
+   "city": "Sabadell",
+   "county": "Vallés Occidental",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "san-javier": {
+  "busqueda": "San Javier, Murcia",
+  "pais": "es",
+  "lat": 37.8059567,
+  "lon": -0.8345537,
+  "tipo": "town",
+  "nombre": "San Javier",
+  "direccion": {
+   "town": "San Javier",
+   "county": "Campo de Cartagena y Mar Menor",
+   "province": "Región de Murcia",
+   "ISO3166-2-lvl6": "ES-MU",
+   "state": "Región de Murcia",
+   "ISO3166-2-lvl4": "ES-MC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "sant-cugat-del-valles": {
+  "busqueda": "Sant Cugat del Vallès",
+  "pais": "es",
+  "lat": 41.4707933,
+  "lon": 2.0848815,
+  "tipo": "city",
+  "nombre": "Sant Cugat del Vallès",
+  "direccion": {
+   "city": "Sant Cugat del Vallès",
+   "county": "Vallés Occidental",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "santa-coloma-de-gramenet": {
+  "busqueda": "Santa Coloma de Gramenet",
+  "pais": "es",
+  "lat": 41.4519395,
+  "lon": 2.2080809,
+  "tipo": "city",
+  "nombre": "Santa Coloma de Gramenet",
+  "direccion": {
+   "city": "Santa Coloma de Gramenet",
+   "county": "Barcelonés",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "santa-cruz-de-tenerife": {
+  "busqueda": "Santa Cruz de Tenerife, Canarias",
+  "pais": "es",
+  "lat": 28.467178,
+  "lon": -16.2507843,
+  "tipo": "city",
+  "nombre": "Santa Cruz de Tenerife",
+  "direccion": {
+   "city": "Santa Cruz de Tenerife",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "santa-pola": {
+  "busqueda": "Santa Pola",
+  "pais": "es",
+  "lat": 38.1923641,
+  "lon": -0.5555464,
+  "tipo": "town",
+  "nombre": "Santa Pola",
+  "direccion": {
+   "town": "Santa Pola",
+   "county": "El Baix Vinalopó",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "03130",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "telde": {
+  "busqueda": "Telde",
+  "pais": "es",
+  "lat": 27.9984538,
+  "lon": -15.4166761,
+  "tipo": "town",
+  "nombre": "Telde",
+  "direccion": {
+   "town": "Telde",
+   "province": "Las Palmas",
+   "ISO3166-2-lvl6": "ES-GC",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "torrejon-de-ardoz": {
+  "busqueda": "Torrejón de Ardoz",
+  "pais": "es",
+  "lat": 40.4587767,
+  "lon": -3.4793343,
+  "tipo": "city",
+  "nombre": "Torrejón de Ardoz",
+  "direccion": {
+   "city": "Torrejón de Ardoz",
+   "state": "Comunidad de Madrid",
+   "ISO3166-2-lvl4": "ES-MD",
+   "postcode": "28850",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "vilagarcia-de-arousa": {
+  "busqueda": "Vilagarcía de Arousa",
+  "pais": "es",
+  "lat": 42.5950502,
+  "lon": -8.7430537,
+  "tipo": "municipality",
+  "nombre": "Vilagarcía de Arousa",
+  "direccion": {
+   "municipality": "Vilagarcía de Arousa",
+   "county": "O Salnés",
+   "province": "Pontevedra",
+   "ISO3166-2-lvl6": "ES-PO",
+   "state": "Galicia",
+   "ISO3166-2-lvl4": "ES-GA",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "villajoyosa": {
+  "busqueda": "Villajoyosa",
+  "pais": "es",
+  "lat": 38.5100778,
+  "lon": -0.2296202,
+  "tipo": "town",
+  "nombre": "Villajoyosa",
+  "direccion": {
+   "town": "Villajoyosa",
+   "county": "La Marina Baixa",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "03570",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "villena": {
+  "busqueda": "Villena",
+  "pais": "es",
+  "lat": 38.6360967,
+  "lon": -0.8659745,
+  "tipo": "town",
+  "nombre": "Villena",
+  "direccion": {
+   "town": "Villena",
+   "region": "El Alto Vinalopó",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "formentera": {
+  "busqueda": "Formentera",
+  "pais": "es",
+  "lat": 38.7,
+  "lon": 1.45,
+  "tipo": "island",
+  "nombre": "Formentera",
+  "direccion": {
+   "province": "Islas Baleares",
+   "state": "Islas Baleares"
+  }
+ },
+ "gran-canaria": {
+  "busqueda": "Gran Canaria",
+  "pais": "es",
+  "lat": 27.96,
+  "lon": -15.6,
+  "tipo": "island",
+  "nombre": "Gran Canaria",
+  "direccion": {
+   "province": "Las Palmas",
+   "state": "Canarias"
+  }
+ },
+ "mahon": {
+  "busqueda": "Maó, Menorca",
+  "pais": "es",
+  "lat": 39.89,
+  "lon": 4.27,
+  "tipo": "town",
+  "nombre": "Mahón",
+  "direccion": {
+   "province": "Islas Baleares",
+   "state": "Islas Baleares"
+  }
+ },
+ "menorca": {
+  "busqueda": "Menorca",
+  "pais": "es",
+  "lat": 39.95,
+  "lon": 4.1,
+  "tipo": "island",
+  "nombre": "Menorca",
+  "direccion": {
+   "province": "Islas Baleares",
+   "state": "Islas Baleares"
+  }
  }
 }

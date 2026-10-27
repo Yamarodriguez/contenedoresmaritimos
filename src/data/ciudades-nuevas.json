@@ -1,17 +1,563 @@
 {
-  "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo.",
-  "ubicaciones": [
-    { "slug": "javea", "nombre": "Jávea", "busqueda": "Jávea", "pais": "es", "impresiones": 540 },
-    { "slug": "fuerteventura", "nombre": "Fuerteventura", "busqueda": "Fuerteventura", "pais": "es", "impresiones": 133 },
-    { "slug": "baleares", "nombre": "Baleares", "busqueda": "Illes Balears", "pais": "es", "impresiones": 84 },
-    { "slug": "aragon", "nombre": "Aragón", "busqueda": "Aragón", "pais": "es", "impresiones": 70 },
-    { "slug": "san-sebastian", "nombre": "San Sebastián", "extra": "Donostia", "busqueda": "San Sebastián, Gipuzkoa", "pais": "es", "impresiones": 64 },
-    { "slug": "costa-blanca", "nombre": "Costa Blanca", "busqueda": "Costa Blanca", "pais": "es", "impresiones": 64,
-      "manual": { "lat": 38.45, "lon": -0.35, "tipo": "region", "comunidad": "Comunidad Valenciana", "provincia": "Alicante", "cercanas": ["alicante", "benidorm", "torrevieja", "elda", "orihuela", "gandia", "javea"] } },
-    { "slug": "bilbao", "nombre": "Bilbao", "busqueda": "Bilbao", "pais": "es", "impresiones": 40 },
-    { "slug": "algeciras", "nombre": "Algeciras", "busqueda": "Algeciras", "pais": "es", "impresiones": 25 },
-    { "slug": "lanzarote", "nombre": "Lanzarote", "busqueda": "Lanzarote", "pais": "es", "impresiones": 22 },
-    { "slug": "durango", "nombre": "Durango", "busqueda": "Durango, Bizkaia", "pais": "es", "impresiones": 20 },
-    { "slug": "la-palma", "nombre": "La Palma", "busqueda": "La Palma, Canarias", "pais": "es", "impresiones": 9 }
-  ]
+ "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2).",
+ "ubicaciones": [
+  {
+   "slug": "javea",
+   "nombre": "Jávea",
+   "busqueda": "Jávea",
+   "pais": "es",
+   "impresiones": 540
+  },
+  {
+   "slug": "fuerteventura",
+   "nombre": "Fuerteventura",
+   "busqueda": "Fuerteventura",
+   "pais": "es",
+   "impresiones": 133
+  },
+  {
+   "slug": "baleares",
+   "nombre": "Baleares",
+   "busqueda": "Illes Balears",
+   "pais": "es",
+   "impresiones": 84
+  },
+  {
+   "slug": "aragon",
+   "nombre": "Aragón",
+   "busqueda": "Aragón",
+   "pais": "es",
+   "impresiones": 70
+  },
+  {
+   "slug": "san-sebastian",
+   "nombre": "San Sebastián",
+   "extra": "Donostia",
+   "busqueda": "San Sebastián, Gipuzkoa",
+   "pais": "es",
+   "impresiones": 64
+  },
+  {
+   "slug": "costa-blanca",
+   "nombre": "Costa Blanca",
+   "busqueda": "Costa Blanca",
+   "pais": "es",
+   "impresiones": 64,
+   "manual": {
+    "lat": 38.45,
+    "lon": -0.35,
+    "tipo": "region",
+    "comunidad": "Comunidad Valenciana",
+    "provincia": "Alicante",
+    "cercanas": [
+     "alicante",
+     "benidorm",
+     "torrevieja",
+     "elda",
+     "orihuela",
+     "gandia",
+     "javea"
+    ]
+   }
+  },
+  {
+   "slug": "bilbao",
+   "nombre": "Bilbao",
+   "busqueda": "Bilbao",
+   "pais": "es",
+   "impresiones": 40
+  },
+  {
+   "slug": "algeciras",
+   "nombre": "Algeciras",
+   "busqueda": "Algeciras",
+   "pais": "es",
+   "impresiones": 25
+  },
+  {
+   "slug": "lanzarote",
+   "nombre": "Lanzarote",
+   "busqueda": "Lanzarote",
+   "pais": "es",
+   "impresiones": 22
+  },
+  {
+   "slug": "durango",
+   "nombre": "Durango",
+   "busqueda": "Durango, Bizkaia",
+   "pais": "es",
+   "impresiones": 20
+  },
+  {
+   "slug": "la-palma",
+   "nombre": "La Palma",
+   "busqueda": "La Palma, Canarias",
+   "pais": "es",
+   "impresiones": 9
+  },
+  {
+   "slug": "parla",
+   "nombre": "Parla",
+   "busqueda": "Parla",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "torrejon-de-ardoz",
+   "nombre": "Torrejón de Ardoz",
+   "busqueda": "Torrejón de Ardoz",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "rivas-vaciamadrid",
+   "nombre": "Rivas-Vaciamadrid",
+   "busqueda": "Rivas-Vaciamadrid",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "las-rozas",
+   "nombre": "Las Rozas",
+   "busqueda": "Las Rozas de Madrid",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "hospitalet-de-llobregat",
+   "nombre": "Hospitalet de Llobregat",
+   "busqueda": "L'Hospitalet de Llobregat",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "sabadell",
+   "nombre": "Sabadell",
+   "busqueda": "Sabadell",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "mataro",
+   "nombre": "Mataró",
+   "busqueda": "Mataró",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "santa-coloma-de-gramenet",
+   "nombre": "Santa Coloma de Gramenet",
+   "busqueda": "Santa Coloma de Gramenet",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "sant-cugat-del-valles",
+   "nombre": "Sant Cugat del Vallès",
+   "busqueda": "Sant Cugat del Vallès",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "elche",
+   "nombre": "Elche",
+   "busqueda": "Elche, Alicante",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "villena",
+   "nombre": "Villena",
+   "busqueda": "Villena",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "ontinyent",
+   "nombre": "Ontinyent",
+   "busqueda": "Ontinyent",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "roquetas-de-mar",
+   "nombre": "Roquetas de Mar",
+   "busqueda": "Roquetas de Mar",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "el-ejido",
+   "nombre": "El Ejido",
+   "busqueda": "El Ejido",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "chiclana-de-la-frontera",
+   "nombre": "Chiclana de la Frontera",
+   "busqueda": "Chiclana de la Frontera",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "el-puerto-de-santa-maria",
+   "nombre": "El Puerto de Santa María",
+   "busqueda": "El Puerto de Santa María",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "castro-urdiales",
+   "nombre": "Castro Urdiales",
+   "busqueda": "Castro Urdiales",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "vilagarcia-de-arousa",
+   "nombre": "Vilagarcía de Arousa",
+   "busqueda": "Vilagarcía de Arousa",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "calahorra",
+   "nombre": "Calahorra",
+   "busqueda": "Calahorra",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "telde",
+   "nombre": "Telde",
+   "busqueda": "Telde",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "la-laguna",
+   "nombre": "La Laguna",
+   "busqueda": "San Cristóbal de La Laguna",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "santa-cruz-de-tenerife",
+   "nombre": "Santa Cruz de Tenerife",
+   "busqueda": "Santa Cruz de Tenerife, Canarias",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "puerto-del-rosario",
+   "nombre": "Puerto del Rosario",
+   "busqueda": "Puerto del Rosario",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "mahon",
+   "nombre": "Mahón",
+   "busqueda": "Maó, Menorca",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 39.89,
+    "lon": 4.27,
+    "tipo": "town",
+    "comunidad": "Islas Baleares",
+    "provincia": "Islas Baleares",
+    "cercanas": [
+     "menorca"
+    ]
+   }
+  },
+  {
+   "slug": "denia",
+   "nombre": "Dénia",
+   "busqueda": "Dénia",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "calpe",
+   "nombre": "Calpe",
+   "busqueda": "Calpe",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "altea",
+   "nombre": "Altea",
+   "busqueda": "Altea",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "villajoyosa",
+   "nombre": "Villajoyosa",
+   "busqueda": "Villajoyosa",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "santa-pola",
+   "nombre": "Santa Pola",
+   "busqueda": "Santa Pola",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "benicassim",
+   "nombre": "Benicàssim",
+   "busqueda": "Benicàssim",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "oropesa-del-mar",
+   "nombre": "Oropesa del Mar",
+   "busqueda": "Oropesa del Mar",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "peniscola",
+   "nombre": "Peñíscola",
+   "busqueda": "Peñíscola",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "alcala-de-xivert",
+   "nombre": "Alcalà de Xivert",
+   "busqueda": "Alcalà de Xivert",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "cullera",
+   "nombre": "Cullera",
+   "busqueda": "Cullera",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "nerja",
+   "nombre": "Nerja",
+   "busqueda": "Nerja",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "mijas",
+   "nombre": "Mijas",
+   "busqueda": "Mijas",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "almunecar",
+   "nombre": "Almuñécar",
+   "busqueda": "Almuñécar",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "mojacar",
+   "nombre": "Mojácar",
+   "busqueda": "Mojácar",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "aguilas",
+   "nombre": "Águilas",
+   "busqueda": "Águilas",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "san-javier",
+   "nombre": "San Javier",
+   "busqueda": "San Javier, Murcia",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "la-manga",
+   "nombre": "La Manga",
+   "busqueda": "La Manga",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 37.64,
+    "lon": -0.715,
+    "tipo": "town",
+    "comunidad": "Región de Murcia",
+    "provincia": "Murcia"
+   }
+  },
+  {
+   "slug": "gran-canaria",
+   "nombre": "Gran Canaria",
+   "busqueda": "Gran Canaria",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 27.96,
+    "lon": -15.6,
+    "tipo": "island",
+    "comunidad": "Canarias",
+    "provincia": "Las Palmas",
+    "cercanas": [
+     "las-palmas",
+     "telde",
+     "san-bartolome-de-tirajana"
+    ]
+   }
+  },
+  {
+   "slug": "menorca",
+   "nombre": "Menorca",
+   "busqueda": "Menorca",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 39.95,
+    "lon": 4.1,
+    "tipo": "island",
+    "comunidad": "Islas Baleares",
+    "provincia": "Islas Baleares",
+    "cercanas": [
+     "mahon"
+    ]
+   }
+  },
+  {
+   "slug": "formentera",
+   "nombre": "Formentera",
+   "busqueda": "Formentera",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 38.7,
+    "lon": 1.45,
+    "tipo": "island",
+    "comunidad": "Islas Baleares",
+    "provincia": "Islas Baleares",
+    "cercanas": [
+     "ibiza"
+    ]
+   }
+  },
+  {
+   "slug": "la-gomera",
+   "nombre": "La Gomera",
+   "busqueda": "La Gomera, Canarias",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "el-hierro",
+   "nombre": "El Hierro",
+   "busqueda": "El Hierro, Canarias",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "andalucia",
+   "nombre": "Andalucía",
+   "busqueda": "Andalucía",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "castilla-y-leon",
+   "nombre": "Castilla y León",
+   "busqueda": "Castilla y León",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "castilla-la-mancha",
+   "nombre": "Castilla-La Mancha",
+   "busqueda": "Castilla-La Mancha",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "comunidad-valenciana",
+   "nombre": "Comunidad Valenciana",
+   "busqueda": "Comunidad Valenciana",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "pais-vasco",
+   "nombre": "País Vasco",
+   "busqueda": "País Vasco, España",
+   "pais": "es",
+   "lote": 2
+  },
+  {
+   "slug": "costa-del-sol",
+   "nombre": "Costa del Sol",
+   "busqueda": "Costa del Sol",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 36.6,
+    "lon": -4.6,
+    "tipo": "region",
+    "comunidad": "Andalucía",
+    "provincia": "Málaga",
+    "cercanas": [
+     "malaga",
+     "marbella",
+     "fuengirola",
+     "torremolinos",
+     "estepona",
+     "benalmadena"
+    ]
+   }
+  },
+  {
+   "slug": "costa-brava",
+   "nombre": "Costa Brava",
+   "busqueda": "Costa Brava",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 41.85,
+    "lon": 3.12,
+    "tipo": "region",
+    "comunidad": "Cataluña",
+    "provincia": "Girona",
+    "cercanas": [
+     "girona"
+    ]
+   }
+  },
+  {
+   "slug": "costa-dorada",
+   "nombre": "Costa Dorada",
+   "busqueda": "Costa Dorada",
+   "pais": "es",
+   "lote": 2,
+   "manual": {
+    "lat": 41.1,
+    "lon": 1.25,
+    "tipo": "region",
+    "comunidad": "Cataluña",
+    "provincia": "Tarragona",
+    "cercanas": [
+     "tarragona",
+     "reus",
+     "villanueva-y-geltru"
+    ]
+   }
+  }
+ ]
 }

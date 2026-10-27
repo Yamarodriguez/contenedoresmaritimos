@@ -31,6 +31,8 @@ const PUERTOS = {
   ar: [['Buenos Aires', -34.58, -58.37, 'rio'], ['Rosario', -32.94, -60.63, 'rio'], ['Zárate', -34.10, -59.03, 'rio'], ['Bahía Blanca', -38.79, -62.27], ['Quequén', -38.57, -58.70], ['Mar del Plata', -38.04, -57.53], ['San Antonio Este', -40.80, -64.88], ['Puerto Madryn', -42.77, -65.03], ['Ushuaia', -54.81, -68.30], ['Santa Fe', -31.65, -60.70, 'rio']],
 };
 
+// Las páginas nuevas se llaman como en su H1 (no como en OpenStreetMap: Onteniente, Castro-Urdiales…).
+const nom = (slug, def) => JSON.parse(fs.readFileSync('src/data/ciudades-nuevas.json', 'utf8')).ubicaciones.find((u) => u.slug === slug)?.nombre ?? def;
 const km = (a, b) => {
   const R = 6371, r = (x) => (x * Math.PI) / 180;
   const dLat = r(b[0] - a[0]), dLon = r(b[1] - a[1]);
@@ -80,14 +82,14 @@ for (const p of conGeo) {
   const cercanas = conGeo
     .filter((o) => o.slug !== p.slug && cache[o.slug].pais === c.pais && !ZONA.has(cache[o.slug].tipo) && cache[o.slug].nombre !== c.nombre)
     .filter((o) => !esZona || [cache[o.slug].direccion?.province, cache[o.slug].direccion?.state, cache[o.slug].direccion?.island].includes(c.nombre))
-    .map((o) => ({ slug: o.slug, nombre: cache[o.slug].nombre, km: Math.round(km(punto, [cache[o.slug].lat, cache[o.slug].lon])) }))
+    .map((o) => ({ slug: o.slug, nombre: nom(o.slug, cache[o.slug].nombre), km: Math.round(km(punto, [cache[o.slug].lat, cache[o.slug].lon])) }))
     .filter((o) => esZona || o.km > 2)
     .sort((x, y) => x.km - y.km)
     .filter((o, i, arr) => arr.findIndex((z) => z.nombre === o.nombre) === i)
     .slice(0, esZona ? 6 : 8);
-  if (manual?.cercanas) { cercanas.length = 0; for (const sl of manual.cercanas) if (cache[sl]?.lat) cercanas.push({ slug: sl, nombre: cache[sl].nombre, km: Math.round(km(punto, [cache[sl].lat, cache[sl].lon])) }); }
+  if (manual?.cercanas) { cercanas.length = 0; for (const sl of manual.cercanas) if (cache[sl]?.lat) cercanas.push({ slug: sl, nombre: nom(sl, cache[sl].nombre), km: Math.round(km(punto, [cache[sl].lat, cache[sl].lon])) }); }
   salida[p.slug] = {
-    nombre: c.nombre.replace(/^Municipio de /, ''), tipo: c.tipo === 'state_district' ? 'province' : c.tipo, pais: c.pais,
+    nombre: nom(p.slug, c.nombre.replace(/^Municipio de /, '')), tipo: c.tipo === 'state_district' ? 'province' : c.tipo, pais: c.pais,
     provincia: a.province ?? (c.pais === 'ar' ? a.state : undefined),
     comunidad: c.pais === 'es' ? a.state : undefined,
     puerto: { nombre: puerto.nombre, km: Math.max(5, Math.round(puerto.km / 5) * 5), mar: puerto.mar },
