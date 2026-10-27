@@ -33,7 +33,9 @@ const enlacesDe = (html) => {
       .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=[a-z0-9])/, 'https://contenedoresmaritimos.net/') // errata aprobada: falta la barra
       .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/, '');
     // errata aprobada: el botón «Precios» del original llevaba a /tipos/ (ahora lleva a /precios/)
-    return h === '/tipos/' && norm(x[2]) === 'precios' ? '/precios/' : h;
+    const t = norm(x[2]);
+    if (h === '/comprar/' && t === 'presupuesto') return '/contacto/'; // errata aprobada: botón «Presupuesto» unificado a /contacto/
+    return h === '/tipos/' && t === 'precios' ? '/precios/' : h;
   }).filter((h) => !h.startsWith('#'));
 };
 

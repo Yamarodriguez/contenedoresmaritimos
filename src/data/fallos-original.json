@@ -8,5 +8,10 @@
   "descripcion": "Botones «Precios» del original que llevaban a /tipos/ en vez de /precios/. Arreglados a petición de Yama (27-10-2026).",
   "botones": 168,
   "paginas": 168
+ },
+ "boton_presupuesto_a_comprar": {
+  "descripcion": "Botones «Presupuesto» del original que llevaban a /comprar/; unificados a /contacto/ como en el resto del sitio, a petición de Yama (27-10-2026).",
+  "botones": 191,
+  "paginas": 191
  }
 }
