@@ -23,6 +23,11 @@
     "km": 18
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 36
+   },
+   {
     "slug": "la-laguna",
     "nombre": "La Laguna",
     "km": 57
@@ -38,19 +43,14 @@
     "km": 118
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 123
+   },
+   {
     "slug": "las-palmas",
     "nombre": "Las Palmas de Gran Canaria",
     "km": 128
-   },
-   {
-    "slug": "telde",
-    "nombre": "Telde",
-    "km": 131
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 285
    }
   ],
   "esZona": false
@@ -83,6 +83,11 @@
     "km": 57
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 68
+   },
+   {
     "slug": "murcia",
     "nombre": "Murcia",
     "km": 71
@@ -101,11 +106,6 @@
     "slug": "la-manga",
     "nombre": "La Manga",
     "km": 80
-   },
-   {
-    "slug": "almeria",
-    "nombre": "Almería",
-    "km": 88
    }
   ],
   "esZona": false
@@ -136,9 +136,24 @@
   },
   "cercanas": [
    {
+    "slug": "yecla",
+    "nombre": "Yecla",
+    "km": 77
+   },
+   {
+    "slug": "cieza",
+    "nombre": "Cieza",
+    "km": 92
+   },
+   {
     "slug": "villena",
     "nombre": "Villena",
     "km": 95
+   },
+   {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 102
    },
    {
     "slug": "elda",
@@ -151,29 +166,14 @@
     "km": 110
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 110
+   },
+   {
     "slug": "molina-de-segura",
     "nombre": "Molina de Segura",
     "km": 118
-   },
-   {
-    "slug": "cuenca",
-    "nombre": "Cuenca",
-    "km": 121
-   },
-   {
-    "slug": "contenedores-alcoy",
-    "nombre": "Alcoy",
-    "km": 124
-   },
-   {
-    "slug": "elche",
-    "nombre": "Elche",
-    "km": 129
-   },
-   {
-    "slug": "paterna",
-    "nombre": "Paterna",
-    "km": 133
    }
   ],
   "esZona": false
@@ -206,6 +206,11 @@
     "km": 18
    },
    {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 19
+   },
+   {
     "slug": "sanlucar-de-barrameda",
     "nombre": "Sanlúcar de Barrameda",
     "km": 77
@@ -221,14 +226,9 @@
     "km": 89
    },
    {
-    "slug": "huelva",
-    "nombre": "Huelva",
-    "km": 98
-   },
-   {
-    "slug": "cadiz",
-    "nombre": "Cádiz",
-    "km": 99
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 89
    }
   ],
   "esZona": false
@@ -265,6 +265,11 @@
     "km": 21
    },
    {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 23
+   },
+   {
     "slug": "alcobendas",
     "nombre": "Alcobendas",
     "km": 24
@@ -278,11 +283,6 @@
     "slug": "tres-cantos",
     "nombre": "Tres Cantos",
     "km": 32
-   },
-   {
-    "slug": "getafe",
-    "nombre": "Getafe",
-    "km": 37
    }
   ],
   "esZona": false
@@ -309,6 +309,11 @@
     "km": 25
    },
    {
+    "slug": "vinaros",
+    "nombre": "Vinaròs",
+    "km": 28
+   },
+   {
     "slug": "benicassim",
     "nombre": "Benicàssim",
     "km": 31
@@ -332,11 +337,6 @@
     "slug": "container-valencia",
     "nombre": "Valencia",
     "km": 106
-   },
-   {
-    "slug": "reus",
-    "nombre": "Reus",
-    "km": 120
    }
   ],
   "esZona": false
@@ -486,6 +486,11 @@
     "km": 71
    },
    {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 72
+   },
+   {
     "slug": "san-fernando",
     "nombre": "San Fernando",
     "km": 77
@@ -494,11 +499,6 @@
     "slug": "mijas",
     "nombre": "Mijas",
     "km": 82
-   },
-   {
-    "slug": "el-puerto-de-santa-maria",
-    "nombre": "El Puerto de Santa María",
-    "km": 87
    }
   ],
   "esZona": false
@@ -531,6 +531,11 @@
     "km": 20
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 29
+   },
+   {
     "slug": "villajoyosa",
     "nombre": "Villajoyosa",
     "km": 29
@@ -549,11 +554,61 @@
     "slug": "contenedores-alcoy",
     "nombre": "Alcoy",
     "km": 39
+   }
+  ],
+  "esZona": false
+ },
+ "almendralejo": {
+  "nombre": "Almendralejo",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Badajoz",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 155,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 30
    },
    {
-    "slug": "torrevieja",
-    "nombre": "Torrevieja",
-    "km": 44
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 53
+   },
+   {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 56
+   },
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 88
+   },
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 149
+   },
+   {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 152
+   },
+   {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 152
+   },
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 158
    }
   ],
   "esZona": false
@@ -722,6 +777,60 @@
   ],
   "esZona": false
  },
+ "alzira": {
+  "nombre": "Alzira",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 35,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cullera",
+    "nombre": "Cullera",
+    "km": 16
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 30
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 32
+   },
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 36
+   },
+   {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 36
+   },
+   {
+    "slug": "ontinyent",
+    "nombre": "Ontinyent",
+    "km": 40
+   },
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 42
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 50
+   }
+  ],
+  "esZona": false
+ },
  "andalucia": {
   "nombre": "Andalucía",
   "tipo": "state",
@@ -733,6 +842,16 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 11
+   },
+   {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 36
+   },
    {
     "slug": "cordoba",
     "nombre": "Córdoba",
@@ -752,22 +871,121 @@
     "slug": "velez-malaga",
     "nombre": "Vélez-Málaga",
     "km": 75
-   },
-   {
-    "slug": "torremolinos",
-    "nombre": "Torremolinos",
-    "km": 80
-   },
-   {
-    "slug": "benalmadena",
-    "nombre": "Benalmádena",
-    "km": 83
    }
   ],
   "esZona": true,
   "puertosZona": [
    "Málaga"
   ]
+ },
+ "andujar": {
+  "nombre": "Andújar",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Jaén",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 150,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 36
+   },
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 38
+   },
+   {
+    "slug": "ubeda",
+    "nombre": "Úbeda",
+    "km": 60
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 66
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 72
+   },
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 80
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 104
+   },
+   {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 122
+   }
+  ],
+  "esZona": false
+ },
+ "antequera": {
+  "nombre": "Antequera",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 35,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 30
+   },
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 42
+   },
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 44
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 44
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 47
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 49
+   },
+   {
+    "slug": "mijas",
+    "nombre": "Mijas",
+    "km": 53
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 54
+   }
+  ],
+  "esZona": false
  },
  "aragon": {
   "nombre": "Aragón",
@@ -788,6 +1006,60 @@
   ],
   "esZona": true,
   "puertosZona": []
+ },
+ "aranda-de-duero": {
+  "nombre": "Aranda de Duero",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 195,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "burgos",
+    "nombre": "Burgos",
+    "km": 75
+   },
+   {
+    "slug": "valladolid",
+    "nombre": "Valladolid",
+    "km": 87
+   },
+   {
+    "slug": "segovia",
+    "nombre": "Segovia",
+    "km": 88
+   },
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 112
+   },
+   {
+    "slug": "collado-villalba",
+    "nombre": "Collado Villalba",
+    "km": 116
+   },
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 119
+   },
+   {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 125
+   },
+   {
+    "slug": "alcobendas",
+    "nombre": "Alcobendas",
+    "km": 126
+   }
+  ],
+  "esZona": false
  },
  "aranjuez": {
   "nombre": "Aranjuez",
@@ -933,6 +1205,11 @@
     "km": 15
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 42
+   },
+   {
     "slug": "la-laguna",
     "nombre": "La Laguna",
     "km": 60
@@ -948,19 +1225,14 @@
     "km": 110
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 116
+   },
+   {
     "slug": "las-palmas",
     "nombre": "Las Palmas de Gran Canaria",
     "km": 123
-   },
-   {
-    "slug": "telde",
-    "nombre": "Telde",
-    "km": 125
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 281
    }
   ],
   "esZona": false
@@ -993,6 +1265,11 @@
     "km": 212
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 227
+   },
+   {
     "slug": "san-bartolome-de-tirajana",
     "nombre": "San Bartolomé de Tirajana",
     "km": 235
@@ -1008,14 +1285,9 @@
     "km": 275
    },
    {
-    "slug": "contenedores-granadilla-de-abona",
-    "nombre": "Granadilla de Abona",
-    "km": 308
-   },
-   {
-    "slug": "arona",
-    "nombre": "Arona",
-    "km": 323
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 299
    }
   ],
   "esZona": false
@@ -1035,6 +1307,16 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 7
+   },
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 16
+   },
+   {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 20
    },
    {
     "slug": "siero",
@@ -1140,6 +1422,16 @@
     "km": 29
    },
    {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 35
+   },
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 38
+   },
+   {
     "slug": "ponferrada",
     "nombre": "Ponferrada",
     "km": 129
@@ -1153,16 +1445,6 @@
     "slug": "santander",
     "nombre": "Santander",
     "km": 171
-   },
-   {
-    "slug": "ferrol",
-    "nombre": "Ferrol",
-    "km": 189
-   },
-   {
-    "slug": "la-coruna",
-    "nombre": "La Coruña",
-    "km": 202
    }
   ],
   "esZona": false
@@ -1180,6 +1462,11 @@
   },
   "cercanas": [
    {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 53
+   },
+   {
     "slug": "merida",
     "nombre": "Mérida",
     "km": 54
@@ -1188,6 +1475,16 @@
     "slug": "caceres",
     "nombre": "Cáceres",
     "km": 84
+   },
+   {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 96
+   },
+   {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 149
    },
    {
     "slug": "huelva",
@@ -1200,24 +1497,9 @@
     "km": 186
    },
    {
-    "slug": "alcala-de-guadaira",
-    "nombre": "Alcalá de Guadaíra",
-    "km": 198
-   },
-   {
-    "slug": "dos-hermanas",
-    "nombre": "Dos Hermanas",
-    "km": 200
-   },
-   {
-    "slug": "talavera-de-la-reina",
-    "nombre": "Talavera de la Reina",
-    "km": 215
-   },
-   {
-    "slug": "utrera",
-    "nombre": "Utrera",
-    "km": 215
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 188
    }
   ],
   "esZona": false
@@ -1260,6 +1542,11 @@
     "km": 14
    },
    {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 16
+   },
+   {
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 16
@@ -1268,11 +1555,6 @@
     "slug": "sabadell",
     "nombre": "Sabadell",
     "km": 16
-   },
-   {
-    "slug": "el-prat-de-llobregat",
-    "nombre": "el Prat de Llobregat",
-    "km": 18
    }
   ],
   "esZona": false
@@ -1344,6 +1626,26 @@
   },
   "cercanas": [
    {
+    "slug": "inca",
+    "nombre": "Inca",
+    "km": 12
+   },
+   {
+    "slug": "llucmajor",
+    "nombre": "Llucmajor",
+    "km": 14
+   },
+   {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "km": 21
+   },
+   {
+    "slug": "manacor",
+    "nombre": "Manacor",
+    "km": 29
+   },
+   {
     "slug": "calvia",
     "nombre": "Calvià",
     "km": 32
@@ -1372,6 +1674,16 @@
   },
   "cercanas": [
    {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 4
+   },
+   {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 5
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 6
@@ -1380,6 +1692,11 @@
     "slug": "guecho",
     "nombre": "Guecho",
     "km": 6
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 10
    },
    {
     "slug": "castro-urdiales",
@@ -1395,21 +1712,6 @@
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 56
-   },
-   {
-    "slug": "santander",
-    "nombre": "Santander",
-    "km": 69
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 81
-   },
-   {
-    "slug": "torrelavega",
-    "nombre": "Torrelavega",
-    "km": 86
    }
   ],
   "esZona": false
@@ -1427,6 +1729,11 @@
   },
   "cercanas": [
    {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 7
+   },
+   {
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 7
@@ -1435,6 +1742,11 @@
     "slug": "santa-coloma-de-gramenet",
     "nombre": "Santa Coloma de Gramenet",
     "km": 8
+   },
+   {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 9
    },
    {
     "slug": "el-prat-de-llobregat",
@@ -1447,24 +1759,14 @@
     "km": 10
    },
    {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 11
+   },
+   {
     "slug": "san-baudilio-de-llobregat",
     "nombre": "Sant Boi de Llobregat",
     "km": 12
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 12
-   },
-   {
-    "slug": "sardanola-del-valles",
-    "nombre": "Cerdanyola del Vallès",
-    "km": 12
-   },
-   {
-    "slug": "viladecans",
-    "nombre": "Viladecans",
-    "km": 15
    }
   ],
   "esZona": false
@@ -1523,6 +1825,61 @@
   ],
   "esZona": false
  },
+ "basauri": {
+  "nombre": "Basauri",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 20,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "km": 5
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 10
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 14
+   },
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 15
+   },
+   {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 15
+   },
+   {
+    "slug": "durango",
+    "nombre": "Durango",
+    "km": 22
+   },
+   {
+    "slug": "castro-urdiales",
+    "nombre": "Castro Urdiales",
+    "km": 31
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 47
+   }
+  ],
+  "esZona": false
+ },
  "benalmadena": {
   "nombre": "Benalmádena",
   "tipo": "village",
@@ -1565,14 +1922,14 @@
     "km": 29
    },
    {
-    "slug": "velez-malaga",
-    "nombre": "Vélez-Málaga",
+    "slug": "antequera",
+    "nombre": "Antequera",
     "km": 47
    },
    {
-    "slug": "estepona",
-    "nombre": "Estepona",
-    "km": 55
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 47
    }
   ],
   "esZona": false
@@ -1614,6 +1971,11 @@
     "km": 51
    },
    {
+    "slug": "vinaros",
+    "nombre": "Vinaròs",
+    "km": 58
+   },
+   {
     "slug": "container-valencia",
     "nombre": "Valencia",
     "km": 75
@@ -1622,11 +1984,6 @@
     "slug": "paterna",
     "nombre": "Paterna",
     "km": 75
-   },
-   {
-    "slug": "cullera",
-    "nombre": "Cullera",
-    "km": 103
    }
   ],
   "esZona": false
@@ -1699,13 +2056,28 @@
   },
   "cercanas": [
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 5
+   },
+   {
     "slug": "baracaldo",
     "nombre": "Baracaldo",
     "km": 6
    },
    {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 9
+   },
+   {
     "slug": "guecho",
     "nombre": "Guecho",
+    "km": 11
+   },
+   {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
     "km": 11
    },
    {
@@ -1722,21 +2094,6 @@
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 51
-   },
-   {
-    "slug": "santander",
-    "nombre": "Santander",
-    "km": 74
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 77
-   },
-   {
-    "slug": "torrelavega",
-    "nombre": "Torrelavega",
-    "km": 91
    }
   ],
   "esZona": false
@@ -1754,6 +2111,11 @@
   },
   "cercanas": [
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 3
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 7
@@ -1764,20 +2126,79 @@
     "km": 13
    },
    {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 16
+   },
+   {
     "slug": "guecho",
     "nombre": "Guecho",
     "km": 17
    },
    {
-    "slug": "durango",
-    "nombre": "Durango",
-    "km": 19
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 18
    }
   ],
   "esZona": true,
   "puertosZona": [
    "Bilbao"
   ]
+ },
+ "blanes": {
+  "nombre": "Blanes",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "lloret-de-mar",
+    "nombre": "Lloret de Mar",
+    "km": 5
+   },
+   {
+    "slug": "mataro",
+    "nombre": "Mataró",
+    "km": 33
+   },
+   {
+    "slug": "gerona",
+    "nombre": "Gerona",
+    "km": 34
+   },
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 43
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 51
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 52
+   },
+   {
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 53
+   },
+   {
+    "slug": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "km": 55
+   }
+  ],
+  "esZona": false
  },
  "boadilla-del-monte": {
   "nombre": "Boadilla del Monte",
@@ -1893,6 +2314,16 @@
   },
   "cercanas": [
    {
+    "slug": "miranda-de-ebro",
+    "nombre": "Miranda de Ebro",
+    "km": 69
+   },
+   {
+    "slug": "aranda-de-duero",
+    "nombre": "Aranda de Duero",
+    "km": 75
+   },
+   {
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 101
@@ -1908,6 +2339,11 @@
     "km": 116
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 118
+   },
+   {
     "slug": "valladolid",
     "nombre": "Valladolid",
     "km": 118
@@ -1916,21 +2352,6 @@
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 119
-   },
-   {
-    "slug": "baracaldo",
-    "nombre": "Baracaldo",
-    "km": 120
-   },
-   {
-    "slug": "castro-urdiales",
-    "nombre": "Castro Urdiales",
-    "km": 122
-   },
-   {
-    "slug": "guecho",
-    "nombre": "Guecho",
-    "km": 124
    }
   ],
   "esZona": false
@@ -1952,9 +2373,24 @@
     "km": 58
    },
    {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 66
+   },
+   {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 73
+   },
+   {
     "slug": "badajoz",
     "nombre": "Badajoz",
     "km": 84
+   },
+   {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 88
    },
    {
     "slug": "talavera-de-la-reina",
@@ -1970,21 +2406,6 @@
     "slug": "avila",
     "nombre": "Ávila",
     "km": 196
-   },
-   {
-    "slug": "toledo",
-    "nombre": "Toledo",
-    "km": 205
-   },
-   {
-    "slug": "cordoba",
-    "nombre": "Córdoba",
-    "km": 225
-   },
-   {
-    "slug": "mostoles",
-    "nombre": "Móstoles",
-    "km": 234
    }
   ],
   "esZona": false
@@ -2055,6 +2476,11 @@
   },
   "cercanas": [
    {
+    "slug": "tudela",
+    "nombre": "Tudela",
+    "km": 37
+   },
+   {
     "slug": "logrono",
     "nombre": "Logroño",
     "km": 43
@@ -2070,6 +2496,11 @@
     "km": 83
    },
    {
+    "slug": "miranda-de-ebro",
+    "nombre": "Miranda de Ebro",
+    "km": 93
+   },
+   {
     "slug": "durango",
     "nombre": "Durango",
     "km": 111
@@ -2080,19 +2511,9 @@
     "km": 111
    },
    {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 113
-   },
-   {
-    "slug": "irun",
-    "nombre": "Irún",
-    "km": 116
-   },
-   {
-    "slug": "bilbao",
-    "nombre": "Bilbao",
-    "km": 133
+    "slug": "errenteria",
+    "nombre": "Errenteria",
+    "km": 112
    }
   ],
   "esZona": false
@@ -2165,6 +2586,26 @@
   },
   "cercanas": [
    {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "km": 12
+   },
+   {
+    "slug": "llucmajor",
+    "nombre": "Llucmajor",
+    "km": 33
+   },
+   {
+    "slug": "inca",
+    "nombre": "Inca",
+    "km": 39
+   },
+   {
+    "slug": "manacor",
+    "nombre": "Manacor",
+    "km": 59
+   },
+   {
     "slug": "mahon",
     "nombre": "Mahón",
     "km": 155
@@ -2180,29 +2621,63 @@
     "km": 198
    },
    {
-    "slug": "el-prat-de-llobregat",
-    "nombre": "el Prat de Llobregat",
-    "km": 201
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 200
+   }
+  ],
+  "esZona": false
+ },
+ "cambrils": {
+  "nombre": "Cambrils",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 7
    },
    {
-    "slug": "peniscola",
-    "nombre": "Peñíscola",
-    "km": 201
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 10
    },
    {
-    "slug": "san-baudilio-de-llobregat",
-    "nombre": "Sant Boi de Llobregat",
-    "km": 201
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "km": 17
    },
    {
-    "slug": "viladecans",
-    "nombre": "Viladecans",
-    "km": 201
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 43
    },
    {
-    "slug": "hospitalet-de-llobregat",
-    "nombre": "Hospitalet de Llobregat",
-    "km": 204
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 58
+   },
+   {
+    "slug": "lleida",
+    "nombre": "Lérida",
+    "km": 71
+   },
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 73
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 80
    }
   ],
   "esZona": false
@@ -2273,6 +2748,11 @@
   },
   "cercanas": [
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 15
+   },
+   {
     "slug": "contenedores-granadilla-de-abona",
     "nombre": "Granadilla de Abona",
     "km": 20
@@ -2296,17 +2776,11 @@
     "slug": "santa-cruz-de-tenerife",
     "nombre": "Santa Cruz de Tenerife",
     "km": 41
-   },
-   {
-    "slug": "san-bartolome-de-tirajana",
-    "nombre": "San Bartolomé de Tirajana",
-    "km": 113
    }
   ],
   "esZona": true,
   "puertosZona": [
-   "Santa Cruz de Tenerife",
-   "Las Palmas"
+   "Santa Cruz de Tenerife"
   ]
  },
  "cantabria": {
@@ -2355,6 +2829,11 @@
   },
   "cercanas": [
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 19
+   },
+   {
     "slug": "la-manga",
     "nombre": "La Manga",
     "km": 24
@@ -2388,11 +2867,6 @@
     "slug": "aguilas",
     "nombre": "Águilas",
     "km": 57
-   },
-   {
-    "slug": "lorca",
-    "nombre": "Lorca",
-    "km": 70
    }
   ],
   "esZona": false
@@ -2410,6 +2884,11 @@
   },
   "cercanas": [
    {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 3
+   },
+   {
     "slug": "viladecans",
     "nombre": "Viladecans",
     "km": 4
@@ -2425,29 +2904,24 @@
     "km": 10
    },
    {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 11
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 12
+   },
+   {
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 13
    },
    {
-    "slug": "barcelona",
-    "nombre": "Barcelona",
-    "km": 19
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 22
-   },
-   {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 23
-   },
-   {
-    "slug": "villanueva-y-geltru",
-    "nombre": "Vilanova i la Geltrú",
-    "km": 23
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 14
    }
   ],
   "esZona": false
@@ -2478,6 +2952,11 @@
   },
   "cercanas": [
    {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 45
+   },
+   {
     "slug": "albacete",
     "nombre": "Albacete",
     "km": 81
@@ -2491,6 +2970,11 @@
     "slug": "toledo",
     "nombre": "Toledo",
     "km": 129
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 152
    },
    {
     "slug": "talavera-de-la-reina",
@@ -2533,14 +3017,14 @@
     "km": 109
    },
    {
+    "slug": "aranda-de-duero",
+    "nombre": "Aranda de Duero",
+    "km": 122
+   },
+   {
     "slug": "burgos",
     "nombre": "Burgos",
     "km": 149
-   },
-   {
-    "slug": "ponferrada",
-    "nombre": "Ponferrada",
-    "km": 158
    }
   ],
   "esZona": true,
@@ -2558,8 +3042,18 @@
   },
   "cercanas": [
    {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 16
+   },
+   {
     "slug": "guecho",
     "nombre": "Guecho",
+    "km": 17
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
     "km": 17
    },
    {
@@ -2573,6 +3067,11 @@
     "km": 26
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 31
+   },
+   {
     "slug": "santander",
     "nombre": "Santander",
     "km": 49
@@ -2581,21 +3080,6 @@
     "slug": "durango",
     "nombre": "Durango",
     "km": 53
-   },
-   {
-    "slug": "torrelavega",
-    "nombre": "Torrelavega",
-    "km": 68
-   },
-   {
-    "slug": "vitoria",
-    "nombre": "Vitoria",
-    "km": 75
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 100
    }
   ],
   "esZona": false
@@ -2617,6 +3101,11 @@
     "km": 25
    },
    {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 31
+   },
+   {
     "slug": "terrassa",
     "nombre": "Terrassa",
     "km": 48
@@ -2632,14 +3121,9 @@
     "km": 56
    },
    {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 60
-   },
-   {
-    "slug": "sardanola-del-valles",
-    "nombre": "Cerdanyola del Vallès",
-    "km": 62
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 57
    }
   ],
   "esZona": true,
@@ -2709,14 +3193,14 @@
     "km": 94
    },
    {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 96
+   },
+   {
     "slug": "fuengirola",
     "nombre": "Fuengirola",
     "km": 97
-   },
-   {
-    "slug": "san-fernando",
-    "nombre": "San Fernando",
-    "km": 99
    }
   ],
   "esZona": false
@@ -2827,6 +3311,61 @@
    "Puerto Madryn"
   ]
  },
+ "cieza": {
+  "nombre": "Cieza",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 80,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 27
+   },
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 43
+   },
+   {
+    "slug": "yecla",
+    "nombre": "Yecla",
+    "km": 49
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 50
+   },
+   {
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 61
+   },
+   {
+    "slug": "elche",
+    "nombre": "Elche",
+    "km": 63
+   },
+   {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 63
+   },
+   {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 64
+   }
+  ],
+  "esZona": false
+ },
  "ciudad-de-buenos-aires": {
   "nombre": "Ciudad de Buenos Aires",
   "tipo": "city",
@@ -2891,7 +3430,18 @@
    "km": 250,
    "mar": true
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 36
+   },
+   {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 78
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -2942,9 +3492,9 @@
     "km": 32
    },
    {
-    "slug": "madrid",
-    "nombre": "Madrid",
-    "km": 35
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 32
    }
   ],
   "esZona": false
@@ -2964,6 +3514,11 @@
     "slug": "tres-cantos",
     "nombre": "Tres Cantos",
     "km": 8
+   },
+   {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 16
    },
    {
     "slug": "alcobendas",
@@ -2994,11 +3549,6 @@
     "slug": "madrid",
     "nombre": "Madrid",
     "km": 28
-   },
-   {
-    "slug": "boadilla-del-monte",
-    "nombre": "Boadilla del Monte",
-    "km": 31
    }
   ],
   "esZona": false
@@ -3089,6 +3639,11 @@
     "km": 70
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 75
+   },
+   {
     "slug": "vigo",
     "nombre": "Vigo",
     "km": 81
@@ -3102,11 +3657,6 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 220
-   },
-   {
-    "slug": "aviles",
-    "nombre": "Avilés",
-    "km": 222
    }
   ],
   "esZona": false
@@ -3128,6 +3678,16 @@
     "km": 30
    },
    {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 37
+   },
+   {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 38
+   },
+   {
     "slug": "container-valencia",
     "nombre": "Valencia",
     "km": 41
@@ -3141,16 +3701,6 @@
     "slug": "villareal",
     "nombre": "Vila-real",
     "km": 64
-   },
-   {
-    "slug": "cullera",
-    "nombre": "Cullera",
-    "km": 72
-   },
-   {
-    "slug": "benicassim",
-    "nombre": "Benicàssim",
-    "km": 82
    }
   ],
   "esZona": true,
@@ -3226,6 +3776,16 @@
   },
   "cercanas": [
    {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 4
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 9
+   },
+   {
     "slug": "paterna",
     "nombre": "Paterna",
     "km": 10
@@ -3234,6 +3794,11 @@
     "slug": "sagunto",
     "nombre": "Sagunto",
     "km": 25
+   },
+   {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 36
    },
    {
     "slug": "cullera",
@@ -3249,21 +3814,6 @@
     "slug": "gandia",
     "nombre": "Gandía",
     "km": 58
-   },
-   {
-    "slug": "benicassim",
-    "nombre": "Benicàssim",
-    "km": 75
-   },
-   {
-    "slug": "ontinyent",
-    "nombre": "Ontinyent",
-    "km": 75
-   },
-   {
-    "slug": "denia",
-    "nombre": "Dénia",
-    "km": 81
    }
   ],
   "esZona": false
@@ -3301,6 +3851,11 @@
     "km": 35
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 35
+   },
+   {
     "slug": "villena",
     "nombre": "Villena",
     "km": 35
@@ -3313,11 +3868,6 @@
    {
     "slug": "alicante",
     "nombre": "Alicante",
-    "km": 39
-   },
-   {
-    "slug": "altea",
-    "nombre": "Altea",
     "km": 39
    }
   ],
@@ -3346,6 +3896,11 @@
     "km": 18
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 33
+   },
+   {
     "slug": "la-laguna",
     "nombre": "La Laguna",
     "km": 47
@@ -3361,19 +3916,14 @@
     "km": 100
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 105
+   },
+   {
     "slug": "las-palmas",
     "nombre": "Las Palmas de Gran Canaria",
     "km": 110
-   },
-   {
-    "slug": "telde",
-    "nombre": "Telde",
-    "km": 113
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 267
    }
   ],
   "esZona": false
@@ -3416,14 +3966,34 @@
   },
   "cercanas": [
    {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 59
+   },
+   {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 66
+   },
+   {
     "slug": "jaen",
     "nombre": "Jaén",
     "km": 88
    },
    {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 98
+   },
+   {
     "slug": "linares",
     "nombre": "Linares",
     "km": 102
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 106
    },
    {
     "slug": "alcala-de-guadaira",
@@ -3434,26 +4004,61 @@
     "slug": "utrera",
     "nombre": "Utrera",
     "km": 118
+   }
+  ],
+  "esZona": false
+ },
+ "cornella-de-llobregat": {
+  "nombre": "Cornellà de Llobregat",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 3
    },
    {
-    "slug": "dos-hermanas",
-    "nombre": "Dos Hermanas",
-    "km": 121
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 3
    },
    {
-    "slug": "sevilla",
-    "nombre": "Sevilla",
-    "km": 121
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 4
    },
    {
-    "slug": "malaga",
-    "nombre": "Málaga",
-    "km": 128
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 4
    },
    {
-    "slug": "granada",
-    "nombre": "Granada",
-    "km": 130
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 6
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 8
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 9
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 11
    }
   ],
   "esZona": false
@@ -3504,6 +4109,11 @@
     "km": 15
    },
    {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 15
+   },
+   {
     "slug": "alcala-de-henares",
     "nombre": "Alcalá de Henares",
     "km": 17
@@ -3517,11 +4127,6 @@
     "slug": "getafe",
     "nombre": "Getafe",
     "km": 20
-   },
-   {
-    "slug": "leganes",
-    "nombre": "Leganés",
-    "km": 21
    }
   ],
   "esZona": false
@@ -3726,14 +4331,14 @@
     "km": 125
    },
    {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 126
+   },
+   {
     "slug": "coslada",
     "nombre": "Coslada",
     "km": 127
-   },
-   {
-    "slug": "valdemoro",
-    "nombre": "Valdemoro",
-    "km": 132
    }
   ],
   "esZona": false
@@ -3750,14 +4355,29 @@
   },
   "cercanas": [
    {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 16
+   },
+   {
     "slug": "gandia",
     "nombre": "Gandía",
     "km": 23
    },
    {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 35
+   },
+   {
     "slug": "container-valencia",
     "nombre": "Valencia",
     "km": 36
+   },
+   {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 37
    },
    {
     "slug": "paterna",
@@ -3773,21 +4393,6 @@
     "slug": "ontinyent",
     "nombre": "Ontinyent",
     "km": 49
-   },
-   {
-    "slug": "contenedores-alcoy",
-    "nombre": "Alcoy",
-    "km": 55
-   },
-   {
-    "slug": "javea",
-    "nombre": "Jávea",
-    "km": 55
-   },
-   {
-    "slug": "sagunto",
-    "nombre": "Sagunto",
-    "km": 57
    }
   ],
   "esZona": false
@@ -3847,6 +4452,61 @@
   ],
   "esZona": false
  },
+ "don-benito": {
+  "nombre": "Don Benito",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Badajoz",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 180,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 42
+   },
+   {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 56
+   },
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 73
+   },
+   {
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 96
+   },
+   {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 121
+   },
+   {
+    "slug": "talavera-de-la-reina",
+    "nombre": "Talavera de la Reina",
+    "km": 139
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 152
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 155
+   }
+  ],
+  "esZona": false
+ },
  "dos-hermanas": {
   "nombre": "Dos Hermanas",
   "tipo": "city",
@@ -3868,6 +4528,11 @@
     "slug": "sevilla",
     "nombre": "Sevilla",
     "km": 13
+   },
+   {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 14
    },
    {
     "slug": "utrera",
@@ -3893,11 +4558,6 @@
     "slug": "cadiz",
     "nombre": "Cádiz",
     "km": 90
-   },
-   {
-    "slug": "huelva",
-    "nombre": "Huelva",
-    "km": 91
    }
   ],
   "esZona": false
@@ -3915,6 +4575,11 @@
   },
   "cercanas": [
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 22
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 27
@@ -3923,6 +4588,11 @@
     "slug": "baracaldo",
     "nombre": "Baracaldo",
     "km": 32
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 35
    },
    {
     "slug": "guecho",
@@ -3935,24 +4605,14 @@
     "km": 36
    },
    {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 37
+   },
+   {
     "slug": "castro-urdiales",
     "nombre": "Castro Urdiales",
     "km": 53
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 55
-   },
-   {
-    "slug": "irun",
-    "nombre": "Irún",
-    "km": 71
-   },
-   {
-    "slug": "logrono",
-    "nombre": "Logroño",
-    "km": 80
    }
   ],
   "esZona": false
@@ -4040,6 +4700,11 @@
   },
   "cercanas": [
    {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 3
+   },
+   {
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 3
@@ -4050,34 +4715,29 @@
     "km": 4
    },
    {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 5
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 7
+   },
+   {
     "slug": "viladecans",
     "nombre": "Viladecans",
     "km": 7
    },
    {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 8
+   },
+   {
     "slug": "barcelona",
     "nombre": "Barcelona",
     "km": 9
-   },
-   {
-    "slug": "castelldefels",
-    "nombre": "Castelldefels",
-    "km": 10
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 16
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 17
-   },
-   {
-    "slug": "badalona",
-    "nombre": "Badalona",
-    "km": 18
    }
   ],
   "esZona": false
@@ -4129,9 +4789,63 @@
     "km": 81
    },
    {
-    "slug": "algeciras",
-    "nombre": "Algeciras",
-    "km": 87
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 84
+   }
+  ],
+  "esZona": false
+ },
+ "el-vendrell": {
+  "nombre": "El Vendrell",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 16
+   },
+   {
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "km": 26
+   },
+   {
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 36
+   },
+   {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 36
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 38
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 41
+   },
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 41
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 42
    }
   ],
   "esZona": false
@@ -4169,6 +4883,11 @@
     "km": 25
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 25
+   },
+   {
     "slug": "orihuela",
     "nombre": "Orihuela",
     "km": 32
@@ -4182,11 +4901,6 @@
     "slug": "villena",
     "nombre": "Villena",
     "km": 44
-   },
-   {
-    "slug": "villajoyosa",
-    "nombre": "Villajoyosa",
-    "km": 49
    }
   ],
   "esZona": false
@@ -4224,6 +4938,11 @@
     "km": 31
    },
    {
+    "slug": "yecla",
+    "nombre": "Yecla",
+    "km": 32
+   },
+   {
     "slug": "contenedores-alcoy",
     "nombre": "Alcoy",
     "km": 37
@@ -4237,11 +4956,6 @@
     "slug": "ontinyent",
     "nombre": "Ontinyent",
     "km": 41
-   },
-   {
-    "slug": "villajoyosa",
-    "nombre": "Villajoyosa",
-    "km": 49
    }
   ],
   "esZona": false
@@ -4278,6 +4992,115 @@
    "Santa Fe"
   ]
  },
+ "errenteria": {
+  "nombre": "Errenteria",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-sebastian",
+    "nombre": "San Sebastián",
+    "km": 7
+   },
+   {
+    "slug": "irun",
+    "nombre": "Irún",
+    "km": 9
+   },
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 59
+   },
+   {
+    "slug": "durango",
+    "nombre": "Durango",
+    "km": 62
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 80
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 81
+   },
+   {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "km": 84
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 88
+   }
+  ],
+  "esZona": false
+ },
+ "esplugues-de-llobregat": {
+  "nombre": "Esplugues de Llobregat",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 3
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 4
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 5
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 7
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 7
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 9
+   },
+   {
+    "slug": "sant-cugat-del-valles",
+    "nombre": "Sant Cugat del Vallès",
+    "km": 10
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 11
+   }
+  ],
+  "esZona": false
+ },
  "estepona": {
   "nombre": "Estepona",
   "tipo": "town",
@@ -4298,6 +5121,11 @@
     "slug": "la-linea-de-la-concepcion",
     "nombre": "La Línea de la Concepción",
     "km": 34
+   },
+   {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 35
    },
    {
     "slug": "algeciras",
@@ -4323,11 +5151,6 @@
     "slug": "ceuta",
     "nombre": "Ceuta",
     "km": 62
-   },
-   {
-    "slug": "torremolinos",
-    "nombre": "Torremolinos",
-    "km": 62
    }
   ],
   "esZona": false
@@ -4349,14 +5172,29 @@
     "km": 30
    },
    {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 35
+   },
+   {
     "slug": "caceres",
     "nombre": "Cáceres",
     "km": 38
    },
    {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 59
+   },
+   {
     "slug": "badajoz",
     "nombre": "Badajoz",
     "km": 78
+   },
+   {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 95
    }
   ],
   "esZona": true,
@@ -4373,6 +5211,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 9
+   },
    {
     "slug": "la-coruna",
     "nombre": "La Coruña",
@@ -4407,11 +5250,60 @@
     "slug": "aviles",
     "nombre": "Avilés",
     "km": 189
+   }
+  ],
+  "esZona": false
+ },
+ "figueres": {
+  "nombre": "Figueres",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 120,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "gerona",
+    "nombre": "Gerona",
+    "km": 34
    },
    {
-    "slug": "oviedo",
-    "nombre": "Oviedo",
-    "km": 193
+    "slug": "lloret-de-mar",
+    "nombre": "Lloret de Mar",
+    "km": 64
+   },
+   {
+    "slug": "blanes",
+    "nombre": "Blanes",
+    "km": 67
+   },
+   {
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 69
+   },
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 92
+   },
+   {
+    "slug": "mataro",
+    "nombre": "Mataró",
+    "km": 92
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 102
+   },
+   {
+    "slug": "sabadell",
+    "nombre": "Sabadell",
+    "km": 107
    }
   ],
   "esZona": false
@@ -4500,9 +5392,9 @@
     "km": 48
    },
    {
-    "slug": "velez-malaga",
-    "nombre": "Vélez-Málaga",
-    "km": 54
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 53
    }
   ],
   "esZona": false
@@ -4647,6 +5539,11 @@
     "km": 29
    },
    {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 30
+   },
+   {
     "slug": "javea",
     "nombre": "Jávea",
     "km": 36
@@ -4670,11 +5567,61 @@
     "slug": "altea",
     "nombre": "Altea",
     "km": 42
+   }
+  ],
+  "esZona": false
+ },
+ "gava": {
+  "nombre": "Gavà",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 3
    },
    {
-    "slug": "benidorm",
-    "nombre": "Benidorm",
-    "km": 48
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 4
+   },
+   {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 8
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 8
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 9
+   },
+   {
+    "slug": "hospitalet-de-llobregat",
+    "nombre": "Hospitalet de Llobregat",
+    "km": 10
+   },
+   {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 11
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 17
    }
   ],
   "esZona": false
@@ -4745,6 +5692,26 @@
   },
   "cercanas": [
    {
+    "slug": "lloret-de-mar",
+    "nombre": "Lloret de Mar",
+    "km": 31
+   },
+   {
+    "slug": "blanes",
+    "nombre": "Blanes",
+    "km": 34
+   },
+   {
+    "slug": "figueres",
+    "nombre": "Figueres",
+    "km": 34
+   },
+   {
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 47
+   },
+   {
     "slug": "mataro",
     "nombre": "Mataró",
     "km": 58
@@ -4763,26 +5730,6 @@
     "slug": "badalona",
     "nombre": "Badalona",
     "km": 76
-   },
-   {
-    "slug": "sabadell",
-    "nombre": "Sabadell",
-    "km": 76
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 78
-   },
-   {
-    "slug": "sardanola-del-valles",
-    "nombre": "Cerdanyola del Vallès",
-    "km": 78
-   },
-   {
-    "slug": "terrassa",
-    "nombre": "Terrassa",
-    "km": 82
    }
   ],
   "esZona": false
@@ -4869,6 +5816,16 @@
     "km": 28
    },
    {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 29
+   },
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 36
+   },
+   {
     "slug": "torrelavega",
     "nombre": "Torrelavega",
     "km": 132
@@ -4882,16 +5839,6 @@
     "slug": "santander",
     "nombre": "Santander",
     "km": 150
-   },
-   {
-    "slug": "castro-urdiales",
-    "nombre": "Castro Urdiales",
-    "km": 198
-   },
-   {
-    "slug": "burgos",
-    "nombre": "Burgos",
-    "km": 209
    }
   ],
   "esZona": false
@@ -4922,6 +5869,26 @@
   },
   "cercanas": [
    {
+    "slug": "lloret-de-mar",
+    "nombre": "Lloret de Mar",
+    "km": 31
+   },
+   {
+    "slug": "blanes",
+    "nombre": "Blanes",
+    "km": 34
+   },
+   {
+    "slug": "figueres",
+    "nombre": "Figueres",
+    "km": 34
+   },
+   {
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 47
+   },
+   {
     "slug": "mataro",
     "nombre": "Mataró",
     "km": 58
@@ -4940,26 +5907,6 @@
     "slug": "badalona",
     "nombre": "Badalona",
     "km": 76
-   },
-   {
-    "slug": "sabadell",
-    "nombre": "Sabadell",
-    "km": 76
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 78
-   },
-   {
-    "slug": "sardanola-del-valles",
-    "nombre": "Cerdanyola del Vallès",
-    "km": 78
-   },
-   {
-    "slug": "terrassa",
-    "nombre": "Terrassa",
-    "km": 82
    }
   ],
   "esZona": false
@@ -5044,9 +5991,9 @@
     "km": 83
    },
    {
-    "slug": "malaga",
-    "nombre": "Málaga",
-    "km": 88
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 83
    }
   ],
   "esZona": false
@@ -5187,6 +6134,16 @@
   },
   "cercanas": [
    {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 3
+   },
+   {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 3
+   },
+   {
     "slug": "baracaldo",
     "nombre": "Baracaldo",
     "km": 6
@@ -5195,6 +6152,11 @@
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 11
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 15
    },
    {
     "slug": "castro-urdiales",
@@ -5210,21 +6172,6 @@
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 62
-   },
-   {
-    "slug": "santander",
-    "nombre": "Santander",
-    "km": 66
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 83
-   },
-   {
-    "slug": "torrelavega",
-    "nombre": "Torrelavega",
-    "km": 84
    }
   ],
   "esZona": false
@@ -5247,6 +6194,11 @@
     "km": 3
    },
    {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 5
+   },
+   {
     "slug": "san-baudilio-de-llobregat",
     "nombre": "Sant Boi de Llobregat",
     "km": 6
@@ -5262,6 +6214,11 @@
     "km": 9
    },
    {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 10
+   },
+   {
     "slug": "sant-cugat-del-valles",
     "nombre": "Sant Cugat del Vallès",
     "km": 12
@@ -5270,16 +6227,6 @@
     "slug": "castelldefels",
     "nombre": "Castelldefels",
     "km": 13
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 14
-   },
-   {
-    "slug": "sardanola-del-valles",
-    "nombre": "Cerdanyola del Vallès",
-    "km": 15
    }
   ],
   "esZona": false
@@ -5300,6 +6247,11 @@
     "slug": "sanlucar-de-barrameda",
     "nombre": "Sanlúcar de Barrameda",
     "km": 75
+   },
+   {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 79
    },
    {
     "slug": "sevilla",
@@ -5330,11 +6282,6 @@
     "slug": "cadiz",
     "nombre": "Cádiz",
     "km": 100
-   },
-   {
-    "slug": "utrera",
-    "nombre": "Utrera",
-    "km": 104
    }
   ],
   "esZona": false
@@ -5369,6 +6316,116 @@
   "esZona": true,
   "puertosZona": []
  },
+ "igualada": {
+  "nombre": "Igualada",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "manresa",
+    "nombre": "Manresa",
+    "km": 24
+   },
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 33
+   },
+   {
+    "slug": "rubi",
+    "nombre": "Rubí",
+    "km": 36
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 40
+   },
+   {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 41
+   },
+   {
+    "slug": "sabadell",
+    "nombre": "Sabadell",
+    "km": 41
+   },
+   {
+    "slug": "sant-cugat-del-valles",
+    "nombre": "Sant Cugat del Vallès",
+    "km": 41
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 42
+   }
+  ],
+  "esZona": false
+ },
+ "inca": {
+  "nombre": "Inca",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "llucmajor",
+    "nombre": "Llucmajor",
+    "km": 26
+   },
+   {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "km": 28
+   },
+   {
+    "slug": "manacor",
+    "nombre": "Manacor",
+    "km": 31
+   },
+   {
+    "slug": "calvia",
+    "nombre": "Calvià",
+    "km": 39
+   },
+   {
+    "slug": "mahon",
+    "nombre": "Mahón",
+    "km": 118
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 191
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 192
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 192
+   }
+  ],
+  "esZona": false
+ },
  "irun": {
   "nombre": "Irún",
   "tipo": "town",
@@ -5380,6 +6437,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "errenteria",
+    "nombre": "Errenteria",
+    "km": 9
+   },
    {
     "slug": "san-sebastian",
     "nombre": "San Sebastián",
@@ -5401,6 +6463,11 @@
     "km": 89
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 90
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 93
@@ -5409,16 +6476,6 @@
     "slug": "baracaldo",
     "nombre": "Baracaldo",
     "km": 97
-   },
-   {
-    "slug": "guecho",
-    "nombre": "Guecho",
-    "km": 99
-   },
-   {
-    "slug": "logrono",
-    "nombre": "Logroño",
-    "km": 111
    }
   ],
   "esZona": false
@@ -5441,9 +6498,24 @@
     "km": 37
    },
    {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 38
+   },
+   {
+    "slug": "ubeda",
+    "nombre": "Úbeda",
+    "km": 45
+   },
+   {
     "slug": "granada",
     "nombre": "Granada",
     "km": 69
+   },
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 74
    },
    {
     "slug": "cordoba",
@@ -5451,29 +6523,14 @@
     "km": 88
    },
    {
-    "slug": "almunecar",
-    "nombre": "Almuñécar",
-    "km": 112
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 105
    },
    {
-    "slug": "nerja",
-    "nombre": "Nerja",
-    "km": 114
-   },
-   {
-    "slug": "velez-malaga",
-    "nombre": "Vélez-Málaga",
-    "km": 114
-   },
-   {
-    "slug": "motril",
-    "nombre": "Motril",
-    "km": 117
-   },
-   {
-    "slug": "rincon-de-la-victoria",
-    "nombre": "Rincón de la Victoria",
-    "km": 125
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 108
    }
   ],
   "esZona": false
@@ -5580,9 +6637,9 @@
     "km": 70
    },
    {
-    "slug": "alcala-de-guadaira",
-    "nombre": "Alcalá de Guadaíra",
-    "km": 78
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 74
    }
   ],
   "esZona": false
@@ -5624,6 +6681,11 @@
     "km": 22
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 29
+   },
+   {
     "slug": "compostela",
     "nombre": "Santiago de Compostela",
     "km": 50
@@ -5652,11 +6714,6 @@
     "slug": "aviles",
     "nombre": "Avilés",
     "km": 202
-   },
-   {
-    "slug": "oviedo",
-    "nombre": "Oviedo",
-    "km": 205
    }
   ],
   "esZona": false
@@ -5694,6 +6751,11 @@
     "km": 7
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 24
+   },
+   {
     "slug": "contenedores-granadilla-de-abona",
     "nombre": "Granadilla de Abona",
     "km": 47
@@ -5719,14 +6781,9 @@
     "km": 100
    },
    {
-    "slug": "telde",
-    "nombre": "Telde",
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
     "km": 103
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 240
    }
   ],
   "esZona": false
@@ -5763,6 +6820,11 @@
     "km": 62
    },
    {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 66
+   },
+   {
     "slug": "mijas",
     "nombre": "Mijas",
     "km": 73
@@ -5776,11 +6838,6 @@
     "slug": "fuengirola",
     "nombre": "Fuengirola",
     "km": 77
-   },
-   {
-    "slug": "san-fernando",
-    "nombre": "San Fernando",
-    "km": 83
    }
   ],
   "esZona": false
@@ -5808,6 +6865,11 @@
     "km": 24
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 27
+   },
+   {
     "slug": "torrevieja",
     "nombre": "Torrevieja",
     "km": 38
@@ -5831,11 +6893,6 @@
     "slug": "molina-de-segura",
     "nombre": "Molina de Segura",
     "km": 64
-   },
-   {
-    "slug": "elche",
-    "nombre": "Elche",
-    "km": 70
    }
   ],
   "esZona": false
@@ -6003,6 +7060,61 @@
   "esZona": true,
   "puertosZona": []
  },
+ "langreo": {
+  "nombre": "Langreo",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 8
+   },
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 13
+   },
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 16
+   },
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 29
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 35
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 113
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 134
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 154
+   }
+  ],
+  "esZona": false
+ },
  "lanus": {
   "nombre": "Lanús",
   "tipo": "city",
@@ -6090,6 +7202,11 @@
     "km": 15
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 29
+   },
+   {
     "slug": "san-bartolome-de-tirajana",
     "nombre": "San Bartolomé de Tirajana",
     "km": 34
@@ -6110,19 +7227,14 @@
     "km": 110
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 114
+   },
+   {
     "slug": "arona",
     "nombre": "Arona",
     "km": 123
-   },
-   {
-    "slug": "adeje",
-    "nombre": "Adeje",
-    "km": 128
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 160
    }
   ],
   "esZona": false
@@ -6269,9 +7381,24 @@
   },
   "cercanas": [
    {
+    "slug": "ubeda",
+    "nombre": "Úbeda",
+    "km": 25
+   },
+   {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 36
+   },
+   {
     "slug": "jaen",
     "nombre": "Jaén",
     "km": 37
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 78
    },
    {
     "slug": "cordoba",
@@ -6284,29 +7411,14 @@
     "km": 102
    },
    {
-    "slug": "almunecar",
-    "nombre": "Almuñécar",
-    "km": 147
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 106
    },
    {
-    "slug": "motril",
-    "nombre": "Motril",
-    "km": 150
-   },
-   {
-    "slug": "nerja",
-    "nombre": "Nerja",
-    "km": 151
-   },
-   {
-    "slug": "velez-malaga",
-    "nombre": "Vélez-Málaga",
-    "km": 151
-   },
-   {
-    "slug": "el-ejido",
-    "nombre": "El Ejido",
-    "km": 163
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 131
    }
   ],
   "esZona": false
@@ -6328,9 +7440,29 @@
     "km": 65
    },
    {
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 71
+   },
+   {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 74
+   },
+   {
     "slug": "tarragona",
     "nombre": "Tarragona",
     "km": 76
+   },
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 82
+   },
+   {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 88
    },
    {
     "slug": "manresa",
@@ -6341,26 +7473,115 @@
     "slug": "villanueva-y-geltru",
     "nombre": "Vilanova i la Geltrú",
     "km": 101
+   }
+  ],
+  "esZona": false
+ },
+ "lloret-de-mar": {
+  "nombre": "Lloret de Mar",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 70,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "blanes",
+    "nombre": "Blanes",
+    "km": 5
    },
    {
-    "slug": "terrassa",
-    "nombre": "Terrassa",
-    "km": 115
+    "slug": "gerona",
+    "nombre": "Gerona",
+    "km": 31
    },
    {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 118
+    "slug": "mataro",
+    "nombre": "Mataró",
+    "km": 37
+   },
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 47
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 55
+   },
+   {
+    "slug": "vic",
+    "nombre": "Vic",
+    "km": 55
+   },
+   {
+    "slug": "badalona",
+    "nombre": "Badalona",
+    "km": 56
+   },
+   {
+    "slug": "santa-coloma-de-gramenet",
+    "nombre": "Santa Coloma de Gramenet",
+    "km": 59
+   }
+  ],
+  "esZona": false
+ },
+ "llucmajor": {
+  "nombre": "Llucmajor",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "km": 22
+   },
+   {
+    "slug": "inca",
+    "nombre": "Inca",
+    "km": 26
+   },
+   {
+    "slug": "manacor",
+    "nombre": "Manacor",
+    "km": 29
+   },
+   {
+    "slug": "calvia",
+    "nombre": "Calvià",
+    "km": 33
+   },
+   {
+    "slug": "mahon",
+    "nombre": "Mahón",
+    "km": 126
    },
    {
     "slug": "castelldefels",
     "nombre": "Castelldefels",
-    "km": 119
+    "km": 214
    },
    {
-    "slug": "viladecans",
-    "nombre": "Viladecans",
-    "km": 120
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 215
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 215
    }
   ],
   "esZona": false
@@ -6387,9 +7608,19 @@
     "km": 46
    },
    {
+    "slug": "miranda-de-ebro",
+    "nombre": "Miranda de Ebro",
+    "km": 50
+   },
+   {
     "slug": "pamplona",
     "nombre": "Pamplona",
     "km": 75
+   },
+   {
+    "slug": "tudela",
+    "nombre": "Tudela",
+    "km": 79
    },
    {
     "slug": "durango",
@@ -6397,24 +7628,14 @@
     "km": 80
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 93
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 97
-   },
-   {
-    "slug": "baracaldo",
-    "nombre": "Baracaldo",
-    "km": 102
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 102
-   },
-   {
-    "slug": "burgos",
-    "nombre": "Burgos",
-    "km": 103
    }
   ],
   "esZona": false
@@ -6506,24 +7727,79 @@
     "km": 64
    },
    {
+    "slug": "cieza",
+    "nombre": "Cieza",
+    "km": 68
+   },
+   {
     "slug": "cartagena",
     "nombre": "Cartagena",
     "km": 70
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 72
+   },
+   {
     "slug": "san-javier",
     "nombre": "San Javier",
     "km": 83
+   }
+  ],
+  "esZona": false
+ },
+ "lucena": {
+  "nombre": "Lucena",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Córdoba",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 80,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 44
    },
    {
-    "slug": "orihuela",
-    "nombre": "Orihuela",
-    "km": 84
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 59
    },
    {
-    "slug": "la-manga",
-    "nombre": "La Manga",
-    "km": 93
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 72
+   },
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 74
+   },
+   {
+    "slug": "velez-malaga",
+    "nombre": "Vélez-Málaga",
+    "km": 78
+   },
+   {
+    "slug": "rincon-de-la-victoria",
+    "nombre": "Rincón de la Victoria",
+    "km": 79
+   },
+   {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 80
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 83
    }
   ],
   "esZona": false
@@ -6617,6 +7893,61 @@
   ],
   "esZona": false
  },
+ "mairena-del-aljarafe": {
+  "nombre": "Mairena del Aljarafe",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Sevilla",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 5,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "sevilla",
+    "nombre": "Sevilla",
+    "km": 8
+   },
+   {
+    "slug": "dos-hermanas",
+    "nombre": "Dos Hermanas",
+    "km": 14
+   },
+   {
+    "slug": "alcala-de-guadaira",
+    "nombre": "Alcalá de Guadaíra",
+    "km": 19
+   },
+   {
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 31
+   },
+   {
+    "slug": "sanlucar-de-barrameda",
+    "nombre": "Sanlúcar de Barrameda",
+    "km": 68
+   },
+   {
+    "slug": "jerez-de-la-frontera",
+    "nombre": "Jerez de la Frontera",
+    "km": 74
+   },
+   {
+    "slug": "huelva",
+    "nombre": "Huelva",
+    "km": 79
+   },
+   {
+    "slug": "el-puerto-de-santa-maria",
+    "nombre": "El Puerto de Santa María",
+    "km": 84
+   }
+  ],
+  "esZona": false
+ },
  "majadahona": {
   "nombre": "Majadahonda",
   "tipo": "town",
@@ -6698,6 +8029,11 @@
     "km": 22
    },
    {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 30
+   },
+   {
     "slug": "fuengirola",
     "nombre": "Fuengirola",
     "km": 30
@@ -6716,11 +8052,6 @@
     "slug": "marbella",
     "nombre": "Marbella",
     "km": 43
-   },
-   {
-    "slug": "nerja",
-    "nombre": "Nerja",
-    "km": 50
    }
   ],
   "esZona": false
@@ -6739,6 +8070,61 @@
   "esZona": true,
   "puertosZona": []
  },
+ "manacor": {
+  "nombre": "Manacor",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 50,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "llucmajor",
+    "nombre": "Llucmajor",
+    "km": 29
+   },
+   {
+    "slug": "inca",
+    "nombre": "Inca",
+    "km": 31
+   },
+   {
+    "slug": "palma-de-mallorca",
+    "nombre": "Palma de Mallorca",
+    "km": 48
+   },
+   {
+    "slug": "calvia",
+    "nombre": "Calvià",
+    "km": 59
+   },
+   {
+    "slug": "mahon",
+    "nombre": "Mahón",
+    "km": 97
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 217
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 217
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 218
+   }
+  ],
+  "esZona": false
+ },
  "manresa": {
   "nombre": "Manresa",
   "tipo": "city",
@@ -6751,6 +8137,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 24
+   },
    {
     "slug": "terrassa",
     "nombre": "Terrassa",
@@ -6785,11 +8176,6 @@
     "slug": "granollers",
     "nombre": "Granollers",
     "km": 40
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 44
    }
   ],
   "esZona": false
@@ -6885,6 +8271,11 @@
     "km": 32
    },
    {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 42
+   },
+   {
     "slug": "malaga",
     "nombre": "Málaga",
     "km": 43
@@ -6893,11 +8284,6 @@
     "slug": "rincon-de-la-victoria",
     "nombre": "Rincón de la Victoria",
     "km": 52
-   },
-   {
-    "slug": "la-linea-de-la-concepcion",
-    "nombre": "La Línea de la Concepción",
-    "km": 62
    }
   ],
   "esZona": false
@@ -7025,6 +8411,16 @@
   },
   "cercanas": [
    {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 30
+   },
+   {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 42
+   },
+   {
     "slug": "badajoz",
     "nombre": "Badajoz",
     "km": 54
@@ -7033,6 +8429,11 @@
     "slug": "caceres",
     "nombre": "Cáceres",
     "km": 58
+   },
+   {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 122
    },
    {
     "slug": "talavera-de-la-reina",
@@ -7045,24 +8446,9 @@
     "km": 177
    },
    {
-    "slug": "cordoba",
-    "nombre": "Córdoba",
-    "km": 182
-   },
-   {
-    "slug": "alcala-de-guadaira",
-    "nombre": "Alcalá de Guadaíra",
-    "km": 185
-   },
-   {
-    "slug": "dos-hermanas",
-    "nombre": "Dos Hermanas",
-    "km": 189
-   },
-   {
-    "slug": "huelva",
-    "nombre": "Huelva",
-    "km": 196
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 181
    }
   ],
   "esZona": false
@@ -7121,6 +8507,61 @@
   ],
   "esZona": false
  },
+ "mieres": {
+  "nombre": "Mieres",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Asturias",
+  "comunidad": "Asturias",
+  "puerto": {
+   "nombre": "Gijón",
+   "km": 35,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 8
+   },
+   {
+    "slug": "oviedo",
+    "nombre": "Oviedo",
+    "km": 16
+   },
+   {
+    "slug": "siero",
+    "nombre": "Siero",
+    "km": 21
+   },
+   {
+    "slug": "gijon",
+    "nombre": "Gijón",
+    "km": 36
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 38
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 104
+   },
+   {
+    "slug": "torrelavega",
+    "nombre": "Torrelavega",
+    "km": 140
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 160
+   }
+  ],
+  "esZona": false
+ },
  "mijas": {
   "nombre": "Mijas",
   "tipo": "city",
@@ -7168,9 +8609,63 @@
     "km": 43
    },
    {
-    "slug": "velez-malaga",
-    "nombre": "Vélez-Málaga",
-    "km": 59
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 47
+   }
+  ],
+  "esZona": false
+ },
+ "miranda-de-ebro": {
+  "nombre": "Miranda de Ebro",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Castilla y León",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 75,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 32
+   },
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 50
+   },
+   {
+    "slug": "durango",
+    "nombre": "Durango",
+    "km": 61
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 62
+   },
+   {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "km": 65
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 68
+   },
+   {
+    "slug": "burgos",
+    "nombre": "Burgos",
+    "km": 69
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 71
    }
   ],
   "esZona": false
@@ -7194,6 +8689,60 @@
   ],
   "esZona": true,
   "puertosZona": []
+ },
+ "mislata": {
+  "nombre": "Mislata",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 4
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 6
+   },
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 7
+   },
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 26
+   },
+   {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 36
+   },
+   {
+    "slug": "cullera",
+    "nombre": "Cullera",
+    "km": 37
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 58
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 60
+   }
+  ],
+  "esZona": false
  },
  "mojacar": {
   "nombre": "Mojácar",
@@ -7238,14 +8787,14 @@
     "km": 95
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 106
+   },
+   {
     "slug": "murcia",
     "nombre": "Murcia",
     "km": 110
-   },
-   {
-    "slug": "la-manga",
-    "nombre": "La Manga",
-    "km": 115
    }
   ],
   "esZona": false
@@ -7273,6 +8822,16 @@
     "km": 26
    },
    {
+    "slug": "cieza",
+    "nombre": "Cieza",
+    "km": 27
+   },
+   {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 37
+   },
+   {
     "slug": "san-javier",
     "nombre": "San Javier",
     "km": 43
@@ -7291,16 +8850,6 @@
     "slug": "cartagena",
     "nombre": "Cartagena",
     "km": 53
-   },
-   {
-    "slug": "elda",
-    "nombre": "Elda",
-    "km": 59
-   },
-   {
-    "slug": "santa-pola",
-    "nombre": "Santa Pola",
-    "km": 59
    }
   ],
   "esZona": false
@@ -7545,6 +9094,11 @@
     "km": 20
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 21
+   },
+   {
     "slug": "san-javier",
     "nombre": "San Javier",
     "km": 28
@@ -7560,19 +9114,68 @@
     "km": 38
    },
    {
+    "slug": "cieza",
+    "nombre": "Cieza",
+    "km": 43
+   },
+   {
     "slug": "la-manga",
     "nombre": "La Manga",
     "km": 48
+   }
+  ],
+  "esZona": false
+ },
+ "naron": {
+  "nombre": "Narón",
+  "tipo": "municipality",
+  "pais": "es",
+  "comunidad": "Galicia",
+  "puerto": {
+   "nombre": "Ferrol",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "ferrol",
+    "nombre": "Ferrol",
+    "km": 9
    },
    {
-    "slug": "elche",
-    "nombre": "Elche",
-    "km": 52
+    "slug": "la-coruna",
+    "nombre": "La Coruña",
+    "km": 29
    },
    {
-    "slug": "santa-pola",
-    "nombre": "Santa Pola",
-    "km": 57
+    "slug": "compostela",
+    "nombre": "Santiago de Compostela",
+    "km": 75
+   },
+   {
+    "slug": "vilagarcia-de-arousa",
+    "nombre": "Vilagarcía de Arousa",
+    "km": 115
+   },
+   {
+    "slug": "pontevedra",
+    "nombre": "Pontevedra",
+    "km": 128
+   },
+   {
+    "slug": "vigo",
+    "nombre": "Vigo",
+    "km": 155
+   },
+   {
+    "slug": "ponferrada",
+    "nombre": "Ponferrada",
+    "km": 173
+   },
+   {
+    "slug": "aviles",
+    "nombre": "Avilés",
+    "km": 180
    }
   ],
   "esZona": false
@@ -7592,6 +9195,11 @@
     "slug": "pamplona",
     "nombre": "Pamplona",
     "km": 13
+   },
+   {
+    "slug": "tudela",
+    "nombre": "Tudela",
+    "km": 70
    }
   ],
   "esZona": true,
@@ -7741,6 +9349,16 @@
     "km": 30
    },
    {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 40
+   },
+   {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 40
+   },
+   {
     "slug": "elda",
     "nombre": "Elda",
     "km": 41
@@ -7759,16 +9377,6 @@
     "slug": "villajoyosa",
     "nombre": "Villajoyosa",
     "km": 48
-   },
-   {
-    "slug": "cullera",
-    "nombre": "Cullera",
-    "km": 49
-   },
-   {
-    "slug": "benidorm",
-    "nombre": "Benidorm",
-    "km": 52
    }
   ],
   "esZona": false
@@ -7821,6 +9429,11 @@
     "km": 26
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 27
+   },
+   {
     "slug": "elche",
     "nombre": "Elche",
     "km": 32
@@ -7833,11 +9446,6 @@
    {
     "slug": "cartagena",
     "nombre": "Cartagena",
-    "km": 46
-   },
-   {
-    "slug": "la-manga",
-    "nombre": "La Manga",
     "km": 46
    }
   ],
@@ -7875,6 +9483,11 @@
     "km": 37
    },
    {
+    "slug": "vinaros",
+    "nombre": "Vinaròs",
+    "km": 51
+   },
+   {
     "slug": "sagunto",
     "nombre": "Sagunto",
     "km": 58
@@ -7888,11 +9501,6 @@
     "slug": "paterna",
     "nombre": "Paterna",
     "km": 82
-   },
-   {
-    "slug": "cullera",
-    "nombre": "Cullera",
-    "km": 109
    }
   ],
   "esZona": false
@@ -7925,6 +9533,16 @@
   },
   "cercanas": [
    {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 16
+   },
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 16
+   },
+   {
     "slug": "siero",
     "nombre": "Siero",
     "km": 20
@@ -7953,16 +9571,6 @@
     "slug": "santander",
     "nombre": "Santander",
     "km": 168
-   },
-   {
-    "slug": "ferrol",
-    "nombre": "Ferrol",
-    "km": 193
-   },
-   {
-    "slug": "la-coruna",
-    "nombre": "La Coruña",
-    "km": 205
    }
   ],
   "esZona": false
@@ -7989,6 +9597,11 @@
     "km": 21
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 39
+   },
+   {
     "slug": "bilbao",
     "nombre": "Bilbao",
     "km": 43
@@ -7999,20 +9612,14 @@
     "km": 49
    },
    {
-    "slug": "guecho",
-    "nombre": "Guecho",
-    "km": 54
-   },
-   {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 59
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 52
    }
   ],
   "esZona": true,
   "puertosZona": [
-   "Bilbao",
-   "Pasaia"
+   "Bilbao"
   ]
  },
  "palencia": {
@@ -8030,6 +9637,61 @@
   "esZona": true,
   "puertosZona": []
  },
+ "palma-de-mallorca": {
+  "nombre": "Palma de Mallorca",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Islas Baleares",
+  "comunidad": "Islas Baleares",
+  "puerto": {
+   "nombre": "Palma",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "calvia",
+    "nombre": "Calvià",
+    "km": 12
+   },
+   {
+    "slug": "llucmajor",
+    "nombre": "Llucmajor",
+    "km": 22
+   },
+   {
+    "slug": "inca",
+    "nombre": "Inca",
+    "km": 28
+   },
+   {
+    "slug": "manacor",
+    "nombre": "Manacor",
+    "km": 48
+   },
+   {
+    "slug": "mahon",
+    "nombre": "Mahón",
+    "km": 143
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 199
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 200
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 201
+   }
+  ],
+  "esZona": false
+ },
  "pamplona": {
   "nombre": "Pamplona",
   "tipo": "city",
@@ -8041,6 +9703,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "errenteria",
+    "nombre": "Errenteria",
+    "km": 59
+   },
    {
     "slug": "irun",
     "nombre": "Irún",
@@ -8062,6 +9729,11 @@
     "km": 75
    },
    {
+    "slug": "tudela",
+    "nombre": "Tudela",
+    "km": 82
+   },
+   {
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 82
@@ -8070,16 +9742,6 @@
     "slug": "durango",
     "nombre": "Durango",
     "km": 89
-   },
-   {
-    "slug": "bilbao",
-    "nombre": "Bilbao",
-    "km": 116
-   },
-   {
-    "slug": "baracaldo",
-    "nombre": "Baracaldo",
-    "km": 121
    }
   ],
   "esZona": false
@@ -8204,14 +9866,29 @@
   },
   "cercanas": [
    {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 7
+   },
+   {
     "slug": "container-valencia",
     "nombre": "Valencia",
+    "km": 10
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
     "km": 10
    },
    {
     "slug": "sagunto",
     "nombre": "Sagunto",
     "km": 24
+   },
+   {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 42
    },
    {
     "slug": "cullera",
@@ -8227,21 +9904,6 @@
     "slug": "gandia",
     "nombre": "Gandía",
     "km": 67
-   },
-   {
-    "slug": "benicassim",
-    "nombre": "Benicàssim",
-    "km": 75
-   },
-   {
-    "slug": "ontinyent",
-    "nombre": "Ontinyent",
-    "km": 79
-   },
-   {
-    "slug": "oropesa-del-mar",
-    "nombre": "Oropesa del Mar",
-    "km": 82
    }
   ],
   "esZona": false
@@ -8257,6 +9919,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "vinaros",
+    "nombre": "Vinaròs",
+    "km": 14
+   },
    {
     "slug": "alcala-de-xivert",
     "nombre": "Alcalà de Xivert",
@@ -8283,19 +9950,14 @@
     "km": 95
    },
    {
-    "slug": "reus",
-    "nombre": "Reus",
-    "km": 107
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 97
    },
    {
-    "slug": "tarragona",
-    "nombre": "Tarragona",
-    "km": 111
-   },
-   {
-    "slug": "container-valencia",
-    "nombre": "Valencia",
-    "km": 119
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 101
    }
   ],
   "esZona": false
@@ -8350,6 +10012,61 @@
     "slug": "merlo",
     "nombre": "Merlo",
     "km": 189
+   }
+  ],
+  "esZona": false
+ },
+ "petrer": {
+  "nombre": "Petrer",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Alicante",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "villena",
+    "nombre": "Villena",
+    "km": 19
+   },
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 24
+   },
+   {
+    "slug": "elche",
+    "nombre": "Elche",
+    "km": 25
+   },
+   {
+    "slug": "alicante",
+    "nombre": "Alicante",
+    "km": 29
+   },
+   {
+    "slug": "yecla",
+    "nombre": "Yecla",
+    "km": 33
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 35
+   },
+   {
+    "slug": "santa-pola",
+    "nombre": "Santa Pola",
+    "km": 38
+   },
+   {
+    "slug": "ontinyent",
+    "nombre": "Ontinyent",
+    "km": 40
    }
   ],
   "esZona": false
@@ -8462,6 +10179,60 @@
   ],
   "esZona": false
  },
+ "plasencia": {
+  "nombre": "Plasencia",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Extremadura",
+  "puerto": {
+   "nombre": "Sevilla",
+   "km": 300,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "caceres",
+    "nombre": "Cáceres",
+    "km": 66
+   },
+   {
+    "slug": "talavera-de-la-reina",
+    "nombre": "Talavera de la Reina",
+    "km": 103
+   },
+   {
+    "slug": "salamanca",
+    "nombre": "Salamanca",
+    "km": 110
+   },
+   {
+    "slug": "don-benito",
+    "nombre": "Don Benito",
+    "km": 121
+   },
+   {
+    "slug": "merida",
+    "nombre": "Mérida",
+    "km": 122
+   },
+   {
+    "slug": "avila",
+    "nombre": "Ávila",
+    "km": 140
+   },
+   {
+    "slug": "badajoz",
+    "nombre": "Badajoz",
+    "km": 149
+   },
+   {
+    "slug": "almendralejo",
+    "nombre": "Almendralejo",
+    "km": 152
+   }
+  ],
+  "esZona": false
+ },
  "ponferrada": {
   "nombre": "Ponferrada",
   "tipo": "city",
@@ -8475,9 +10246,19 @@
   },
   "cercanas": [
    {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 104
+   },
+   {
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 110
+   },
+   {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 113
    },
    {
     "slug": "siero",
@@ -8503,16 +10284,6 @@
     "slug": "pontevedra",
     "nombre": "Pontevedra",
     "km": 167
-   },
-   {
-    "slug": "la-coruna",
-    "nombre": "La Coruña",
-    "km": 177
-   },
-   {
-    "slug": "ferrol",
-    "nombre": "Ferrol",
-    "km": 178
    }
   ],
   "esZona": false
@@ -8555,6 +10326,11 @@
     "km": 124
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 128
+   },
+   {
     "slug": "ponferrada",
     "nombre": "Ponferrada",
     "km": 167
@@ -8563,11 +10339,61 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 245
+   }
+  ],
+  "esZona": false
+ },
+ "portugalete": {
+  "nombre": "Portugalete",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 3
    },
    {
-    "slug": "aviles",
-    "nombre": "Avilés",
-    "km": 252
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 4
+   },
+   {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "km": 9
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 14
+   },
+   {
+    "slug": "castro-urdiales",
+    "nombre": "Castro Urdiales",
+    "km": 17
+   },
+   {
+    "slug": "durango",
+    "nombre": "Durango",
+    "km": 35
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 60
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 66
    }
   ],
   "esZona": false
@@ -8680,6 +10506,61 @@
   ],
   "esZona": false
  },
+ "puerto-de-la-cruz": {
+  "nombre": "Puerto de la Cruz",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Santa Cruz de Tenerife",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Santa Cruz de Tenerife",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "la-laguna",
+    "nombre": "La Laguna",
+    "km": 24
+   },
+   {
+    "slug": "santa-cruz-de-tenerife",
+    "nombre": "Santa Cruz de Tenerife",
+    "km": 30
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 33
+   },
+   {
+    "slug": "adeje",
+    "nombre": "Adeje",
+    "km": 36
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 42
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 114
+   },
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 114
+   },
+   {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
  "puerto-del-rosario": {
   "nombre": "Puerto del Rosario",
   "tipo": "town",
@@ -8708,6 +10589,11 @@
     "km": 162
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 177
+   },
+   {
     "slug": "san-bartolome-de-tirajana",
     "nombre": "San Bartolomé de Tirajana",
     "km": 184
@@ -8723,14 +10609,9 @@
     "km": 240
    },
    {
-    "slug": "contenedores-granadilla-de-abona",
-    "nombre": "Granadilla de Abona",
-    "km": 267
-   },
-   {
-    "slug": "arona",
-    "nombre": "Arona",
-    "km": 281
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 263
    }
   ],
   "esZona": false
@@ -8785,6 +10666,61 @@
     "slug": "tandil",
     "nombre": "Tandil",
     "km": 786
+   }
+  ],
+  "esZona": false
+ },
+ "puertollano": {
+  "nombre": "Puertollano",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Ciudad Real",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 220,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 72
+   },
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 78
+   },
+   {
+    "slug": "ubeda",
+    "nombre": "Úbeda",
+    "km": 99
+   },
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 105
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 106
+   },
+   {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 108
+   },
+   {
+    "slug": "toledo",
+    "nombre": "Toledo",
+    "km": 130
+   },
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 146
    }
   ],
   "esZona": false
@@ -9017,14 +10953,34 @@
   },
   "cercanas": [
    {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 9
+   },
+   {
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 10
+   },
+   {
     "slug": "tarragona",
     "nombre": "Tarragona",
     "km": 13
    },
    {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 36
+   },
+   {
     "slug": "villanueva-y-geltru",
     "nombre": "Vilanova i la Geltrú",
     "km": 52
+   },
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 63
    },
    {
     "slug": "lleida",
@@ -9035,26 +10991,6 @@
     "slug": "castelldefels",
     "nombre": "Castelldefels",
     "km": 75
-   },
-   {
-    "slug": "viladecans",
-    "nombre": "Viladecans",
-    "km": 78
-   },
-   {
-    "slug": "san-baudilio-de-llobregat",
-    "nombre": "Sant Boi de Llobregat",
-    "km": 81
-   },
-   {
-    "slug": "el-prat-de-llobregat",
-    "nombre": "el Prat de Llobregat",
-    "km": 85
-   },
-   {
-    "slug": "hospitalet-de-llobregat",
-    "nombre": "Hospitalet de Llobregat",
-    "km": 86
    }
   ],
   "esZona": false
@@ -9106,9 +11042,9 @@
     "km": 41
    },
    {
-    "slug": "almunecar",
-    "nombre": "Almuñécar",
-    "km": 50
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 42
    }
   ],
   "esZona": false
@@ -9305,6 +11241,60 @@
   ],
   "esZona": false
  },
+ "ronda": {
+  "nombre": "Ronda",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Málaga",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "estepona",
+    "nombre": "Estepona",
+    "km": 35
+   },
+   {
+    "slug": "marbella",
+    "nombre": "Marbella",
+    "km": 42
+   },
+   {
+    "slug": "mijas",
+    "nombre": "Mijas",
+    "km": 47
+   },
+   {
+    "slug": "fuengirola",
+    "nombre": "Fuengirola",
+    "km": 53
+   },
+   {
+    "slug": "benalmadena",
+    "nombre": "Benalmádena",
+    "km": 55
+   },
+   {
+    "slug": "torremolinos",
+    "nombre": "Torremolinos",
+    "km": 61
+   },
+   {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 62
+   },
+   {
+    "slug": "malaga",
+    "nombre": "Málaga",
+    "km": 65
+   }
+  ],
+  "esZona": false
+ },
  "roquetas-de-mar": {
   "nombre": "Roquetas de Mar",
   "tipo": "town",
@@ -9447,24 +11437,24 @@
     "km": 9
    },
    {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 13
+   },
+   {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 14
+   },
+   {
     "slug": "santa-coloma-de-gramenet",
     "nombre": "Santa Coloma de Gramenet",
     "km": 15
    },
    {
-    "slug": "hospitalet-de-llobregat",
-    "nombre": "Hospitalet de Llobregat",
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
     "km": 16
-   },
-   {
-    "slug": "mollet-del-valles",
-    "nombre": "Mollet del Vallès",
-    "km": 16
-   },
-   {
-    "slug": "barcelona",
-    "nombre": "Barcelona",
-    "km": 17
    }
   ],
   "esZona": false
@@ -9546,6 +11536,16 @@
     "km": 25
    },
    {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 26
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 31
+   },
+   {
     "slug": "villareal",
     "nombre": "Vila-real",
     "km": 32
@@ -9564,16 +11564,6 @@
     "slug": "oropesa-del-mar",
     "nombre": "Oropesa del Mar",
     "km": 58
-   },
-   {
-    "slug": "gandia",
-    "nombre": "Gandía",
-    "km": 80
-   },
-   {
-    "slug": "alcala-de-xivert",
-    "nombre": "Alcalà de Xivert",
-    "km": 82
    }
   ],
   "esZona": false
@@ -9600,6 +11590,11 @@
     "km": 107
    },
    {
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 110
+   },
+   {
     "slug": "segovia",
     "nombre": "Segovia",
     "km": 130
@@ -9623,11 +11618,60 @@
     "slug": "majadahona",
     "nombre": "Majadahonda",
     "km": 161
+   }
+  ],
+  "esZona": false
+ },
+ "salou": {
+  "nombre": "Salou",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Tarragona",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 7
    },
    {
-    "slug": "boadilla-del-monte",
-    "nombre": "Boadilla del Monte",
-    "km": 163
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 9
+   },
+   {
+    "slug": "tarragona",
+    "nombre": "Tarragona",
+    "km": 10
+   },
+   {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 36
+   },
+   {
+    "slug": "villanueva-y-geltru",
+    "nombre": "Vilanova i la Geltrú",
+    "km": 51
+   },
+   {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 68
+   },
+   {
+    "slug": "castelldefels",
+    "nombre": "Castelldefels",
+    "km": 74
+   },
+   {
+    "slug": "lleida",
+    "nombre": "Lérida",
+    "km": 74
    }
   ],
   "esZona": false
@@ -9659,6 +11703,11 @@
   },
   "cercanas": [
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 7
+   },
+   {
     "slug": "telde",
     "nombre": "Telde",
     "km": 24
@@ -9689,14 +11738,9 @@
     "km": 110
    },
    {
-    "slug": "adeje",
-    "nombre": "Adeje",
-    "km": 118
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 184
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 114
    }
   ],
   "esZona": false
@@ -9719,8 +11763,18 @@
     "km": 3
    },
    {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 4
+   },
+   {
     "slug": "el-prat-de-llobregat",
     "nombre": "el Prat de Llobregat",
+    "km": 4
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
     "km": 4
    },
    {
@@ -9729,29 +11783,19 @@
     "km": 6
    },
    {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 6
+   },
+   {
     "slug": "castelldefels",
     "nombre": "Castelldefels",
     "km": 7
    },
    {
-    "slug": "barcelona",
-    "nombre": "Barcelona",
-    "km": 12
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 17
-   },
-   {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 19
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 19
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 7
    }
   ],
   "esZona": false
@@ -9877,6 +11921,11 @@
   },
   "cercanas": [
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 12
+   },
+   {
     "slug": "la-manga",
     "nombre": "La Manga",
     "km": 21
@@ -9910,11 +11959,6 @@
     "slug": "santa-pola",
     "nombre": "Santa Pola",
     "km": 49
-   },
-   {
-    "slug": "elche",
-    "nombre": "Elche",
-    "km": 52
    }
   ],
   "esZona": false
@@ -10115,6 +12159,60 @@
   ],
   "esZona": false
  },
+ "san-sebastian-de-los-reyes": {
+  "nombre": "San Sebastián de los Reyes",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Comunidad de Madrid",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 305,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "tres-cantos",
+    "nombre": "Tres Cantos",
+    "km": 9
+   },
+   {
+    "slug": "coslada",
+    "nombre": "Coslada",
+    "km": 15
+   },
+   {
+    "slug": "colmenar-viejo",
+    "nombre": "Colmenar Viejo",
+    "km": 16
+   },
+   {
+    "slug": "madrid",
+    "nombre": "Madrid",
+    "km": 16
+   },
+   {
+    "slug": "torrejon-de-ardoz",
+    "nombre": "Torrejón de Ardoz",
+    "km": 16
+   },
+   {
+    "slug": "pozuelo-de-alarcon",
+    "nombre": "Pozuelo de Alarcón",
+    "km": 20
+   },
+   {
+    "slug": "las-rozas",
+    "nombre": "Las Rozas",
+    "km": 22
+   },
+   {
+    "slug": "majadahona",
+    "nombre": "Majadahonda",
+    "km": 22
+   }
+  ],
+  "esZona": false
+ },
  "san-sebastian": {
   "nombre": "San Sebastián",
   "tipo": "city",
@@ -10126,6 +12224,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "errenteria",
+    "nombre": "Errenteria",
+    "km": 7
+   },
    {
     "slug": "irun",
     "nombre": "Irún",
@@ -10142,6 +12245,11 @@
     "km": 62
    },
    {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 74
+   },
+   {
     "slug": "vitoria",
     "nombre": "Vitoria",
     "km": 76
@@ -10155,16 +12263,6 @@
     "slug": "baracaldo",
     "nombre": "Baracaldo",
     "km": 81
-   },
-   {
-    "slug": "guecho",
-    "nombre": "Guecho",
-    "km": 83
-   },
-   {
-    "slug": "castro-urdiales",
-    "nombre": "Castro Urdiales",
-    "km": 100
    }
   ],
   "esZona": false
@@ -10197,6 +12295,11 @@
     "km": 23
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 24
+   },
+   {
     "slug": "elda",
     "nombre": "Elda",
     "km": 25
@@ -10215,11 +12318,6 @@
     "slug": "benidorm",
     "nombre": "Benidorm",
     "km": 38
-   },
-   {
-    "slug": "villena",
-    "nombre": "Villena",
-    "km": 40
    }
   ],
   "esZona": false
@@ -10266,14 +12364,14 @@
     "km": 68
    },
    {
-    "slug": "utrera",
-    "nombre": "Utrera",
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
     "km": 68
    },
    {
-    "slug": "huelva",
-    "nombre": "Huelva",
-    "km": 75
+    "slug": "utrera",
+    "nombre": "Utrera",
+    "km": 68
    }
   ],
   "esZona": false
@@ -10306,9 +12404,19 @@
     "km": 9
    },
    {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 10
+   },
+   {
     "slug": "santa-coloma-de-gramenet",
     "nombre": "Santa Coloma de Gramenet",
     "km": 10
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 11
    },
    {
     "slug": "barcelona",
@@ -10319,16 +12427,61 @@
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 12
+   }
+  ],
+  "esZona": false
+ },
+ "sant-feliu-de-llobregat": {
+  "nombre": "Sant Feliu de Llobregat",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 4
    },
    {
-    "slug": "terrassa",
-    "nombre": "Terrassa",
-    "km": 12
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 4
    },
    {
-    "slug": "mollet-del-valles",
-    "nombre": "Mollet del Vallès",
-    "km": 13
+    "slug": "hospitalet-de-llobregat",
+    "nombre": "Hospitalet de Llobregat",
+    "km": 5
+   },
+   {
+    "slug": "san-baudilio-de-llobregat",
+    "nombre": "Sant Boi de Llobregat",
+    "km": 6
+   },
+   {
+    "slug": "el-prat-de-llobregat",
+    "nombre": "el Prat de Llobregat",
+    "km": 7
+   },
+   {
+    "slug": "viladecans",
+    "nombre": "Viladecans",
+    "km": 8
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 9
+   },
+   {
+    "slug": "barcelona",
+    "nombre": "Barcelona",
+    "km": 11
    }
   ],
   "esZona": false
@@ -10371,6 +12524,11 @@
     "km": 10
    },
    {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 13
+   },
+   {
     "slug": "sabadell",
     "nombre": "Sabadell",
     "km": 13
@@ -10379,11 +12537,6 @@
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 14
-   },
-   {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 15
    }
   ],
   "esZona": false
@@ -10404,6 +12557,11 @@
     "slug": "la-laguna",
     "nombre": "La Laguna",
     "km": 7
+   },
+   {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 30
    },
    {
     "slug": "contenedores-granadilla-de-abona",
@@ -10431,14 +12589,9 @@
     "km": 95
    },
    {
-    "slug": "telde",
-    "nombre": "Telde",
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
     "km": 97
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 234
    }
   ],
   "esZona": false
@@ -10489,6 +12642,61 @@
    "Rosario"
   ]
  },
+ "santa-lucia-de-tirajana": {
+  "nombre": "Santa Lucía de Tirajana",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Las Palmas",
+  "comunidad": "Canarias",
+  "puerto": {
+   "nombre": "Las Palmas",
+   "km": 30,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-bartolome-de-tirajana",
+    "nombre": "San Bartolomé de Tirajana",
+    "km": 7
+   },
+   {
+    "slug": "telde",
+    "nombre": "Telde",
+    "km": 17
+   },
+   {
+    "slug": "las-palmas",
+    "nombre": "Las Palmas de Gran Canaria",
+    "km": 29
+   },
+   {
+    "slug": "santa-cruz-de-tenerife",
+    "nombre": "Santa Cruz de Tenerife",
+    "km": 97
+   },
+   {
+    "slug": "la-laguna",
+    "nombre": "La Laguna",
+    "km": 103
+   },
+   {
+    "slug": "contenedores-granadilla-de-abona",
+    "nombre": "Granadilla de Abona",
+    "km": 105
+   },
+   {
+    "slug": "arona",
+    "nombre": "Arona",
+    "km": 116
+   },
+   {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 118
+   }
+  ],
+  "esZona": false
+ },
  "santa-pola": {
   "nombre": "Santa Pola",
   "tipo": "town",
@@ -10532,14 +12740,14 @@
     "km": 38
    },
    {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 38
+   },
+   {
     "slug": "villajoyosa",
     "nombre": "Villajoyosa",
     "km": 45
-   },
-   {
-    "slug": "san-javier",
-    "nombre": "San Javier",
-    "km": 49
    }
   ],
   "esZona": false
@@ -10566,8 +12774,18 @@
     "km": 49
    },
    {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 65
+   },
+   {
     "slug": "guecho",
     "nombre": "Guecho",
+    "km": 66
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
     "km": 66
    },
    {
@@ -10581,19 +12799,9 @@
     "km": 74
    },
    {
-    "slug": "durango",
-    "nombre": "Durango",
-    "km": 101
-   },
-   {
-    "slug": "vitoria",
-    "nombre": "Vitoria",
-    "km": 115
-   },
-   {
-    "slug": "burgos",
-    "nombre": "Burgos",
-    "km": 125
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 78
    }
   ],
   "esZona": false
@@ -10630,6 +12838,11 @@
     "km": 70
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 75
+   },
+   {
     "slug": "vigo",
     "nombre": "Vigo",
     "km": 81
@@ -10643,11 +12856,6 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 220
-   },
-   {
-    "slug": "aviles",
-    "nombre": "Avilés",
-    "km": 222
    }
   ],
   "esZona": false
@@ -10665,6 +12873,61 @@
   "cercanas": [],
   "esZona": true,
   "puertosZona": []
+ },
+ "santurtzi": {
+  "nombre": "Santurtzi",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Vizcaya",
+  "comunidad": "País Vasco",
+  "puerto": {
+   "nombre": "Bilbao",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "guecho",
+    "nombre": "Guecho",
+    "km": 3
+   },
+   {
+    "slug": "baracaldo",
+    "nombre": "Baracaldo",
+    "km": 5
+   },
+   {
+    "slug": "bilbao",
+    "nombre": "Bilbao",
+    "km": 11
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 15
+   },
+   {
+    "slug": "castro-urdiales",
+    "nombre": "Castro Urdiales",
+    "km": 16
+   },
+   {
+    "slug": "durango",
+    "nombre": "Durango",
+    "km": 37
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 61
+   },
+   {
+    "slug": "santander",
+    "nombre": "Santander",
+    "km": 65
+   }
+  ],
+  "esZona": false
  },
  "sardanola-del-valles": {
   "nombre": "Cerdanyola del Vallès",
@@ -10714,8 +12977,8 @@
     "km": 12
    },
    {
-    "slug": "terrassa",
-    "nombre": "Terrassa",
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
     "km": 13
    }
   ],
@@ -10768,9 +13031,9 @@
     "km": 61
    },
    {
-    "slug": "pozuelo-de-alarcon",
-    "nombre": "Pozuelo de Alarcón",
-    "km": 63
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 61
    }
   ],
   "esZona": false
@@ -10787,6 +13050,11 @@
    "mar": false
   },
   "cercanas": [
+   {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 8
+   },
    {
     "slug": "dos-hermanas",
     "nombre": "Dos Hermanas",
@@ -10821,11 +13089,6 @@
     "slug": "el-puerto-de-santa-maria",
     "nombre": "El Puerto de Santa María",
     "km": 90
-   },
-   {
-    "slug": "cadiz",
-    "nombre": "Cádiz",
-    "km": 99
    }
   ],
   "esZona": false
@@ -10843,6 +13106,11 @@
   },
   "cercanas": [
    {
+    "slug": "langreo",
+    "nombre": "Langreo",
+    "km": 13
+   },
+   {
     "slug": "gijon",
     "nombre": "Gijón",
     "km": 17
@@ -10851,6 +13119,11 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 20
+   },
+   {
+    "slug": "mieres",
+    "nombre": "Mieres",
+    "km": 21
    },
    {
     "slug": "aviles",
@@ -10871,16 +13144,6 @@
     "slug": "santander",
     "nombre": "Santander",
     "km": 148
-   },
-   {
-    "slug": "castro-urdiales",
-    "nombre": "Castro Urdiales",
-    "km": 195
-   },
-   {
-    "slug": "burgos",
-    "nombre": "Burgos",
-    "km": 197
    }
   ],
   "esZona": false
@@ -10946,9 +13209,9 @@
     "km": 100
    },
    {
-    "slug": "leganes",
-    "nombre": "Leganés",
-    "km": 104
+    "slug": "plasencia",
+    "nombre": "Plasencia",
+    "km": 103
    }
   ],
   "esZona": false
@@ -11019,9 +13282,24 @@
   },
   "cercanas": [
    {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 10
+   },
+   {
     "slug": "reus",
     "nombre": "Reus",
     "km": 13
+   },
+   {
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 17
+   },
+   {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 26
    },
    {
     "slug": "villanueva-y-geltru",
@@ -11029,34 +13307,19 @@
     "km": 41
    },
    {
+    "slug": "igualada",
+    "nombre": "Igualada",
+    "km": 60
+   },
+   {
     "slug": "castelldefels",
     "nombre": "Castelldefels",
     "km": 64
    },
    {
-    "slug": "viladecans",
-    "nombre": "Viladecans",
-    "km": 67
-   },
-   {
-    "slug": "san-baudilio-de-llobregat",
-    "nombre": "Sant Boi de Llobregat",
-    "km": 70
-   },
-   {
-    "slug": "el-prat-de-llobregat",
-    "nombre": "el Prat de Llobregat",
-    "km": 74
-   },
-   {
-    "slug": "hospitalet-de-llobregat",
-    "nombre": "Hospitalet de Llobregat",
-    "km": 76
-   },
-   {
-    "slug": "lleida",
-    "nombre": "Lérida",
-    "km": 76
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 66
    }
   ],
   "esZona": false
@@ -11079,6 +13342,11 @@
     "km": 15
    },
    {
+    "slug": "santa-lucia-de-tirajana",
+    "nombre": "Santa Lucía de Tirajana",
+    "km": 17
+   },
+   {
     "slug": "san-bartolome-de-tirajana",
     "nombre": "San Bartolomé de Tirajana",
     "km": 24
@@ -11099,19 +13367,14 @@
     "km": 113
    },
    {
+    "slug": "puerto-de-la-cruz",
+    "nombre": "Puerto de la Cruz",
+    "km": 121
+   },
+   {
     "slug": "arona",
     "nombre": "Arona",
     "km": 125
-   },
-   {
-    "slug": "adeje",
-    "nombre": "Adeje",
-    "km": 131
-   },
-   {
-    "slug": "puerto-del-rosario",
-    "nombre": "Puerto del Rosario",
-    "km": 162
    }
   ],
   "esZona": false
@@ -11168,19 +13431,19 @@
     "km": 17
    },
    {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 20
+   },
+   {
     "slug": "santa-coloma-de-gramenet",
     "nombre": "Santa Coloma de Gramenet",
     "km": 21
    },
    {
-    "slug": "badalona",
-    "nombre": "Badalona",
-    "km": 24
-   },
-   {
-    "slug": "barcelona",
-    "nombre": "Barcelona",
-    "km": 24
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 22
    }
   ],
   "esZona": false
@@ -11334,6 +13597,116 @@
   ],
   "esZona": false
  },
+ "tomelloso": {
+  "nombre": "Tomelloso",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Ciudad Real",
+  "comunidad": "Castilla-La Mancha",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 235,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "albacete",
+    "nombre": "Albacete",
+    "km": 102
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 108
+   },
+   {
+    "slug": "aranjuez",
+    "nombre": "Aranjuez",
+    "km": 109
+   },
+   {
+    "slug": "toledo",
+    "nombre": "Toledo",
+    "km": 116
+   },
+   {
+    "slug": "cuenca",
+    "nombre": "Cuenca",
+    "km": 126
+   },
+   {
+    "slug": "valdemoro",
+    "nombre": "Valdemoro",
+    "km": 127
+   },
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 131
+   },
+   {
+    "slug": "ubeda",
+    "nombre": "Úbeda",
+    "km": 131
+   }
+  ],
+  "esZona": false
+ },
+ "torre-pacheco": {
+  "nombre": "Torre-Pacheco",
+  "tipo": "city",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Cartagena",
+   "km": 25,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "san-javier",
+    "nombre": "San Javier",
+    "km": 12
+   },
+   {
+    "slug": "cartagena",
+    "nombre": "Cartagena",
+    "km": 19
+   },
+   {
+    "slug": "murcia",
+    "nombre": "Murcia",
+    "km": 21
+   },
+   {
+    "slug": "la-manga",
+    "nombre": "La Manga",
+    "km": 27
+   },
+   {
+    "slug": "orihuela",
+    "nombre": "Orihuela",
+    "km": 27
+   },
+   {
+    "slug": "torrevieja",
+    "nombre": "Torrevieja",
+    "km": 33
+   },
+   {
+    "slug": "molina-de-segura",
+    "nombre": "Molina de Segura",
+    "km": 37
+   },
+   {
+    "slug": "elche",
+    "nombre": "Elche",
+    "km": 58
+   }
+  ],
+  "esZona": false
+ },
  "torrejon-de-ardoz": {
   "nombre": "Torrejón de Ardoz",
   "tipo": "city",
@@ -11366,6 +13739,11 @@
     "km": 16
    },
    {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 16
+   },
+   {
     "slug": "arganda-del-rey",
     "nombre": "Arganda del Rey",
     "km": 18
@@ -11379,11 +13757,6 @@
     "slug": "tres-cantos",
     "nombre": "Tres Cantos",
     "km": 25
-   },
-   {
-    "slug": "getafe",
-    "nombre": "Getafe",
-    "km": 27
    }
   ],
   "esZona": false
@@ -11410,8 +13783,18 @@
     "km": 68
    },
    {
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 82
+   },
+   {
     "slug": "guecho",
     "nombre": "Guecho",
+    "km": 84
+   },
+   {
+    "slug": "portugalete",
+    "nombre": "Portugalete",
     "km": 84
    },
    {
@@ -11425,19 +13808,9 @@
     "km": 91
    },
    {
-    "slug": "burgos",
-    "nombre": "Burgos",
-    "km": 116
-   },
-   {
-    "slug": "durango",
-    "nombre": "Durango",
-    "km": 117
-   },
-   {
-    "slug": "vitoria",
-    "nombre": "Vitoria",
-    "km": 126
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 95
    }
   ],
   "esZona": false
@@ -11489,9 +13862,63 @@
     "km": 40
    },
    {
-    "slug": "nerja",
-    "nombre": "Nerja",
-    "km": 57
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 44
+   }
+  ],
+  "esZona": false
+ },
+ "torrent": {
+  "nombre": "Torrent",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Valencia",
+   "km": 15,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 6
+   },
+   {
+    "slug": "container-valencia",
+    "nombre": "Valencia",
+    "km": 9
+   },
+   {
+    "slug": "paterna",
+    "nombre": "Paterna",
+    "km": 10
+   },
+   {
+    "slug": "sagunto",
+    "nombre": "Sagunto",
+    "km": 31
+   },
+   {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 32
+   },
+   {
+    "slug": "cullera",
+    "nombre": "Cullera",
+    "km": 35
+   },
+   {
+    "slug": "gandia",
+    "nombre": "Gandía",
+    "km": 58
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 64
    }
   ],
   "esZona": false
@@ -11529,6 +13956,11 @@
     "km": 32
    },
    {
+    "slug": "torre-pacheco",
+    "nombre": "Torre-Pacheco",
+    "km": 33
+   },
+   {
     "slug": "la-manga",
     "nombre": "La Manga",
     "km": 38
@@ -11542,11 +13974,6 @@
     "slug": "alicante",
     "nombre": "Alicante",
     "km": 44
-   },
-   {
-    "slug": "molina-de-segura",
-    "nombre": "Molina de Segura",
-    "km": 47
    }
   ],
   "esZona": false
@@ -11627,6 +14054,11 @@
     "km": 9
    },
    {
+    "slug": "san-sebastian-de-los-reyes",
+    "nombre": "San Sebastián de los Reyes",
+    "km": 9
+   },
+   {
     "slug": "las-rozas",
     "nombre": "Las Rozas",
     "km": 19
@@ -11650,11 +14082,6 @@
     "slug": "coslada",
     "nombre": "Coslada",
     "km": 23
-   },
-   {
-    "slug": "collado-villalba",
-    "nombre": "Collado Villalba",
-    "km": 24
    }
   ],
   "esZona": false
@@ -11709,6 +14136,115 @@
     "slug": "villa-mercedes",
     "nombre": "Villa Mercedes",
     "km": 763
+   }
+  ],
+  "esZona": false
+ },
+ "tudela": {
+  "nombre": "Tudela",
+  "tipo": "city",
+  "pais": "es",
+  "comunidad": "Navarra",
+  "puerto": {
+   "nombre": "Pasaia",
+   "km": 140,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "calahorra",
+    "nombre": "Calahorra",
+    "km": 37
+   },
+   {
+    "slug": "zaragoza",
+    "nombre": "Zaragoza",
+    "km": 74
+   },
+   {
+    "slug": "logrono",
+    "nombre": "Logroño",
+    "km": 79
+   },
+   {
+    "slug": "pamplona",
+    "nombre": "Pamplona",
+    "km": 82
+   },
+   {
+    "slug": "vitoria",
+    "nombre": "Vitoria",
+    "km": 120
+   },
+   {
+    "slug": "miranda-de-ebro",
+    "nombre": "Miranda de Ebro",
+    "km": 129
+   },
+   {
+    "slug": "errenteria",
+    "nombre": "Errenteria",
+    "km": 139
+   },
+   {
+    "slug": "irun",
+    "nombre": "Irún",
+    "km": 141
+   }
+  ],
+  "esZona": false
+ },
+ "ubeda": {
+  "nombre": "Úbeda",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Jaén",
+  "comunidad": "Andalucía",
+  "puerto": {
+   "nombre": "Motril",
+   "km": 145,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "linares",
+    "nombre": "Linares",
+    "km": 25
+   },
+   {
+    "slug": "jaen",
+    "nombre": "Jaén",
+    "km": 45
+   },
+   {
+    "slug": "andujar",
+    "nombre": "Andújar",
+    "km": 60
+   },
+   {
+    "slug": "granada",
+    "nombre": "Granada",
+    "km": 95
+   },
+   {
+    "slug": "puertollano",
+    "nombre": "Puertollano",
+    "km": 99
+   },
+   {
+    "slug": "lucena",
+    "nombre": "Lucena",
+    "km": 119
+   },
+   {
+    "slug": "cordoba",
+    "nombre": "Córdoba",
+    "km": 124
+   },
+   {
+    "slug": "tomelloso",
+    "nombre": "Tomelloso",
+    "km": 131
    }
   ],
   "esZona": false
@@ -11795,6 +14331,11 @@
     "km": 30
    },
    {
+    "slug": "mairena-del-aljarafe",
+    "nombre": "Mairena del Aljarafe",
+    "km": 31
+   },
+   {
     "slug": "jerez-de-la-frontera",
     "nombre": "Jerez de la Frontera",
     "km": 64
@@ -11805,19 +14346,14 @@
     "km": 68
    },
    {
+    "slug": "ronda",
+    "nombre": "Ronda",
+    "km": 73
+   },
+   {
     "slug": "el-puerto-de-santa-maria",
     "nombre": "El Puerto de Santa María",
     "km": 76
-   },
-   {
-    "slug": "cadiz",
-    "nombre": "Cádiz",
-    "km": 86
-   },
-   {
-    "slug": "san-fernando",
-    "nombre": "San Fernando",
-    "km": 88
    }
   ],
   "esZona": false
@@ -11888,6 +14424,16 @@
   },
   "cercanas": [
    {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 4
+   },
+   {
+    "slug": "torrent",
+    "nombre": "Torrent",
+    "km": 9
+   },
+   {
     "slug": "paterna",
     "nombre": "Paterna",
     "km": 10
@@ -11896,6 +14442,11 @@
     "slug": "sagunto",
     "nombre": "Sagunto",
     "km": 25
+   },
+   {
+    "slug": "alzira",
+    "nombre": "Alzira",
+    "km": 36
    },
    {
     "slug": "cullera",
@@ -11911,21 +14462,6 @@
     "slug": "gandia",
     "nombre": "Gandía",
     "km": 58
-   },
-   {
-    "slug": "benicassim",
-    "nombre": "Benicàssim",
-    "km": 75
-   },
-   {
-    "slug": "ontinyent",
-    "nombre": "Ontinyent",
-    "km": 75
-   },
-   {
-    "slug": "denia",
-    "nombre": "Dénia",
-    "km": 81
    }
   ],
   "esZona": false
@@ -11941,6 +14477,11 @@
    "mar": true
   },
   "cercanas": [
+   {
+    "slug": "aranda-de-duero",
+    "nombre": "Aranda de Duero",
+    "km": 87
+   },
    {
     "slug": "segovia",
     "nombre": "Segovia",
@@ -11975,11 +14516,6 @@
     "slug": "tres-cantos",
     "nombre": "Tres Cantos",
     "km": 142
-   },
-   {
-    "slug": "las-rozas",
-    "nombre": "Las Rozas",
-    "km": 144
    }
   ],
   "esZona": false
@@ -12026,14 +14562,14 @@
     "km": 47
    },
    {
+    "slug": "antequera",
+    "nombre": "Antequera",
+    "km": 49
+   },
+   {
     "slug": "motril",
     "nombre": "Motril",
     "km": 52
-   },
-   {
-    "slug": "fuengirola",
-    "nombre": "Fuengirola",
-    "km": 54
    }
   ],
   "esZona": false
@@ -12088,6 +14624,61 @@
     "slug": "campana",
     "nombre": "Campana",
     "km": 281
+   }
+  ],
+  "esZona": false
+ },
+ "vic": {
+  "nombre": "Vic",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Barcelona",
+  "comunidad": "Cataluña",
+  "puerto": {
+   "nombre": "Barcelona",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "granollers",
+    "nombre": "Granollers",
+    "km": 36
+   },
+   {
+    "slug": "manresa",
+    "nombre": "Manresa",
+    "km": 42
+   },
+   {
+    "slug": "mollet-del-valles",
+    "nombre": "Mollet del Vallès",
+    "km": 44
+   },
+   {
+    "slug": "sabadell",
+    "nombre": "Sabadell",
+    "km": 44
+   },
+   {
+    "slug": "mataro",
+    "nombre": "Mataró",
+    "km": 46
+   },
+   {
+    "slug": "terrassa",
+    "nombre": "Terrassa",
+    "km": 46
+   },
+   {
+    "slug": "gerona",
+    "nombre": "Gerona",
+    "km": 47
+   },
+   {
+    "slug": "sardanola-del-valles",
+    "nombre": "Cerdanyola del Vallès",
+    "km": 50
    }
   ],
   "esZona": false
@@ -12184,6 +14775,11 @@
     "km": 151
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 155
+   },
+   {
     "slug": "ponferrada",
     "nombre": "Ponferrada",
     "km": 181
@@ -12192,11 +14788,6 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 266
-   },
-   {
-    "slug": "aviles",
-    "nombre": "Avilés",
-    "km": 274
    }
   ],
   "esZona": false
@@ -12224,9 +14815,24 @@
     "km": 4
    },
    {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 6
+   },
+   {
     "slug": "el-prat-de-llobregat",
     "nombre": "el Prat de Llobregat",
     "km": 7
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 8
+   },
+   {
+    "slug": "esplugues-de-llobregat",
+    "nombre": "Esplugues de Llobregat",
+    "km": 9
    },
    {
     "slug": "hospitalet-de-llobregat",
@@ -12237,21 +14843,6 @@
     "slug": "barcelona",
     "nombre": "Barcelona",
     "km": 15
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 18
-   },
-   {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 20
-   },
-   {
-    "slug": "santa-coloma-de-gramenet",
-    "nombre": "Santa Coloma de Gramenet",
-    "km": 22
    }
   ],
   "esZona": false
@@ -12294,6 +14885,11 @@
     "km": 109
    },
    {
+    "slug": "naron",
+    "nombre": "Narón",
+    "km": 115
+   },
+   {
     "slug": "ponferrada",
     "nombre": "Ponferrada",
     "km": 179
@@ -12302,11 +14898,6 @@
     "slug": "oviedo",
     "nombre": "Oviedo",
     "km": 248
-   },
-   {
-    "slug": "aviles",
-    "nombre": "Avilés",
-    "km": 253
    }
   ],
   "esZona": false
@@ -12487,9 +15078,19 @@
   },
   "cercanas": [
    {
+    "slug": "el-vendrell",
+    "nombre": "El Vendrell",
+    "km": 16
+   },
+   {
     "slug": "castelldefels",
     "nombre": "Castelldefels",
     "km": 23
+   },
+   {
+    "slug": "gava",
+    "nombre": "Gavà",
+    "km": 25
    },
    {
     "slug": "viladecans",
@@ -12502,29 +15103,19 @@
     "km": 29
    },
    {
+    "slug": "cornella-de-llobregat",
+    "nombre": "Cornellà de Llobregat",
+    "km": 32
+   },
+   {
+    "slug": "sant-feliu-de-llobregat",
+    "nombre": "Sant Feliu de Llobregat",
+    "km": 32
+   },
+   {
     "slug": "el-prat-de-llobregat",
     "nombre": "el Prat de Llobregat",
     "km": 33
-   },
-   {
-    "slug": "hospitalet-de-llobregat",
-    "nombre": "Hospitalet de Llobregat",
-    "km": 35
-   },
-   {
-    "slug": "rubi",
-    "nombre": "Rubí",
-    "km": 39
-   },
-   {
-    "slug": "sant-cugat-del-valles",
-    "nombre": "Sant Cugat del Vallès",
-    "km": 41
-   },
-   {
-    "slug": "tarragona",
-    "nombre": "Tarragona",
-    "km": 41
    }
   ],
   "esZona": false
@@ -12571,14 +15162,14 @@
     "km": 57
    },
    {
+    "slug": "mislata",
+    "nombre": "Mislata",
+    "km": 58
+   },
+   {
     "slug": "peniscola",
     "nombre": "Peñíscola",
     "km": 64
-   },
-   {
-    "slug": "cullera",
-    "nombre": "Cullera",
-    "km": 87
    }
   ],
   "esZona": false
@@ -12599,6 +15190,16 @@
     "slug": "elda",
     "nombre": "Elda",
     "km": 19
+   },
+   {
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 19
+   },
+   {
+    "slug": "yecla",
+    "nombre": "Yecla",
+    "km": 22
    },
    {
     "slug": "ontinyent",
@@ -12624,16 +15225,60 @@
     "slug": "alicante",
     "nombre": "Alicante",
     "km": 46
+   }
+  ],
+  "esZona": false
+ },
+ "vinaros": {
+  "nombre": "Vinaròs",
+  "tipo": "town",
+  "pais": "es",
+  "comunidad": "Comunidad Valenciana",
+  "puerto": {
+   "nombre": "Castellón",
+   "km": 70,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "peniscola",
+    "nombre": "Peñíscola",
+    "km": 14
    },
    {
-    "slug": "santa-pola",
-    "nombre": "Santa Pola",
-    "km": 56
+    "slug": "alcala-de-xivert",
+    "nombre": "Alcalà de Xivert",
+    "km": 28
    },
    {
-    "slug": "villajoyosa",
-    "nombre": "Villajoyosa",
-    "km": 57
+    "slug": "oropesa-del-mar",
+    "nombre": "Oropesa del Mar",
+    "km": 51
+   },
+   {
+    "slug": "benicassim",
+    "nombre": "Benicàssim",
+    "km": 58
+   },
+   {
+    "slug": "villareal",
+    "nombre": "Vila-real",
+    "km": 77
+   },
+   {
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 83
+   },
+   {
+    "slug": "salou",
+    "nombre": "Salou",
+    "km": 88
+   },
+   {
+    "slug": "reus",
+    "nombre": "Reus",
+    "km": 93
    }
   ],
   "esZona": false
@@ -12650,6 +15295,11 @@
   },
   "cercanas": [
    {
+    "slug": "miranda-de-ebro",
+    "nombre": "Miranda de Ebro",
+    "km": 32
+   },
+   {
     "slug": "durango",
     "nombre": "Durango",
     "km": 36
@@ -12658,6 +15308,11 @@
     "slug": "logrono",
     "nombre": "Logroño",
     "km": 46
+   },
+   {
+    "slug": "basauri",
+    "nombre": "Basauri",
+    "km": 47
    },
    {
     "slug": "bilbao",
@@ -12670,24 +15325,69 @@
     "km": 56
    },
    {
-    "slug": "guecho",
-    "nombre": "Guecho",
-    "km": 62
+    "slug": "portugalete",
+    "nombre": "Portugalete",
+    "km": 60
    },
    {
-    "slug": "castro-urdiales",
-    "nombre": "Castro Urdiales",
-    "km": 75
+    "slug": "santurtzi",
+    "nombre": "Santurtzi",
+    "km": 61
+   }
+  ],
+  "esZona": false
+ },
+ "yecla": {
+  "nombre": "Yecla",
+  "tipo": "town",
+  "pais": "es",
+  "provincia": "Región de Murcia",
+  "comunidad": "Región de Murcia",
+  "puerto": {
+   "nombre": "Alicante",
+   "km": 65,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "villena",
+    "nombre": "Villena",
+    "km": 22
    },
    {
-    "slug": "san-sebastian",
-    "nombre": "San Sebastián",
-    "km": 76
+    "slug": "elda",
+    "nombre": "Elda",
+    "km": 32
    },
    {
-    "slug": "pamplona",
-    "nombre": "Pamplona",
-    "km": 82
+    "slug": "petrer",
+    "nombre": "Petrer",
+    "km": 33
+   },
+   {
+    "slug": "cieza",
+    "nombre": "Cieza",
+    "km": 49
+   },
+   {
+    "slug": "ontinyent",
+    "nombre": "Ontinyent",
+    "km": 50
+   },
+   {
+    "slug": "elche",
+    "nombre": "Elche",
+    "km": 53
+   },
+   {
+    "slug": "contenedores-alcoy",
+    "nombre": "Alcoy",
+    "km": 56
+   },
+   {
+    "slug": "san-vicente-del-raspeig",
+    "nombre": "San Vicente del Raspeig",
+    "km": 57
    }
   ],
   "esZona": false
@@ -12719,6 +15419,11 @@
   },
   "cercanas": [
    {
+    "slug": "tudela",
+    "nombre": "Tudela",
+    "km": 74
+   },
+   {
     "slug": "calahorra",
     "nombre": "Calahorra",
     "km": 111
@@ -12744,19 +15449,14 @@
     "km": 178
    },
    {
-    "slug": "alcala-de-xivert",
-    "nombre": "Alcalà de Xivert",
-    "km": 181
+    "slug": "cambrils",
+    "nombre": "Cambrils",
+    "km": 179
    },
    {
-    "slug": "peniscola",
-    "nombre": "Peñíscola",
-    "km": 185
-   },
-   {
-    "slug": "tarragona",
-    "nombre": "Tarragona",
-    "km": 192
+    "slug": "vinaros",
+    "nombre": "Vinaròs",
+    "km": 179
    }
   ],
   "esZona": false

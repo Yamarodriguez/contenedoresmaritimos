@@ -63,7 +63,7 @@ for (const p of paginas) {
   cache[p.slug] = j[0] ? { busqueda: nombre, pais, lat: +j[0].lat, lon: +j[0].lon, tipo: j[0].addresstype, nombre: j[0].name, direccion: j[0].address } : { busqueda: nombre, pais, error: 'sin resultado' };
   console.log(p.slug, '→', cache[p.slug].nombre ?? 'SIN RESULTADO', cache[p.slug].tipo ?? '');
   fs.writeFileSync(CACHE, JSON.stringify(cache, null, 1) + '\n');
-  await pausa(1200);
+  await pausa(2000);
 }
 
 // Datos finales por página.

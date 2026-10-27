@@ -1,5 +1,5 @@
 {
- "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2). Tercera tanda (27-10-2026): 11 provincias de Argentina, en /ar/ ('ruta' = dirección dentro de /ar/ cuando el slug choca con una página de España). Cuarta tanda (27-10-2026): 33 ciudades de Argentina en /ar/. No se crean Córdoba capital, Corrientes ni Santiago del Estero ciudad: se llaman igual que su provincia (ya con página) y competirían con ella.",
+ "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2). Tercera tanda (27-10-2026): 11 provincias de Argentina, en /ar/ ('ruta' = dirección dentro de /ar/ cuando el slug choca con una página de España). Cuarta tanda (27-10-2026): 33 ciudades de Argentina en /ar/. No se crean Córdoba capital, Corrientes ni Santiago del Estero ciudad: se llaman igual que su provincia (ya con página) y competirían con ella. Quinta tanda (27-10-2026): 48 ciudades de España de más de unos 30.000 habitantes que aún no tenían página (sin búsquedas propias en Search Console: cobertura).",
  "ubicaciones": [
   {
    "slug": "javea",
@@ -884,6 +884,342 @@
    "busqueda": "Ushuaia",
    "pais": "ar",
    "lote": 4
+  },
+  {
+   "slug": "palma-de-mallorca",
+   "nombre": "Palma de Mallorca",
+   "busqueda": "Palma, Illes Balears",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "san-sebastian-de-los-reyes",
+   "nombre": "San Sebastián de los Reyes",
+   "busqueda": "San Sebastián de los Reyes",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "cornella-de-llobregat",
+   "nombre": "Cornellà de Llobregat",
+   "busqueda": "Cornellà de Llobregat",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "gava",
+   "nombre": "Gavà",
+   "busqueda": "Gavà",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "esplugues-de-llobregat",
+   "nombre": "Esplugues de Llobregat",
+   "busqueda": "Esplugues de Llobregat",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "sant-feliu-de-llobregat",
+   "nombre": "Sant Feliu de Llobregat",
+   "busqueda": "Sant Feliu de Llobregat",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "vic",
+   "nombre": "Vic",
+   "busqueda": "Vic, Barcelona",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "figueres",
+   "nombre": "Figueres",
+   "busqueda": "Figueres",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "blanes",
+   "nombre": "Blanes",
+   "busqueda": "Blanes",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "lloret-de-mar",
+   "nombre": "Lloret de Mar",
+   "busqueda": "Lloret de Mar",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "igualada",
+   "nombre": "Igualada",
+   "busqueda": "Igualada",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "el-vendrell",
+   "nombre": "El Vendrell",
+   "busqueda": "El Vendrell",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "cambrils",
+   "nombre": "Cambrils",
+   "busqueda": "Cambrils",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "salou",
+   "nombre": "Salou",
+   "busqueda": "Salou",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "torrent",
+   "nombre": "Torrent",
+   "busqueda": "Torrent, Valencia",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "alzira",
+   "nombre": "Alzira",
+   "busqueda": "Alzira",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "mislata",
+   "nombre": "Mislata",
+   "busqueda": "Mislata",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "petrer",
+   "nombre": "Petrer",
+   "busqueda": "Petrer",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "vinaros",
+   "nombre": "Vinaròs",
+   "busqueda": "Vinaròs",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "plasencia",
+   "nombre": "Plasencia",
+   "busqueda": "Plasencia, Cáceres",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "don-benito",
+   "nombre": "Don Benito",
+   "busqueda": "Don Benito",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "almendralejo",
+   "nombre": "Almendralejo",
+   "busqueda": "Almendralejo",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "puertollano",
+   "nombre": "Puertollano",
+   "busqueda": "Puertollano",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "tomelloso",
+   "nombre": "Tomelloso",
+   "busqueda": "Tomelloso",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "miranda-de-ebro",
+   "nombre": "Miranda de Ebro",
+   "busqueda": "Miranda de Ebro",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "aranda-de-duero",
+   "nombre": "Aranda de Duero",
+   "busqueda": "Aranda de Duero",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "mieres",
+   "nombre": "Mieres",
+   "busqueda": "Mieres, Asturias",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "langreo",
+   "nombre": "Langreo",
+   "busqueda": "Langreo",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "portugalete",
+   "nombre": "Portugalete",
+   "busqueda": "Portugalete",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "santurtzi",
+   "nombre": "Santurtzi",
+   "busqueda": "Santurtzi",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "basauri",
+   "nombre": "Basauri",
+   "busqueda": "Basauri",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "errenteria",
+   "nombre": "Errenteria",
+   "busqueda": "Errenteria",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "tudela",
+   "nombre": "Tudela",
+   "busqueda": "Tudela, Navarra",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "naron",
+   "nombre": "Narón",
+   "busqueda": "Narón",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "antequera",
+   "nombre": "Antequera",
+   "busqueda": "Antequera",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "ronda",
+   "nombre": "Ronda",
+   "busqueda": "Ronda, Málaga",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "lucena",
+   "nombre": "Lucena",
+   "busqueda": "Lucena, Córdoba",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "ubeda",
+   "nombre": "Úbeda",
+   "busqueda": "Úbeda",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "andujar",
+   "nombre": "Andújar",
+   "busqueda": "Andújar",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "mairena-del-aljarafe",
+   "nombre": "Mairena del Aljarafe",
+   "busqueda": "Mairena del Aljarafe",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "manacor",
+   "nombre": "Manacor",
+   "busqueda": "Manacor",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "inca",
+   "nombre": "Inca",
+   "busqueda": "Inca, Illes Balears",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "llucmajor",
+   "nombre": "Llucmajor",
+   "busqueda": "Llucmajor",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "puerto-de-la-cruz",
+   "nombre": "Puerto de la Cruz",
+   "busqueda": "Puerto de la Cruz, Tenerife",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "santa-lucia-de-tirajana",
+   "nombre": "Santa Lucía de Tirajana",
+   "busqueda": "Santa Lucía de Tirajana",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "yecla",
+   "nombre": "Yecla",
+   "busqueda": "Yecla",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "cieza",
+   "nombre": "Cieza",
+   "busqueda": "Cieza, Murcia",
+   "pais": "es",
+   "lote": 5
+  },
+  {
+   "slug": "torre-pacheco",
+   "nombre": "Torre-Pacheco",
+   "busqueda": "Torre-Pacheco",
+   "pais": "es",
+   "lote": 5
   }
  ]
 }

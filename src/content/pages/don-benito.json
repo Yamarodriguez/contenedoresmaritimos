@@ -1,0 +1,440 @@
+{
+ "slug": "don-benito",
+ "title": "Contenedores marítimos en Don Benito | Venta, alquiler y transporte",
+ "url": "https://contenedoresmaritimos.net/don-benito/",
+ "meta_description": "Contenedores marítimos en Don Benito: venta, alquiler y transporte de contenedores nuevos y de segunda mano. Medidas, precios orientativos y presupuesto sin compromiso.",
+ "menu": "contenedores-maritimos",
+ "nueva": true,
+ "ciudad": true,
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "text",
+   "text": "En Don Benito puedes comprar o alquilar contenedores marítimos nuevos y de segunda mano, con transporte hasta tu dirección y servicios para adaptarlos. Consulta los tipos, las medidas y los precios orientativos, y pide presupuesto sin compromiso.",
+   "html": "<p>En <strong>Don Benito</strong> puedes comprar o alquilar <strong>contenedores marítimos</strong> nuevos y de segunda mano, con transporte hasta tu dirección y servicios para adaptarlos. Consulta los tipos, las medidas y los precios orientativos, y pide presupuesto sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Si buscas un contenedor marítimo en Don Benito, te asesoramos con el tamaño, el tipo y el estado que mejor se ajusten a tu uso: almacenaje, obra, oficina, local o vivienda.",
+   "html": "<p>Si buscas un <strong>contenedor marítimo</strong> en <strong>Don Benito</strong>, te asesoramos con el tamaño, el tipo y el estado que mejor se ajusten a tu uso: almacenaje, obra, <a href=\"/oficinas/\">oficina</a>, <a href=\"/locales-comerciales/\">local</a> o <a href=\"/casas/\">vivienda</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "p",
+   "text": "¿Tienes una consulta?"
+  },
+  {
+   "type": "text",
+   "text": "Si estás pensando en obtener un contenedor marítimo en Don Benito o realizar una construcción con containers, ponte en contacto y te informaremos de precios y disponibilidad",
+   "html": "<p>Si estás pensando en obtener un contenedor marítimo en Don Benito o realizar una construcción con containers, ponte en contacto y te informaremos de precios y disponibilidad</p>",
+   "nuevo": true
+  },
+  {
+   "type": "contact_form",
+   "form_id": "",
+   "text": ""
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Tipos de contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/tipos-de-contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Tipos de contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Estos son los tipos de contenedores marítimos que puedes pedir para Don Benito, nuevos y de segunda mano. Elige uno para ver sus medidas y sus usos.",
+   "html": "<p>Estos son los tipos de <strong>contenedores marítimos</strong> que puedes pedir para <strong>Don Benito</strong>, nuevos y de segunda mano. Elige uno para ver sus medidas y sus usos.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores de 20 pies",
+   "href": "https://contenedoresmaritimos.net/de-20-pies/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedores-20-pies.jpg",
+   "alt": "contenedores-20-pies",
+   "href": "https://contenedoresmaritimos.net/de-20-pies/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores de 40 pies",
+   "href": "https://contenedoresmaritimos.net/de-40-pies/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedores-40-pies.jpg",
+   "alt": "contenedores-40-pies",
+   "href": "https://contenedoresmaritimos.net/de-40-pies/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores open top ",
+   "href": "https://contenedoresmaritimos.net/open-top/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/Contenedor-open-top.jpg",
+   "alt": "Contenedor-open-top",
+   "href": "https://contenedoresmaritimos.net/open-top/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores flat rack",
+   "href": "https://contenedoresmaritimos.net/flat-rack/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/Contenedor-flat-rack.jpg",
+   "alt": "Contenedor-flat-rack",
+   "href": "https://contenedoresmaritimos.net/flat-rack/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores high cube",
+   "href": "https://contenedoresmaritimos.net/high-cube/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/Contenedor-high-cube.jpg",
+   "alt": "Contenedor-high-cube",
+   "href": "https://contenedoresmaritimos.net/high-cube/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores refrigerados",
+   "href": "https://contenedoresmaritimos.net/refrigerados/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedor-refrigerado.jpg",
+   "alt": "contenedor-refrigerado",
+   "href": "https://contenedoresmaritimos.net/refrigerados/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Container open side ",
+   "href": "https://contenedoresmaritimos.net/open-side/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/open-side-contenedor.jpg",
+   "alt": "open-side-contenedor",
+   "href": "https://contenedoresmaritimos.net/open-side/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores dry van",
+   "href": "https://contenedoresmaritimos.net/dry-van/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedor-dry-van.jpg",
+   "alt": "contenedor-dry-van",
+   "href": "https://contenedoresmaritimos.net/dry-van/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores cisterna",
+   "href": "https://contenedoresmaritimos.net/cisternas/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedor-cisterna.jpg",
+   "alt": "contenedor-cisterna",
+   "href": "https://contenedoresmaritimos.net/cisternas/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores de almacenamiento",
+   "href": "https://contenedoresmaritimos.net/almacenamiento/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedores-almacenamiento.jpg",
+   "alt": "contenedores-almacenamiento",
+   "href": "https://contenedoresmaritimos.net/almacenamiento/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores ventilados",
+   "href": "https://contenedoresmaritimos.net/ventilados/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedor-ventilado.jpg",
+   "alt": "contenedor-ventilado",
+   "href": "https://contenedoresmaritimos.net/ventilados/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Casas con contenedores",
+   "href": "https://contenedoresmaritimos.net/casas/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/Casas-contenedores.jpg",
+   "alt": "Casas-contenedores",
+   "href": "https://contenedoresmaritimos.net/casas/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores oficinas",
+   "href": "https://contenedoresmaritimos.net/oficinas/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/contenedores-oficinas.jpg",
+   "alt": "contenedores-oficinas",
+   "href": "https://contenedoresmaritimos.net/oficinas/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores sanitarios",
+   "href": "https://contenedoresmaritimos.net/sanitarios/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/sanitarios-contenedores.jpg",
+   "alt": "sanitarios-contenedores",
+   "href": "https://contenedoresmaritimos.net/sanitarios/"
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Contenedores locales comerciales",
+   "href": "https://contenedoresmaritimos.net/locales-comerciales/"
+  },
+  {
+   "type": "image",
+   "src": "/img/2021/12/locales-comerciales-contenedores.jpg",
+   "alt": "locales-comerciales-contenedores",
+   "href": "https://contenedoresmaritimos.net/locales-comerciales/"
+  },
+  {
+   "type": "button",
+   "text": "Todos los modelos de contenedores",
+   "href": "https://contenedoresmaritimos.net/tipos/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Precios de contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/precios-de-contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Precios de contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "El precio de un contenedor marítimo en Don Benito depende del tamaño, de si es nuevo o usado y del transporte. Mira la tabla de precios orientativos y pide presupuesto con la dirección de entrega para tener el precio cerrado.",
+   "html": "<p>El precio de un <strong>contenedor marítimo</strong> en <strong>Don Benito</strong> depende del tamaño, de si es nuevo o usado y del transporte. Mira la <a href=\"/precios/\">tabla de precios orientativos</a> y pide presupuesto con la dirección de entrega para tener el precio cerrado.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Precios",
+   "href": "https://contenedoresmaritimos.net/precios/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Medidas de contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/medidas-de-contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Medidas de contenedores marítimos en Don Benito",
+   "ajuste": "contain",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Los contenedores de 20 y 40 pies son los más habituales en Don Benito; hay también de 10 y 45 pies. Consulta la tabla de medidas para elegir el tamaño que cabe en tu terreno.",
+   "html": "<p>Los contenedores de 20 y 40 pies son los más habituales en <strong>Don Benito</strong>; hay también de 10 y 45 pies. Consulta la <a href=\"/medidas/\">tabla de medidas</a> para elegir el tamaño que cabe en tu terreno.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Medidas",
+   "href": "https://contenedoresmaritimos.net/medidas/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Venta de contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/venta-de-contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Venta de contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Vendemos contenedores marítimos nuevos y de segunda mano para Don Benito. Si tienes un contenedor y quieres venderlo, contacta con nosotros.",
+   "html": "<p>Vendemos <strong>contenedores marítimos</strong> nuevos y de segunda mano para <strong>Don Benito</strong>. Si tienes un contenedor y quieres venderlo, <a href=\"/venta/\">contacta con nosotros</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Venta",
+   "href": "https://contenedoresmaritimos.net/venta/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Contenedores marítimos de segunda mano en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/contenedores-maritimos-de-segunda-mano-en-don-benito.jpg",
+   "alt": "Contenedores marítimos de segunda mano en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor de segunda mano es la opción más económica. Antes de comprarlo, lee qué revisar en un contenedor usado y mira los contenedores de segunda mano.",
+   "html": "<p>Un contenedor de segunda mano es la opción más económica. Antes de comprarlo, lee <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a> y mira los <a href=\"/segunda-mano/\">contenedores de segunda mano</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Segunda mano",
+   "href": "https://contenedoresmaritimos.net/segunda-mano/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Construcciones con contenedores en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/construcciones-con-contenedores-en-don-benito.jpg",
+   "alt": "Construcciones con contenedores en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Con contenedores marítimos se construyen casas, oficinas y locales. Mira nuestras construcciones con contenedores y los servicios de acondicionamiento.",
+   "html": "<p>Con <strong>contenedores marítimos</strong> se construyen casas, oficinas y locales. Mira nuestras <a href=\"/construcciones-con-contenedores/\">construcciones con contenedores</a> y los <a href=\"/servicios-contenedores-maritimos/\">servicios de acondicionamiento</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Construcción",
+   "href": "https://contenedoresmaritimos.net/construcciones-con-contenedores/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Comprar contenedor marítimo en Don Benito, presupuestos"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/comprar-contenedor-maritimo-en-don-benito-presupuestos.jpg",
+   "alt": "Comprar contenedor marítimo en Don Benito, presupuestos",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "¿Quieres comprar un contenedor marítimo en Don Benito? Contáctanos y te asesoramos con precios, modelos, disponibilidad y transporte.",
+   "html": "<p>¿Quieres comprar un <strong>contenedor marítimo</strong> en <strong>Don Benito</strong>? Contáctanos y te asesoramos con precios, modelos, disponibilidad y transporte.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Transporte de contenedores marítimos a Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/transporte-de-contenedores-maritimos-a-don-benito.jpg",
+   "alt": "Transporte de contenedores marítimos a Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Transportamos contenedores marítimos hasta Don Benito, tanto si compras el contenedor aquí como si ya tienes uno. Indica la dirección y el acceso para darte el precio completo.",
+   "html": "<p>Transportamos <strong>contenedores marítimos</strong> hasta <strong>Don Benito</strong>, tanto si compras el contenedor aquí como si ya tienes uno. Indica la dirección y el acceso para darte el precio completo.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Transporte",
+   "href": "https://contenedoresmaritimos.net/transporte/"
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Alquiler de contenedores marítimos en Don Benito"
+  },
+  {
+   "type": "image",
+   "src": "/img/ubicaciones/don-benito/alquiler-de-contenedores-maritimos-en-don-benito.jpg",
+   "alt": "Alquiler de contenedores marítimos en Don Benito",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Alquila un contenedor marítimo en Don Benito para eventos, almacenaje u obras. Mira los contenedores para almacenaje y los contenedores para obras.",
+   "html": "<p>Alquila un <strong>contenedor marítimo</strong> en <strong>Don Benito</strong> para eventos, almacenaje u obras. Mira los <a href=\"/contenedores-para-almacenaje/\">contenedores para almacenaje</a> y los <a href=\"/contenedores-para-construccion/\">contenedores para obras</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Alquiler",
+   "href": "https://contenedoresmaritimos.net/alquiler/"
+  }
+ ]
+}

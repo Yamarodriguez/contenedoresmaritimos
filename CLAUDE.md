@@ -72,6 +72,7 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 ## Ubicaciones nuevas (27-10-2026)
 - Tanda 1 (11) y tanda 2 (54: ciudades grandes, costa, islas y comunidades) en src/data/ciudades-nuevas.json; se generan con `node scripts/ciudades-nuevas.mjs && node scripts/geo-ciudades.mjs`. Foto principal y de H2 con la palabra clave en nombre y alt. Región de Murcia y Cabo de Palos no se crean (ya existen /murcia/ y La Manga: evitar canibalismo).
 - Tanda 3: 11 provincias de Argentina, ya dentro de /ar/ (Córdoba: slug cordoba-argentina, dirección /ar/cordoba/).
+- Tanda 5: 48 ciudades de España de más de unos 30.000 habitantes (Palma de Mallorca, Torrent, Cornellà, Vic…).
 - Tanda 4: 33 ciudades de Argentina en /ar/ (CABA, Gran Buenos Aires, Litoral, interior, norte y Patagonia). No se crean Córdoba capital, Corrientes ni Santiago del Estero ciudad (mismo nombre que su provincia: canibalismo).
 
 ## Argentina en /ar/ (27-10-2026, decidido con Yama)

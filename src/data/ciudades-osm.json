@@ -4534,5 +4534,873 @@
   "tipo": "city",
   "nombre": "Ciudad de Buenos Aires",
   "direccion": {}
+ },
+ "almendralejo": {
+  "busqueda": "Almendralejo",
+  "pais": "es",
+  "lat": 38.6846791,
+  "lon": -6.4067802,
+  "tipo": "town",
+  "nombre": "Almendralejo",
+  "direccion": {
+   "town": "Almendralejo",
+   "province": "Badajoz",
+   "ISO3166-2-lvl6": "ES-BA",
+   "state": "Extremadura",
+   "ISO3166-2-lvl4": "ES-EX",
+   "postcode": "06200",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "alzira": {
+  "busqueda": "Alzira",
+  "pais": "es",
+  "lat": 39.151212,
+  "lon": -0.4346556,
+  "tipo": "town",
+  "nombre": "Alzira",
+  "direccion": {
+   "town": "Alzira",
+   "region": "La Ribera Alta",
+   "state_district": "Valencia",
+   "ISO3166-2-lvl6": "ES-V",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "andujar": {
+  "busqueda": "Andújar",
+  "pais": "es",
+  "lat": 38.0392362,
+  "lon": -4.0505603,
+  "tipo": "town",
+  "nombre": "Andújar",
+  "direccion": {
+   "town": "Andújar",
+   "province": "Jaén",
+   "ISO3166-2-lvl6": "ES-J",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "antequera": {
+  "busqueda": "Antequera",
+  "pais": "es",
+  "lat": 37.0183652,
+  "lon": -4.5596649,
+  "tipo": "town",
+  "nombre": "Antequera",
+  "direccion": {
+   "town": "Antequera",
+   "county": "Antequera",
+   "state_district": "Málaga",
+   "ISO3166-2-lvl6": "ES-MA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "aranda-de-duero": {
+  "busqueda": "Aranda de Duero",
+  "pais": "es",
+  "lat": 41.6715067,
+  "lon": -3.6851172,
+  "tipo": "town",
+  "nombre": "Aranda de Duero",
+  "direccion": {
+   "town": "Aranda de Duero",
+   "state_district": "Burgos",
+   "ISO3166-2-lvl6": "ES-BU",
+   "state": "Castilla y León",
+   "ISO3166-2-lvl4": "ES-CL",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "basauri": {
+  "busqueda": "Basauri",
+  "pais": "es",
+  "lat": 43.235372,
+  "lon": -2.8920543,
+  "tipo": "town",
+  "nombre": "Basauri",
+  "direccion": {
+   "town": "Basauri",
+   "province": "Vizcaya",
+   "ISO3166-2-lvl6": "ES-BI",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "postcode": "48970",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "blanes": {
+  "busqueda": "Blanes",
+  "pais": "es",
+  "lat": 41.6756178,
+  "lon": 2.7932391,
+  "tipo": "town",
+  "nombre": "Blanes",
+  "direccion": {
+   "town": "Blanes",
+   "county": "la Selva",
+   "state_district": "Gerona",
+   "ISO3166-2-lvl6": "ES-GI",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "17300",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "cambrils": {
+  "busqueda": "Cambrils",
+  "pais": "es",
+  "lat": 41.0679423,
+  "lon": 1.0657579,
+  "tipo": "town",
+  "nombre": "Cambrils",
+  "direccion": {
+   "town": "Cambrils",
+   "county": "Bajo Campo",
+   "state_district": "Tarragona",
+   "ISO3166-2-lvl6": "ES-T",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "43850",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "cieza": {
+  "busqueda": "Cieza, Murcia",
+  "pais": "es",
+  "lat": 38.2392273,
+  "lon": -1.418875,
+  "tipo": "town",
+  "nombre": "Cieza",
+  "direccion": {
+   "town": "Cieza",
+   "county": "Vega Alta del Segura",
+   "province": "Región de Murcia",
+   "ISO3166-2-lvl6": "ES-MU",
+   "state": "Región de Murcia",
+   "ISO3166-2-lvl4": "ES-MC",
+   "postcode": "30530",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "cornella-de-llobregat": {
+  "busqueda": "Cornellà de Llobregat",
+  "pais": "es",
+  "lat": 41.355724,
+  "lon": 2.0706225,
+  "tipo": "city",
+  "nombre": "Cornellà de Llobregat",
+  "direccion": {
+   "city": "Cornellà de Llobregat",
+   "county": "Bajo Llobregat",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "08940",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "don-benito": {
+  "busqueda": "Don Benito",
+  "pais": "es",
+  "lat": 38.9540269,
+  "lon": -5.8619466,
+  "tipo": "town",
+  "nombre": "Don Benito",
+  "direccion": {
+   "town": "Don Benito",
+   "province": "Badajoz",
+   "ISO3166-2-lvl6": "ES-BA",
+   "state": "Extremadura",
+   "ISO3166-2-lvl4": "ES-EX",
+   "postcode": "06400",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "el-vendrell": {
+  "busqueda": "El Vendrell",
+  "pais": "es",
+  "lat": 41.2199677,
+  "lon": 1.5348566,
+  "tipo": "town",
+  "nombre": "el Vendrell",
+  "direccion": {
+   "town": "el Vendrell",
+   "county": "Bajo Panadés",
+   "state_district": "Tarragona",
+   "ISO3166-2-lvl6": "ES-T",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "errenteria": {
+  "busqueda": "Errenteria",
+  "pais": "es",
+  "lat": 43.3125271,
+  "lon": -1.8986133,
+  "tipo": "town",
+  "nombre": "Rentería",
+  "direccion": {
+   "town": "Rentería",
+   "state_district": "Guipúzcoa",
+   "ISO3166-2-lvl6": "ES-SS",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "postcode": "20100",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "esplugues-de-llobregat": {
+  "busqueda": "Esplugues de Llobregat",
+  "pais": "es",
+  "lat": 41.3778094,
+  "lon": 2.0886257,
+  "tipo": "town",
+  "nombre": "Esplugues de Llobregat",
+  "direccion": {
+   "town": "Esplugues de Llobregat",
+   "county": "Bajo Llobregat",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "08950",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "figueres": {
+  "busqueda": "Figueres",
+  "pais": "es",
+  "lat": 42.2666314,
+  "lon": 2.9638434,
+  "tipo": "town",
+  "nombre": "Figueres",
+  "direccion": {
+   "town": "Figueres",
+   "county": "Alto Ampurdán",
+   "state_district": "Gerona",
+   "ISO3166-2-lvl6": "ES-GI",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "gava": {
+  "busqueda": "Gavà",
+  "pais": "es",
+  "lat": 41.3050933,
+  "lon": 2.0063126,
+  "tipo": "town",
+  "nombre": "Gavà",
+  "direccion": {
+   "town": "Gavà",
+   "county": "Bajo Llobregat",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "08850",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "igualada": {
+  "busqueda": "Igualada",
+  "pais": "es",
+  "lat": 41.5790182,
+  "lon": 1.617346,
+  "tipo": "town",
+  "nombre": "Igualada",
+  "direccion": {
+   "town": "Igualada",
+   "county": "Anoia",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "08700",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "inca": {
+  "busqueda": "Inca, Illes Balears",
+  "pais": "es",
+  "lat": 39.7211448,
+  "lon": 2.9111493,
+  "tipo": "town",
+  "nombre": "Inca",
+  "direccion": {
+   "town": "Inca",
+   "county": "Raiguer",
+   "province": "Islas Baleares",
+   "ISO3166-2-lvl6": "ES-PM",
+   "state": "Islas Baleares",
+   "ISO3166-2-lvl4": "ES-IB",
+   "postcode": "07300",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "langreo": {
+  "busqueda": "Langreo",
+  "pais": "es",
+  "lat": 43.2872504,
+  "lon": -5.7007057,
+  "tipo": "city",
+  "nombre": "Langreo",
+  "direccion": {
+   "city": "Langreo",
+   "province": "Asturias",
+   "ISO3166-2-lvl6": "ES-O",
+   "state": "Asturias",
+   "ISO3166-2-lvl4": "ES-AS",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "lloret-de-mar": {
+  "busqueda": "Lloret de Mar",
+  "pais": "es",
+  "lat": 41.6973503,
+  "lon": 2.8392392,
+  "tipo": "town",
+  "nombre": "Lloret de Mar",
+  "direccion": {
+   "town": "Lloret de Mar",
+   "county": "la Selva",
+   "state_district": "Gerona",
+   "ISO3166-2-lvl6": "ES-GI",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "17310",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "llucmajor": {
+  "busqueda": "Llucmajor",
+  "pais": "es",
+  "lat": 39.490845,
+  "lon": 2.8913179,
+  "tipo": "town",
+  "nombre": "Llucmajor",
+  "direccion": {
+   "town": "Llucmajor",
+   "county": "Migjorn",
+   "province": "Islas Baleares",
+   "ISO3166-2-lvl6": "ES-PM",
+   "state": "Islas Baleares",
+   "ISO3166-2-lvl4": "ES-IB",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "lucena": {
+  "busqueda": "Lucena, Córdoba",
+  "pais": "es",
+  "lat": 37.4091334,
+  "lon": -4.4860128,
+  "tipo": "town",
+  "nombre": "Lucena",
+  "direccion": {
+   "town": "Lucena",
+   "province": "Córdoba",
+   "ISO3166-2-lvl6": "ES-CO",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mairena-del-aljarafe": {
+  "busqueda": "Mairena del Aljarafe",
+  "pais": "es",
+  "lat": 37.3444908,
+  "lon": -6.0606771,
+  "tipo": "town",
+  "nombre": "Mairena del Aljarafe",
+  "direccion": {
+   "town": "Mairena del Aljarafe",
+   "province": "Sevilla",
+   "ISO3166-2-lvl6": "ES-SE",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "postcode": "41927",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "manacor": {
+  "busqueda": "Manacor",
+  "pais": "es",
+  "lat": 39.5696458,
+  "lon": 3.2106461,
+  "tipo": "town",
+  "nombre": "Manacor",
+  "direccion": {
+   "town": "Manacor",
+   "county": "Llevant",
+   "province": "Islas Baleares",
+   "ISO3166-2-lvl6": "ES-PM",
+   "state": "Islas Baleares",
+   "ISO3166-2-lvl4": "ES-IB",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mieres": {
+  "busqueda": "Mieres, Asturias",
+  "pais": "es",
+  "lat": 43.2349957,
+  "lon": -5.769932,
+  "tipo": "city",
+  "nombre": "Mieres",
+  "direccion": {
+   "city": "Mieres",
+   "province": "Asturias",
+   "ISO3166-2-lvl6": "ES-O",
+   "state": "Asturias",
+   "ISO3166-2-lvl4": "ES-AS",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "miranda-de-ebro": {
+  "busqueda": "Miranda de Ebro",
+  "pais": "es",
+  "lat": 42.6800943,
+  "lon": -2.9747229,
+  "tipo": "city",
+  "nombre": "Miranda de Ebro",
+  "direccion": {
+   "city": "Miranda de Ebro",
+   "state_district": "Burgos",
+   "ISO3166-2-lvl6": "ES-BU",
+   "state": "Castilla y León",
+   "ISO3166-2-lvl4": "ES-CL",
+   "postcode": "09200",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "mislata": {
+  "busqueda": "Mislata",
+  "pais": "es",
+  "lat": 39.4751444,
+  "lon": -0.4179125,
+  "tipo": "town",
+  "nombre": "Mislata",
+  "direccion": {
+   "town": "Mislata",
+   "region": "L'Horta Sud",
+   "state_district": "Valencia",
+   "ISO3166-2-lvl6": "ES-V",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "46920",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "naron": {
+  "busqueda": "Narón",
+  "pais": "es",
+  "lat": 43.5317883,
+  "lon": -8.1565473,
+  "tipo": "municipality",
+  "nombre": "Narón",
+  "direccion": {
+   "municipality": "Narón",
+   "county": "Ferrol",
+   "state_district": "La Coruña",
+   "ISO3166-2-lvl6": "ES-C",
+   "state": "Galicia",
+   "ISO3166-2-lvl4": "ES-GA",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "palma-de-mallorca": {
+  "busqueda": "Palma, Illes Balears",
+  "pais": "es",
+  "lat": 39.5695818,
+  "lon": 2.6500745,
+  "tipo": "city",
+  "nombre": "Palma",
+  "direccion": {
+   "city": "Palma",
+   "county": "Palma",
+   "province": "Islas Baleares",
+   "ISO3166-2-lvl6": "ES-PM",
+   "state": "Islas Baleares",
+   "ISO3166-2-lvl4": "ES-IB",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "petrer": {
+  "busqueda": "Petrer",
+  "pais": "es",
+  "lat": 38.485008,
+  "lon": -0.7703987,
+  "tipo": "town",
+  "nombre": "Petrer",
+  "direccion": {
+   "town": "Petrer",
+   "county": "El Vinalopó Medio",
+   "province": "Alicante",
+   "ISO3166-2-lvl6": "ES-A",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "03610",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "plasencia": {
+  "busqueda": "Plasencia, Cáceres",
+  "pais": "es",
+  "lat": 40.029921,
+  "lon": -6.090168,
+  "tipo": "town",
+  "nombre": "Plasencia",
+  "direccion": {
+   "town": "Plasencia",
+   "state_district": "Cáceres",
+   "ISO3166-2-lvl6": "ES-CC",
+   "state": "Extremadura",
+   "ISO3166-2-lvl4": "ES-EX",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "portugalete": {
+  "busqueda": "Portugalete",
+  "pais": "es",
+  "lat": 43.3189646,
+  "lon": -3.0198633,
+  "tipo": "town",
+  "nombre": "Portugalete",
+  "direccion": {
+   "town": "Portugalete",
+   "province": "Vizcaya",
+   "ISO3166-2-lvl6": "ES-BI",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "postcode": "48920",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "puerto-de-la-cruz": {
+  "busqueda": "Puerto de la Cruz, Tenerife",
+  "pais": "es",
+  "lat": 28.4159024,
+  "lon": -16.5532956,
+  "tipo": "town",
+  "nombre": "Puerto de la Cruz",
+  "direccion": {
+   "town": "Puerto de la Cruz",
+   "province": "Santa Cruz de Tenerife",
+   "ISO3166-2-lvl6": "ES-TF",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "postcode": "38400",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "puertollano": {
+  "busqueda": "Puertollano",
+  "pais": "es",
+  "lat": 38.6852161,
+  "lon": -4.1111749,
+  "tipo": "town",
+  "nombre": "Puertollano",
+  "direccion": {
+   "town": "Puertollano",
+   "province": "Ciudad Real",
+   "ISO3166-2-lvl6": "ES-CR",
+   "state": "Castilla-La Mancha",
+   "ISO3166-2-lvl4": "ES-CM",
+   "postcode": "13500",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "ronda": {
+  "busqueda": "Ronda, Málaga",
+  "pais": "es",
+  "lat": 36.7421339,
+  "lon": -5.1665916,
+  "tipo": "town",
+  "nombre": "Ronda",
+  "direccion": {
+   "town": "Ronda",
+   "county": "Serranía de Ronda",
+   "state_district": "Málaga",
+   "ISO3166-2-lvl6": "ES-MA",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "salou": {
+  "busqueda": "Salou",
+  "pais": "es",
+  "lat": 41.0768193,
+  "lon": 1.1440411,
+  "tipo": "town",
+  "nombre": "Salou",
+  "direccion": {
+   "town": "Salou",
+   "county": "Tarragonés",
+   "state_district": "Tarragona",
+   "ISO3166-2-lvl6": "ES-T",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "43840",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "san-sebastian-de-los-reyes": {
+  "busqueda": "San Sebastián de los Reyes",
+  "pais": "es",
+  "lat": 40.5473698,
+  "lon": -3.6260586,
+  "tipo": "city",
+  "nombre": "San Sebastián de los Reyes",
+  "direccion": {
+   "city": "San Sebastián de los Reyes",
+   "state": "Comunidad de Madrid",
+   "ISO3166-2-lvl4": "ES-MD",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "sant-feliu-de-llobregat": {
+  "busqueda": "Sant Feliu de Llobregat",
+  "pais": "es",
+  "lat": 41.3812851,
+  "lon": 2.0446381,
+  "tipo": "town",
+  "nombre": "Sant Feliu de Llobregat",
+  "direccion": {
+   "town": "Sant Feliu de Llobregat",
+   "county": "Bajo Llobregat",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "postcode": "08980",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "santa-lucia-de-tirajana": {
+  "busqueda": "Santa Lucía de Tirajana",
+  "pais": "es",
+  "lat": 27.8778661,
+  "lon": -15.5190427,
+  "tipo": "city",
+  "nombre": "Santa Lucía de Tirajana",
+  "direccion": {
+   "city": "Santa Lucía de Tirajana",
+   "province": "Las Palmas",
+   "ISO3166-2-lvl6": "ES-GC",
+   "state": "Canarias",
+   "ISO3166-2-lvl4": "ES-CN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "santurtzi": {
+  "busqueda": "Santurtzi",
+  "pais": "es",
+  "lat": 43.3287527,
+  "lon": -3.0318766,
+  "tipo": "town",
+  "nombre": "Santurce",
+  "direccion": {
+   "town": "Santurce",
+   "province": "Vizcaya",
+   "ISO3166-2-lvl6": "ES-BI",
+   "state": "País Vasco",
+   "ISO3166-2-lvl4": "ES-PV",
+   "postcode": "48980",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "tomelloso": {
+  "busqueda": "Tomelloso",
+  "pais": "es",
+  "lat": 39.1585549,
+  "lon": -3.0214851,
+  "tipo": "town",
+  "nombre": "Tomelloso",
+  "direccion": {
+   "town": "Tomelloso",
+   "province": "Ciudad Real",
+   "ISO3166-2-lvl6": "ES-CR",
+   "state": "Castilla-La Mancha",
+   "ISO3166-2-lvl4": "ES-CM",
+   "postcode": "13700",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "torre-pacheco": {
+  "busqueda": "Torre-Pacheco",
+  "pais": "es",
+  "lat": 37.7846607,
+  "lon": -0.9667964,
+  "tipo": "city",
+  "nombre": "Torre Pacheco",
+  "direccion": {
+   "city": "Torre Pacheco",
+   "county": "Campo de Cartagena y Mar Menor",
+   "province": "Región de Murcia",
+   "ISO3166-2-lvl6": "ES-MU",
+   "state": "Región de Murcia",
+   "ISO3166-2-lvl4": "ES-MC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "torrent": {
+  "busqueda": "Torrent, Valencia",
+  "pais": "es",
+  "lat": 39.436668,
+  "lon": -0.4656213,
+  "tipo": "town",
+  "nombre": "Torrente",
+  "direccion": {
+   "town": "Torrente",
+   "region": "L'Horta Sud",
+   "state_district": "Valencia",
+   "ISO3166-2-lvl6": "ES-V",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "tudela": {
+  "busqueda": "Tudela, Navarra",
+  "pais": "es",
+  "lat": 42.078314,
+  "lon": -1.638662,
+  "tipo": "city",
+  "nombre": "Tudela",
+  "direccion": {
+   "city": "Tudela",
+   "county": "Ribera",
+   "state": "Navarra",
+   "ISO3166-2-lvl6": "ES-NA",
+   "ISO3166-2-lvl4": "ES-NC",
+   "postcode": "31500",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "ubeda": {
+  "busqueda": "Úbeda",
+  "pais": "es",
+  "lat": 38.0111398,
+  "lon": -3.3719098,
+  "tipo": "town",
+  "nombre": "Úbeda",
+  "direccion": {
+   "town": "Úbeda",
+   "province": "Jaén",
+   "ISO3166-2-lvl6": "ES-J",
+   "state": "Andalucía",
+   "ISO3166-2-lvl4": "ES-AN",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "vic": {
+  "busqueda": "Vic, Barcelona",
+  "pais": "es",
+  "lat": 41.9302021,
+  "lon": 2.2545943,
+  "tipo": "town",
+  "nombre": "Vic",
+  "direccion": {
+   "town": "Vic",
+   "county": "Osona",
+   "province": "Barcelona",
+   "ISO3166-2-lvl6": "ES-B",
+   "state": "Cataluña",
+   "ISO3166-2-lvl4": "ES-CT",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "vinaros": {
+  "busqueda": "Vinaròs",
+  "pais": "es",
+  "lat": 40.4703992,
+  "lon": 0.4746076,
+  "tipo": "town",
+  "nombre": "Vinaròs",
+  "direccion": {
+   "town": "Vinaròs",
+   "county": "El Baix Maestrat",
+   "state_district": "Castellón",
+   "ISO3166-2-lvl6": "ES-CS",
+   "state": "Comunidad Valenciana",
+   "ISO3166-2-lvl4": "ES-VC",
+   "postcode": "12500",
+   "country": "España",
+   "country_code": "es"
+  }
+ },
+ "yecla": {
+  "busqueda": "Yecla",
+  "pais": "es",
+  "lat": 38.6135956,
+  "lon": -1.1157882,
+  "tipo": "town",
+  "nombre": "Yecla",
+  "direccion": {
+   "town": "Yecla",
+   "county": "Altiplano",
+   "province": "Región de Murcia",
+   "ISO3166-2-lvl6": "ES-MU",
+   "state": "Región de Murcia",
+   "ISO3166-2-lvl4": "ES-MC",
+   "postcode": "30510",
+   "country": "España",
+   "country_code": "es"
+  }
  }
 }
