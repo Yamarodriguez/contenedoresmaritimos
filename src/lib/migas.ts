@@ -20,6 +20,6 @@ export function migasDe(data: { slug: string; url: string; title: string; menu?:
   if (tipos.has(ruta)) return [inicio, { nombre: 'Tipos de contenedores', url: `${DOMINIO}/tipos/` }, yo];
   if (data.guia) return ruta === '/guias/' ? [inicio, yo] : [inicio, { nombre: 'Guías', url: `${DOMINIO}/guias/` }, yo];
   if (data.servicio) return [inicio, { nombre: 'Servicios', url: `${DOMINIO}/servicios-contenedores-maritimos/` }, yo];
-  if (data.menu === 'argentina' && ruta !== '/argentina/') return [inicio, { nombre: 'Argentina', url: `${DOMINIO}/argentina/` }, yo];
+  if (data.menu === 'argentina' && ruta !== '/ar/') return [inicio, { nombre: 'Argentina', url: `${DOMINIO}/ar/` }, yo];
   return [inicio, yo];
 }

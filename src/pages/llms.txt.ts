@@ -33,7 +33,7 @@ export const GET: APIRoute = () => {
   for (const s of servicios.servicios) l.push(`- [${s.clave.charAt(0).toUpperCase() + s.clave.slice(1)}](${D}/${s.slug}/): ${s.resumen}`);
   l.push('', '## Venta, alquiler y transporte', '');
   for (const [slug, nombre] of [['venta', 'Venta de contenedores'], ['segunda-mano', 'Contenedores de segunda mano'], ['alquiler', 'Alquiler de contenedores'], ['transporte', 'Transporte de contenedores'], ['construcciones-con-contenedores', 'Construcciones con contenedores']]) l.push(`- [${nombre}](${D}/${slug}/)`);
-  l.push('', '## Dónde', '', `- [Todas las ubicaciones](${D}/ubicaciones/): ciudades y provincias de España y Argentina.`, `- [España](${D}/): páginas por provincia y ciudad.`, `- [Argentina](${D}/argentina/): páginas por provincia y ciudad.`, '');
+  l.push('', '## Dónde', '', `- [Todas las ubicaciones](${D}/ubicaciones/): ciudades y provincias de España y Argentina.`, `- [España](${D}/): páginas por provincia y ciudad.`, `- [Argentina](${D}/ar/): páginas por provincia y ciudad.`, '');
   l.push('## Opcional', '', `- [Aviso legal](${D}/aviso-legal/)`, `- [Política de privacidad](${D}/politica-de-privacidad/)`, `- [Mapa del sitio](${D}/sitemap.xml)`, '');
   return new Response(l.join('\n'), { headers: { 'Content-Type': 'text/plain; charset=utf-8' } });
 };

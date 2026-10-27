@@ -10,7 +10,7 @@ const BASE = `http://localhost:${PUERTO}`;
 // Un tipo de página de cada clase (el diseño se decide por tipo, no por página).
 const TIPOS = [
   ['inicio', '/'], ['tipos', '/tipos/'], ['tipo-contenedor', '/de-20-pies/'],
-  ['ciudad-espana', '/madrid/'], ['ciudad-argentina', '/salta/'], ['pais-argentina', '/argentina/'],
+  ['ciudad-espana', '/madrid/'], ['ciudad-argentina', '/ar/salta/'], ['pais-argentina', '/ar/'],
   ['servicio', '/precios/'], ['contacto', '/contacto/'], ['legal-con-texto', '/aviso-legal/'],
   ['legal-vacia', '/politica-de-privacidad/'], ['404', '/esta-pagina-no-existe/'],
 ];

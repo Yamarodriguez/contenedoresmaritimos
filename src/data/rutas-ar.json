@@ -1,0 +1,25 @@
+{
+ "_nota": "Direcciones antiguas de las páginas de Argentina y su dirección nueva en /ar/ (scripts/mover-argentina.mjs). Las usan las redirecciones 301 de netlify.toml y los comprobadores, porque el original (referencia/) sigue con las antiguas.",
+ "rutas": {
+  "/argentina/": "/ar/",
+  "/bariloche/": "/ar/bariloche/",
+  "/catamarca/": "/ar/catamarca/",
+  "/formosa/": "/ar/formosa/",
+  "/la-pampa/": "/ar/la-pampa/",
+  "/la-plata/": "/ar/la-plata/",
+  "/mar-del-plata/": "/ar/mar-del-plata/",
+  "/mendoza/": "/ar/mendoza/",
+  "/necochea/": "/ar/necochea/",
+  "/neuquen/": "/ar/neuquen/",
+  "/parana/": "/ar/parana/",
+  "/ramos-mejia/": "/ar/ramos-mejia/",
+  "/rio-grande/": "/ar/rio-grande/",
+  "/rosario/": "/ar/rosario/",
+  "/salta/": "/ar/salta/",
+  "/san-juan/": "/ar/san-juan/",
+  "/san-luis/": "/ar/san-luis/",
+  "/santa-cruz/": "/ar/santa-cruz/",
+  "/santa-fe/": "/ar/santa-fe/",
+  "/tucuman/": "/ar/tucuman/"
+ }
+}

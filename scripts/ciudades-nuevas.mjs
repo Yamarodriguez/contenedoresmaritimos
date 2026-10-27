@@ -26,6 +26,8 @@ const link = (href, t) => `<a href="${href}">${t}</a>`;
 const carpetas = [];
 for (const [i, u] of ubicaciones.entries()) {
   const n = u.nombre;
+  const ar = u.pais === 'ar'; // Argentina: en /ar/, menú de Argentina y precios en dólares
+  const ruta = ar ? `/ar/${u.ruta ?? u.slug}/` : `/${u.slug}/`;
   const dir = `/img/ubicaciones/${u.slug}`; carpetas.push(dir);
   const t = (txt) => ({ type: 'text', text: txt.replace(/<[^>]+>/g, ''), html: `<p>${negritas(txt, [`contenedores marítimos en ${n}`, `contenedores marítimos`, `contenedor marítimo`, n])}</p>`, nuevo: true });
   const h = (texto, foto, ajuste) => [{ type: 'heading', tag: 'h2', text: texto }, fotoDeH2(dir, texto, foto, ajuste)];
@@ -33,7 +35,7 @@ for (const [i, u] of ubicaciones.entries()) {
   const blocks = [
     { type: 'heading', tag: 'h1', text: h1 },
     t(`En ${n} puedes comprar o alquilar contenedores marítimos nuevos y de segunda mano, con transporte hasta tu dirección y servicios para adaptarlos. Consulta los tipos, las medidas y los precios orientativos, y pide presupuesto sin compromiso.`),
-    fotoDeH2(dir, h1, heroes[i % heroes.length]),
+    fotoDeH2(dir, h1, ar ? '/img/2023/09/container-argentina.jpg' : heroes[i % heroes.length]),
     ...h(`Contenedores marítimos en ${n}`, fotos.general.src),
     t(`Si buscas un contenedor marítimo en ${n}, te asesoramos con el tamaño, el tipo y el estado que mejor se ajusten a tu uso: almacenaje, obra, ${link('/oficinas/', 'oficina')}, ${link('/locales-comerciales/', 'local')} o ${link('/casas/', 'vivienda')}.`),
     { type: 'heading', tag: 'p', text: '¿Tienes una consulta?' },
@@ -44,7 +46,10 @@ for (const [i, u] of ubicaciones.entries()) {
     ...tipos,
     { type: 'button', text: 'Todos los modelos de contenedores', href: `${dominio}/tipos/` },
     ...h(`Precios de contenedores marítimos en ${n}`, PRECIOS),
-    t(`El precio de un contenedor marítimo en ${n} depende del tamaño, de si es nuevo o usado y del transporte. Mira la ${link('/precios/', 'tabla de precios orientativos')} y pide presupuesto con la dirección de entrega para tener el precio cerrado.`),
+    ar
+      // Precios en dólares: las mismas cifras orientativas que ya dan las demás páginas de Argentina de la web.
+      ? t(`El precio de un contenedor marítimo en ${n} depende del tamaño, de si es nuevo o usado y del flete. Como referencia, un contenedor de 20 pies usado ronda entre 1000 y 2500 dólares y uno de 40 pies usado entre 1500 y 3500 dólares; nuevos, de 1500 a 3000 dólares el de 20 pies y de 1700 a 4000 dólares el de 40 pies. Pide presupuesto con la dirección de entrega para tener el precio cerrado.`)
+      : t(`El precio de un contenedor marítimo en ${n} depende del tamaño, de si es nuevo o usado y del transporte. Mira la ${link('/precios/', 'tabla de precios orientativos')} y pide presupuesto con la dirección de entrega para tener el precio cerrado.`),
     { type: 'button', text: 'Precios', href: `${dominio}/precios/` },
     ...h(`Medidas de contenedores marítimos en ${n}`, fotos.medidas.src, fotos.medidas.ajuste),
     t(`Los contenedores de 20 y 40 pies son los más habituales en ${n}; hay también de 10 y 45 pies. Consulta la ${link('/medidas/', 'tabla de medidas')} para elegir el tamaño que cabe en tu terreno.`),
@@ -68,11 +73,11 @@ for (const [i, u] of ubicaciones.entries()) {
     t(`Alquila un contenedor marítimo en ${n} para eventos, almacenaje u obras. Mira los ${link('/contenedores-para-almacenaje/', 'contenedores para almacenaje')} y los ${link('/contenedores-para-construccion/', 'contenedores para obras')}.`),
     { type: 'button', text: 'Alquiler', href: `${dominio}/alquiler/` },
   ];
-  const titulo = `Contenedores marítimos en ${n}${u.extra ? ` (${u.extra})` : ''} | Venta, alquiler y transporte`;
+  const titulo = `Contenedores marítimos en ${n}${u.extra ? ` (${u.extra})` : ar ? ' (Argentina)' : ''} | Venta, alquiler y transporte`;
   fs.writeFileSync(`src/content/pages/${u.slug}.json`, JSON.stringify({
-    slug: u.slug, title: titulo, url: `${dominio}/${u.slug}/`,
+    slug: u.slug, title: titulo, url: `${dominio}${ruta}`,
     meta_description: `Contenedores marítimos en ${n}: venta, alquiler y transporte de contenedores nuevos y de segunda mano. Medidas, precios orientativos y presupuesto sin compromiso.`,
-    menu: 'contenedores-maritimos', nueva: true, ciudad: true, blocks,
+    menu: ar ? 'argentina' : 'contenedores-maritimos', nueva: true, ciudad: true, blocks,
   }, null, 1) + '\n');
 }
 
@@ -80,7 +85,7 @@ for (const [i, u] of ubicaciones.entries()) {
 const todas = fs.readdirSync('src/content/pages').map((f) => JSON.parse(fs.readFileSync(`src/content/pages/${f}`, 'utf8')));
 const ciudadesPag = todas.filter((p) => !p.servicio && !p.guia && (p.ciudad || (!p.nueva && JSON.parse(fs.readFileSync('src/data/ciudades.json', 'utf8'))[p.slug])));
 const limpio = (p) => p.title.replace(/^(Contenedores marítimos en |Contenedores (Mar[ií]timos )?|Container )/i, '').replace(/ \(.*$| \|.*$| container$/i, '').trim();
-const lista = (arr) => arr.sort((x, y) => limpio(x).localeCompare(limpio(y), 'es')).map((p) => `<a href="/${p.slug}/">${limpio(p)}</a>`).join('<br>');
+const lista = (arr) => arr.sort((x, y) => limpio(x).localeCompare(limpio(y), 'es')).map((p) => `<a href="${new URL(p.url).pathname}">${limpio(p)}</a>`).join('<br>');
 const es = ciudadesPag.filter((p) => p.menu !== 'argentina'), ar = ciudadesPag.filter((p) => p.menu === 'argentina');
 const dirU = '/img/ubicaciones/todas'; carpetas.push(dirU);
 const h1U = 'Ubicaciones: contenedores marítimos en España y Argentina';

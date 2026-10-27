@@ -3,6 +3,7 @@
 // el propietario la apruebe): sin H1 explícito en Elementor, el H1 es el título.
 import fs from 'node:fs';
 import path from 'node:path';
+import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
@@ -14,7 +15,7 @@ const diferencias = [];
 let comparadas = 0;
 for (const p of paginas) {
   const ruta = new URL(p.url).pathname.replace(/^\/|\/$/g, '');
-  const f = path.join('dist', ruta, 'index.html');
+  const f = path.join('dist', rutaNueva(ruta), 'index.html'); // Argentina: en /ar/
   if (!fs.existsSync(f)) { diferencias.push(`${p.url}: no existe en dist`); continue; }
   const html = fs.readFileSync(f, 'utf8');
   const nuevos = [...html.matchAll(/<(h[1-3])[^>]*>([\s\S]*?)<\/\1>/g)].map((m) => [m[1], limpia(m[2])]);

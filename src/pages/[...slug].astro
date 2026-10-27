@@ -8,6 +8,7 @@ import { seoDe } from '../lib/seo';
 import { textoLegal } from '../lib/legales';
 import { migasDe } from '../lib/migas';
 import { extrasCiudad } from '../lib/ciudades';
+import { PORTADAS } from '../lib/rutas';
 import faqPaginas from '../data/faq-paginas.json';
 
 export async function getStaticPaths() {
@@ -16,7 +17,7 @@ export async function getStaticPaths() {
     .map(([path, mod]: [string, any]) => mod.default)
     .filter((data: any) => data.slug !== 'contenedores-maritimos') // esa es la home, va por index.astro
     .map((data: any) => ({
-      params: { slug: data.slug },
+      params: { slug: new URL(data.url).pathname.replace(/^\/|\/$/g, '') }, // /ar/salta/ → ar/salta
       props: { data },
     }));
 }
@@ -30,6 +31,8 @@ const faqLista = data.faq ?? ((faqPaginas as Record<string, any>)[data.slug]?.fa
 const datos = faqLista.length ? [{ '@type': 'FAQPage', mainEntity: faqLista.map((f: any) => ({ '@type': 'Question', name: f.pregunta, acceptedAnswer: { '@type': 'Answer', text: f.respuesta } })) }] : [];
 const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
 // En las páginas nuevas el título de Google es largo: la miga usa el H1.
+// La portada de Argentina (/ar/) es la versión argentina de la portada: hreflang entre las dos.
+const alternos = { 'es-ES': PORTADAS.es, 'es-AR': PORTADAS.ar };
 const migas = migasDe(data, data.nueva && h1 ? h1.text.replace(/<[^>]+>/g, '') : data.title);
 ---
 <Base
@@ -42,6 +45,8 @@ const migas = migasDe(data, data.nueva && h1 ? h1.text.replace(/<[^>]+>/g, '') :
   ogDescripcion={seo.ogDescripcion}
   datos={datos}
   migas={migas}
+  pais={data.menu === 'argentina' ? 'ar' : 'es'}
+  alternos={data.slug === 'argentina' ? alternos : undefined}
 >
   <Hero titulo={h1 ? h1.text : data.title} hero={pagina.hero} menu={data.menu} zona={extrasCiudad(data.slug)?.etiqueta} />
   <div class="bloque">

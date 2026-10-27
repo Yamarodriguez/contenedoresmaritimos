@@ -5,6 +5,7 @@
 // cercanas de la propia web.
 import ciudades from '../data/ciudades.json';
 import extra from '../data/ciudades-extra.json';
+import { rutaDe } from './rutas';
 
 type Ciudad = {
   nombre: string; tipo: string; pais: 'es' | 'ar'; provincia?: string; comunidad?: string;
@@ -21,10 +22,11 @@ const norm = (t = '') => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(
 
 // Página de la web para una provincia o comunidad (si existe), para enlazarla.
 function paginaDe(nombre: string | undefined, yo: string): string | undefined {
+  const pais = datos[yo]?.pais; // solo páginas del mismo país (Córdoba o La Rioja existen en los dos)
   if (!nombre) return undefined;
   const n = norm(nombre);
   const alias: Record<string, string> = { acoruna: 'la-coruna', lacoruna: 'la-coruna', cataluna: 'cataluna', catalunya: 'cataluna', araba: 'alava', alavaaraba: 'alava', arabaalava: 'alava', vizcaya: 'bizkaia', guipuzcoa: 'gipuzkoa', asturias: 'asturias', canarias: 'canarias', balears: 'mallorca' };
-  const slug = alias[n] ?? Object.keys(datos).find((s) => norm(datos[s].nombre) === n && !ES_CIUDAD.has(datos[s].tipo));
+  const slug = (pais === 'es' ? alias[n] : undefined) ?? Object.keys(datos).find((s) => datos[s].pais === pais && norm(datos[s].nombre) === n && !ES_CIUDAD.has(datos[s].tipo));
   return slug && slug !== yo ? slug : undefined;
 }
 
@@ -56,9 +58,13 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
   const etiqueta = c.tipo === 'country' ? undefined : zona && zona !== c.nombre ? `${c.nombre} · ${zona.replace(/^Provincia de /, '')}` : c.nombre;
 
   const b = VARIANTE_B.has(slug);
-  const cerca = (b ? c.cercanas.slice(3, 6) : c.cercanas.slice(0, c.esZona ? 6 : 3)).map((o) => c.esZona ? `<a href="/${o.slug}/">${o.nombre}</a>` : `<a href="/${o.slug}/">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
+  // Portada de un país (Argentina): enlaza todas sus provincias y ciudades de la web.
+  const delPais = c.tipo === 'country'
+    ? Object.entries(datos).filter(([s, o]) => s !== slug && o.pais === c.pais && o.tipo !== 'country').sort(([, x], [, y]) => x.nombre.localeCompare(y.nombre, 'es')).map(([s, o]) => `<a href="${rutaDe(s)}">${o.nombre}</a>`)
+    : [];
+  const cerca = (b ? c.cercanas.slice(3, 6) : c.cercanas.slice(0, c.esZona ? 6 : 3)).map((o) => c.esZona ? `<a href="${rutaDe(o.slug)}">${o.nombre}</a>` : `<a href="${rutaDe(o.slug)}">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
   const listaCerca = cerca.length > 1 ? `${cerca.slice(0, -1).join(', ')} y ${cerca[cerca.length - 1]}` : cerca[0];
-  const primera = [lugar(c), listaCerca ? (b ? `Otras páginas de la zona que pueden interesarte: ${listaCerca}.` : c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
+  const primera = [lugar(c), delPais.length ? `En ${c.nombre} tienes información de contenedores marítimos por provincia y ciudad: ${delPais.slice(0, -1).join(', ')} y ${delPais[delPais.length - 1]}.` : '', listaCerca ? (b ? `Otras páginas de la zona que pueden interesarte: ${listaCerca}.` : c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
     .filter(Boolean).join(' ');
 
   const p = c.puerto;
@@ -91,9 +97,9 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
 
   const prov = paginaDe(c.provincia, slug) ?? paginaDe(c.comunidad, slug);
   const ultima = prov
-    ? `Si buscas un contenedor en otra zona de ${datos[prov].nombre}, consulta también nuestra página de <a href="/${prov}/">contenedores marítimos en ${datos[prov].nombre}</a>.`
+    ? `Si buscas un contenedor en otra zona de ${datos[prov].nombre}, consulta también nuestra página de <a href="${rutaDe(prov)}">contenedores marítimos en ${datos[prov].nombre}</a>.`
     : c.pais === 'ar' && slug !== 'argentina'
-      ? `Consulta también nuestra página de <a href="/argentina/">contenedores marítimos en ${pais}</a>.`
+      ? `Consulta también nuestra página de <a href="/ar/">contenedores marítimos en ${pais}</a>.`
       : undefined;
 
   return { etiqueta, primera: primera || undefined, transporte, construccion, ultima };

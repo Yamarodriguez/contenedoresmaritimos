@@ -20,8 +20,11 @@ interface Props {
   datos?: Record<string, unknown>[]; // datos estructurados propios de la página (p. ej. FAQPage)
   migas?: Miga[];
   indexar?: boolean; // false en páginas que no deben salir en Google (gracias, 404)
+  pais?: 'es' | 'ar'; // las páginas de Argentina (/ar/) van en español de Argentina
+  alternos?: Record<string, string>; // hreflang: versión de cada país de esta misma página
 }
-const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, datos = [], migas = [], indexar = true } = Astro.props as Props;
+const { title, description = '', canonical, menu, imagen, ogTitulo, ogDescripcion, datos = [], migas = [], indexar = true, pais = 'es', alternos } = Astro.props as Props;
+const idioma = pais === 'ar' ? 'es-AR' : 'es-ES';
 const dominio = site.dominio ? `https://${site.dominio}` : '';
 const imagenAbsoluta = imagen ? (imagen.startsWith('http') ? imagen : `${dominio}${imagen}`) : '';
 
@@ -38,14 +41,14 @@ const empresa: Record<string, unknown> = {
 const grafo: Record<string, unknown>[] = [
   empresa,
   { '@type': 'WebSite', '@id': `${dominio}/#web`, url: `${dominio}/`, name: site.nombre, inLanguage: 'es', publisher: { '@id': `${dominio}/#empresa` } },
-  { '@type': 'WebPage', '@id': `${canonical}#pagina`, url: canonical, name: title, ...(description ? { description } : {}), isPartOf: { '@id': `${dominio}/#web` }, inLanguage: 'es', ...(migas.length > 1 ? { breadcrumb: { '@id': `${canonical}#migas` } } : {}) },
+  { '@type': 'WebPage', '@id': `${canonical}#pagina`, url: canonical, name: title, ...(description ? { description } : {}), isPartOf: { '@id': `${dominio}/#web` }, inLanguage: idioma, ...(migas.length > 1 ? { breadcrumb: { '@id': `${canonical}#migas` } } : {}) },
   ...(migas.length > 1 ? [{ '@type': 'BreadcrumbList', '@id': `${canonical}#migas`, itemListElement: migas.map((m, i) => ({ '@type': 'ListItem', position: i + 1, name: m.nombre, item: m.url })) }] : []),
   ...datos,
 ];
 const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': grafo });
 ---
 <!doctype html>
-<html lang="es">
+<html lang={idioma}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,11 +57,13 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graf
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="icon" href="/favicon-192.png" type="image/png" sizes="192x192" />
     <link rel="canonical" href={canonical} />
+    {alternos && Object.entries(alternos).map(([lang, ruta]) => <link rel="alternate" hreflang={lang} href={`${dominio}${ruta}`} />)}
+    {alternos && <link rel="alternate" hreflang="x-default" href={`${dominio}/`} />}
     {site.bing && <meta name="msvalidate.01" content={site.bing} />}
     {site.analytics.adsense && <script async src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${site.analytics.adsense}`} crossorigin="anonymous"></script>}
     {!indexar && <meta name="robots" content="noindex, follow" />}
     <meta property="og:type" content="website" />
-    <meta property="og:locale" content="es_ES" />
+    <meta property="og:locale" content={idioma.replace('-', '_')} />
     <meta property="og:site_name" content={site.nombre} />
     <meta property="og:title" content={ogTitulo || title} />
     {(ogDescripcion || description) && <meta property="og:description" content={ogDescripcion || description} />}

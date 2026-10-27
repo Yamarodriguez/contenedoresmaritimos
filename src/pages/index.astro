@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import { PORTADAS } from '../lib/rutas';
 import { limpiar } from '../lib/html';
 import { seoDe } from '../lib/seo';
 import Contenido from '../components/Contenido.astro';
@@ -19,6 +20,7 @@ const h1 = data.blocks.find((b: any) => b.type === 'heading' && b.tag === 'h1');
   imagen={seo.imagen}
   ogTitulo={seo.ogTitulo}
   ogDescripcion={seo.ogDescripcion}
+  alternos={{ 'es-ES': PORTADAS.es, 'es-AR': PORTADAS.ar }}
 >
   <Hero titulo={h1 ? h1.text : data.title} hero={pagina.hero} menu={data.menu} />
   <div class="bloque">

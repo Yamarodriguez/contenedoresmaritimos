@@ -44,3 +44,87 @@
   from = "/comments/feed/*"
   to = "/"
   status = 301
+
+# --- Argentina en /ar/ (27-10-2026) ---
+# Las páginas de Argentina se movieron a /ar/ (src/data/rutas-ar.json). La redirección
+# permanente traspasa a la dirección nueva el posicionamiento y los enlaces externos.
+[[redirects]]
+  from = "/argentina/"
+  to = "/ar/"
+  status = 301
+[[redirects]]
+  from = "/bariloche/"
+  to = "/ar/bariloche/"
+  status = 301
+[[redirects]]
+  from = "/catamarca/"
+  to = "/ar/catamarca/"
+  status = 301
+[[redirects]]
+  from = "/formosa/"
+  to = "/ar/formosa/"
+  status = 301
+[[redirects]]
+  from = "/la-pampa/"
+  to = "/ar/la-pampa/"
+  status = 301
+[[redirects]]
+  from = "/la-plata/"
+  to = "/ar/la-plata/"
+  status = 301
+[[redirects]]
+  from = "/mar-del-plata/"
+  to = "/ar/mar-del-plata/"
+  status = 301
+[[redirects]]
+  from = "/mendoza/"
+  to = "/ar/mendoza/"
+  status = 301
+[[redirects]]
+  from = "/necochea/"
+  to = "/ar/necochea/"
+  status = 301
+[[redirects]]
+  from = "/neuquen/"
+  to = "/ar/neuquen/"
+  status = 301
+[[redirects]]
+  from = "/parana/"
+  to = "/ar/parana/"
+  status = 301
+[[redirects]]
+  from = "/ramos-mejia/"
+  to = "/ar/ramos-mejia/"
+  status = 301
+[[redirects]]
+  from = "/rio-grande/"
+  to = "/ar/rio-grande/"
+  status = 301
+[[redirects]]
+  from = "/rosario/"
+  to = "/ar/rosario/"
+  status = 301
+[[redirects]]
+  from = "/salta/"
+  to = "/ar/salta/"
+  status = 301
+[[redirects]]
+  from = "/san-juan/"
+  to = "/ar/san-juan/"
+  status = 301
+[[redirects]]
+  from = "/san-luis/"
+  to = "/ar/san-luis/"
+  status = 301
+[[redirects]]
+  from = "/santa-cruz/"
+  to = "/ar/santa-cruz/"
+  status = 301
+[[redirects]]
+  from = "/santa-fe/"
+  to = "/ar/santa-fe/"
+  status = 301
+[[redirects]]
+  from = "/tucuman/"
+  to = "/ar/tucuman/"
+  status = 301

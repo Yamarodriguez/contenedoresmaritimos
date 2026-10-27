@@ -71,7 +71,17 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 
 ## Ubicaciones nuevas (27-10-2026)
 - Tanda 1 (11) y tanda 2 (54: ciudades grandes, costa, islas y comunidades) en src/data/ciudades-nuevas.json; se generan con `node scripts/ciudades-nuevas.mjs && node scripts/geo-ciudades.mjs`. Foto principal y de H2 con la palabra clave en nombre y alt. Región de Murcia y Cabo de Palos no se crean (ya existen /murcia/ y La Manga: evitar canibalismo).
-- Siguen pendientes: 11 provincias de Argentina y sus ciudades.
+- Tanda 3: 11 provincias de Argentina, ya dentro de /ar/ (Córdoba: slug cordoba-argentina, dirección /ar/cordoba/).
+- Siguen pendientes: ciudades de Argentina sin página.
+
+## Argentina en /ar/ (27-10-2026, decidido con Yama)
+- Las 20 páginas de Argentina se movieron de la raíz a /ar/ (/argentina/ → /ar/, /salta/ → /ar/salta/…) con
+  `node scripts/mover-argentina.mjs`; lista en src/data/rutas-ar.json y redirecciones 301 en netlify.toml.
+- España se queda en la raíz. Hreflang es-ES / es-AR / x-default solo entre las portadas / y /ar/ (únicas
+  páginas equivalentes); las de Argentina llevan lang es-AR. Si se rehacen menus.json o los JSON de páginas desde
+  referencia/, volver a ejecutar mover-argentina.mjs. Los comprobadores traducen las rutas con scripts/rutas-ar.mjs.
+- Pendiente de Yama: WhatsApp/teléfono de Argentina y precios propios en dólares (las páginas nuevas usan las
+  mismas cifras en dólares que ya daba el original).
 
 ## Estado (se actualiza al cerrar cada fase)
 - Fase actual: 3 (diseño A aplicado a todas las páginas; falta que Yama lo revise en la web de pruebas) — antes, Fase 0: falta: kit/ y analisis/ en la carpeta del proyecto,

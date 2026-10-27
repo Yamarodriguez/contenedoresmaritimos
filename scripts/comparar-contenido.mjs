@@ -4,6 +4,7 @@
 // «», … ) se normaliza. Los enlaces se comparan por destino y orden.
 import fs from 'node:fs';
 import path from 'node:path';
+import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
@@ -35,7 +36,8 @@ const enlacesDe = (html) => {
     // errata aprobada: el botón «Precios» del original llevaba a /tipos/ (ahora lleva a /precios/)
     const t = norm(x[2]);
     if (h === '/comprar/' && t === 'presupuesto') return '/contacto/'; // errata aprobada: botón «Presupuesto» unificado a /contacto/
-    return h === '/tipos/' && t === 'precios' ? '/precios/' : h;
+    // aprobado: las páginas de Argentina se movieron a /ar/
+    return enlaceNuevo(h === '/tipos/' && t === 'precios' ? '/precios/' : h);
   }).filter((h) => !h.startsWith('#'));
 };
 
@@ -66,7 +68,7 @@ const menuDe = (html) => {
   // El botón «Pide presupuesto» de dentro del menú móvil se añadió a propósito.
   const sinCta = n.replace(/<li class="solo-movil">[\s\S]*?<\/li>/g, '');
   return [...sinCta.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)]
-    .map((m) => rel(m[1]) + ' | ' + norm(m[2]));
+    .map((m) => enlaceNuevo(rel(m[1])) + ' | ' + norm(m[2]));
 };
 const rel = (u) => u.replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/i, '');
 
@@ -75,7 +77,7 @@ let comparadas = 0;
 for (const p of paginas) {
   const ruta = new URL(p.url).pathname.replace(/^\/|\/$/g, '');
   const ref = path.join('referencia', (ruta === '' ? 'index' : ruta.replace(/\//g, '__')) + '.html');
-  const nueva = path.join('dist', ruta, 'index.html');
+  const nueva = path.join('dist', rutaNueva(ruta), 'index.html'); // Argentina: en /ar/
   if (!fs.existsSync(ref) || !fs.existsSync(nueva)) { dif.push(`${p.url}: falta ${!fs.existsSync(ref) ? 'referencia' : 'dist'}`); continue; }
   comparadas++;
   const a = bloquesDe(fs.readFileSync(ref, 'utf8'));

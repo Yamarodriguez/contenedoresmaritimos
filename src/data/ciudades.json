@@ -1458,7 +1458,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 1432
    },
    {
@@ -1778,6 +1778,45 @@
    }
   ],
   "esZona": false
+ },
+ "buenos-aires": {
+  "nombre": "Buenos Aires",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 270,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 254
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 273
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 282
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 309
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Buenos Aires",
+   "Quequén",
+   "Mar del Plata"
+  ]
  },
  "burgos": {
   "nombre": "Burgos",
@@ -2559,6 +2598,20 @@
   ],
   "esZona": false
  },
+ "chaco": {
+  "nombre": "Chaco",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Chaco",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 585,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
  "chiclana-de-la-frontera": {
   "nombre": "Chiclana de la Frontera",
   "tipo": "town",
@@ -2612,6 +2665,20 @@
    }
   ],
   "esZona": false
+ },
+ "chubut": {
+  "nombre": "Chubut",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Chubut",
+  "puerto": {
+   "nombre": "Puerto Madryn",
+   "km": 320,
+   "mar": true
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
  },
  "ciudad-real": {
   "nombre": "Ciudad Real",
@@ -3003,6 +3070,20 @@
   ],
   "esZona": false
  },
+ "cordoba-argentina": {
+  "nombre": "Córdoba",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Córdoba",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 310,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
  "cordoba": {
   "nombre": "Córdoba",
   "tipo": "city",
@@ -3057,6 +3138,20 @@
    }
   ],
   "esZona": false
+ },
+ "corrientes": {
+  "nombre": "Corrientes",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Corrientes",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 400,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
  },
  "coslada": {
   "nombre": "Coslada",
@@ -3831,6 +3926,28 @@
    }
   ],
   "esZona": false
+ },
+ "entre-rios": {
+  "nombre": "Entre Ríos",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Entre Ríos",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 125,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 106
+   }
+  ],
+  "esZona": true,
+  "puertosZona": [
+   "Santa Fe"
+  ]
  },
  "estepona": {
   "nombre": "Estepona",
@@ -5033,6 +5150,20 @@
   ],
   "esZona": false
  },
+ "jujuy": {
+  "nombre": "Jujuy",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Jujuy",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 1085,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
  "la-coruna": {
   "nombre": "La Coruña",
   "tipo": "municipality",
@@ -5343,7 +5474,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 2231
    }
   ],
@@ -6106,7 +6237,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 1919
    }
   ],
@@ -6378,6 +6509,20 @@
    }
   ],
   "esZona": false
+ },
+ "misiones": {
+  "nombre": "Misiones",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Misiones",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 815,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
  },
  "mojacar": {
   "nombre": "Mojácar",
@@ -6775,7 +6920,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 1825
    }
   ],
@@ -7262,7 +7407,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 2518
    }
   ],
@@ -7751,7 +7896,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 2245
    }
   ],
@@ -7919,6 +8064,26 @@
   ],
   "esZona": false
  },
+ "rio-negro": {
+  "nombre": "Río Negro",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Río Negro",
+  "puerto": {
+   "nombre": "San Antonio Este",
+   "km": 235,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 319
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
  "rivas-vaciamadrid": {
   "nombre": "Rivas-Vaciamadrid",
   "tipo": "town",
@@ -8076,7 +8241,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 2382
    }
   ],
@@ -9088,6 +9253,20 @@
   ],
   "esZona": false
  },
+ "santiago-del-estero": {
+  "nombre": "Santiago del Estero",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Santiago del Estero",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 525,
+   "mar": false
+  },
+  "cercanas": [],
+  "esZona": true,
+  "puertosZona": []
+ },
  "sardanola-del-valles": {
   "nombre": "Cerdanyola del Vallès",
   "tipo": "town",
@@ -9567,6 +9746,26 @@
   "esZona": true,
   "puertosZona": []
  },
+ "tierra-del-fuego": {
+  "nombre": "Tierra del Fuego",
+  "tipo": "state",
+  "pais": "ar",
+  "provincia": "Tierra del Fuego",
+  "puerto": {
+   "nombre": "Ushuaia",
+   "km": 70,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "rio-grande",
+    "nombre": "Río Grande",
+    "km": 57
+   }
+  ],
+  "esZona": true,
+  "puertosZona": []
+ },
  "toledo": {
   "nombre": "Toledo",
   "tipo": "city",
@@ -9940,7 +10139,7 @@
    },
    {
     "slug": "rio-grande",
-    "nombre": "Municipio de Río Grande",
+    "nombre": "Río Grande",
     "km": 3004
    }
   ],

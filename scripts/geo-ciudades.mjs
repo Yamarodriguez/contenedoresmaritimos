@@ -32,7 +32,7 @@ const PUERTOS = {
 };
 
 // Las páginas nuevas se llaman como en su H1 (no como en OpenStreetMap: Onteniente, Castro-Urdiales…).
-const nom = (slug, def) => JSON.parse(fs.readFileSync('src/data/ciudades-nuevas.json', 'utf8')).ubicaciones.find((u) => u.slug === slug)?.nombre ?? def;
+const nom = (slug, def) => JSON.parse(fs.readFileSync('src/data/ciudades-nuevas.json', 'utf8')).ubicaciones.find((u) => u.slug === slug)?.nombre ?? def.replace(/^Municipio de /, '');
 const km = (a, b) => {
   const R = 6371, r = (x) => (x * Math.PI) / 180;
   const dLat = r(b[0] - a[0]), dLon = r(b[1] - a[1]);

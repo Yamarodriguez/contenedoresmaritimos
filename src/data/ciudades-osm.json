@@ -3829,5 +3829,157 @@
    "province": "Islas Baleares",
    "state": "Islas Baleares"
   }
+ },
+ "buenos-aires": {
+  "busqueda": "Provincia de Buenos Aires",
+  "pais": "ar",
+  "lat": -36.3789925,
+  "lon": -60.3855889,
+  "tipo": "state",
+  "nombre": "Buenos Aires",
+  "direccion": {
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "chaco": {
+  "busqueda": "Provincia del Chaco",
+  "pais": "ar",
+  "lat": -26.3829647,
+  "lon": -60.8816092,
+  "tipo": "state",
+  "nombre": "Chaco",
+  "direccion": {
+   "state": "Chaco",
+   "ISO3166-2-lvl4": "AR-H",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "chubut": {
+  "busqueda": "Provincia del Chubut",
+  "pais": "ar",
+  "lat": -43.7128356,
+  "lon": -68.7461817,
+  "tipo": "state",
+  "nombre": "Chubut",
+  "direccion": {
+   "state": "Chubut",
+   "ISO3166-2-lvl4": "AR-U",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "cordoba-argentina": {
+  "busqueda": "Provincia de Córdoba, Argentina",
+  "pais": "ar",
+  "lat": -32.022249,
+  "lon": -63.9698736,
+  "tipo": "state",
+  "nombre": "Córdoba",
+  "direccion": {
+   "state": "Córdoba",
+   "ISO3166-2-lvl4": "AR-X",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "corrientes": {
+  "busqueda": "Provincia de Corrientes",
+  "pais": "ar",
+  "lat": -29.0177384,
+  "lon": -57.8869739,
+  "tipo": "state",
+  "nombre": "Corrientes",
+  "direccion": {
+   "state": "Corrientes",
+   "ISO3166-2-lvl4": "AR-W",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "entre-rios": {
+  "busqueda": "Provincia de Entre Ríos",
+  "pais": "ar",
+  "lat": -32.1290686,
+  "lon": -59.5077664,
+  "tipo": "state",
+  "nombre": "Entre Ríos",
+  "direccion": {
+   "state": "Entre Ríos",
+   "ISO3166-2-lvl4": "AR-E",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "jujuy": {
+  "busqueda": "Provincia de Jujuy",
+  "pais": "ar",
+  "lat": -23.1546219,
+  "lon": -66.1110913,
+  "tipo": "state",
+  "nombre": "Jujuy",
+  "direccion": {
+   "state": "Jujuy",
+   "ISO3166-2-lvl4": "AR-Y",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "misiones": {
+  "busqueda": "Provincia de Misiones",
+  "pais": "ar",
+  "lat": -26.737224,
+  "lon": -54.4315257,
+  "tipo": "state",
+  "nombre": "Misiones",
+  "direccion": {
+   "state": "Misiones",
+   "ISO3166-2-lvl4": "AR-N",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "rio-negro": {
+  "busqueda": "Provincia de Río Negro",
+  "pais": "ar",
+  "lat": -40.4811973,
+  "lon": -67.6145911,
+  "tipo": "state",
+  "nombre": "Río Negro",
+  "direccion": {
+   "state": "Río Negro",
+   "ISO3166-2-lvl4": "AR-R",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "santiago-del-estero": {
+  "busqueda": "Provincia de Santiago del Estero",
+  "pais": "ar",
+  "lat": -27.6431016,
+  "lon": -63.5408542,
+  "tipo": "state",
+  "nombre": "Santiago del Estero",
+  "direccion": {
+   "state": "Santiago del Estero",
+   "ISO3166-2-lvl4": "AR-G",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "tierra-del-fuego": {
+  "busqueda": "Provincia de Tierra del Fuego",
+  "pais": "ar",
+  "lat": -54.3,
+  "lon": -67.7,
+  "tipo": "state",
+  "nombre": "Tierra del Fuego",
+  "direccion": {
+   "province": "Tierra del Fuego",
+   "state": "Tierra del Fuego"
+  }
  }
 }

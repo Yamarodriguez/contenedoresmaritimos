@@ -1,5 +1,5 @@
 {
- "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2).",
+ "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2). Tercera tanda (27-10-2026): 11 provincias de Argentina, en /ar/ ('ruta' = dirección dentro de /ar/ cuando el slug choca con una página de España).",
  "ubicaciones": [
   {
    "slug": "javea",
@@ -556,6 +556,94 @@
      "tarragona",
      "reus",
      "villanueva-y-geltru"
+    ]
+   }
+  },
+  {
+   "slug": "buenos-aires",
+   "nombre": "Buenos Aires",
+   "busqueda": "Provincia de Buenos Aires",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "cordoba-argentina",
+   "nombre": "Córdoba",
+   "busqueda": "Provincia de Córdoba, Argentina",
+   "pais": "ar",
+   "lote": 3,
+   "ruta": "cordoba"
+  },
+  {
+   "slug": "chaco",
+   "nombre": "Chaco",
+   "busqueda": "Provincia del Chaco",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "chubut",
+   "nombre": "Chubut",
+   "busqueda": "Provincia del Chubut",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "corrientes",
+   "nombre": "Corrientes",
+   "busqueda": "Provincia de Corrientes",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "entre-rios",
+   "nombre": "Entre Ríos",
+   "busqueda": "Provincia de Entre Ríos",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "jujuy",
+   "nombre": "Jujuy",
+   "busqueda": "Provincia de Jujuy",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "misiones",
+   "nombre": "Misiones",
+   "busqueda": "Provincia de Misiones",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "rio-negro",
+   "nombre": "Río Negro",
+   "busqueda": "Provincia de Río Negro",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "santiago-del-estero",
+   "nombre": "Santiago del Estero",
+   "busqueda": "Provincia de Santiago del Estero",
+   "pais": "ar",
+   "lote": 3
+  },
+  {
+   "slug": "tierra-del-fuego",
+   "nombre": "Tierra del Fuego",
+   "busqueda": "Provincia de Tierra del Fuego",
+   "pais": "ar",
+   "lote": 3,
+   "manual": {
+    "lat": -54.3,
+    "lon": -67.7,
+    "tipo": "state",
+    "provincia": "Tierra del Fuego",
+    "comunidad": "Tierra del Fuego",
+    "cercanas": [
+     "rio-grande"
     ]
    }
   }

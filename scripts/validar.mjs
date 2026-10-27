@@ -1,6 +1,7 @@
 // C3: el validador sobre dist/.
 import fs from 'node:fs';
 import path from 'node:path';
+import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
 
 const DOMINIO = 'https://contenedoresmaritimos.net';
 const fallos = [];
@@ -71,7 +72,7 @@ for (const f of ficheros) {
   if (!debeIndexarse && !sinIndice) fallos.push(`${rel}: debería llevar noindex`);
   if (/casascontenedores/i.test(html)) {
     // Vale si ya estaba en el original (p. ej. un enlace real al sitio hermano).
-    const slug = rel === 'index.html' ? 'index' : rel.replace(/\/index\.html$/, '').replace(/\//g, '__');
+    const slug = rel === 'index.html' ? 'index' : rutaVieja(rel.replace(/\/index\.html$/, '')).replace(/\//g, '__');
     const ref = path.join('referencia', slug + '.html');
     const enOriginal = fs.existsSync(ref) && /casascontenedores/i.test(fs.readFileSync(ref, 'utf8'));
     if (!enOriginal) fallos.push(`${rel}: texto de casascontenedores que no estaba en el original`);
