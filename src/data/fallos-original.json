@@ -3,5 +3,10 @@
   "descripcion": "Botones del original con la barra olvidada tras el dominio (https://contenedoresmaritimos.nettipos/). Arreglados con el visto bueno de Yama.",
   "botones": 77,
   "paginas": 12
+ },
+ "boton_precios_a_tipos": {
+  "descripcion": "Botones «Precios» del original que llevaban a /tipos/ en vez de /precios/. Arreglados a petición de Yama (27-10-2026).",
+  "botones": 168,
+  "paginas": 168
  }
 }

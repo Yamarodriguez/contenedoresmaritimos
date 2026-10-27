@@ -28,9 +28,13 @@ function bloquesDe(html) {
     .map((x) => norm(x[2])).filter((t) => t.length > 1);
 }
 const enlacesDe = (html) => {
-  return [...zona(html).matchAll(/<a\b[^>]*href="([^"]+)"/g)].map((x) => x[1]
-    .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=[a-z0-9])/, 'https://contenedoresmaritimos.net/') // errata aprobada: falta la barra
-    .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/, '')).filter((h) => !h.startsWith('#'));
+  return [...zona(html).matchAll(/<a[^>]*href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/g)].map((x) => {
+    const h = x[1]
+      .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=[a-z0-9])/, 'https://contenedoresmaritimos.net/') // errata aprobada: falta la barra
+      .replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/, '');
+    // errata aprobada: el botón «Precios» del original llevaba a /tipos/ (ahora lleva a /precios/)
+    return h === '/tipos/' && norm(x[2]) === 'precios' ? '/precios/' : h;
+  }).filter((h) => !h.startsWith('#'));
 };
 
 // El formulario se compara aparte: mismos campos (textos de las etiquetas) y mismo orden.
