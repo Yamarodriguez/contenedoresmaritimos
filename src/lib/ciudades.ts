@@ -33,6 +33,7 @@ function paginaDe(nombre: string | undefined, yo: string): string | undefined {
 function lugar(c: Ciudad): string | undefined {
   if (/^(Ceuta|Melilla)$/.test(c.nombre)) return `${c.nombre} es una ciudad autónoma de España, en el norte de África.`;
   if (c.pais === 'ar') {
+    if (c.nombre === 'Ciudad de Buenos Aires') return 'La Ciudad Autónoma de Buenos Aires (CABA) es la capital de Argentina y no forma parte de ninguna provincia.';
     if (c.tipo === 'country') return undefined;
     if (c.tipo === 'state' || c.tipo === 'province') return `${c.nombre} es una provincia de Argentina.`;
     return c.provincia ? `${c.nombre} se encuentra en la provincia de ${c.provincia.replace(/^Provincia de /, '')}, Argentina.` : undefined;
@@ -79,7 +80,7 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
     const lista = ps.length > 1 ? `${ps.slice(0, -1).join(', ')} y ${ps[ps.length - 1]}` : ps[0];
     transporte = `${lista ? `${ps.length > 1 ? `Los principales puertos comerciales cercanos a las ciudades de ${c.nombre} con página en esta web son los de ${lista}` : `El principal puerto comercial cercano a las ciudades de ${c.nombre} con página en esta web es el de ${lista}`}. ` : ''}${camion}`;
   } else {
-    const portuaria = (p.km <= 10 && ciudadAutonoma) || norm(p.nombre) === norm(c.nombre) || (p.km <= 10 && p.nombre === c.nombre);
+    const portuaria = (p.km <= 10 && ciudadAutonoma) || norm(p.nombre) === norm(c.nombre) || (p.km <= 10 && norm(c.nombre).endsWith(norm(p.nombre))) || (p.km <= 10 && p.nombre === c.nombre);
     const puertoTxt = portuaria
       ? `${c.nombre} tiene puerto comercial propio${p.mar === false ? ', de río' : ''}.`
       : b

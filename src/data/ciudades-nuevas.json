@@ -1,5 +1,5 @@
 {
- "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2). Tercera tanda (27-10-2026): 11 provincias de Argentina, en /ar/ ('ruta' = dirección dentro de /ar/ cuando el slug choca con una página de España).",
+ "_nota": "Ubicaciones NUEVAS (primera tanda, 27-10-2026) elegidas por búsquedas reales de Search Console sin página propia. Las páginas se generan con scripts/ciudades-nuevas.mjs; la información geográfica (puerto, cercanas…) sale de scripts/geo-ciudades.mjs. 'busqueda' = texto para localizarla en OpenStreetMap. 'manual' = datos a mano cuando no es un lugar administrativo. Segunda tanda (27-10-2026): ciudades grandes de España, costa, islas y comunidades del informe ciudades-que-faltan.md (lote 2). Tercera tanda (27-10-2026): 11 provincias de Argentina, en /ar/ ('ruta' = dirección dentro de /ar/ cuando el slug choca con una página de España). Cuarta tanda (27-10-2026): 33 ciudades de Argentina en /ar/. No se crean Córdoba capital, Corrientes ni Santiago del Estero ciudad: se llaman igual que su provincia (ya con página) y competirían con ella.",
  "ubicaciones": [
   {
    "slug": "javea",
@@ -643,9 +643,247 @@
     "provincia": "Tierra del Fuego",
     "comunidad": "Tierra del Fuego",
     "cercanas": [
+     "ushuaia",
      "rio-grande"
     ]
    }
+  },
+  {
+   "slug": "ciudad-de-buenos-aires",
+   "nombre": "Ciudad de Buenos Aires",
+   "busqueda": "Ciudad Autónoma de Buenos Aires",
+   "pais": "ar",
+   "lote": 4,
+   "extra": "CABA",
+   "manual": {
+    "lat": -34.61,
+    "lon": -58.38,
+    "tipo": "city"
+   }
+  },
+  {
+   "slug": "lomas-de-zamora",
+   "nombre": "Lomas de Zamora",
+   "busqueda": "Lomas de Zamora",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "quilmes",
+   "nombre": "Quilmes",
+   "busqueda": "Quilmes",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "lanus",
+   "nombre": "Lanús",
+   "busqueda": "Lanús",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "pilar",
+   "nombre": "Pilar",
+   "busqueda": "Pilar, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "tigre",
+   "nombre": "Tigre",
+   "busqueda": "Tigre, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "moreno",
+   "nombre": "Moreno",
+   "busqueda": "Moreno, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "merlo",
+   "nombre": "Merlo",
+   "busqueda": "Merlo, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "la-matanza",
+   "nombre": "La Matanza",
+   "busqueda": "La Matanza, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "zarate",
+   "nombre": "Zárate",
+   "busqueda": "Zárate, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "campana",
+   "nombre": "Campana",
+   "busqueda": "Campana, Buenos Aires",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "san-nicolas",
+   "nombre": "San Nicolás de los Arroyos",
+   "busqueda": "San Nicolás de los Arroyos",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "pergamino",
+   "nombre": "Pergamino",
+   "busqueda": "Pergamino",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "venado-tuerto",
+   "nombre": "Venado Tuerto",
+   "busqueda": "Venado Tuerto",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "rafaela",
+   "nombre": "Rafaela",
+   "busqueda": "Rafaela",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "concordia",
+   "nombre": "Concordia",
+   "busqueda": "Concordia, Entre Ríos",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "gualeguaychu",
+   "nombre": "Gualeguaychú",
+   "busqueda": "Gualeguaychú",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "rio-cuarto",
+   "nombre": "Río Cuarto",
+   "busqueda": "Río Cuarto",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "villa-maria",
+   "nombre": "Villa María",
+   "busqueda": "Villa María, Córdoba",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "san-rafael",
+   "nombre": "San Rafael",
+   "busqueda": "San Rafael, Mendoza",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "villa-mercedes",
+   "nombre": "Villa Mercedes",
+   "busqueda": "Villa Mercedes, San Luis",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "tandil",
+   "nombre": "Tandil",
+   "busqueda": "Tandil",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "san-fernando-del-valle-de-catamarca",
+   "nombre": "San Fernando del Valle de Catamarca",
+   "busqueda": "San Fernando del Valle de Catamarca",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "resistencia",
+   "nombre": "Resistencia",
+   "busqueda": "Resistencia, Chaco",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "posadas",
+   "nombre": "Posadas",
+   "busqueda": "Posadas, Misiones",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "san-salvador-de-jujuy",
+   "nombre": "San Salvador de Jujuy",
+   "busqueda": "San Salvador de Jujuy",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "bahia-blanca",
+   "nombre": "Bahía Blanca",
+   "busqueda": "Bahía Blanca",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "comodoro-rivadavia",
+   "nombre": "Comodoro Rivadavia",
+   "busqueda": "Comodoro Rivadavia",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "trelew",
+   "nombre": "Trelew",
+   "busqueda": "Trelew",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "puerto-madryn",
+   "nombre": "Puerto Madryn",
+   "busqueda": "Puerto Madryn",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "viedma",
+   "nombre": "Viedma",
+   "busqueda": "Viedma, Río Negro",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "general-roca",
+   "nombre": "General Roca",
+   "busqueda": "General Roca, Río Negro",
+   "pais": "ar",
+   "lote": 4
+  },
+  {
+   "slug": "ushuaia",
+   "nombre": "Ushuaia",
+   "busqueda": "Ushuaia",
+   "pais": "ar",
+   "lote": 4
   }
  ]
 }

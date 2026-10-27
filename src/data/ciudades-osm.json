@@ -3981,5 +3981,558 @@
    "province": "Tierra del Fuego",
    "state": "Tierra del Fuego"
   }
+ },
+ "bahia-blanca": {
+  "busqueda": "Bahía Blanca",
+  "pais": "ar",
+  "lat": -38.7176522,
+  "lon": -62.2654871,
+  "tipo": "city",
+  "nombre": "Bahía Blanca",
+  "direccion": {
+   "city": "Bahía Blanca",
+   "county": "Cuartel I",
+   "state_district": "Partido de Bahía Blanca",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "campana": {
+  "busqueda": "Campana, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.1636631,
+  "lon": -58.9586837,
+  "tipo": "town",
+  "nombre": "Campana",
+  "direccion": {
+   "town": "Campana",
+   "state_district": "Partido de Campana",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "postcode": "2804",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "comodoro-rivadavia": {
+  "busqueda": "Comodoro Rivadavia",
+  "pais": "ar",
+  "lat": -45.8632024,
+  "lon": -67.4752615,
+  "tipo": "city",
+  "nombre": "Municipio de Comodoro Rivadavia",
+  "direccion": {
+   "city": "Municipio de Comodoro Rivadavia",
+   "state_district": "Departamento Escalante",
+   "state": "Chubut",
+   "ISO3166-2-lvl4": "AR-U",
+   "postcode": "U9000",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "concordia": {
+  "busqueda": "Concordia, Entre Ríos",
+  "pais": "ar",
+  "lat": -31.3401914,
+  "lon": -58.0263642,
+  "tipo": "municipality",
+  "nombre": "Concordia",
+  "direccion": {
+   "municipality": "Concordia",
+   "county": "Distrito Suburbios",
+   "state_district": "Departamento Concordia",
+   "state": "Entre Ríos",
+   "ISO3166-2-lvl4": "AR-E",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "general-roca": {
+  "busqueda": "General Roca, Río Negro",
+  "pais": "ar",
+  "lat": -39.0268342,
+  "lon": -67.5754674,
+  "tipo": "city",
+  "nombre": "Municipio de General Roca",
+  "direccion": {
+   "city": "Municipio de General Roca",
+   "state_district": "Departamento General Roca",
+   "state": "Río Negro",
+   "ISO3166-2-lvl4": "AR-R",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "gualeguaychu": {
+  "busqueda": "Gualeguaychú",
+  "pais": "ar",
+  "lat": -33.0078908,
+  "lon": -58.5109859,
+  "tipo": "city",
+  "nombre": "Gualeguaychú",
+  "direccion": {
+   "city": "Gualeguaychú",
+   "county": "Distrito Costa Uruguay Sur",
+   "state_district": "Departamento Gualeguaychú",
+   "state": "Entre Ríos",
+   "ISO3166-2-lvl4": "AR-E",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "la-matanza": {
+  "busqueda": "La Matanza, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.9133471,
+  "lon": -58.3392229,
+  "tipo": "municipality",
+  "nombre": "La Matanza",
+  "direccion": {
+   "road": "La Matanza",
+   "town": "Guernica",
+   "state_district": "Partido de Presidente Perón",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "postcode": "B1856",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "lanus": {
+  "busqueda": "Lanús",
+  "pais": "ar",
+  "lat": -34.7073871,
+  "lon": -58.3905998,
+  "tipo": "city",
+  "nombre": "Lanús",
+  "direccion": {
+   "railway": "Lanús",
+   "road": "29 de Septiembre",
+   "quarter": "Villa General Paz",
+   "city": "Lanús Este",
+   "state_district": "Partido de Lanús",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "postcode": "B1824",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "lomas-de-zamora": {
+  "busqueda": "Lomas de Zamora",
+  "pais": "ar",
+  "lat": -34.7572582,
+  "lon": -58.4026638,
+  "tipo": "city",
+  "nombre": "Lomas de Zamora",
+  "direccion": {
+   "city": "Lomas de Zamora",
+   "state_district": "Partido de Lomas de Zamora",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "merlo": {
+  "busqueda": "Merlo, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.6604988,
+  "lon": -58.7321695,
+  "tipo": "city",
+  "nombre": "Merlo",
+  "direccion": {
+   "city": "Merlo",
+   "state_district": "Partido de Merlo",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "moreno": {
+  "busqueda": "Moreno, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.6396556,
+  "lon": -58.7898326,
+  "tipo": "city",
+  "nombre": "Moreno",
+  "direccion": {
+   "city": "Moreno",
+   "state_district": "Partido de Moreno",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "pergamino": {
+  "busqueda": "Pergamino",
+  "pais": "ar",
+  "lat": -33.897495,
+  "lon": -60.575046,
+  "tipo": "city",
+  "nombre": "Pergamino",
+  "direccion": {
+   "city": "Pergamino",
+   "state_district": "Partido de Pergamino",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "pilar": {
+  "busqueda": "Pilar, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.4570918,
+  "lon": -58.9141609,
+  "tipo": "town",
+  "nombre": "Pilar",
+  "direccion": {
+   "town": "Pilar",
+   "state_district": "Partido del Pilar",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "posadas": {
+  "busqueda": "Posadas, Misiones",
+  "pais": "ar",
+  "lat": -27.3664824,
+  "lon": -55.894295,
+  "tipo": "city",
+  "nombre": "Municipio de Posadas",
+  "direccion": {
+   "city": "Municipio de Posadas",
+   "state_district": "Departamento Capital",
+   "state": "Misiones",
+   "ISO3166-2-lvl4": "AR-N",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "puerto-madryn": {
+  "busqueda": "Puerto Madryn",
+  "pais": "ar",
+  "lat": -42.7673414,
+  "lon": -65.0365942,
+  "tipo": "city",
+  "nombre": "Municipio de Puerto Madryn",
+  "direccion": {
+   "city": "Municipio de Puerto Madryn",
+   "state_district": "Departamento Biedma",
+   "state": "Chubut",
+   "ISO3166-2-lvl4": "AR-U",
+   "postcode": "U9120",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "quilmes": {
+  "busqueda": "Quilmes",
+  "pais": "ar",
+  "lat": -34.7257054,
+  "lon": -58.2630762,
+  "tipo": "city",
+  "nombre": "Quilmes",
+  "direccion": {
+   "city": "Quilmes",
+   "state_district": "Partido de Quilmes",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "rafaela": {
+  "busqueda": "Rafaela",
+  "pais": "ar",
+  "lat": -31.2526923,
+  "lon": -61.4916758,
+  "tipo": "city",
+  "nombre": "Rafaela",
+  "direccion": {
+   "city": "Rafaela",
+   "municipality": "Municipio de Rafaela",
+   "state_district": "Departamento Castellanos",
+   "state": "Santa Fe",
+   "ISO3166-2-lvl4": "AR-S",
+   "postcode": "S2300",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "resistencia": {
+  "busqueda": "Resistencia, Chaco",
+  "pais": "ar",
+  "lat": -27.6048829,
+  "lon": -59.1932003,
+  "tipo": "municipality",
+  "nombre": "Municipio de Resistencia",
+  "direccion": {
+   "municipality": "Municipio de Resistencia",
+   "state_district": "Departamento San Fernando",
+   "state": "Chaco",
+   "ISO3166-2-lvl4": "AR-H",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "rio-cuarto": {
+  "busqueda": "Río Cuarto",
+  "pais": "ar",
+  "lat": -33.1237585,
+  "lon": -64.3489782,
+  "tipo": "city",
+  "nombre": "Río Cuarto",
+  "direccion": {
+   "city": "Río Cuarto",
+   "municipality": "Municipio de Río Cuarto",
+   "county": "Pedanía Río Cuarto",
+   "state_district": "Departamento Río Cuarto",
+   "state": "Córdoba",
+   "ISO3166-2-lvl4": "AR-X",
+   "postcode": "X5800",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "san-fernando-del-valle-de-catamarca": {
+  "busqueda": "San Fernando del Valle de Catamarca",
+  "pais": "ar",
+  "lat": -28.4688806,
+  "lon": -65.7790642,
+  "tipo": "city",
+  "nombre": "San Fernando del Valle de Catamarca",
+  "direccion": {
+   "city": "San Fernando del Valle de Catamarca",
+   "municipality": "Municipio de San Fernando del Valle de Catamarca",
+   "state_district": "Departamento Capital",
+   "state": "Catamarca",
+   "ISO3166-2-lvl4": "AR-K",
+   "postcode": "K4700",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "san-nicolas": {
+  "busqueda": "San Nicolás de los Arroyos",
+  "pais": "ar",
+  "lat": -33.3277089,
+  "lon": -60.2165909,
+  "tipo": "city",
+  "nombre": "San Nicolás de los Arroyos",
+  "direccion": {
+   "city": "San Nicolás de los Arroyos",
+   "state_district": "Partido de San Nicolás",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "san-rafael": {
+  "busqueda": "San Rafael, Mendoza",
+  "pais": "ar",
+  "lat": -34.6126025,
+  "lon": -68.330514,
+  "tipo": "city",
+  "nombre": "Distrito Ciudad de San Rafael",
+  "direccion": {
+   "city": "Distrito Ciudad de San Rafael",
+   "state_district": "Departamento San Rafael",
+   "state": "Mendoza",
+   "ISO3166-2-lvl4": "AR-M",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "san-salvador-de-jujuy": {
+  "busqueda": "San Salvador de Jujuy",
+  "pais": "ar",
+  "lat": -24.1852569,
+  "lon": -65.2994789,
+  "tipo": "city",
+  "nombre": "Municipio de San Salvador de Jujuy",
+  "direccion": {
+   "city": "Municipio de San Salvador de Jujuy",
+   "state_district": "Departamento Doctor Manuel Belgrano",
+   "state": "Jujuy",
+   "ISO3166-2-lvl4": "AR-Y",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "tandil": {
+  "busqueda": "Tandil",
+  "pais": "ar",
+  "lat": -37.3282887,
+  "lon": -59.1356957,
+  "tipo": "city",
+  "nombre": "Tandil",
+  "direccion": {
+   "city": "Tandil",
+   "state_district": "Partido de Tandil",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "tigre": {
+  "busqueda": "Tigre, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.4235341,
+  "lon": -58.5817628,
+  "tipo": "city",
+  "nombre": "Tigre",
+  "direccion": {
+   "railway": "Tigre",
+   "road": "Luis García",
+   "town": "Tigre",
+   "state_district": "Partido de Tigre",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "postcode": "1648",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "trelew": {
+  "busqueda": "Trelew",
+  "pais": "ar",
+  "lat": -43.2531242,
+  "lon": -65.3094407,
+  "tipo": "city",
+  "nombre": "Trelew",
+  "direccion": {
+   "city": "Trelew",
+   "municipality": "Municipio de Trelew",
+   "state_district": "Departamento Rawson",
+   "state": "Chubut",
+   "ISO3166-2-lvl4": "AR-U",
+   "postcode": "U9100",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "ushuaia": {
+  "busqueda": "Ushuaia",
+  "pais": "ar",
+  "lat": -54.807306,
+  "lon": -68.3084133,
+  "tipo": "town",
+  "nombre": "Ushuaia",
+  "direccion": {
+   "town": "Ushuaia",
+   "state_district": "Departamento Ushuaia",
+   "state": "Tierra del Fuego",
+   "ISO3166-2-lvl4": "AR-V",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "venado-tuerto": {
+  "busqueda": "Venado Tuerto",
+  "pais": "ar",
+  "lat": -33.7455871,
+  "lon": -61.9686068,
+  "tipo": "town",
+  "nombre": "Venado Tuerto",
+  "direccion": {
+   "town": "Venado Tuerto",
+   "municipality": "Municipio de Venado Tuerto",
+   "state_district": "Departamento General López",
+   "state": "Santa Fe",
+   "ISO3166-2-lvl4": "AR-S",
+   "postcode": "S2600",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "viedma": {
+  "busqueda": "Viedma, Río Negro",
+  "pais": "ar",
+  "lat": -40.8084274,
+  "lon": -62.994722,
+  "tipo": "town",
+  "nombre": "Municipio de Viedma",
+  "direccion": {
+   "town": "Municipio de Viedma",
+   "state_district": "Departamento Adolfo Alsina",
+   "state": "Río Negro",
+   "ISO3166-2-lvl4": "AR-R",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "villa-maria": {
+  "busqueda": "Villa María, Córdoba",
+  "pais": "ar",
+  "lat": -32.4106245,
+  "lon": -63.2435809,
+  "tipo": "town",
+  "nombre": "Villa María",
+  "direccion": {
+   "town": "Villa María",
+   "municipality": "Municipio de Villa María",
+   "county": "Pedanía Villa María",
+   "state_district": "Departamento General San Martín",
+   "state": "Córdoba",
+   "ISO3166-2-lvl4": "AR-X",
+   "postcode": "X5900",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "villa-mercedes": {
+  "busqueda": "Villa Mercedes, San Luis",
+  "pais": "ar",
+  "lat": -33.6866361,
+  "lon": -65.4954266,
+  "tipo": "city",
+  "nombre": "Villa Mercedes",
+  "direccion": {
+   "city": "Villa Mercedes",
+   "municipality": "Municipio de Villa Mercedes",
+   "state_district": "General Pedernera",
+   "state": "San Luis",
+   "ISO3166-2-lvl4": "AR-D",
+   "postcode": "D5730",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "zarate": {
+  "busqueda": "Zárate, Buenos Aires",
+  "pais": "ar",
+  "lat": -34.0954713,
+  "lon": -59.0245097,
+  "tipo": "city",
+  "nombre": "Zárate",
+  "direccion": {
+   "city": "Zárate",
+   "state_district": "Partido de Zárate",
+   "state": "Buenos Aires",
+   "ISO3166-2-lvl4": "AR-B",
+   "postcode": "2800",
+   "country": "Argentina",
+   "country_code": "ar"
+  }
+ },
+ "ciudad-de-buenos-aires": {
+  "busqueda": "Ciudad Autónoma de Buenos Aires",
+  "pais": "ar",
+  "lat": -34.61,
+  "lon": -58.38,
+  "tipo": "city",
+  "nombre": "Ciudad de Buenos Aires",
+  "direccion": {}
  }
 }

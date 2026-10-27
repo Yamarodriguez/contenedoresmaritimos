@@ -1277,6 +1277,60 @@
   ],
   "esZona": false
  },
+ "bahia-blanca": {
+  "nombre": "Bahía Blanca",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Bahía Blanca",
+   "km": 10,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 241
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 307
+   },
+   {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 315
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 419
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 461
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 507
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 549
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 549
+   }
+  ],
+  "esZona": false
+ },
  "baleares": {
   "nombre": "Baleares",
   "tipo": "province",
@@ -1427,44 +1481,44 @@
   },
   "cercanas": [
    {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 1110
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 395
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 1229
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 547
    },
    {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 1309
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 550
    },
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 1329
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 610
    },
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 1356
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 699
    },
    {
-    "slug": "parana",
-    "nombre": "Paraná",
-    "km": 1420
+    "slug": "san-rafael",
+    "nombre": "San Rafael",
+    "km": 771
    },
    {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 1432
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 816
    },
    {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 1686
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 974
    }
   ],
   "esZona": false
@@ -1791,31 +1845,40 @@
   },
   "cercanas": [
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 153
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 241
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 243
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 246
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 252
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
     "km": 254
-   },
-   {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 273
-   },
-   {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 282
-   },
-   {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 309
    }
   ],
   "esZona": true,
   "puertosZona": [
    "Buenos Aires",
-   "Quequén",
-   "Mar del Plata"
+   "Zárate"
   ]
  },
  "burgos": {
@@ -2140,6 +2203,60 @@
     "slug": "hospitalet-de-llobregat",
     "nombre": "Hospitalet de Llobregat",
     "km": 204
+   }
+  ],
+  "esZona": false
+ },
+ "campana": {
+  "nombre": "Campana",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Zárate",
+   "km": 10,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 10
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 33
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 45
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 55
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 59
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 65
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 73
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 80
    }
   ],
   "esZona": false
@@ -2540,7 +2657,13 @@
    "km": 760,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "san-fernando-del-valle-de-catamarca",
+    "nombre": "San Fernando del Valle de Catamarca",
+    "km": 157
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -2608,7 +2731,13 @@
    "km": 585,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "resistencia",
+    "nombre": "Resistencia",
+    "km": 216
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -2676,9 +2805,80 @@
    "km": 320,
    "mar": true
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 259
+   },
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 282
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 318
+   }
+  ],
   "esZona": true,
-  "puertosZona": []
+  "puertosZona": [
+   "Puerto Madryn"
+  ]
+ },
+ "ciudad-de-buenos-aires": {
+  "nombre": "Ciudad de Buenos Aires",
+  "tipo": "city",
+  "pais": "ar",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 5,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 11
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 17
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 17
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 17
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 28
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 33
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 34
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 38
+   }
+  ],
+  "esZona": false
  },
  "ciudad-real": {
   "nombre": "Ciudad Real",
@@ -2803,6 +3003,60 @@
   ],
   "esZona": false
  },
+ "comodoro-rivadavia": {
+  "nombre": "Comodoro Rivadavia",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Chubut",
+  "puerto": {
+   "nombre": "Puerto Madryn",
+   "km": 395,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 337
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 395
+   },
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 610
+   },
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 668
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 760
+   },
+   {
+    "slug": "rio-grande",
+    "nombre": "Río Grande",
+    "km": 881
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 902
+   },
+   {
+    "slug": "ushuaia",
+    "nombre": "Ushuaia",
+    "km": 996
+   }
+  ],
+  "esZona": false
+ },
  "compostela": {
   "nombre": "Santiago de Compostela",
   "tipo": "municipality",
@@ -2905,6 +3159,60 @@
    "Sagunto",
    "Castellón"
   ]
+ },
+ "concordia": {
+  "nombre": "Concordia",
+  "tipo": "municipality",
+  "pais": "ar",
+  "provincia": "Entre Ríos",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 255,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 191
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 241
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 302
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 307
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 320
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 326
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 329
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 347
+   }
+  ],
+  "esZona": false
  },
  "container-valencia": {
   "nombre": "Valencia",
@@ -3080,7 +3388,18 @@
    "km": 310,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 81
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 128
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -3942,6 +4261,16 @@
     "slug": "parana",
     "nombre": "Paraná",
     "km": 106
+   },
+   {
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 135
+   },
+   {
+    "slug": "concordia",
+    "nombre": "Concordia",
+    "km": 165
    }
   ],
   "esZona": true,
@@ -4350,6 +4679,60 @@
   ],
   "esZona": false
  },
+ "general-roca": {
+  "nombre": "General Roca",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Río Negro",
+  "puerto": {
+   "nombre": "San Antonio Este",
+   "km": 305,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 395
+   },
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 438
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 461
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 467
+   },
+   {
+    "slug": "san-rafael",
+    "nombre": "San Rafael",
+    "km": 495
+   },
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 507
+   },
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 622
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 717
+   }
+  ],
+  "esZona": false
+ },
  "gerona": {
   "nombre": "Gerona",
   "tipo": "city",
@@ -4736,6 +5119,60 @@
   "cercanas": [],
   "esZona": true,
   "puertosZona": []
+ },
+ "gualeguaychu": {
+  "nombre": "Gualeguaychú",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Entre Ríos",
+  "puerto": {
+   "nombre": "Zárate",
+   "km": 130,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 130
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 135
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 158
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 163
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 165
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 179
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 182
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 183
+   }
+  ],
+  "esZona": false
  },
  "guecho": {
   "nombre": "Guecho",
@@ -5160,7 +5597,13 @@
    "km": 1085,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "san-salvador-de-jujuy",
+    "nombre": "San Salvador de Jujuy",
+    "km": 141
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -5397,6 +5840,60 @@
   ],
   "esZona": false
  },
+ "la-matanza": {
+  "nombre": "La Matanza",
+  "tipo": "municipality",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 35,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 18
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 22
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 23
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 34
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 35
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 36
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 46
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 51
+   }
+  ],
+  "esZona": false
+ },
  "la-palma": {
   "nombre": "La Palma",
   "tipo": "island",
@@ -5438,44 +5935,44 @@
   },
   "cercanas": [
    {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 35
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 36
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 45
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 46
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 52
+   },
+   {
     "slug": "ramos-mejia",
     "nombre": "Ramos Mejía",
     "km": 63
    },
    {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 332
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 77
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 344
-   },
-   {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 410
-   },
-   {
-    "slug": "parana",
-    "nombre": "Paraná",
-    "km": 428
-   },
-   {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 1134
-   },
-   {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1356
-   },
-   {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 2231
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 80
    }
   ],
   "esZona": false
@@ -5505,6 +6002,60 @@
   ],
   "esZona": true,
   "puertosZona": []
+ },
+ "lanus": {
+  "nombre": "Lanús",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 15,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 6
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 11
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 12
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 17
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 23
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 32
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 36
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 37
+   }
+  ],
+  "esZona": false
  },
  "lanzarote": {
   "nombre": "Lanzarote",
@@ -5868,6 +6419,60 @@
   ],
   "esZona": false
  },
+ "lomas-de-zamora": {
+  "nombre": "Lomas de Zamora",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 20,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 6
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 13
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 17
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 18
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 19
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 32
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 38
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 41
+   }
+  ],
+  "esZona": false
+ },
  "lorca": {
   "nombre": "Lorca",
   "tipo": "city",
@@ -6206,39 +6811,39 @@
     "km": 121
    },
    {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 158
+   },
+   {
     "slug": "la-plata",
     "nombre": "La Plata",
     "km": 344
    },
    {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 350
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 368
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 369
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 374
+   },
+   {
     "slug": "ramos-mejia",
     "nombre": "Ramos Mejía",
     "km": 383
-   },
-   {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 627
-   },
-   {
-    "slug": "parana",
-    "nombre": "Paraná",
-    "km": 748
-   },
-   {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1229
-   },
-   {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 1433
-   },
-   {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 1919
    }
   ],
   "esZona": false
@@ -6376,7 +6981,13 @@
    "km": 740,
    "mar": true
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "san-rafael",
+    "nombre": "San Rafael",
+    "km": 37
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -6456,6 +7067,60 @@
   ],
   "esZona": false
  },
+ "merlo": {
+  "nombre": "Merlo",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 35,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 6
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 16
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 28
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 30
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 32
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 32
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 33
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 43
+   }
+  ],
+  "esZona": false
+ },
  "mijas": {
   "nombre": "Mijas",
   "tipo": "city",
@@ -6520,7 +7185,13 @@
    "km": 815,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "posadas",
+    "nombre": "Posadas",
+    "km": 161
+   }
+  ],
   "esZona": true,
   "puertosZona": []
  },
@@ -6685,6 +7356,60 @@
     "slug": "terrassa",
     "nombre": "Terrassa",
     "km": 17
+   }
+  ],
+  "esZona": false
+ },
+ "moreno": {
+  "nombre": "Moreno",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 40,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 6
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 21
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 23
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 31
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 37
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 38
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 38
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 49
    }
   ],
   "esZona": false
@@ -6889,39 +7614,39 @@
     "km": 121
    },
    {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 141
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 307
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 406
+   },
+   {
     "slug": "la-plata",
     "nombre": "La Plata",
     "km": 410
    },
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 435
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 423
    },
    {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 646
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 428
    },
    {
-    "slug": "parana",
-    "nombre": "Paraná",
-    "km": 776
-   },
-   {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1110
-   },
-   {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 1436
-   },
-   {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 1825
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 429
    }
   ],
   "esZona": false
@@ -7371,44 +8096,44 @@
   },
   "cercanas": [
    {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 106
+   },
+   {
     "slug": "rosario",
     "nombre": "Rosario",
     "km": 137
    },
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 372
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 180
    },
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 428
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 237
    },
    {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 709
+    "slug": "concordia",
+    "nombre": "Concordia",
+    "km": 241
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 748
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 241
    },
    {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 776
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 261
    },
    {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1420
-   },
-   {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 2518
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 267
    }
   ],
   "esZona": false
@@ -7571,6 +8296,114 @@
     "slug": "container-valencia",
     "nombre": "Valencia",
     "km": 119
+   }
+  ],
+  "esZona": false
+ },
+ "pergamino": {
+  "nombre": "Pergamino",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 105,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 72
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 105
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 130
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 145
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 152
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 165
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 184
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 189
+   }
+  ],
+  "esZona": false
+ },
+ "pilar": {
+  "nombre": "Pilar",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Zárate",
+   "km": 40,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 23
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 28
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 31
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 33
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 39
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 41
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 52
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 55
    }
   ],
   "esZona": false
@@ -7739,6 +8572,60 @@
   ],
   "esZona": false
  },
+ "posadas": {
+  "nombre": "Posadas",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Misiones",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 665,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "resistencia",
+    "nombre": "Resistencia",
+    "km": 326
+   },
+   {
+    "slug": "concordia",
+    "nombre": "Concordia",
+    "km": 488
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 661
+   },
+   {
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 676
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 694
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 772
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 782
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 806
+   }
+  ],
+  "esZona": false
+ },
  "pozuelo-de-alarcon": {
   "nombre": "Pozuelo de Alarcón",
   "tipo": "town",
@@ -7848,6 +8735,168 @@
   ],
   "esZona": false
  },
+ "puerto-madryn": {
+  "nombre": "Puerto Madryn",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Chubut",
+  "puerto": {
+   "nombre": "Puerto Madryn",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 58
+   },
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 276
+   },
+   {
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 395
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 467
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 507
+   },
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 550
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 708
+   },
+   {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 786
+   }
+  ],
+  "esZona": false
+ },
+ "quilmes": {
+  "nombre": "Quilmes",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 20,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 12
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 13
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 17
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 22
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 29
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 36
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 43
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 45
+   }
+  ],
+  "esZona": false
+ },
+ "rafaela": {
+  "nombre": "Rafaela",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Santa Fe",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 85,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 106
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 205
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 210
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 260
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 281
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 306
+   },
+   {
+    "slug": "concordia",
+    "nombre": "Concordia",
+    "km": 329
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 340
+   }
+  ],
+  "esZona": false
+ },
  "ramos-mejia": {
   "nombre": "Ramos Mejía",
   "tipo": "city",
@@ -7860,44 +8909,98 @@
   },
   "cercanas": [
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 63
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 16
    },
    {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 270
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 17
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 17
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 19
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 21
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 25
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 29
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 36
+   }
+  ],
+  "esZona": false
+ },
+ "resistencia": {
+  "nombre": "Resistencia",
+  "tipo": "municipality",
+  "pais": "ar",
+  "provincia": "Chaco",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 475,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "posadas",
+    "nombre": "Posadas",
+    "km": 326
+   },
+   {
+    "slug": "concordia",
+    "nombre": "Concordia",
+    "km": 430
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 463
    },
    {
     "slug": "parana",
     "nombre": "Paraná",
-    "km": 372
-   },
-   {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 383
-   },
-   {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 435
+    "km": 477
    },
    {
     "slug": "tucuman",
     "nombre": "San Miguel de Tucumán",
-    "km": 1076
+    "km": 600
    },
    {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1329
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 604
    },
    {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 2245
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 612
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 644
    }
   ],
   "esZona": false
@@ -8010,6 +9113,60 @@
   ],
   "esZona": false
  },
+ "rio-cuarto": {
+  "nombre": "Río Cuarto",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Córdoba",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 345,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 123
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 130
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 231
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 340
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 344
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 360
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 385
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 390
+   }
+  ],
+  "esZona": false
+ },
  "rio-grande": {
   "nombre": "Río Grande",
   "tipo": "city",
@@ -8022,44 +9179,44 @@
   },
   "cercanas": [
    {
+    "slug": "ushuaia",
+    "nombre": "Ushuaia",
+    "km": 120
+   },
+   {
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 881
+   },
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 1184
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 1241
+   },
+   {
     "slug": "bariloche",
     "nombre": "San Carlos de Bariloche",
     "km": 1432
    },
    {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 1825
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 1485
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 1919
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 1641
    },
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 2231
-   },
-   {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 2245
-   },
-   {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 2382
-   },
-   {
-    "slug": "parana",
-    "nombre": "Paraná",
-    "km": 2518
-   },
-   {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 3004
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 1726
    }
   ],
   "esZona": false
@@ -8076,9 +9233,19 @@
   },
   "cercanas": [
    {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 162
+   },
+   {
     "slug": "bariloche",
     "nombre": "San Carlos de Bariloche",
     "km": 319
+   },
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 391
    }
   ],
   "esZona": true,
@@ -8205,44 +9372,44 @@
   },
   "cercanas": [
    {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 58
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 105
+   },
+   {
     "slug": "parana",
     "nombre": "Paraná",
     "km": 137
    },
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 270
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 150
    },
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 332
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 197
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 627
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 201
    },
    {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 646
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 205
    },
    {
-    "slug": "tucuman",
-    "nombre": "San Miguel de Tucumán",
-    "km": 810
-   },
-   {
-    "slug": "bariloche",
-    "nombre": "San Carlos de Bariloche",
-    "km": 1309
-   },
-   {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 2382
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 207
    }
   ],
   "esZona": false
@@ -8589,6 +9756,60 @@
   ],
   "esZona": false
  },
+ "san-fernando-del-valle-de-catamarca": {
+  "nombre": "San Fernando del Valle de Catamarca",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Catamarca",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 605,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "tucuman",
+    "nombre": "San Miguel de Tucumán",
+    "km": 191
+   },
+   {
+    "slug": "san-salvador-de-jujuy",
+    "nombre": "San Salvador de Jujuy",
+    "km": 479
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 501
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 516
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 535
+   },
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 581
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 622
+   },
+   {
+    "slug": "resistencia",
+    "nombre": "Resistencia",
+    "km": 653
+   }
+  ],
+  "esZona": false
+ },
  "san-fernando": {
   "nombre": "San Fernando",
   "tipo": "city",
@@ -8722,9 +9943,177 @@
    "km": 515,
    "mar": false
   },
-  "cercanas": [],
+  "cercanas": [
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 57
+   }
+  ],
   "esZona": true,
   "puertosZona": []
+ },
+ "san-nicolas": {
+  "nombre": "San Nicolás de los Arroyos",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 60,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 58
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 72
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 139
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 149
+   },
+   {
+    "slug": "gualeguaychu",
+    "nombre": "Gualeguaychú",
+    "km": 163
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 169
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 174
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 180
+   }
+  ],
+  "esZona": false
+ },
+ "san-rafael": {
+  "nombre": "San Rafael",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Mendoza",
+  "puerto": {
+   "nombre": "Bahía Blanca",
+   "km": 710,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 280
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 403
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 495
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 531
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 593
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 708
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 717
+   },
+   {
+    "slug": "san-fernando-del-valle-de-catamarca",
+    "nombre": "San Fernando del Valle de Catamarca",
+    "km": 725
+   }
+  ],
+  "esZona": false
+ },
+ "san-salvador-de-jujuy": {
+  "nombre": "San Salvador de Jujuy",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Jujuy",
+  "puerto": {
+   "nombre": "Santa Fe",
+   "km": 945,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "tucuman",
+    "nombre": "San Miguel de Tucumán",
+    "km": 294
+   },
+   {
+    "slug": "san-fernando-del-valle-de-catamarca",
+    "nombre": "San Fernando del Valle de Catamarca",
+    "km": 479
+   },
+   {
+    "slug": "resistencia",
+    "nombre": "Resistencia",
+    "km": 719
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 870
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 936
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 961
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 998
+   },
+   {
+    "slug": "posadas",
+    "nombre": "Posadas",
+    "km": 1006
+   }
+  ],
+  "esZona": false
  },
  "san-sebastian": {
   "nombre": "San Sebastián",
@@ -9080,9 +10469,19 @@
   },
   "cercanas": [
    {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 109
+   },
+   {
     "slug": "rosario",
     "nombre": "Rosario",
     "km": 298
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 389
    }
   ],
   "esZona": true,
@@ -9554,6 +10953,60 @@
   ],
   "esZona": false
  },
+ "tandil": {
+  "nombre": "Tandil",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Quequén",
+   "km": 145,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 141
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 158
+   },
+   {
+    "slug": "la-matanza",
+    "nombre": "La Matanza",
+    "km": 278
+   },
+   {
+    "slug": "la-plata",
+    "nombre": "La Plata",
+    "km": 288
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 293
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 299
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 299
+   },
+   {
+    "slug": "quilmes",
+    "nombre": "Quilmes",
+    "km": 300
+   }
+  ],
+  "esZona": false
+ },
  "tarragona": {
   "nombre": "Tarragona",
   "tipo": "city",
@@ -9758,13 +11211,74 @@
   },
   "cercanas": [
    {
+    "slug": "ushuaia",
+    "nombre": "Ushuaia",
+    "km": 69
+   },
+   {
     "slug": "rio-grande",
     "nombre": "Río Grande",
     "km": 57
    }
   ],
   "esZona": true,
-  "puertosZona": []
+  "puertosZona": [
+   "Ushuaia"
+  ]
+ },
+ "tigre": {
+  "nombre": "Tigre",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Buenos Aires",
+   "km": 25,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 25
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 28
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 30
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 31
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 31
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 36
+   },
+   {
+    "slug": "lomas-de-zamora",
+    "nombre": "Lomas de Zamora",
+    "km": 41
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 45
+   }
+  ],
+  "esZona": false
  },
  "toledo": {
   "nombre": "Toledo",
@@ -10037,6 +11551,60 @@
   ],
   "esZona": false
  },
+ "trelew": {
+  "nombre": "Trelew",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Chubut",
+  "puerto": {
+   "nombre": "Puerto Madryn",
+   "km": 60,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 58
+   },
+   {
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 332
+   },
+   {
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 337
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 507
+   },
+   {
+    "slug": "bariloche",
+    "nombre": "San Carlos de Bariloche",
+    "km": 547
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 565
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 760
+   },
+   {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 841
+   }
+  ],
+  "esZona": false
+ },
  "tres-cantos": {
   "nombre": "Tres Cantos",
   "tipo": "town",
@@ -10103,44 +11671,98 @@
   },
   "cercanas": [
    {
+    "slug": "san-fernando-del-valle-de-catamarca",
+    "nombre": "San Fernando del Valle de Catamarca",
+    "km": 191
+   },
+   {
+    "slug": "san-salvador-de-jujuy",
+    "nombre": "San Salvador de Jujuy",
+    "km": 294
+   },
+   {
+    "slug": "resistencia",
+    "nombre": "Resistencia",
+    "km": 600
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 610
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 649
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 705
+   },
+   {
     "slug": "parana",
     "nombre": "Paraná",
     "km": 709
    },
    {
-    "slug": "rosario",
-    "nombre": "Rosario",
-    "km": 810
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 763
+   }
+  ],
+  "esZona": false
+ },
+ "ushuaia": {
+  "nombre": "Ushuaia",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Tierra del Fuego",
+  "puerto": {
+   "nombre": "Ushuaia",
+   "km": 5,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "rio-grande",
+    "nombre": "Río Grande",
+    "km": 120
    },
    {
-    "slug": "ramos-mejia",
-    "nombre": "Ramos Mejía",
-    "km": 1076
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 996
    },
    {
-    "slug": "la-plata",
-    "nombre": "La Plata",
-    "km": 1134
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 1303
    },
    {
-    "slug": "mar-del-plata",
-    "nombre": "Mar del Plata",
-    "km": 1433
-   },
-   {
-    "slug": "necochea",
-    "nombre": "Necochea",
-    "km": 1436
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 1360
    },
    {
     "slug": "bariloche",
     "nombre": "San Carlos de Bariloche",
-    "km": 1686
+    "km": 1536
    },
    {
-    "slug": "rio-grande",
-    "nombre": "Río Grande",
-    "km": 3004
+    "slug": "viedma",
+    "nombre": "Viedma",
+    "km": 1605
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 1756
+   },
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 1846
    }
   ],
   "esZona": false
@@ -10416,6 +12038,114 @@
   ],
   "esZona": false
  },
+ "venado-tuerto": {
+  "nombre": "Venado Tuerto",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Santa Fe",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 155,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 130
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 150
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 169
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 190
+   },
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 231
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 261
+   },
+   {
+    "slug": "zarate",
+    "nombre": "Zárate",
+    "km": 274
+   },
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 281
+   }
+  ],
+  "esZona": false
+ },
+ "viedma": {
+  "nombre": "Viedma",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Río Negro",
+  "puerto": {
+   "nombre": "San Antonio Este",
+   "km": 160,
+   "mar": true
+  },
+  "cercanas": [
+   {
+    "slug": "bahia-blanca",
+    "nombre": "Bahía Blanca",
+    "km": 241
+   },
+   {
+    "slug": "puerto-madryn",
+    "nombre": "Puerto Madryn",
+    "km": 276
+   },
+   {
+    "slug": "trelew",
+    "nombre": "Trelew",
+    "km": 332
+   },
+   {
+    "slug": "general-roca",
+    "nombre": "General Roca",
+    "km": 438
+   },
+   {
+    "slug": "necochea",
+    "nombre": "Necochea",
+    "km": 442
+   },
+   {
+    "slug": "tandil",
+    "nombre": "Tandil",
+    "km": 511
+   },
+   {
+    "slug": "mar-del-plata",
+    "nombre": "Mar del Plata",
+    "km": 563
+   },
+   {
+    "slug": "comodoro-rivadavia",
+    "nombre": "Comodoro Rivadavia",
+    "km": 668
+   }
+  ],
+  "esZona": false
+ },
  "vigo": {
   "nombre": "Vigo",
   "tipo": "municipality",
@@ -10577,6 +12307,114 @@
     "slug": "aviles",
     "nombre": "Avilés",
     "km": 253
+   }
+  ],
+  "esZona": false
+ },
+ "villa-maria": {
+  "nombre": "Villa María",
+  "tipo": "town",
+  "pais": "ar",
+  "provincia": "Córdoba",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 250,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 130
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 190
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 210
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 249
+   },
+   {
+    "slug": "villa-mercedes",
+    "nombre": "Villa Mercedes",
+    "km": 253
+   },
+   {
+    "slug": "parana",
+    "nombre": "Paraná",
+    "km": 267
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 298
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 301
+   }
+  ],
+  "esZona": false
+ },
+ "villa-mercedes": {
+  "nombre": "Villa Mercedes",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "San Luis",
+  "puerto": {
+   "nombre": "Rosario",
+   "km": 460,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "rio-cuarto",
+    "nombre": "Río Cuarto",
+    "km": 123
+   },
+   {
+    "slug": "villa-maria",
+    "nombre": "Villa María",
+    "km": 253
+   },
+   {
+    "slug": "san-rafael",
+    "nombre": "San Rafael",
+    "km": 280
+   },
+   {
+    "slug": "venado-tuerto",
+    "nombre": "Venado Tuerto",
+    "km": 326
+   },
+   {
+    "slug": "pergamino",
+    "nombre": "Pergamino",
+    "km": 455
+   },
+   {
+    "slug": "rosario",
+    "nombre": "Rosario",
+    "km": 456
+   },
+   {
+    "slug": "rafaela",
+    "nombre": "Rafaela",
+    "km": 463
+   },
+   {
+    "slug": "san-nicolas",
+    "nombre": "San Nicolás de los Arroyos",
+    "km": 491
    }
   ],
   "esZona": false
@@ -10919,6 +12757,60 @@
     "slug": "tarragona",
     "nombre": "Tarragona",
     "km": 192
+   }
+  ],
+  "esZona": false
+ },
+ "zarate": {
+  "nombre": "Zárate",
+  "tipo": "city",
+  "pais": "ar",
+  "provincia": "Buenos Aires",
+  "puerto": {
+   "nombre": "Zárate",
+   "km": 5,
+   "mar": false
+  },
+  "cercanas": [
+   {
+    "slug": "campana",
+    "nombre": "Campana",
+    "km": 10
+   },
+   {
+    "slug": "pilar",
+    "nombre": "Pilar",
+    "km": 41
+   },
+   {
+    "slug": "tigre",
+    "nombre": "Tigre",
+    "km": 55
+   },
+   {
+    "slug": "moreno",
+    "nombre": "Moreno",
+    "km": 64
+   },
+   {
+    "slug": "merlo",
+    "nombre": "Merlo",
+    "km": 68
+   },
+   {
+    "slug": "ramos-mejia",
+    "nombre": "Ramos Mejía",
+    "km": 75
+   },
+   {
+    "slug": "ciudad-de-buenos-aires",
+    "nombre": "Ciudad de Buenos Aires",
+    "km": 82
+   },
+   {
+    "slug": "lanus",
+    "nombre": "Lanús",
+    "km": 90
    }
   ],
   "esZona": false
