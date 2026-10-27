@@ -48,7 +48,8 @@ function lugar(c: Ciudad): string | undefined {
   return `${c.nombre} se encuentra en ${[prov, com].filter(Boolean).join(', en ')}.`;
 }
 
-export type ExtrasCiudad = { etiqueta?: string; primera?: string; transporte?: string; construccion?: string; ultima?: string };
+export type Cerca = { titulo: string; intro: string; enlaces: string[]; despues?: string };
+export type ExtrasCiudad = { etiqueta?: string; primera?: string; transporte?: string; construccion?: string; ultima?: string; cerca?: Cerca };
 
 export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
   const c = datos[slug];
@@ -63,10 +64,23 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
   const delPais = c.tipo === 'country'
     ? Object.entries(datos).filter(([s, o]) => s !== slug && o.pais === c.pais && o.tipo !== 'country').sort(([, x], [, y]) => x.nombre.localeCompare(y.nombre, 'es')).map(([s, o]) => `<a href="${rutaDe(s)}">${o.nombre}</a>`)
     : [];
-  const cerca = (b ? c.cercanas.slice(3, 6) : c.cercanas.slice(0, c.esZona ? 6 : 3)).map((o) => c.esZona ? `<a href="${rutaDe(o.slug)}">${o.nombre}</a>` : `<a href="${rutaDe(o.slug)}">${o.nombre}</a> (a unos ${nf(o.km)} km)`);
-  const listaCerca = cerca.length > 1 ? `${cerca.slice(0, -1).join(', ')} y ${cerca[cerca.length - 1]}` : cerca[0];
-  const primera = [lugar(c), delPais.length ? `En ${c.nombre} tienes información de contenedores marítimos por provincia y ciudad: ${delPais.slice(0, -1).join(', ')} y ${delPais[delPais.length - 1]}.` : '', listaCerca ? (b ? `Otras páginas de la zona que pueden interesarte: ${listaCerca}.` : c.esZona ? `En ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.` : `Cerca de ${c.nombre} también tienes información de contenedores marítimos en ${listaCerca}.`) : '']
-    .filter(Boolean).join(' ');
+  // Enlaces a otras páginas: van en una sección propia al final de la página (como la lista
+  // de provincias del final de la portada), no al principio.
+  const otras = delPais.length ? [] : (b ? c.cercanas.slice(2, 8) : c.cercanas.slice(0, 6));
+  const cerca: Cerca | undefined = delPais.length
+    ? { titulo: `Contenedores marítimos por provincia y ciudad en ${c.nombre}`, intro: `Elige tu provincia o ciudad de ${c.nombre}:`, enlaces: delPais }
+    : otras.length
+      ? {
+        titulo: c.esZona ? `Contenedores marítimos en ciudades de ${c.nombre}` : `Contenedores marítimos cerca de ${c.nombre}`,
+        intro: b
+          ? 'Otras páginas de la zona que pueden interesarte:'
+          : c.esZona
+            ? `Estas son las ciudades de ${c.nombre} con información de contenedores marítimos:`
+            : `Otras ciudades cerca de ${c.nombre} con información de contenedores marítimos. La más próxima es ${otras[0].nombre}, a unos ${nf(otras[0].km)} km.`,
+        enlaces: otras.map((o) => `<a href="${rutaDe(o.slug)}">${o.nombre}</a>`),
+      }
+      : undefined;
+  const primera = lugar(c);
 
   const p = c.puerto;
   const camion = b
@@ -103,7 +117,8 @@ export function extrasCiudad(slug: string): ExtrasCiudad | undefined {
       ? `Consulta también nuestra página de <a href="/ar/">contenedores marítimos en ${pais}</a>.`
       : undefined;
 
-  return { etiqueta, primera: primera || undefined, transporte, construccion, ultima };
+  if (cerca && ultima) cerca.despues = ultima;
+  return { etiqueta, primera: primera || undefined, transporte, construccion, ultima: cerca ? undefined : ultima, cerca };
 }
 
 // Textos añadidos a mano para una página concreta (src/data/ciudades-extra.json).

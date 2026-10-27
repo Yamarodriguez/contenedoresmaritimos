@@ -134,6 +134,22 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
     });
   }
 
+  // Páginas de ciudad: los enlaces a otras ciudades y a su provincia van al final, en una
+  // sección propia, como la lista de provincias del final de la portada.
+  if (extras?.cerca) {
+    const c = extras.cerca;
+    elementos.push({
+      tipo: 'seccion',
+      titular: { type: 'heading', tag: 'h2', text: c.titulo, nuevo: true },
+      imagen: { type: 'image', src: fotos.general.src, alt: fotos.general.alt, nuevo: true },
+      cuerpo: [
+        { tipo: 'bloque', bloque: { type: 'text', html: `<p>${c.intro}</p>`, nuevo: true } },
+        { tipo: 'bloque', bloque: { type: 'text', html: `<p>${c.enlaces.join('<br>')}</p>`, nuevo: true } },
+        ...(c.despues ? [{ tipo: 'bloque' as const, bloque: { type: 'text', html: `<p>${c.despues}</p>`, nuevo: true } }] : []),
+      ],
+    });
+  }
+
   // Respuesta corta y tabla técnica al principio (lo primero que leen Google y las IA).
   if (ficha) {
     const arriba: Elemento[] = [];
