@@ -1,0 +1,109 @@
+{
+ "_nota": "Versión de Argentina (/ar/) de las páginas de precios y de segunda mano (27-10-2026). Las cifras en dólares son las mismas que ya daban las páginas de Argentina del original; no se inventa ninguna. Se generan con: node scripts/paginas-temas.mjs src/data/argentina-paginas.json",
+ "paginas": [
+  {
+   "slug": "precios-ar",
+   "ruta": "/ar/precios/",
+   "menu": "argentina",
+   "enlacePrecios": false,
+   "h1": "Precios de contenedores marítimos en Argentina",
+   "titulo": "Precios de contenedores marítimos en Argentina en dólares | 20 y 40 pies",
+   "descripcion": "Precios orientativos de contenedores marítimos en Argentina, en dólares: 20 y 40 pies, nuevos y usados. Qué influye en el precio y cómo pedir presupuesto con el flete.",
+   "clave": ["precios de contenedores marítimos", "precio de un contenedor", "dólares", "contenedor marítimo", "20 pies", "40 pies", "usado", "nuevo", "flete"],
+   "foto_hero": "/img/2021/12/Precios-contenedores-maritimos.jpg",
+   "intro": "Estos son los precios orientativos de los contenedores marítimos en Argentina, en dólares, para los tamaños más habituales: 20 y 40 pies, nuevos y usados. Son una referencia: el precio final depende del estado del contenedor, de la disponibilidad y del flete hasta tu dirección.",
+   "secciones": [
+    {
+     "h2": "Precios de contenedores marítimos en Argentina por tamaño",
+     "foto": "/img/2023/09/container-argentina.jpg",
+     "texto": "En esta tabla tienes los precios orientativos en dólares de un contenedor marítimo de 20 y de 40 pies, usado y nuevo:",
+     "tablaLibre": {
+      "cabecera": ["Contenedor", "Usado", "Nuevo"],
+      "filas": [["20 pies", "1.000 – 2.500 dólares", "1.500 – 3.000 dólares"], ["40 pies", "1.500 – 3.500 dólares", "1.700 – 4.000 dólares"]],
+      "nota": "Precios orientativos en dólares, sin flete. Son las mismas cifras de referencia que dan las páginas de cada provincia y ciudad de Argentina."
+     }
+    },
+    {
+     "h2": "Precio de un contenedor marítimo de 20 pies en Argentina",
+     "foto": "/img/2022/01/Contenedores-maritimos-venta.jpg",
+     "texto": "Un contenedor de 20 pies usado ronda entre 1.000 y 2.500 dólares, y uno nuevo entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del <a href=\"/de-20-pies/\">contenedor de 20 pies</a>."
+    },
+    {
+     "h2": "Precio de un contenedor marítimo de 40 pies en Argentina",
+     "foto": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+     "texto": "Un contenedor de 40 pies usado ronda entre 1.500 y 3.500 dólares, y uno nuevo entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de 20 pies, así que por metro cúbico sale más barato. Más información en la página del <a href=\"/de-40-pies/\">contenedor de 40 pies</a>."
+    },
+    {
+     "h2": "Qué influye en el precio de un contenedor marítimo en Argentina",
+     "foto": "/img/2022/01/tipos-de-contenedores-maritimos.jpg",
+     "texto": "El precio de un contenedor marítimo no es solo el del contenedor. Estos son los factores que más lo cambian:",
+     "lista": [
+      ["El estado: nuevo o usado", "Un contenedor usado cuesta menos, pero su precio depende de cómo esté el suelo, las esquinas, el techo y las puertas. Lee <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a>."],
+      ["El tamaño y el tipo", "Los de 20 y 40 pies son los más habituales. Los <a href=\"/high-cube/\">high cube</a>, <a href=\"/refrigerados/\">refrigerados</a> u <a href=\"/open-top/\">open top</a> tienen otro precio: pide presupuesto para el modelo que necesitas."],
+      ["El flete hasta tu dirección", "El contenedor llega por carretera, en camión con grúa o con plataforma. Cuanto más lejos esté tu dirección del puerto o del depósito, más pesa el flete en el presupuesto."],
+      ["Las adaptaciones", "Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los <a href=\"/servicios-contenedores-maritimos/\">servicios para contenedores</a>."]
+     ]
+    },
+    {
+     "h2": "Medidas de los contenedores marítimos de 20 y 40 pies",
+     "foto": "/img/2022/01/contenedores-maritimos-medidas.jpg",
+     "texto": "Antes de pedir precio, comprueba qué tamaño cabe en tu terreno y cuánto vas a poder guardar dentro:",
+     "tabla": ["20", "40", "40hc"],
+     "despues": "Tienes todas las medidas en la <a href=\"/medidas/\">tabla de medidas de contenedores</a>."
+    }
+   ],
+   "faq": [
+    ["¿Cuánto cuesta un contenedor marítimo en Argentina?", "Como referencia, entre 1.000 y 2.500 dólares uno de 20 pies usado y entre 1.500 y 3.500 dólares uno de 40 pies usado. Nuevos, de 1.500 a 3.000 dólares el de 20 pies y de 1.700 a 4.000 dólares el de 40 pies, sin flete."],
+    ["¿El precio incluye el flete?", "No. El flete depende de la distancia hasta tu dirección y del acceso para el camión. Pide presupuesto con la dirección de entrega para tener el precio cerrado."],
+    ["¿Qué sale más barato, un contenedor de 20 o de 40 pies?", "El de 20 pies cuesta menos, pero el de 40 pies tiene el doble de capacidad y sale más barato por metro cúbico."]
+   ],
+   "cierre": "Pide presupuesto de un contenedor marítimo en Argentina"
+  },
+  {
+   "slug": "segunda-mano-ar",
+   "ruta": "/ar/segunda-mano/",
+   "menu": "argentina",
+   "enlacePrecios": "/ar/precios/",
+   "h1": "Contenedores marítimos de segunda mano en Argentina",
+   "titulo": "Contenedores marítimos de segunda mano en Argentina | Precios en dólares",
+   "descripcion": "Contenedores marítimos usados en Argentina: precios orientativos en dólares de 20 y 40 pies, qué revisar antes de comprar y presupuesto con el flete.",
+   "clave": ["contenedores marítimos de segunda mano", "contenedor marítimo usado", "contenedores usados", "segunda mano", "dólares", "20 pies", "40 pies"],
+   "foto_hero": "/img/2022/01/Contenedores-maritimos-segunda-mano.jpg",
+   "intro": "Un contenedor marítimo de segunda mano es la forma más económica de tener un contenedor en Argentina. Te contamos los precios orientativos en dólares, qué revisar antes de comprarlo y cómo pedir presupuesto con el flete hasta tu dirección.",
+   "secciones": [
+    {
+     "h2": "Precios de contenedores marítimos usados en Argentina",
+     "foto": "/img/2023/09/container-argentina.jpg",
+     "texto": "Como referencia, un contenedor de 20 pies usado ronda entre 1.000 y 2.500 dólares y uno de 40 pies usado entre 1.500 y 3.500 dólares, sin flete. El precio depende sobre todo de su estado. Compáralos con los nuevos en los <a href=\"/ar/precios/\">precios de contenedores en Argentina</a>."
+    },
+    {
+     "h2": "Qué revisar en un contenedor marítimo usado",
+     "foto": "/img/2022/01/comprar-contenedores-maritimos.jpg",
+     "texto": "Antes de comprar un contenedor usado, revisa estos puntos. Tienes la explicación completa en la guía de <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a>.",
+     "lista": [
+      ["El suelo", "Que no esté podrido, hundido ni con agujeros."],
+      ["Las esquinas y la estructura", "Que no tengan golpes fuertes ni óxido que atraviese la chapa."],
+      ["El techo", "Que no tenga abolladuras donde se acumule el agua ni agujeros."],
+      ["Las puertas y sus juntas", "Que las puertas abran y cierren bien y que las juntas estén enteras, para que el contenedor sea estanco."]
+     ]
+    },
+    {
+     "h2": "Usos de un contenedor marítimo de segunda mano",
+     "foto": "/img/2022/01/construcciones-con-contenedores.jpg",
+     "texto": "Un contenedor usado en buen estado sirve para <a href=\"/contenedores-para-almacenaje/\">almacenaje</a>, para <a href=\"/contenedores-para-construccion/\">obras</a> y, acondicionado, como <a href=\"/oficinas/\">oficina</a>, <a href=\"/locales-comerciales/\">local</a> o <a href=\"/casas/\">vivienda</a>."
+    },
+    {
+     "h2": "Flete de contenedores usados en Argentina",
+     "foto": "/img/2022/01/transporte-contenedores-maritimos.png",
+     "texto": "El contenedor llega en camión con grúa o con plataforma. Indica en tu consulta la dirección exacta y cómo es el acceso para que te demos el precio con el flete incluido. Mira también el <a href=\"/transporte/\">transporte de contenedores</a>."
+    }
+   ],
+   "faq": [
+    ["¿Cuánto cuesta un contenedor marítimo usado en Argentina?", "Como referencia, entre 1.000 y 2.500 dólares uno de 20 pies y entre 1.500 y 3.500 dólares uno de 40 pies, sin flete, según su estado."],
+    ["¿Qué hay que revisar al comprar un contenedor de segunda mano?", "El suelo, las esquinas, el techo, el estado de la chapa y que las puertas cierren bien y sus juntas estén enteras."],
+    ["¿Un contenedor marítimo usado es estanco?", "Si está en buen estado, sí. Conviene comprobarlo antes, sobre todo en el techo y en las juntas de las puertas."]
+   ],
+   "cierre": "Pide presupuesto de un contenedor de segunda mano en Argentina"
+  }
+ ]
+}

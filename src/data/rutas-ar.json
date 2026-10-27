@@ -1,5 +1,5 @@
 {
- "_nota": "Direcciones antiguas de las páginas de Argentina y su dirección nueva en /ar/ (scripts/mover-argentina.mjs). Las usan las redirecciones 301 de netlify.toml y los comprobadores, porque el original (referencia/) sigue con las antiguas.",
+ "_nota": "Direcciones antiguas de las páginas de Argentina y su dirección nueva en /ar/ (scripts/mover-argentina.mjs). Las usan las redirecciones 301 de netlify.toml y los comprobadores, porque el original (referencia/) sigue con las antiguas. «equivalentes»: páginas generales que tienen versión de Argentina; desde las páginas y el menú de Argentina se enlaza la versión de Argentina, y las dos llevan hreflang.",
  "rutas": {
   "/argentina/": "/ar/",
   "/bariloche/": "/ar/bariloche/",
@@ -21,5 +21,9 @@
   "/santa-cruz/": "/ar/santa-cruz/",
   "/santa-fe/": "/ar/santa-fe/",
   "/tucuman/": "/ar/tucuman/"
+ },
+ "equivalentes": {
+  "/precios/": "/ar/precios/",
+  "/segunda-mano/": "/ar/segunda-mano/"
  }
 }

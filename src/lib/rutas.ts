@@ -5,5 +5,10 @@ const RUTAS: Record<string, string> = Object.fromEntries(Object.values(paginas).
 
 export const rutaDe = (slug: string) => RUTAS[slug] ?? `/${slug}/`;
 
-// Versiones equivalentes para hreflang: la portada de España y la de Argentina.
-export const PORTADAS = { es: '/', ar: '/ar/' };
+// Páginas con versión de España y de Argentina (hreflang): [España, Argentina].
+const EQUIVALENTES: [string, string][] = [['contenedores-maritimos', 'argentina'], ['precios', 'precios-ar'], ['segunda-mano', 'segunda-mano-ar']];
+
+export function alternosDe(slug: string): Record<string, string> | undefined {
+  const par = EQUIVALENTES.find((p) => p.includes(slug));
+  return par ? { 'es-ES': rutaDe(par[0]), 'es-AR': rutaDe(par[1]) } : undefined;
+}

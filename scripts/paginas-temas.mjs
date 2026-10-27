@@ -44,11 +44,11 @@ for (const p of paginas) {
     { type: 'heading', tag: 'h2', text: h2Pres }, fotoDeH2(p.slug, h2Pres, '/img/2022/01/Contenedores-maritimos-venta.jpg'),
     parr(esGuia ? 'Cuéntanos qué contenedor necesitas, para qué uso y en qué provincia. Te respondemos con un presupuesto sin compromiso.' : 'Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un presupuesto sin compromiso.', h2Pres),
     { type: 'button', text: 'Pide presupuesto', href: `${dominio}/contacto/` },
-    { type: 'button', text: 'Ver precios orientativos', href: `${dominio}/precios/` },
+    ...(p.enlacePrecios === false ? [] : [{ type: 'button', text: 'Ver precios orientativos', href: `${dominio}${p.enlacePrecios ?? '/precios/'}` }]),
   );
   fs.writeFileSync(`src/content/pages/${p.slug}.json`, JSON.stringify({
-    slug: p.slug, title: p.titulo, url: `${dominio}/${p.slug}/`, meta_description: p.descripcion,
-    menu: 'contenedores-maritimos', nueva: true, ...(esGuia ? { guia: true } : {}),
+    slug: p.slug, title: p.titulo, url: `${dominio}${p.ruta ?? `/${p.slug}/`}`, meta_description: p.descripcion, // ruta: p. ej. /ar/precios/
+    menu: p.menu ?? 'contenedores-maritimos', nueva: true, ...(esGuia ? { guia: true } : {}),
     faq: p.faq.map(([pregunta, respuesta]) => ({ pregunta, respuesta })),
     blocks,
   }, null, 1) + '\n');
@@ -75,4 +75,4 @@ if (hub) {
   }, null, 1) + '\n');
 }
 const n = await ejecutar([...paginas.map((p) => p.slug), ...(hub ? [hub.slug] : [])]);
-console.log(`Páginas temáticas: ${paginas.map((p) => '/' + p.slug + '/').join(', ')} (${n} fotos con nombre propio)`);
+console.log(`Páginas temáticas: ${paginas.map((p) => p.ruta ?? '/' + p.slug + '/').join(', ')} (${n} fotos con nombre propio)`);

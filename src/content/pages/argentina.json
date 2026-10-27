@@ -257,7 +257,7 @@
   {
    "type": "button",
    "text": "Precios",
-   "href": "https://contenedoresmaritimos.net/precios/"
+   "href": "https://contenedoresmaritimos.net/ar/precios/"
   },
   {
    "type": "heading",
@@ -297,7 +297,7 @@
   {
    "type": "button",
    "text": "Segunda mano",
-   "href": "https://contenedoresmaritimos.net/segunda-mano/"
+   "href": "https://contenedoresmaritimos.net/ar/segunda-mano/"
   },
   {
    "type": "text",

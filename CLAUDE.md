@@ -81,6 +81,11 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - España se queda en la raíz. Hreflang es-ES / es-AR / x-default solo entre las portadas / y /ar/ (únicas
   páginas equivalentes); las de Argentina llevan lang es-AR. Si se rehacen menus.json o los JSON de páginas desde
   referencia/, volver a ejecutar mover-argentina.mjs. Los comprobadores traducen las rutas con scripts/rutas-ar.mjs.
+- Versión de Argentina de precios y segunda mano: /ar/precios/ y /ar/segunda-mano/ (src/data/argentina-paginas.json,
+  `node scripts/paginas-temas.mjs src/data/argentina-paginas.json`), en dólares con las cifras del original. Hreflang
+  es-ES/es-AR entre portada, precios y segunda mano (src/lib/rutas.ts). El menú y las páginas de Argentina enlazan
+  esas versiones («equivalentes» en rutas-ar.json); el menú de Argentina lleva las provincias nuevas en «Provincias»
+  y las ciudades nuevas en el desplegable de «Container Argentina» (ciudades-nuevas.mjs). Orden: ciudades-nuevas → geo-ciudades → mover-argentina.
 - Pendiente de Yama: WhatsApp/teléfono de Argentina y precios propios en dólares (las páginas nuevas usan las
   mismas cifras en dólares que ya daba el original).
 

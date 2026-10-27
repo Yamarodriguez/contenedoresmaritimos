@@ -6,6 +6,7 @@
 // de scripts/geo-ciudades.mjs. Orden: node scripts/ciudades-nuevas.mjs && node scripts/geo-ciudades.mjs
 import fs from 'node:fs';
 import { crearFotos, negritas } from './lib-contenido.mjs';
+import { aEnlacesAr } from './rutas-ar.mjs';
 
 const { ubicaciones } = JSON.parse(fs.readFileSync('src/data/ciudades-nuevas.json', 'utf8'));
 const fotos = JSON.parse(fs.readFileSync('src/data/fotos-seccion.json', 'utf8'));
@@ -74,12 +75,31 @@ for (const [i, u] of ubicaciones.entries()) {
     { type: 'button', text: 'Alquiler', href: `${dominio}/alquiler/` },
   ];
   const titulo = `Contenedores marítimos en ${n}${u.extra ? ` (${u.extra})` : ar ? ' (Argentina)' : ''} | Venta, alquiler y transporte`;
-  fs.writeFileSync(`src/content/pages/${u.slug}.json`, JSON.stringify({
+  const json = JSON.stringify({
     slug: u.slug, title: titulo, url: `${dominio}${ruta}`,
     meta_description: `Contenedores marítimos en ${n}: venta, alquiler y transporte de contenedores nuevos y de segunda mano. Medidas, precios orientativos y presupuesto sin compromiso.`,
     menu: ar ? 'argentina' : 'contenedores-maritimos', nueva: true, ciudad: true, blocks,
-  }, null, 1) + '\n');
+  }, null, 1) + '\n';
+  // Argentina: precios y segunda mano enlazan su versión de Argentina (/ar/precios/…).
+  fs.writeFileSync(`src/content/pages/${u.slug}.json`, ar ? aEnlacesAr(json) : json);
 }
+
+// Menú de Argentina: las provincias nuevas se añaden a «Provincias» y las ciudades nuevas al
+// desplegable de «Container Argentina» (las entradas del original no se tocan; un apartado más
+// no cabe en la cabecera).
+const menus = JSON.parse(fs.readFileSync('src/data/menus.json', 'utf8'));
+const mAr = menus.argentina;
+const iCiu = mAr.findIndex((x) => x.label === 'Ciudades');
+if (iCiu >= 0) mAr.splice(iCiu, 1);
+// En móvil, tocar «Container Argentina» abre el desplegable: su primera entrada lleva a /ar/.
+const raizAr = mAr.find((x) => x.label === 'Container Argentina');
+if (!raizAr.children.some((c) => c.url === '/ar/')) raizAr.children.unshift({ label: 'Todo Argentina', url: '/ar/', children: [] });
+const entrada = (u) =>({ label: `Container ${u.nombre}`, url: `/ar/${u.ruta ?? u.slug}/`, children: [] });
+for (const u of ubicaciones.filter((x) => x.pais === 'ar')) {
+  const grupo = mAr.find((x) => x.label === (u.lote === 3 ? 'Provincias' : 'Container Argentina'));
+  if (!grupo.children.some((c) => c.url === entrada(u).url)) grupo.children.push(entrada(u));
+}
+fs.writeFileSync('src/data/menus.json', JSON.stringify(menus, null, 1) + '\n');
 
 // Página con todas las ubicaciones (enlazado interno hacia todas las ciudades).
 const todas = fs.readdirSync('src/content/pages').map((f) => JSON.parse(fs.readFileSync(`src/content/pages/${f}`, 'utf8')));

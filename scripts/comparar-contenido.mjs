@@ -4,7 +4,7 @@
 // «», … ) se normaliza. Los enlaces se comparan por destino y orden.
 import fs from 'node:fs';
 import path from 'node:path';
-import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
+import { rutaNueva, rutaVieja, enlaceComparable } from './rutas-ar.mjs';
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
@@ -37,7 +37,8 @@ const enlacesDe = (html) => {
     const t = norm(x[2]);
     if (h === '/comprar/' && t === 'presupuesto') return '/contacto/'; // errata aprobada: botón «Presupuesto» unificado a /contacto/
     // aprobado: las páginas de Argentina se movieron a /ar/
-    return enlaceNuevo(h === '/tipos/' && t === 'precios' ? '/precios/' : h);
+    // y las versiones de Argentina (/ar/precios/) cuentan como la página general
+    return enlaceComparable(h === '/tipos/' && t === 'precios' ? '/precios/' : h);
   }).filter((h) => !h.startsWith('#'));
 };
 
@@ -68,7 +69,7 @@ const menuDe = (html) => {
   // El botón «Pide presupuesto» de dentro del menú móvil se añadió a propósito.
   const sinCta = n.replace(/<li class="solo-movil">[\s\S]*?<\/li>/g, '');
   return [...sinCta.matchAll(/<a\b[^>]*href="([^"]*)"[^>]*>([\s\S]*?)<\/a>/gi)]
-    .map((m) => enlaceNuevo(rel(m[1])) + ' | ' + norm(m[2]));
+    .map((m) => enlaceComparable(rel(m[1])) + ' | ' + norm(m[2]));
 };
 const rel = (u) => u.replace(/^https?:\/\/(?:www\.)?contenedoresmaritimos\.net(?=\/)/i, '');
 
@@ -94,7 +95,8 @@ for (const p of paginas) {
   let q = 0;
   for (const im of ia) { const i = ib.indexOf(im, q); if (i < 0) dif.push(`${p.url}: falta imagen ${im}`); else q = i + 1; }
   const na = menuDe(fs.readFileSync(ref, 'utf8')), nb = menuDe(nuevoHtml);
-  if (JSON.stringify(na) !== JSON.stringify(nb)) dif.push(`${p.url}: menú distinto (${na.length} vs ${nb.length} entradas)`);
+  // Todas las entradas del menú original, en el mismo orden (se pueden añadir entradas nuevas, p. ej. las provincias de Argentina).
+  { let k = 0; const falta = na.find((e) => { const x = nb.indexOf(e, k); if (x < 0) return true; k = x + 1; return false; }); if (falta) dif.push(`${p.url}: menú distinto: falta «${falta}»`); }
   const ma = mapasDe(fs.readFileSync(ref, 'utf8')), mb = mapasDe(nuevoHtml);
   if (JSON.stringify(ma) !== JSON.stringify(mb)) dif.push(`${p.url}: mapa distinto (${ma}) vs (${mb})`);
   const ea = enlacesDe(fs.readFileSync(ref, 'utf8')), eb = enlacesDe(nuevoHtml);

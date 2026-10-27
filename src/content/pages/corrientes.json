@@ -279,7 +279,7 @@
   {
    "type": "button",
    "text": "Precios",
-   "href": "https://contenedoresmaritimos.net/precios/"
+   "href": "https://contenedoresmaritimos.net/ar/precios/"
   },
   {
    "type": "heading",
@@ -340,13 +340,13 @@
   {
    "type": "text",
    "text": "Un contenedor de segunda mano es la opción más económica. Antes de comprarlo, lee qué revisar en un contenedor usado y mira los contenedores de segunda mano.",
-   "html": "<p>Un contenedor de segunda mano es la opción más económica. Antes de comprarlo, lee <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a> y mira los <a href=\"/segunda-mano/\">contenedores de segunda mano</a>.</p>",
+   "html": "<p>Un contenedor de segunda mano es la opción más económica. Antes de comprarlo, lee <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a> y mira los <a href=\"/ar/segunda-mano/\">contenedores de segunda mano</a>.</p>",
    "nuevo": true
   },
   {
    "type": "button",
    "text": "Segunda mano",
-   "href": "https://contenedoresmaritimos.net/segunda-mano/"
+   "href": "https://contenedoresmaritimos.net/ar/segunda-mano/"
   },
   {
    "type": "heading",

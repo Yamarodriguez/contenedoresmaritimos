@@ -20,7 +20,7 @@ const lis = items.map((item: any) => {
 }).join('');
 const interior = `<style>${estilos}</style>
 <div class="cabecera-fila">
-  <a href="/" class="cabecera-logo" aria-label="${esc(site.nombre)}"><img src="/img/2022/01/Contenedores-maritimos-.svg" alt="" width="96" height="96" /><span class="marca"><b>Contenedores</b><i>Marítimos</i></span></a>
+  <a href="${menu === 'argentina' ? '/ar/' : '/'}" class="cabecera-logo" aria-label="${esc(site.nombre)}"><img src="/img/2022/01/Contenedores-maritimos-.svg" alt="" width="96" height="96" /><span class="marca"><b>Contenedores</b><i>Marítimos</i></span></a>
   <button class="boton-menu-movil" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menú"><span></span><span></span><span></span></button>
   <nav aria-label="Menú principal" id="menu-principal" class="nav-principal">
     <ul class="menu-principal">${lis}<li class="solo-movil"><a href="/contacto/" class="boton-cabecera">Pide presupuesto</a></li></ul>

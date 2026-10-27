@@ -1,0 +1,291 @@
+{
+ "slug": "precios-ar",
+ "title": "Precios de contenedores marítimos en Argentina en dólares | 20 y 40 pies",
+ "url": "https://contenedoresmaritimos.net/ar/precios/",
+ "meta_description": "Precios orientativos de contenedores marítimos en Argentina, en dólares: 20 y 40 pies, nuevos y usados. Qué influye en el precio y cómo pedir presupuesto con el flete.",
+ "menu": "argentina",
+ "nueva": true,
+ "faq": [
+  {
+   "pregunta": "¿Cuánto cuesta un contenedor marítimo en Argentina?",
+   "respuesta": "Como referencia, entre 1.000 y 2.500 dólares uno de 20 pies usado y entre 1.500 y 3.500 dólares uno de 40 pies usado. Nuevos, de 1.500 a 3.000 dólares el de 20 pies y de 1.700 a 4.000 dólares el de 40 pies, sin flete."
+  },
+  {
+   "pregunta": "¿El precio incluye el flete?",
+   "respuesta": "No. El flete depende de la distancia hasta tu dirección y del acceso para el camión. Pide presupuesto con la dirección de entrega para tener el precio cerrado."
+  },
+  {
+   "pregunta": "¿Qué sale más barato, un contenedor de 20 o de 40 pies?",
+   "respuesta": "El de 20 pies cuesta menos, pero el de 40 pies tiene el doble de capacidad y sale más barato por metro cúbico."
+  }
+ ],
+ "blocks": [
+  {
+   "type": "heading",
+   "tag": "h1",
+   "text": "Precios de contenedores marítimos en Argentina"
+  },
+  {
+   "type": "text",
+   "text": "Estos son los precios orientativos de los contenedores marítimos en Argentina, en dólares, para los tamaños más habituales: 20 y 40 pies, nuevos y usados. Son una referencia: el precio final depende del estado del contenedor, de la disponibilidad y del flete hasta tu dirección.",
+   "html": "<p>Estos son los <strong>precios</strong> orientativos de los contenedores marítimos en <strong>Argentina</strong>, en <strong>dólares</strong>, para los tamaños más habituales: 20 y <strong>40 pies</strong>, nuevos y usados. Son una referencia: el precio final depende del estado del contenedor, de la disponibilidad y del <strong>flete</strong> hasta tu dirección.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/precios-de-contenedores-maritimos-en-argentina.jpg",
+   "alt": "Precios de contenedores marítimos en Argentina",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Precios de contenedores marítimos en Argentina por tamaño"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/precios-de-contenedores-maritimos-en-argentina-por-tamano.jpg",
+   "alt": "Precios de contenedores marítimos en Argentina por tamaño",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "En esta tabla tienes los precios orientativos en dólares de un contenedor marítimo de 20 y de 40 pies, usado y nuevo:",
+   "html": "<p>En esta tabla tienes los <strong>precios</strong> orientativos en <strong>dólares</strong> de un <strong>contenedor marítimo</strong> de 20 y de <strong>40 pies</strong>, <strong>usado</strong> y <strong>nuevo</strong>:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "tabla",
+   "nuevo": true,
+   "cabecera": [
+    "Contenedor",
+    "Usado",
+    "Nuevo"
+   ],
+   "filas": [
+    [
+     "20 pies",
+     "1.000 – 2.500 dólares",
+     "1.500 – 3.000 dólares"
+    ],
+    [
+     "40 pies",
+     "1.500 – 3.500 dólares",
+     "1.700 – 4.000 dólares"
+    ]
+   ],
+   "nota": "Precios orientativos en dólares, sin flete. Son las mismas cifras de referencia que dan las páginas de cada provincia y ciudad de Argentina."
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Precio de un contenedor marítimo de 20 pies en Argentina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/precio-de-un-contenedor-maritimo-de-20-pies-en-argentina.jpg",
+   "alt": "Precio de un contenedor marítimo de 20 pies en Argentina",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor de 20 pies usado ronda entre 1.000 y 2.500 dólares, y uno nuevo entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del contenedor de 20 pies.",
+   "html": "<p>Un contenedor de <strong>20 pies</strong> <strong>usado</strong> ronda entre 1.000 y 2.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.500 y 3.000 dólares. Mira sus medidas y usos en la página del <a href=\"/de-20-pies/\">contenedor de 20 pies</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Precio de un contenedor marítimo de 40 pies en Argentina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/precio-de-un-contenedor-maritimo-de-40-pies-en-argentina.jpg",
+   "alt": "Precio de un contenedor marítimo de 40 pies en Argentina",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor de 40 pies usado ronda entre 1.500 y 3.500 dólares, y uno nuevo entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de 20 pies, así que por metro cúbico sale más barato. Más información en la página del contenedor de 40 pies.",
+   "html": "<p>Un contenedor de <strong>40 pies</strong> <strong>usado</strong> ronda entre 1.500 y 3.500 <strong>dólares</strong>, y uno <strong>nuevo</strong> entre 1.700 y 4.000 dólares. Tiene el doble de capacidad que uno de <strong>20 pies</strong>, así que por metro cúbico sale más barato. Más información en la página del <a href=\"/de-40-pies/\">contenedor de 40 pies</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Qué influye en el precio de un contenedor marítimo en Argentina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/que-influye-en-el-precio-de-un-contenedor-maritimo-en-argentina.jpg",
+   "alt": "Qué influye en el precio de un contenedor marítimo en Argentina",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "El precio de un contenedor marítimo no es solo el del contenedor. Estos son los factores que más lo cambian:",
+   "html": "<p>El <strong>precio de un contenedor</strong> marítimo no es solo el del contenedor. Estos son los factores que más lo cambian:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El estado: nuevo o usado"
+  },
+  {
+   "type": "text",
+   "text": "Un contenedor usado cuesta menos, pero su precio depende de cómo esté el suelo, las esquinas, el techo y las puertas. Lee qué revisar en un contenedor usado.",
+   "html": "<p>Un contenedor <strong>usado</strong> cuesta menos, pero su precio depende de cómo esté el suelo, las esquinas, el techo y las puertas. Lee <a href=\"/que-revisar-contenedor-usado/\">qué revisar en un contenedor usado</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El tamaño y el tipo"
+  },
+  {
+   "type": "text",
+   "text": "Los de 20 y 40 pies son los más habituales. Los high cube, refrigerados u open top tienen otro precio: pide presupuesto para el modelo que necesitas.",
+   "html": "<p>Los de 20 y <strong>40 pies</strong> son los más habituales. Los <a href=\"/high-cube/\">high cube</a>, <a href=\"/refrigerados/\">refrigerados</a> u <a href=\"/open-top/\">open top</a> tienen otro precio: pide presupuesto para el modelo que necesitas.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "El flete hasta tu dirección"
+  },
+  {
+   "type": "text",
+   "text": "El contenedor llega por carretera, en camión con grúa o con plataforma. Cuanto más lejos esté tu dirección del puerto o del depósito, más pesa el flete en el presupuesto.",
+   "html": "<p>El contenedor llega por carretera, en camión con grúa o con plataforma. Cuanto más lejos esté tu <strong>dirección</strong> del puerto o del depósito, más pesa el <strong>flete</strong> en el presupuesto.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "Las adaptaciones"
+  },
+  {
+   "type": "text",
+   "text": "Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los servicios para contenedores.",
+   "html": "<p>Si necesitas ventanas, puertas, instalación eléctrica o aislamiento, se suman al precio. Mira los <a href=\"/servicios-contenedores-maritimos/\">servicios para contenedores</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Medidas de los contenedores marítimos de 20 y 40 pies"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/medidas-de-los-contenedores-maritimos-de-20-y-40-pies.jpg",
+   "alt": "Medidas de los contenedores marítimos de 20 y 40 pies",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Antes de pedir precio, comprueba qué tamaño cabe en tu terreno y cuánto vas a poder guardar dentro:",
+   "html": "<p>Antes de pedir precio, comprueba qué tamaño cabe en tu terreno y cuánto vas a poder guardar dentro:</p>",
+   "nuevo": true
+  },
+  {
+   "type": "tabla",
+   "nuevo": true,
+   "nota": "Valores habituales según la norma ISO; varían según el fabricante. Medidas interiores en largo × ancho × alto.",
+   "cabecera": [
+    "Contenedor",
+    "Medidas interiores",
+    "Volumen interior"
+   ],
+   "filas": [
+    [
+     "20 pies Dry Van (estándar)",
+     "5,898 × 2,352 × 2,393 m",
+     "33,2 m³"
+    ],
+    [
+     "40 pies Dry Van (estándar)",
+     "12,032 × 2,352 × 2,393 m",
+     "67,7 m³"
+    ],
+    [
+     "40 pies High Cube",
+     "12,032 × 2,352 × 2,698 m",
+     "76,3 m³"
+    ]
+   ]
+  },
+  {
+   "type": "text",
+   "text": "Tienes todas las medidas en la tabla de medidas de contenedores.",
+   "html": "<p>Tienes todas las <strong>medidas</strong> en la <a href=\"/medidas/\">tabla de medidas de contenedores</a>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Preguntas frecuentes sobre precios de contenedores marítimos en argentina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/preguntas-frecuentes-sobre-precios-de-contenedores-maritimos-en-argentina.jpg",
+   "alt": "Preguntas frecuentes sobre precios de contenedores marítimos en argentina",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Cuánto cuesta un contenedor marítimo en Argentina?"
+  },
+  {
+   "type": "text",
+   "text": "Como referencia, entre 1.000 y 2.500 dólares uno de 20 pies usado y entre 1.500 y 3.500 dólares uno de 40 pies usado. Nuevos, de 1.500 a 3.000 dólares el de 20 pies y de 1.700 a 4.000 dólares el de 40 pies, sin flete.",
+   "html": "<p>Como referencia, entre 1.000 y 2.500 <strong>dólares</strong> uno de <strong>20 pies</strong> <strong>usado</strong> y entre 1.500 y 3.500 dólares uno de <strong>40 pies</strong> usado. Nuevos, de 1.500 a 3.000 dólares el de 20 pies y de 1.700 a 4.000 dólares el de 40 pies, sin <strong>flete</strong>.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿El precio incluye el flete?"
+  },
+  {
+   "type": "text",
+   "text": "No. El flete depende de la distancia hasta tu dirección y del acceso para el camión. Pide presupuesto con la dirección de entrega para tener el precio cerrado.",
+   "html": "<p>No. El <strong>flete</strong> depende de la distancia hasta tu dirección y del acceso para el camión. Pide presupuesto con la dirección de entrega para tener el <strong>precio</strong> cerrado.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h3",
+   "text": "¿Qué sale más barato, un contenedor de 20 o de 40 pies?"
+  },
+  {
+   "type": "text",
+   "text": "El de 20 pies cuesta menos, pero el de 40 pies tiene el doble de capacidad y sale más barato por metro cúbico.",
+   "html": "<p>El de <strong>20 pies</strong> cuesta menos, pero el de <strong>40 pies</strong> tiene el doble de capacidad y sale más barato por metro cúbico.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "heading",
+   "tag": "h2",
+   "text": "Pide presupuesto de un contenedor marítimo en Argentina"
+  },
+  {
+   "type": "image",
+   "src": "/img/servicios/precios-ar/pide-presupuesto-de-un-contenedor-maritimo-en-argentina.jpg",
+   "alt": "Pide presupuesto de un contenedor marítimo en Argentina",
+   "nuevo": true
+  },
+  {
+   "type": "text",
+   "text": "Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un presupuesto sin compromiso.",
+   "html": "<p>Cuéntanos qué necesitas guardar o para qué obra es, en qué provincia y durante cuánto tiempo. Te respondemos con un <strong>presupuesto</strong> sin compromiso.</p>",
+   "nuevo": true
+  },
+  {
+   "type": "button",
+   "text": "Pide presupuesto",
+   "href": "https://contenedoresmaritimos.net/contacto/"
+  }
+ ]
+}
