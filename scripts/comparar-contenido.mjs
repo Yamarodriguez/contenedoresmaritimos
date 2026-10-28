@@ -5,6 +5,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { rutaNueva, rutaVieja, enlaceComparable } from './rutas-ar.mjs';
+import { titularesSinFabricacion } from './erratas.mjs';
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
@@ -86,7 +87,7 @@ for (const p of paginas) {
   const refTexto = (rutaNueva(ruta) === 'ar' || rutaNueva(ruta).startsWith('ar/'))
     ? fs.readFileSync(ref, 'utf8').replace(/\beuros\b/g, 'dólares').replace(/provincia de España/g, 'provincia de Argentina')
     : fs.readFileSync(ref, 'utf8');
-  const a = bloquesDe(refTexto);
+  const a = bloquesDe(titularesSinFabricacion(refTexto)); // cambio aprobado: «Fabricación» fuera de los títulos
   const nuevoHtml = fs.readFileSync(nueva, 'utf8');
   const b = bloquesDe(nuevoHtml).join(' | ');
   let pos = 0;

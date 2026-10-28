@@ -18,5 +18,10 @@
   "descripcion": "Páginas de Argentina del original (/argentina/ y /mar-del-plata/) que daban los precios en euros; pasan a dólares como el resto de Argentina, a petición de Yama (27-10-2026). En /argentina/ también «en alguna provincia de España» pasa a «de Argentina».",
   "cambios": 28,
   "paginas": 2
+ },
+ "fabricacion_en_titulos": {
+  "descripcion": "Se quita «Fabricación» de los títulos (H1, H2, H3) de todas las páginas, a petición de Yama (28-10-2026): «Álava, Fabricación y venta de…» → «Álava, venta de…». Solo los titulares; el texto de los párrafos no cambia. Regla en scripts/erratas.mjs, aplicada con scripts/quitar-fabricacion.mjs.",
+  "titulos": 173,
+  "paginas": 173
  }
 }
