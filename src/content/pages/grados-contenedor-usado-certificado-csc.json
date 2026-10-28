@@ -145,8 +145,8 @@
   },
   {
    "type": "text",
-   "text": "El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (placa CSC) con datos como el fabricante, la fecha de fabricación y el peso bruto máximo, y a que se revisen periódicamente.",
-   "html": "<p>El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (<strong>placa CSC</strong>) con datos como el fabricante, la fecha de fabricación y el peso bruto máximo, y a que se revisen periódicamente.</p>",
+   "text": "El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (placa CSC) con datos como el fabricante, la fecha de el peso bruto máximo, y a que se revisen periódicamente.",
+   "html": "<p>El CSC es el Convenio Internacional sobre la Seguridad de los Contenedores, aprobado en 1972 en el marco de la Organización Marítima Internacional. Obliga a que los contenedores que se usan en el transporte internacional lleven una placa de aprobación de seguridad (<strong>placa CSC</strong>) con datos como el fabricante, la fecha de el peso bruto máximo, y a que se revisen periódicamente.</p>",
    "nuevo": true
   },
   {

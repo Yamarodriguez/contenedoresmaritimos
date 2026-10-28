@@ -4,7 +4,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
-import { sinFabricacion } from './erratas.mjs';
+import { textoSinFabricacion } from './erratas.mjs';
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
@@ -21,7 +21,7 @@ for (const p of paginas) {
   const html = fs.readFileSync(f, 'utf8');
   const nuevos = [...html.matchAll(/<(h[1-3])[^>]*>([\s\S]*?)<\/\1>/g)].map((m) => [m[1], limpia(m[2])]);
   // Cambio aprobado: «Fabricación» fuera de los títulos (scripts/erratas.mjs).
-  let originales = p.headings.filter((h) => /^h[1-3]$/.test(h.tag)).map((h) => [h.tag, sinFabricacion(limpia(h.text))]);
+  let originales = p.headings.filter((h) => /^h[1-3]$/.test(h.tag)).map((h) => [h.tag, textoSinFabricacion(limpia(h.text))]);
   if (!originales.some(([t]) => t === 'h1')) originales = [['h1', limpia(p.title)], ...originales];
   comparadas++;
   let k = 0;

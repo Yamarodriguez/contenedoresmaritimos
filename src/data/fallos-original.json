@@ -20,8 +20,8 @@
   "paginas": 2
  },
  "fabricacion_en_titulos": {
-  "descripcion": "Se quita «Fabricación» de los títulos (H1, H2, H3) de todas las páginas, a petición de Yama (28-10-2026): «Álava, Fabricación y venta de…» → «Álava, venta de…». Solo los titulares; el texto de los párrafos no cambia. Regla en scripts/erratas.mjs, aplicada con scripts/quitar-fabricacion.mjs.",
+  "descripcion": "Se quita «Fabricación» y «fabricantes» de toda la web, a petición de Yama (28-10-2026): títulos («Álava, Fabricación y venta de…» → «Álava, venta de…»), textos («nos dedicamos a la fabricación, construcción…» → «a la construcción…»; «Trabajamos con distintos fabricantes de contenedores marítimos, empresas…» → «con empresas…») y descripciones («Distribuidores y fabricantes de…» → «Distribuidores de…»). Se quedan las menciones técnicas (según el fabricante, placa CSC, recién fabricado, prefabricada). Reglas en scripts/erratas.mjs, aplicadas con scripts/quitar-fabricacion.mjs.",
   "titulos": 173,
-  "paginas": 173
+  "ficheros_textos_y_descripciones": 217
  }
 }

@@ -3,6 +3,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { rutaNueva, rutaVieja, enlaceNuevo } from './rutas-ar.mjs';
+import { textoSinFabricacion } from './erratas.mjs';
 
 const decode = (s = '') => s
   .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(+n))
@@ -23,7 +24,8 @@ for (const p of paginas) {
   comparadas++;
   const a = fs.readFileSync(ref, 'utf8'), b = fs.readFileSync(nueva, 'utf8');
   if (titulo(a) !== titulo(b)) dif.push(`${p.url}: título «${titulo(b)}» (original «${titulo(a)}»)`);
-  if (descripcion(a) !== descripcion(b)) dif.push(`${p.url}: descripción distinta`);
+  // Cambio aprobado: sin «fabricantes» en las descripciones (scripts/erratas.mjs).
+  if (textoSinFabricacion(descripcion(a)) !== descripcion(b)) dif.push(`${p.url}: descripción distinta`);
   for (const t of ['og:title', 'og:url', 'og:type']) if (!b.includes(`property="${t}"`)) dif.push(`${p.url}: falta ${t}`);
 }
 // Mapa del sitio: una entrada por página de contenido.
