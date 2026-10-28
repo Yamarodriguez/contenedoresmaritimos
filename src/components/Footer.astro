@@ -2,6 +2,7 @@
 // Franja final de presupuesto y pie de página en columnas. Todo sale de los
 // menús y de site.json: lo que falte (teléfono, WhatsApp) no se pinta.
 import menusData from '../data/menus.json';
+import serviciosData from '../data/servicios-paginas.json';
 import site from '../data/site.json';
 import { paraPais } from '../lib/rutas';
 
@@ -62,8 +63,7 @@ const correo = site.correo;
       <ul>
         {grupo(['Construcciones', 'Comprar', 'Transporte', 'Alquiler']).map((i: any) => <li><a href={i.url}>{i.label}</a></li>)}
         <li><a href={paraPais('/servicios-contenedores-maritimos/', pais)}>Todos los servicios</a></li>
-        <li><a href="/instalacion-electrica-contenedores-maritimos/">Instalación eléctrica</a></li>
-        <li><a href="/pintura-contenedores-maritimos/">Pintura de contenedores</a></li>
+        {serviciosData.servicios.map((s: any) => <li><a href={`/${s.slug}/`}>{s.nombre}</a></li>)}
       </ul>
     </nav>
     <nav aria-label="Dónde">

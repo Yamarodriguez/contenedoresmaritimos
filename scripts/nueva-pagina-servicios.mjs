@@ -112,7 +112,9 @@ for (const seccion of hub.secciones) {
   hubBlocks.push({ type: 'heading', tag: 'h2', text: seccion.h2 });
   { const f = fotos[hubRot[hubI++ % hubRot.length]]; hubBlocks.push(fotoDeH2(hub.slug, seccion.h2, f.src, f.ajuste)); }
   if (seccion.texto) hubBlocks.push(parr(seccion.texto, palabrasClave(seccion.h2, ['contenedores marítimos', 'contenedor marítimo'])));
-  if (seccion.lista) {
+  // La sección que lleva la lista de servicios (clave «servicios» o «lista») saca los ocho,
+  // cada uno como H3 con enlace a su página.
+  if (seccion.lista || seccion.servicios?.length) {
     for (const s of servicios) {
       hubBlocks.push({ type: 'heading', tag: 'h3', text: s.clave.charAt(0).toUpperCase() + s.clave.slice(1) });
       hubBlocks.push(parr(`${s.resumen} <a href="/${s.slug}/">Más información sobre ${s.clave}</a>.`, palabrasClave(s.clave, [s.nombre.toLowerCase()])));
@@ -124,5 +126,29 @@ fs.writeFileSync(`src/content/pages/${hub.slug}.json`, JSON.stringify({
   slug: hub.slug, title: hub.titulo, url: `${dominio}/${hub.slug}/`, meta_description: hub.descripcion,
   menu: 'contenedores-maritimos', nueva: true, blocks: hubBlocks,
 }, null, 1) + '\n');
+// ---- Menú: entrada «Servicios» con todos los servicios, en España y en Argentina ----
+// Se coloca delante de «Provincias». Si ya existe se sustituye, así el script se puede
+// repetir sin duplicarla. Las páginas de servicio no tienen versión de Argentina, así que
+// el menú de Argentina enlaza el resumen de /ar/ y las mismas páginas de servicio.
+const menus = JSON.parse(fs.readFileSync('src/data/menus.json', 'utf8'));
+const itemServicios = (prefijo) => ({
+  label: 'Servicios', url: `${prefijo}/${hub.slug}/`,
+  children: [
+    { label: 'Todos los servicios', url: `${prefijo}/${hub.slug}/`, children: [] },
+    ...servicios.map((s) => ({ label: s.nombre, url: `/${s.slug}/`, children: [] })),
+  ],
+});
+for (const [clave, prefijo] of [['contenedores-maritimos', ''], ['argentina', '/ar']]) {
+  const m = menus[clave];
+  if (!m) continue;
+  const sin = m.filter((i) => i.label !== 'Servicios');
+  let pos = sin.findIndex((i) => i.label === 'Provincias');
+  if (pos < 0) pos = sin.findIndex((i) => i.label === 'Contacto');
+  if (pos < 0) pos = sin.length;
+  sin.splice(pos, 0, itemServicios(prefijo));
+  menus[clave] = sin;
+}
+fs.writeFileSync('src/data/menus.json', JSON.stringify(menus, null, 1) + '\n');
+
 const fotosHechas = await ejecutar([...servicios.map((x) => x.slug), hub.slug]);
 console.log(`Servicios: ${servicios.length} páginas + resumen (/${hub.slug}/), ${fotosHechas} fotos con nombre propio`);

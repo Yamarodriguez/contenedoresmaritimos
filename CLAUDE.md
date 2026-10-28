@@ -75,6 +75,10 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - Tanda 5: 48 ciudades de España de más de unos 30.000 habitantes (Palma de Mallorca, Torrent, Cornellà, Vic…).
 - Tanda 4: 33 ciudades de Argentina en /ar/ (CABA, Gran Buenos Aires, Litoral, interior, norte y Patagonia). No se crean Córdoba capital, Corrientes ni Santiago del Estero ciudad (mismo nombre que su provincia: canibalismo).
 
+## Servicios (28-10-2026)
+- Entrada «Servicios» en el menú de España y en el de Argentina (delante de «Provincias»), con «Todos los servicios» y los 8 servicios; y la página resumen /servicios-contenedores-maritimos/ (y /ar/) lista los 8 con enlace. Lo hace Servicios: 8 páginas + resumen (/servicios-contenedores-maritimos/), 51 fotos con nombre propio (edita menus.json; se puede repetir) y después Versiones de Argentina: /ar/medidas/, /ar/tipos/, /ar/venta/, /ar/alquiler/, /ar/transporte/, /ar/construcciones-con-contenedores/, /ar/comprar/, /ar/servicios-contenedores-maritimos/, /ar/de-20-pies/, /ar/de-40-pies/, /ar/high-cube/, /ar/refrigerados/, /ar/open-top/, /ar/flat-rack/, /ar/open-side/, /ar/dry-van/, /ar/cisternas/, /ar/almacenamiento/, /ar/ventilados/, /ar/casas/, /ar/oficinas/, /ar/sanitarios/, /ar/locales-comerciales/, /ar/contacto/ (307 fotos con nombre propio). Si se rehace menus.json, volver a ejecutarlo. Los servicios no tienen versión /ar/: el menú de Argentina enlaza las mismas páginas.
+- El pie lista todos los servicios desde servicios-paginas.json.
+
 ## Argentina en /ar/ (27-10-2026, decidido con Yama)
 - Las 20 páginas de Argentina se movieron de la raíz a /ar/ (/argentina/ → /ar/, /salta/ → /ar/salta/…) con
   `node scripts/mover-argentina.mjs`; lista en src/data/rutas-ar.json y redirecciones 301 en netlify.toml.
