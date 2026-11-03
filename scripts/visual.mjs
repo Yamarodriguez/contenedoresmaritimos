@@ -3,9 +3,12 @@
 // haber compilado antes (npm run todo lo hace).
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
+import net from 'node:net';
 import { chromium } from 'playwright';
 
-const PUERTO = 4331;
+// Puerto libre que elige el sistema: con uno fijo, si otro servidor (otra web) lo
+// tenía ocupado, el barrido medía esa otra web y daba 404 falsos.
+const PUERTO = await new Promise((ok) => { const s = net.createServer().listen(0, () => { const p = s.address().port; s.close(() => ok(p)); }); });
 const BASE = `http://localhost:${PUERTO}`;
 // Un tipo de página de cada clase (el diseño se decide por tipo, no por página).
 const TIPOS = [
