@@ -23,5 +23,11 @@
   "descripcion": "Se quita «Fabricación» y «fabricantes» de toda la web, a petición de Yama (28-10-2026): títulos («Álava, Fabricación y venta de…» → «Álava, venta de…»), textos («nos dedicamos a la fabricación, construcción…» → «a la construcción…»; «Trabajamos con distintos fabricantes de contenedores marítimos, empresas…» → «con empresas…») y descripciones («Distribuidores y fabricantes de…» → «Distribuidores de…»). Se quedan las menciones técnicas (según el fabricante, placa CSC, recién fabricado, prefabricada). Reglas en scripts/erratas.mjs, aplicadas con scripts/quitar-fabricacion.mjs.",
   "titulos": 173,
   "ficheros_textos_y_descripciones": 217
+ },
+ "descripciones_nuevas": {
+  "descripcion": "Descripciones de Google cambiadas a petición de Yama para meter el singular («contenedor marítimo») junto al plural (03-11-2026). De momento solo Ávila, como prueba.",
+  "paginas": {
+   "avila": "Contenedores Marítimos Ávila ✅ Precio de un contenedor marítimo de 20 o 40 pies en Ávila, nuevo o de segunda mano ✅ Venta, alquiler y transporte"
+  }
  }
 }

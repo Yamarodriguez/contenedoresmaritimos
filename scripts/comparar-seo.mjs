@@ -13,6 +13,8 @@ const titulo = (h) => decode((h.match(/<title>([^<]*)<\/title>/i) || [])[1]);
 const descripcion = (h) => decode((h.match(/<meta name="description" content="([^"]*)"/i) || [])[1]);
 
 const viva = JSON.parse(fs.readFileSync('estructura-viva.json', 'utf8'));
+// Descripciones cambiadas a petición de Yama (fallos-original.json → descripciones_nuevas).
+const nuevas = JSON.parse(fs.readFileSync('src/data/fallos-original.json', 'utf8')).descripciones_nuevas?.paginas ?? {};
 const paginas = Array.isArray(viva) ? viva : Object.values(viva);
 const dif = [];
 let comparadas = 0;
@@ -25,7 +27,7 @@ for (const p of paginas) {
   const a = fs.readFileSync(ref, 'utf8'), b = fs.readFileSync(nueva, 'utf8');
   if (titulo(a) !== titulo(b)) dif.push(`${p.url}: título «${titulo(b)}» (original «${titulo(a)}»)`);
   // Cambio aprobado: sin «fabricantes» en las descripciones (scripts/erratas.mjs).
-  if (textoSinFabricacion(descripcion(a)) !== descripcion(b)) dif.push(`${p.url}: descripción distinta`);
+  if ((nuevas[ruta] ?? textoSinFabricacion(descripcion(a))) !== descripcion(b)) dif.push(`${p.url}: descripción distinta`);
   for (const t of ['og:title', 'og:url', 'og:type']) if (!b.includes(`property="${t}"`)) dif.push(`${p.url}: falta ${t}`);
 }
 // Mapa del sitio: una entrada por página de contenido.

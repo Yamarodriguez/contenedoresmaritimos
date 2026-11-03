@@ -120,13 +120,15 @@ export function armarPagina(bloques: Bloque[], opciones: { servicios?: boolean; 
 
   // Preguntas frecuentes añadidas al final de las páginas principales (faq-paginas.json).
   // Las versiones de Argentina (ficha = página de España) llevan su mismo resumen, tabla y preguntas.
+  // Las de ciudad (de momento Ávila) llevan su propia foto, con la palabra clave en nombre y alt.
   const ficha = opciones.ficha ?? opciones.slug;
-  const faq = ficha ? (faqPaginas as Record<string, { tema: string; faq: string[][] }>)[ficha] : undefined;
+  const faq = ficha ? (faqPaginas as Record<string, { tema: string; imagen?: { src: string; alt: string }; faq: string[][] }>)[ficha] : undefined;
   if (faq) {
+    const foto = faq.imagen ?? fotos.comprar;
     elementos.push({
       tipo: 'seccion',
       titular: { type: 'heading', tag: 'h2', text: `Preguntas frecuentes sobre ${faq.tema}`, nuevo: true },
-      imagen: { type: 'image', src: fotos.comprar.src, alt: fotos.comprar.alt, nuevo: true },
+      imagen: { type: 'image', src: foto.src, alt: foto.alt, nuevo: true },
       cuerpo: faq.faq.flatMap(([q, a]) => [
         { tipo: 'bloque' as const, bloque: { type: 'heading', tag: 'h3', text: q, nuevo: true } },
         { tipo: 'bloque' as const, bloque: { type: 'text', html: `<p>${a}</p>`, nuevo: true } },
