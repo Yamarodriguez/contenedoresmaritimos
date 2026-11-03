@@ -66,8 +66,8 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - PENDIENTE URGENTE (Yama): copiar a Netlify DNS los registros de correo de OVH
   (MX 1 mx4.mail.ovh.net, MX 10 mx3.mail.ovh.net, CNAME autodiscover → mailconfig.ovh.net,
   TXT openai-domain-verification, A ftp → 51.255.26.63).
-- PENDIENTE: ID de GA4 (el UA-215837852-1 ya no funciona); enviar sitemap.xml en Search
-  Console y Bing; prueba real del formulario (avisos en Netlify Forms); hosting viejo un mes más.
+- PENDIENTE: ID de GA4 (el UA-215837852-1 ya no funciona); sitemap.xml ya enviado por Yama en Search
+  Console (03-11-2026; Bing sin confirmar); prueba real del formulario (avisos en Netlify Forms); hosting viejo un mes más.
 
 ## Ubicaciones nuevas (27-10-2026)
 - Tanda 1 (11) y tanda 2 (54: ciudades grandes, costa, islas y comunidades) en src/data/ciudades-nuevas.json; se generan con `node scripts/ciudades-nuevas.mjs && node scripts/geo-ciudades.mjs`. Foto principal y de H2 con la palabra clave en nombre y alt. Región de Murcia y Cabo de Palos no se crean (ya existen /murcia/ y La Manga: evitar canibalismo).
