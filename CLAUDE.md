@@ -66,7 +66,8 @@ Páginas con tráfico (Search Console, últimos 3 meses): /salta/, /ferrol/,
 - PENDIENTE URGENTE (Yama): copiar a Netlify DNS los registros de correo de OVH
   (MX 1 mx4.mail.ovh.net, MX 10 mx3.mail.ovh.net, CNAME autodiscover → mailconfig.ovh.net,
   TXT openai-domain-verification, A ftp → 51.255.26.63).
-- PENDIENTE: ID de GA4 (el UA-215837852-1 ya no funciona); sitemap.xml ya enviado por Yama en Search
+- GA4 G-K004KECS3H en todas las páginas (06-11-2026; src/data/site.json, lo pinta Base.astro).
+- PENDIENTE: sitemap.xml ya enviado por Yama en Search
   Console (03-11-2026; Bing sin confirmar); prueba real del formulario (avisos en Netlify Forms); hosting viejo un mes más.
 
 ## Ubicaciones nuevas (27-10-2026)

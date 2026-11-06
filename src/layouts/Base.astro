@@ -52,6 +52,11 @@ const jsonld = JSON.stringify({ '@context': 'https://schema.org', '@graph': graf
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {site.analytics.ga4 && <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.analytics.ga4}`}></script>}
+    {site.analytics.ga4 && <script is:inline set:html={`window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${site.analytics.ga4}');`} />}
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
